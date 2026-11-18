@@ -1,0 +1,10 @@
+---
+description: hmmwv.ai project conventions
+alwaysApply: true
+---
+- Next.js App Router, TypeScript, static export (output: "export"). Phase 0 has no server or database.
+- All content comes from /data/*.json (see data/DATA-README.md). Never hand-edit those; regenerate from the pipeline instead.
+- Images live in /public/images, /public/thumbs, /public/tables. Every image has an ID like p127-img01 and a credit. Always render the credit next to the image.
+- Table values are kept as printed in the book, including typos. Any display repair happens at render time only.
+- Style: paper background, olive and rust accents, Barlow Condensed headings, IBM Plex body. No em dashes in copy.
+- Planned: Phase 1 forum (Supabase + Clerk), Phase 2 owner directory, Phase 3 marketplace. Remove output: "export" when adding server features.

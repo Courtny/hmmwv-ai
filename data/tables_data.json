@@ -1,0 +1,3146 @@
+[
+ {
+  "key": "table-01",
+  "number": 1,
+  "title": "TABLE 1: FACTORY HUMVEE VARIANTS",
+  "intro": "For the original M998 and M998A1 series, separate ‘M’ numbers were assigned to winch-equipped vehicles; this practice was discontinued when the A2 series was introduced in 1995 leading to some simplification of the range of variants, although the numbering sequence remains confused.",
+  "footnotes": [
+   "* The M996 and M996A1 ambulances were specified, but never actually put into series production.",
+   "** Designated XM1109 UA-HHV (up-armoured heavy Humvee) during development."
+  ],
+  "columns": [
+   "Designation",
+   "Date",
+   "Engine",
+   "Transmission",
+   "Description"
+  ],
+  "pages": [
+   30,
+   31
+  ],
+  "source_ids": [
+   "p030-tbl01",
+   "p031-tbl01"
+  ],
+  "rows": [
+   {
+    "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M966",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, basic armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M996*",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, mini-ambulance, 2-litter, basic armour, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M997",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, maxi-ambulance, 4-litter, basic armour, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M998",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1025",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1026",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1035",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, ambulance, 2-litter, soft-top, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1036",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, basic armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1037",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, S250/S788 shelter carrier, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1038",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1042",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, S250/S788 shelter carrier, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1043",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1044",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1045",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1046",
+     "1984",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1069",
+     "1989",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck-tractor, prime mover for M119 105mm light gun"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "group": "M1097 heavy HMMWV variant (HHV)",
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1097",
+     "1992",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, heavy variant, cargo/troop carrier/prime mover, up-armoured, 2.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1097A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, heavy variant, cargo/troop/shelter carrier/prime mover, 2.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M966A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, basic armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M996A1*",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, mini-ambulance, 2-litter, basic armour, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M997A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, maxi-ambulance, 4-litter, basic armour, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M998A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1025A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1026A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1035A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, ambulance, 2-litter, soft-top, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1038A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1043A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1044A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1045A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "cells": [
+     "M1046A1",
+     "1993",
+     "6,227cc, 150bhp, V8 diesel",
+     "3F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4, with winch"
+    ],
+    "page": 30,
+    "source_id": "p030-tbl01"
+   },
+   {
+    "group": "M998A2 series",
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M997A2",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, ambulance, heavy variant, 4-litter, basic armour, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1025A2",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, TOW missile/armament carrier, basic armour, 2.25 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1035A2",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, ambulance, 2-litter, soft-top, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1043A2",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, armament carrier, supplemental armour, 2.25 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1045A2",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, TOW missile carrier, supplemental armour, 2.25 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1097A2",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, cargo/troop/shelter carrier/prime mover, 2.25 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1109**",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, armament carrier, up-armoured, 2.4 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1121",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, TOW missile carrier, supplemental armour, 2.25 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1123",
+     "1995",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, cargo/troop carrier, 2.25 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1124",
+     "1996",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, heavy variant, cargo/troop carrier, 2.25 ton, 4x4, RHD"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "group": "Expanded capability HMMWV (ECH), based on M1097A2 chassis",
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1113",
+     "1995",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, cargo/troop/shelter carrier, 2.4 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1114",
+     "1996",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, armament carrier, up-armoured, 2.4 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1115",
+     "1996",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, TOW missile carrier, up-armoured, 2.4 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1116",
+     "1996",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, base security/personnel carrier, up-armoured, 2.4 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1145",
+     "1997",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, forward air control, up-armoured, 2.4 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1151",
+     "2005",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, armament carrier, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1151A1",
+     "2009",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, armament carrier, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1152",
+     "2005",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, cargo/troop/shelter carrier, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1152A1",
+     "2009",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, cargo/troop/shelter carrier, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1165",
+     "2006",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, command and control/general purpose vehicle, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1165",
+     "2009",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, special-operations vehicle, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1167",
+     "2008",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, TOW missile ITAS carrier, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1167A1",
+     "2009",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Truck, utility, expanded capacity, TOW missile ITAS carrier, IAP-ready, 2.6 ton, 4x4"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "group": "Recapitalization (RECAP) programme – modernised expanded capacity vehicles (MECV) Phase 1",
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1025R1",
+     "2004",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Conversion of M998/M998A1, M1025/A1, M1026/A1, M1037, M1038/A1 and M1097/A1 to M1025A2 configuration"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1097R1",
+     "2004",
+     "6,555cc, 160bhp, V8 diesel",
+     "4F1Rx2 auto",
+     "Conversion of M998/M998A1, M1025A1, M1026A1, M1037, M1038A1 and M1097A1 to M1025A2 configuration"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "cells": [
+     "M1151R1",
+     "2010",
+     "6,555cc, 190bhp, V8 turbo-diesel",
+     "4F1Rx2 auto",
+     "Conversion of M1114 variants to M1151A1 configuration"
+    ],
+    "page": 31,
+    "source_id": "p031-tbl01"
+   },
+   {
+    "group": "RECAP Phase 2, which would have upgraded M1151, M1152, M1165 and M1167 vehicles, was cancelled on 23 January 2012.",
+    "merged_note": "Full-width italic row at the bottom of the grid, spans all columns; treated as a group row",
+    "page": 31,
+    "source_id": "p031-tbl01"
+   }
+  ],
+  "printed_as_is": [],
+  "notes_in_grid": [
+   "RECAP Phase 2, which would have upgraded M1151, M1152, M1165 and M1167 vehicles, was cancelled on 23 January 2012."
+  ]
+ },
+ {
+  "key": "table-02",
+  "number": 2,
+  "title": "TABLE 2: HUMVEE EXPERIMENTAL VEHICLES AND MODIFICATIONS",
+  "intro": null,
+  "footnotes": [],
+  "columns": [
+   "Designation",
+   "Description"
+  ],
+  "pages": [
+   49
+  ],
+  "source_ids": [
+   "p049-tbl01"
+  ],
+  "rows": [
+   {
+    "group": "Experimental vehicles – no production",
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "COHHV",
+     "Cab-over heavy Humvee variant (M998A4); 2.5-ton cargo truck; produced in low-bed, flat-bed and chassis-cab variants"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "M998A4",
+     "See COHHV, above"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "XM1124",
+     "Hybrid diesel-electric powered HMMWV, based on M1113 chassis"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "-",
+     "Carrier, 10-man infantry unit"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "-",
+     "Light wrecker with winch, based on M1038 chassis"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "-",
+     "Stinger missile resupply vehicle"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "group": "Third-party vehicles derived from Humvee chassis",
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "Alvis Shadow",
+     "Offensive action vehicle"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "MOWAG Eagle",
+     "Armoured reconnaissance vehicle"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "Otokar Cobra",
+     "Light armoured vehicle"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "group": "Third-party modifications",
+    "page": 49,
+    "source_id": "p049-tbl01"
+   },
+   {
+    "cells": [
+     "Ricardo Engineering",
+     "Re-powered HMMWV using Steyr M16 TCA 3.2-litre six-cylinder diesel engine, GM 4L80-E four-speed automatic transmission, and 242HD transfer box"
+    ],
+    "page": 49,
+    "source_id": "p049-tbl01"
+   }
+  ],
+  "printed_as_is": [],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-03",
+  "number": 3,
+  "title": "TABLE 3: ENGINE AND PERFORMANCE DATA",
+  "intro": null,
+  "footnotes": [],
+  "columns": [
+   "",
+   "M998 and M998A1 series",
+   "M998A2 series",
+   "ECV series"
+  ],
+  "pages": [
+   96
+  ],
+  "source_ids": [
+   "p096-tbl01"
+  ],
+  "rows": [
+   {
+    "group": "Engine",
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Type",
+     "GM Detroit Diesel Allison",
+     "GEP 6500",
+     "GEP 6500 Optimizer"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Cylinders",
+     "V8",
+     "V8",
+     "V8"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Swept volume",
+     "6,217cc (379.4cu in)",
+     "6,468cc (400i cu in)",
+     "6,468cc (400cu in)"
+    ],
+    "unsure": [
+     2
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Bore",
+     "3.98in (101mm)",
+     "4.06in (103mm)",
+     "4.06in (103mm)"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Stroke",
+     "3.82in (97mm)",
+     "3.82in (97mm)",
+     "3.82in (97mm)"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Inlet system",
+     "Normally aspirated",
+     "Normally aspirated",
+     "Turbocharged"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Compression ratio",
+     "21.3:1",
+     "21.3:1",
+     "20.2:1"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "group": "Performance",
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum power output",
+     "150bhp at 2,000rpm",
+     "160bhp at 3,400rpm",
+     "190bhp at 3,400rpm"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum torque",
+     "260lbf/ft at 2,000rpm",
+     "285lbf/ft at 1,700rpm",
+     "380lbf/ft at 1,700rpm"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Idle speed",
+     "650rpm, ±25rpm",
+     "725rpm, ±25rpm",
+     "650rpm, ±25rpm"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum engine speed (full load)",
+     "3,600rpm",
+     "3,400rpm",
+     "3,200rpm"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum engine speed (no load)",
+     "4,000rpm",
+     "3,650rpm",
+     "3,400rpm"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "group": "Transmission",
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Gearbox",
+     "GM 3L80; automatic; 3F1R",
+     "GM 4L80; automatic; 4F1R",
+     "GM 4L80; automatic; 4F1R"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Transfer box",
+     "NPG 218; two-speed",
+     "NPG 242; two-speed",
+     "NPG 242; two-speed"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Driveline",
+     "Full-time 4x4",
+     "Full-time 4x4",
+     "Full-time 4x4"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "group": "Servicing data",
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Firing sequence",
+     "1-8-7-2-6-5-4-3",
+     "1-8-7-2-6-5-4-3",
+     "1-8-7-2-6-5-4-3"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   },
+   {
+    "cells": [
+     "Direction of rotation",
+     "Clockwise",
+     "Clockwise",
+     "Clockwise"
+    ],
+    "page": 96,
+    "source_id": "p096-tbl01"
+   }
+  ],
+  "printed_as_is": [
+   {
+    "text": "6,468cc (400i cu in)",
+    "why": "stray \"i\" in the printed cubic inches",
+    "row": "Swept volume"
+   }
+  ],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-04",
+  "number": 4,
+  "title": "TABLE 4: MAJOR MODIFICATIONS INTRODUCED DURING PRODUCTION",
+  "intro": null,
+  "footnotes": [],
+  "columns": [
+   "Description of modification"
+  ],
+  "pages": [
+   97
+  ],
+  "source_ids": [
+   "p097-tbl01"
+  ],
+  "rows": [
+   {
+    "group": "M998A1 series",
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved brake pads"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved front seats with added padding"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved master cylinder"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved parking-brake lever"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved seals to steering and suspension ball joints"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Metal cooling grille insert in engine cover"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Modified rifle mounts"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New transfer case with 2.72:1 ratio and improved lubrication"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Redesigned electrical slave receptacle"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Redesigned front axle assembly with 2.73:1 differential"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Solid-state controller for glow plugs"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Strengthened propeller shafts"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Variable-rate rear springs"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "group": "M998A2 series",
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Dual-voltage 14V/28V electrical system"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved heating facilities"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved rear seats (where applicable)"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved steering and suspension ball joints"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved suspension upper control arms"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Improved weather protection and rust-proofing"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Larger-diameter brake discs"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "LED side markers"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New air cleaner"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New design of run-flat insert"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New four-speed electronically controlled transmission"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New steering wheel and column"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New, more powerful diesel engine"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Redesigned exhaust system with catalytic converter"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Self-cancelling facility on turn indicators"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Strengthened front cross-member"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Strengthened tie-down mounts"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Use of radial tyres in place of bias-belt design"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "group": "M1100 series",
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Addition of cooler to rear differential"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Geared fan drive"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New 24-bolt wheels"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New A-arm bushes"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New design of parking brake"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New power steering pump"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New shock absorbers"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New three-piece chassis main rails and cross-members"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "New, more powerful turbocharged diesel engine"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Redesigned air-lifting brackets"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Redesigned reduction hubs"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   },
+   {
+    "cells": [
+     "Redesigned steering system to reduce effort"
+    ],
+    "page": 97,
+    "source_id": "p097-tbl01"
+   }
+  ],
+  "printed_as_is": [],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-05",
+  "number": 5,
+  "title": "TABLE 5: HUMVEE SPECIAL APPLICATIONS",
+  "intro": null,
+  "footnotes": [],
+  "columns": [
+   "Designation",
+   "Description"
+  ],
+  "pages": [
+   110
+  ],
+  "source_ids": [
+   "p110-tbl01"
+  ],
+  "rows": [
+   {
+    "cells": [
+     "AB19",
+     "M1097 with NORINCO multiple launch rocket system (MLRS); in service with Jordan"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "ADS",
+     "Riot-control vehicle, with 95Ghz non-lethal active denial system (ADS); see also Sheriff"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Antelope",
+     "Trials version of Chung Shan Institute of Science and Technology (CSIST) Sky Sword 1 anti-aircraft missile system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Asset IV",
+     "Sierra Research aircraft survivability equipment trainer"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "ASRAD Hellas",
+     "Greek Army Stinger short-range air-defence system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Assault",
+     "Modified for hostage rescue"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Atlas",
+     "Atlas launcher for Mistral air-defence missiles"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Avenger",
+     "M1037-based Stinger missile low-level air-defence system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Basque",
+     "Spanish police vehicle"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "BOR-A",
+     "BOR-A 550 ground-surveillance radar"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Bushmaster",
+     "M242 Bushmaster 25mm chain-driven cannon"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "CBSS Scout",
+     "Coastal border surveillance system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "CLAWS",
+     "See HumRAAM"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Coyote",
+     "General Dynamics M56 smoke-generator system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "CP30",
+     "Giat 30mm cannon mount"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Crossbow",
+     "Ling-Temco-Vought (LTV) pedestal-mounted missile system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "CROWS",
+     "Fitted with weapons mount for overhead 0.50in machine gun"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "DumVee",
+     "Special forces ground mobility vehicle (GMV); also described as desert mobility vehicle (DumVee). Based on M998 and M1026 and produced in four variants: GMV-M (Marine Corps); GMV-N (Navy Special Warfare Command); GMV-R (Rangers); and GMV-S (Special Operations Command)"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "EOD",
+     "Modified for use by explosive ordnance disposal teams"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Firefinder",
+     "Command, control and communications (C3) vehicle for Hughes Firefinder AN/TPQ-36 weapons-locating radar system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "GMV",
+     "See DumVee"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "GRC-408E",
+     "Fitted with communications box body for GRC-408E line-of-sight, multi-channel, radio-relay system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Guardian",
+     "Boeing/Matra Guardian air-defence system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Hellfire",
+     "Launcher for AGM-114 Hellfire air missile"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "HMGCS",
+     "Control vehicle for unmanned aerial vehicle (UAV)"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "HMMWV RCV",
+     "Humvee (M998) remote-controlled vehicle"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "HumRAAM",
+     "Launch system for MIM-120 advanced medium-range air-to-air missile (RAAM) system; also called SlamRAAM, Project 559 and CLAWS"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Hydra",
+     "2.75in Hydra-70 rocket launcher mount"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "IMETS",
+     "Fitted with integrated meteorological system (AN/TMQ-40 or 41 IMETS)"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Jaegerkorpset",
+     "Royal Danish Army special forces vehicle"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Knight",
+     "Fitted with M707 target acquisition system; see also Striker"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Kornet",
+     "Greek Army anti-tank guided missile (ATGM) launcher"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Margot",
+     "Fitted with Greek Margot explosive ordnance disposal (EOD) body"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "MGM-157",
+     "Fitted with enhanced optical fibre guidance (EFOG-M) system for vertical-launch missiles"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "MGM-166",
+     "Lockheed-Martin MGM-166 LOSAT (line-of-sight, anti-tank) surface-to-surface missile launcher"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "MRTVS",
+     "Box body equipped as base television studio"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Oversnow",
+     "Fitted with modified wheels for use in deep snow"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Packhorse",
+     "Conversion to tractor for semi-trailer"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Project 559",
+     "See HumRAAM"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Prophet",
+     "Radio communications interception system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Raven",
+     "Launch vehicle for unmanned aerial vehicle (UAV)"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Scorpion",
+     "Vasliyek 82mm automatic mortar"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Setter",
+     "Ling-Temco-Vought (LTV) mobile air-defence system mounting multiple Stinger missiles"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Sheriff",
+     "Vehicle-mounted active-denial system (VMADS) for riot control; see also ADS"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "SlamRAAM",
+     "See HumRAAM"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Smoke generator",
+     "M1113 fitted with smoke generator"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Special ops",
+     "M1025 or M1114 modified for special operations"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Spike",
+     "M1045A2 of Polish Army modified to carry Rafael Spike-LR anti-tank missile launcher"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "SRMAS",
+     "M1123 with Singapore Technologies super rapid advanced 120mm mortar system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Starstreak Avenger",
+     "Shorts/Boeing Starstreak Avenger air-defence system"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Stinger",
+     "M998-based Stinger missile supply carrier"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Striker",
+     "M1025A2-mounted M707 target acquisition system; name changed to Knight to avoid confusion with Stryker light infantry vehicle"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "T3H",
+     "Tactical communications vehicle"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Tumak-1, 2, 3, etc",
+     "Polish Army variants"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "VISMOD",
+     "M998 modified to resemble Soviet BRDM-2 scout car"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   },
+   {
+    "cells": [
+     "Zeus",
+     "Humvee laser ordnance-neutralisation system (HLONS)"
+    ],
+    "page": 110,
+    "source_id": "p110-tbl01"
+   }
+  ],
+  "printed_as_is": [],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-06",
+  "number": 6,
+  "title": "TABLE 6: CAPACITIES",
+  "intro": null,
+  "footnotes": [],
+  "columns": [
+   "System",
+   "Capacity"
+  ],
+  "pages": [
+   145
+  ],
+  "source_ids": [
+   "p145-tbl01"
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Engine",
+     "Drain and refill only, 0.875 US gallons (0.725 Imperial gallons; 6.6 litres)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "",
+     "Including filter change, 1 US gallon (0.83 Imperial gallons; 3.8 litres)"
+    ],
+    "merged_note": "System cell merged vertically with the row above (Engine)",
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "",
+     "Including oil cooler, 1.25 US gallons (1.04 Imperial gallons; 9.5 litres)"
+    ],
+    "merged_note": "System cell merged vertically with Engine",
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Radiator and cooling system",
+     "3.25 US gallons (2.7 Imperial gallons; 12.25 litres)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Transmission",
+     "Drain and refill only, 1.5 US gallons (1.25 Imperial gallons; 5.7 litres)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "",
+     "Total capacity, 1.75 US gallons (1.45 Imperial gallons; 10.4 litres)"
+    ],
+    "merged_note": "System cell merged vertically with Transmission",
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Transfer case",
+     "0.875 US gallons (0.75 Imperial gallons; 3.3 litres)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Geared hubs",
+     "1 US pint (0.83 Imperial pints; 0.47 litres) each"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Front and rear differentials",
+     "0.5 US gallons (0.4 Imperial gallons; 1.9 litres) each"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Steering system",
+     "0.25 US gallons (0.20 Imperial gallons; 0.95 litres)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "",
+     "Total capacity with steering cooler, 0.375 US gallons (0.3 Imperial gallons; 1.18 litres)"
+    ],
+    "merged_note": "System cell merged vertically with Steering system",
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "Braking system",
+     "Master cylinder only, 0.69 US pints (0.57 Imperial pints; 0.33 litres)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl01"
+   },
+   {
+    "cells": [
+     "",
+     "Total brake system, 1.2 US pints (1 Imperial pint; 0.56 litres)"
+    ],
+    "merged_note": "System cell merged vertically with Braking system",
+    "page": 145,
+    "source_id": "p145-tbl01"
+   }
+  ],
+  "printed_as_is": [
+   {
+    "text": "9.5 litres",
+    "why": "as printed; looks high next to the other oil capacities",
+    "row": ""
+   }
+  ],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-07",
+  "number": 7,
+  "title": "TABLE 7: ORIGINAL OIL GRADES",
+  "intro": null,
+  "footnotes": [],
+  "columns": [
+   "System",
+   "Fluid"
+  ],
+  "pages": [
+   145
+  ],
+  "source_ids": [
+   "p145-tbl02"
+  ],
+  "rows": [
+   {
+    "cells": [
+     "Engine",
+     "15W-40 multigrade (military designation MIL-L-2104, OE/HDO 15/40), at temperatures above 5°F (-15°C); other oil grades specified for use in extreme temperatures"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   },
+   {
+    "cells": [
+     "Transmission",
+     "Dexron II (3L80 transmission) or Dexron III (4L80-E) automatic transmission fluid (ATF)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   },
+   {
+    "cells": [
+     "Transfer case",
+     "Dexron II automatic transmission fluid (ATF)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   },
+   {
+    "cells": [
+     "Geared hubs",
+     "Multi-purpose gear oil (military designation MIL-L-2105)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   },
+   {
+    "cells": [
+     "Front and rear differentials",
+     "Multi-purpose gear oil (military designation MIL-L-2105)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   },
+   {
+    "cells": [
+     "Steering box",
+     "Dexron II automatic transmission fluid"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   },
+   {
+    "cells": [
+     "Braking system",
+     "DOT-5 silicone brake fluid (military designation MIL-B-46176)"
+    ],
+    "page": 145,
+    "source_id": "p145-tbl02"
+   }
+  ],
+  "printed_as_is": [],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-08",
+  "number": 8,
+  "title": "TABLE 8: DIMENSIONS AND WEIGHT",
+  "intro": "All variants share the following dimensions: overall width, 85in (2,159mm) or 91in (2,311mm) (M1100 series reliability-enhanced vehicles); wheelbase, 130in (3,302mm); front and rear track, 72in (1,829mm).",
+  "footnotes": [
+   "* The M996 and M996A1 ambulances were specified, but never actually put into series production.",
+   "** Addition of 'B' armour kit increases kerb weight as follows (and, in order to stay within the design gross vehicle weight, reduces payload accordingly): M1151A1 (B1 kit), 2,150lb (977kg); M1152A1 (B2 kit), 1,660lb (754kg); M1165 (B3 kit), 2,640lb (1,200kg)."
+  ],
+  "columns": [
+   "Vehicle",
+   "Length",
+   "Height: Overall",
+   "Height: Reducible",
+   "Ground clearance: Under axle",
+   "Ground clearance: Under chassis",
+   "Weight: Kerb weight",
+   "Weight: Gross vehicle weight (GVW)"
+  ],
+  "pages": [
+   148,
+   149
+  ],
+  "source_ids": [
+   "p148-tbl01",
+   "p149-tbl01"
+  ],
+  "rows": [
+   {
+    "group": "Original M998 HMMWV series",
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M966",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,051lb (2,750kg)",
+     "8,200lb (3,727kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M996*",
+     "202in (5,131mm)",
+     "86in (2,184mm",
+     "77in (1,956mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,748lb (3,067kg)",
+     "8,660lb (3,936kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M997",
+     "202in (5,131mm)",
+     "100in (2,540mm)",
+     "100in (2,540mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "7,180lb (3,264kg)",
+     "9,100lb (4,136kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M998",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,200lb (2,364kg)",
+     "7,700lb (3,500kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1025",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in 610mm)",
+     "5,960lb (2,709kg)",
+     "8,200lb (3,727kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1026",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,807lb (3,094kg)",
+     "8,200lb (3,727kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1035",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,297lb (2,408kg)",
+     "7,700lb (3,500kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1036",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,178lb (2,808kg)",
+     "8,200lb (3,727kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1037",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,425lb (2,466kg)",
+     "8,660lb (3,936kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1038",
+     "185in (4,699mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,327lb (2,421kg)",
+     "7,700lb (3,500kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1042",
+     "185in (4,699mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,551lb (2,523kg)",
+     "8,660lb (3,936kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1043",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,411lb (2,914kg)",
+     "8,400lb (3,818kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1044",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,538lb (2,972kg)",
+     "8,400lb (3,818kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1045",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,438lb (2,926kg)",
+     "8,400lb (3,818kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1046",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,565lb (2,984kg)",
+     "8,400lb (3,818kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1069",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "n/a",
+     "16in (406mm)",
+     "24in (610mm)",
+     "n/a",
+     "n/a"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "group": "M1097 heavy HMMWV variant (HHV)",
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1097",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,600lb (2,545kg)",
+     "10,000lb (4,545kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1097A1",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,600lb (2,545kg)",
+     "10,000lb (4,545kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M966A1",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,928lb (3,149kg)",
+     "8,380lb (3,809kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M996A1*",
+     "202in (5,131mm)",
+     "86in (2,184mm)",
+     "77in (1,956mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,928lb (3,149kg)",
+     "8,840lb (4,018kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M997A1",
+     "202in (5,131mm)",
+     "102in (2,591mm)",
+     "102in (2,591mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "7,360lb (3,345kg)",
+     "9,280lb (4,218kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M998A1",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,380lb (2,445kg)",
+     "7,880lb (3,582kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1025A1",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,140lb (2,791kg)",
+     "8,380lb (3,809kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1026A1",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,267lb (2,849kg)",
+     "8,380lb (3,809kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1035A1",
+     "180in (4,572mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,477lb (2,490kg)",
+     "7,880lb (3,582kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1038A1",
+     "185in (4,699mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "5,507lb (2,503kg)",
+     "n/a"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1043A1",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,591lb (2,996kg)",
+     "8,580lb (3,900kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1044A1",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,718lb (3,054kg)",
+     "8,580lb (3,900kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1045A1",
+     "180in (4,572mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,618lb (3,008kg)",
+     "8,580lb (3,900kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "cells": [
+     "M1046A1",
+     "185in (4,699mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "6,745lb (3,066kg)",
+     "8,580lb (3,900kg)"
+    ],
+    "page": 148,
+    "source_id": "p148-tbl01"
+   },
+   {
+    "group": "M998A2 series",
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M997A2",
+     "204.5in (5,194mm)",
+     "102in (2,591mm)",
+     "102in (2,591mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "7,660lb (3,482kg)",
+     "9,280lb (4,218kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1025A2",
+     "190.5in (4,839mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "6,780lb (3,082kg)",
+     "10,300lb (4,682kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1035A2",
+     "190.5in (4,839mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "6,100lb (2,773kg)",
+     "10,300lb (4,682kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1043A2",
+     "190.5in (4,839mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "7,230lb (3,286kg)",
+     "10,300lb (4,682kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1045A2",
+     "190.5in (4,839mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "7,258lb (3,299kg)",
+     "10,300lb (4,682kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1097A2",
+     "190.5in (4,839mm)",
+     "69in (1,753mm)",
+     "55in (1,397mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "5,900lb (2,682kg)",
+     "10,300lb (4,682kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1109",
+     "196.5in (4,991mm)",
+     "76in (1,930mm)",
+     "n/a",
+     "17in (432mm)",
+     "24in (610mm)",
+     "9,800lb (4,455kg)",
+     "12,100lb (5,500kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1121",
+     "182.5in (4,636mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "n/a",
+     "n/a"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1123",
+     "182.5in (4,636mm)",
+     "73.5in (1,867mm)",
+     "56in (1,422mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "5,850lb (2,659kg)",
+     "10,300lb (4,682kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1124",
+     "182.5in (4,636mm)",
+     "73in (1,854mm)",
+     "71in (1,803mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "n/a",
+     "n/a"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "group": "Expanded capability vehicles (ECV), based on M1097A2 chassis",
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1113",
+     "196.5in (4,991mm)",
+     "76in (1,930mm)",
+     "56in (1,422mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "6,400lb (2,909kg)",
+     "11,500lb (5,227kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1114",
+     "196.5in (4,991mm)",
+     "76in (1,930mm)",
+     "72in (1,829mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "9,800lb (4,455kg)",
+     "12,100lb (5,500kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1115",
+     "196.5in (4,991mm)",
+     "76in (1,930mm)",
+     "n/a",
+     "17in (432mm)",
+     "24in (610mm)",
+     "9,800lb (4,455kg)",
+     "12,100lb (5,500kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1116",
+     "196.5in (4,991mm)",
+     "76in (1,930mm)",
+     "72in (1,829mm)",
+     "17in (432mm)",
+     "24in (610mm)",
+     "9,800lb (4,455kg)",
+     "12,100lb (5,500kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1145",
+     "196.5in (4,991mm)",
+     "n/a",
+     "n/a",
+     "17in (432mm)",
+     "24in (610mm)",
+     "n/a",
+     "n/a"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1151",
+     "194in (4,928mm)",
+     "79in (2,007mm)",
+     "n/a",
+     "17in (432mm)",
+     "24in (610mm)",
+     "7,360lb (3,345kg)",
+     "13,500lb (6,136kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1151A1**",
+     "194in (4,928mm)",
+     "80in (2,032mm)",
+     "n/a",
+     "17in (432mm)",
+     "24in (610mm)",
+     "8,280lb (3,764kg)",
+     "13,500lb (6,136kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1152",
+     "194in (4,928mm)",
+     "79in (2,007mm)",
+     "n/a",
+     "18in (457mm)",
+     "24in (610mm)",
+     "6,530lb (2,968kg)",
+     "13,500lb (6,136kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1152A1**",
+     "194in (4,928mm)",
+     "76in (1,930mm)",
+     "n/a",
+     "18in (457mm)",
+     "24in (610mm)",
+     "7,230lb (3,286kg)",
+     "13,500lb (6,136kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1165",
+     "194in (4,928mm)",
+     "75in (1,905mm)",
+     "n/a",
+     "18in (457mm)",
+     "24in (610mm)",
+     "6,680lb (3,036kg)",
+     "13,500lb (6,136kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1165A1**",
+     "194in (4,928mm)",
+     "76.25in (1,937mm)",
+     "n/a",
+     "18in (457mm)",
+     "24in (610mm)",
+     "7,360lb (3,345kg)",
+     "13,500lb (5,500kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1167",
+     "194in (4,928mm)",
+     "102in (2,591mm)",
+     "n/a",
+     "16in (406mm)",
+     "24in (610mm)",
+     "11,250lb (5,114kg)",
+     "13,500lb (5,955kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   },
+   {
+    "cells": [
+     "M1167A1",
+     "194in (4,928mm)",
+     "102in (2,591mm)",
+     "78in (1,981mm)",
+     "16in (406mm)",
+     "24in (610mm)",
+     "11,250lb (5,114kg)",
+     "13,500lb (6,136kg)"
+    ],
+    "page": 149,
+    "source_id": "p149-tbl01"
+   }
+  ],
+  "printed_as_is": [
+   {
+    "text": "86in (2,184mm",
+    "why": "missing closing bracket as printed (M996*, overall height)",
+    "row": "M996*"
+   },
+   {
+    "text": "24in 610mm)",
+    "why": "missing opening bracket as printed (M1025, under-chassis)",
+    "row": "M1025"
+   }
+  ],
+  "notes_in_grid": []
+ },
+ {
+  "key": "table-09",
+  "number": 9,
+  "title": "TABLE 9: AUTOMOTIVE PERFORMANCE",
+  "intro": null,
+  "footnotes": [
+   "* Where two approach-angle figures are quoted, they cover vehicles with and without winch, respectively.",
+   "** Where two departure-angle figures are quoted, the second figure refers to vehicles fitted with airlift rear bumper.",
+   "*** Maximum side-slope for shelter-equipped variants is 30 per cent."
+  ],
+  "columns": [
+   "",
+   "M998 series",
+   "M1097 HHV",
+   "M998A1 series",
+   "M998A2 series",
+   "ECV (M1097A2)",
+   "M1100 series"
+  ],
+  "pages": [
+   150
+  ],
+  "source_ids": [
+   "p150-tbl01"
+  ],
+  "rows": [
+   {
+    "group": "Maximum speed:",
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Transfer case in high ratio",
+     "70mph (113kph)",
+     "70mph (113kph)",
+     "70mph (113kph)",
+     "70mph (113kph)",
+     "70mph (113kph)",
+     "70mph (113kph)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Transfer case in low ratio",
+     "27mph (44kph)",
+     "27mph (44kph)",
+     "27mph (44kph)",
+     "27mph (44kph)",
+     "27mph (44kph)",
+     "27mph (44kph)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "group": "Acceleration:",
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "0–30mph (0–48kph)",
+     "8 sec",
+     "8 sec",
+     "8 sec",
+     "9 sec",
+     "9 sec",
+     "9 sec"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "0–50mph (0–80kph)",
+     "n/a",
+     "n/a",
+     "n/a",
+     "26 sec",
+     "26 sec",
+     "26 sec"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "0–60mph (0–97kph)",
+     "24 sec",
+     "24 sec",
+     "24 sec",
+     "n/a",
+     "n/a",
+     "n/a"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Fuel tank capacity",
+     "25 US gal (20.7 Imp gal; 95 litres)",
+     "25 US gal (20.7 Imp gal; 95 litres)",
+     "25 US gal (20.7 Imp gal; 95 litres)",
+     "25 US gal (20.7 Imp gal; 95 litres)",
+     "25 US gal (20.7 Imp gal; 95 litres)",
+     "25 US gal (20.7 Imp gal; 95 litres)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Fuel consumption (US galls)",
+     "12mpg (5.1km/ltr)",
+     "12mpg (5.1km/ltr)",
+     "12mpg (5.1km/ltr)",
+     "11mpg (4.7km/ltr)",
+     "11mpg (4.7km/ltr)",
+     "9.4mpg (4km/ltr)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Cruising range",
+     "300 miles (483km)",
+     "300 miles (483km)",
+     "300 miles (483km)",
+     "275 miles (445km)",
+     "275 miles (445km)",
+     "235 miles (380km)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Turning circle",
+     "49ft (14.84m)",
+     "50ft (15.25m)",
+     "50ft (15.25m)",
+     "50ft (15.25m)",
+     "50ft (15.25m)",
+     "50ft (15.25m)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Approach angle*",
+     "72°, 47°",
+     "72°, 47°",
+     "72°, 47°",
+     "54°, 45°",
+     "54°, 45°",
+     "46°"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Departure angle**",
+     "45°, 33.5°",
+     "45°",
+     "45°",
+     "45°",
+     "38°",
+     "33°"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum gradient",
+     "60%",
+     "60%",
+     "60%",
+     "60%",
+     "40%",
+     "40%"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum side slope***",
+     "40%",
+     "40%",
+     "40%",
+     "40%",
+     "30%",
+     "40%"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Vertical step",
+     "22in (559mm)",
+     "22in (559mm)",
+     "22in (559mm)",
+     "22in (559mm)",
+     "22in (559mm)",
+     "22in (559mm)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Ramp break-over angle",
+     "31.5°",
+     "31.5°",
+     "31.5°",
+     "31.5°",
+     "31.5°",
+     "31.5°"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Maximum towed load",
+     "3,400lb (1,542kg)",
+     "4,200lb (1,909kg)",
+     "3,400lb (1,542kg)",
+     "4,200lb (1,909kg)",
+     "4,200lb (1,909kg)",
+     "4,500lb (2,041kg)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "group": "Maximum fording depth:",
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Unprepared",
+     "30in (762mm)",
+     "30in (762mm)",
+     "30in (762mm)",
+     "30in (762mm)",
+     "30in (762mm)",
+     "30in (762mm)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   },
+   {
+    "cells": [
+     "Prepared",
+     "60in (1,524mm)",
+     "60in (1,524mm)",
+     "60in (1,524mm",
+     "60in (1,524mm)",
+     "60in (1,524mm)",
+     "60in (1,524mm)"
+    ],
+    "page": 150,
+    "source_id": "p150-tbl01"
+   }
+  ],
+  "printed_as_is": [
+   {
+    "text": "60in (1,524mm",
+    "why": "missing closing bracket as printed (Prepared fording depth, M998A1 series)",
+    "row": "Prepared"
+   }
+  ],
+  "notes_in_grid": []
+ }
+]

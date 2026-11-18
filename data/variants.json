@@ -1,0 +1,562 @@
+[
+ {
+  "designation": "M966",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, basic armour, 1.25 ton, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M996",
+  "footnote_marks": "*",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, mini-ambulance, 2-litter, basic armour, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M997",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, maxi-ambulance, 4-litter, basic armour, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M998",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1025",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1026",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4, with winch",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1035",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, ambulance, 2-litter, soft-top, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1036",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, basic armour, 1.25 ton, 4x4, with winch",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1037",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, S250/S788 shelter carrier, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1038",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4, with winch",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1042",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, S250/S788 shelter carrier, 4x4, with winch",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1043",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1044",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4, with winch",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1045",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1046",
+  "footnote_marks": "",
+  "year": "1984",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4, with winch",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1069",
+  "footnote_marks": "",
+  "year": "1989",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck-tractor, prime mover for M119 105mm light gun",
+  "group": "Original M998 HMMWV series – sometimes referred to as M998A0",
+  "page": 30
+ },
+ {
+  "designation": "M1097",
+  "footnote_marks": "",
+  "year": "1992",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, cargo/troop carrier/prime mover, up-armoured, 2.25 ton, 4x4",
+  "group": "M1097 heavy HMMWV variant (HHV)",
+  "page": 30
+ },
+ {
+  "designation": "M1097A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, cargo/troop/shelter carrier/prime mover, 2.25 ton, 4x4",
+  "group": "M1097 heavy HMMWV variant (HHV)",
+  "page": 30
+ },
+ {
+  "designation": "M966A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, basic armour, 1.25 ton, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M996A1",
+  "footnote_marks": "*",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, mini-ambulance, 2-litter, basic armour, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M997A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, maxi-ambulance, 4-litter, basic armour, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M998A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1025A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1026A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, basic armour, 1.25 ton, 4x4, with winch",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1035A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, ambulance, 2-litter, soft-top, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1038A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, cargo/troop carrier, 1.25 ton, 4x4, with winch",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1043A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1044A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, armament carrier, supplemental armour, 1.25 ton, 4x4, with winch",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1045A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M1046A1",
+  "footnote_marks": "",
+  "year": "1993",
+  "engine": "6,227cc, 150bhp, V8 diesel",
+  "transmission": "3F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, supplemental armour, 1.25 ton, 4x4, with winch",
+  "group": "M998A1 HMMWV series, based on M1097 and M1097A1 chassis",
+  "page": 30
+ },
+ {
+  "designation": "M997A2",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, ambulance, heavy variant, 4-litter, basic armour, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1025A2",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, TOW missile/armament carrier, basic armour, 2.25 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1035A2",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, ambulance, 2-litter, soft-top, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1043A2",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, armament carrier, supplemental armour, 2.25 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1045A2",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, TOW missile carrier, supplemental armour, 2.25 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1097A2",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, cargo/troop/shelter carrier/prime mover, 2.25 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1109",
+  "footnote_marks": "**",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, armament carrier, up-armoured, 2.4 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1121",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, TOW missile carrier, supplemental armour, 2.25 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1123",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, cargo/troop carrier, 2.25 ton, 4x4",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1124",
+  "footnote_marks": "",
+  "year": "1996",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, heavy variant, cargo/troop carrier, 2.25 ton, 4x4, RHD",
+  "group": "M998A2 series",
+  "page": 31
+ },
+ {
+  "designation": "M1113",
+  "footnote_marks": "",
+  "year": "1995",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, cargo/troop/shelter carrier, 2.4 ton, 4x4",
+  "group": "Expanded capability HMMWV (ECH), based on M1097A2 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1114",
+  "footnote_marks": "",
+  "year": "1996",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, armament carrier, up-armoured, 2.4 ton, 4x4",
+  "group": "Expanded capability HMMWV (ECH), based on M1097A2 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1115",
+  "footnote_marks": "",
+  "year": "1996",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, TOW missile carrier, up-armoured, 2.4 ton, 4x4",
+  "group": "Expanded capability HMMWV (ECH), based on M1097A2 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1116",
+  "footnote_marks": "",
+  "year": "1996",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, base security/personnel carrier, up-armoured, 2.4 ton, 4x4",
+  "group": "Expanded capability HMMWV (ECH), based on M1097A2 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1145",
+  "footnote_marks": "",
+  "year": "1997",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, forward air control, up-armoured, 2.4 ton, 4x4",
+  "group": "Expanded capability HMMWV (ECH), based on M1097A2 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1151",
+  "footnote_marks": "",
+  "year": "2005",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, armament carrier, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1151A1",
+  "footnote_marks": "",
+  "year": "2009",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, armament carrier, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1152",
+  "footnote_marks": "",
+  "year": "2005",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, cargo/troop/shelter carrier, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1152A1",
+  "footnote_marks": "",
+  "year": "2009",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, cargo/troop/shelter carrier, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1165",
+  "footnote_marks": "",
+  "year": "2006",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, command and control/general purpose vehicle, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1165",
+  "footnote_marks": "",
+  "year": "2009",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, special-operations vehicle, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1167",
+  "footnote_marks": "",
+  "year": "2008",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, TOW missile ITAS carrier, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1167A1",
+  "footnote_marks": "",
+  "year": "2009",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Truck, utility, expanded capacity, TOW missile ITAS carrier, IAP-ready, 2.6 ton, 4x4",
+  "group": "M1100 series reliability-enhanced vehicles, based on M1113 chassis",
+  "page": 31
+ },
+ {
+  "designation": "M1025R1",
+  "footnote_marks": "",
+  "year": "2004",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Conversion of M998/M998A1, M1025/A1, M1026/A1, M1037, M1038/A1 and M1097/A1 to M1025A2 configuration",
+  "group": "Recapitalization (RECAP) programme – modernised expanded capacity vehicles (MECV) Phase 1",
+  "page": 31
+ },
+ {
+  "designation": "M1097R1",
+  "footnote_marks": "",
+  "year": "2004",
+  "engine": "6,555cc, 160bhp, V8 diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Conversion of M998/M998A1, M1025A1, M1026A1, M1037, M1038A1 and M1097A1 to M1025A2 configuration",
+  "group": "Recapitalization (RECAP) programme – modernised expanded capacity vehicles (MECV) Phase 1",
+  "page": 31
+ },
+ {
+  "designation": "M1151R1",
+  "footnote_marks": "",
+  "year": "2010",
+  "engine": "6,555cc, 190bhp, V8 turbo-diesel",
+  "transmission": "4F1Rx2 auto",
+  "description": "Conversion of M1114 variants to M1151A1 configuration",
+  "group": "Recapitalization (RECAP) programme – modernised expanded capacity vehicles (MECV) Phase 1",
+  "page": 31
+ }
+]
