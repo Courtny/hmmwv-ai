@@ -71,7 +71,7 @@ for (const f of pages) {
   for (const [, raw] of lds) {
     let g; try { g = JSON.parse(raw)["@graph"]; } catch (e) { err(page, `JSON-LD does not parse: ${e.message}`); continue; }
     for (const n of g) {
-      const need = { WebSite: ["name", "url"], Vehicle: ["name", "url"], ImageObject: ["contentUrl"], Dataset: ["name", "description"], BreadcrumbList: ["itemListElement"] }[n["@type"]];
+      const need = { HowTo: ["name", "step"], WebSite: ["name", "url"], Vehicle: ["name", "url"], ImageObject: ["contentUrl"], Dataset: ["name", "description"], BreadcrumbList: ["itemListElement"] }[n["@type"]];
       if (!need) { warn(page, `unchecked JSON-LD type ${n["@type"]}`); continue; }
       for (const k of need) if (!n[k]) err(page, `${n["@type"]} missing ${k}`);
       if (n["@type"] === "Dataset" && (n.description.length < 50 || n.description.length > 5000)) err(page, `Dataset description ${n.description.length} chars (Google wants 50 to 5000)`);
@@ -90,7 +90,12 @@ const sm = readFileSync(join(OUT, "sitemap.xml"), "utf8");
 const smUrls = [...sm.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => m[1]);
 for (const u of smUrls) if (!existsSync(fileFor(u))) err("sitemap.xml", `lists missing ${u}`);
 const smSet = new Set(smUrls);
-for (const f of pages) { const u = SITE + "/" + relative(OUT, f).replace(/index\.html$/, ""); if (!smSet.has(u) && !u.includes("/404")) err("sitemap.xml", `missing ${u}`); }
+for (const f of pages) {
+  const u = SITE + "/" + relative(OUT, f).replace(/index\.html$/, "");
+  const noindex = /<meta name="robots" content="noindex/.test(readFileSync(f, "utf8"));
+  if (noindex && smSet.has(u)) err("sitemap.xml", `lists noindex page ${u}`);
+  if (!noindex && !smSet.has(u)) err("sitemap.xml", `missing ${u}`);
+}
 for (const m of sm.matchAll(/<image:loc>([^<]*)<\/image:loc>/g)) if (!existsSync(fileFor(m[1]))) err("sitemap.xml", `image missing ${m[1]}`);
 
 // robots and llms.txt
