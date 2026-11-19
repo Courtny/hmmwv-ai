@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import type { Procedure } from "./procedures";
 import { DiagramStage } from "./DiagramStage";
 import { DiagramViewer } from "./DiagramViewer";
@@ -39,25 +39,10 @@ export function ProcedureView({ proc, src }: { proc: Procedure; src: string }) {
     "aria-pressed": pinned === n,
   });
 
-  const [w, h] = proc.diagram.viewBox;
-
-  // On narrow screens the diagram scrolls sideways; bring the selected callout into view.
-  const scroller = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = scroller.current;
-    if (!el || current == null || el.scrollWidth <= el.clientWidth) return;
-    const xs = proc.diagram.callouts.filter((c) => c.n === current).map((c) => c.x);
-    const mid = ((Math.min(...xs) + Math.max(...xs)) / 2 / w) * el.scrollWidth;
-    const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    el.scrollTo({ left: mid - el.clientWidth / 2, behavior: smooth ? "smooth" : "instant" });
-  }, [current, proc.diagram.callouts, w]);
-
   return (
     <div className={`proc${current ? " has-active" : ""}`}>
       <figure className="diagram">
-        <div className="scroller" ref={scroller}>
-          <DiagramStage proc={proc} src={src} current={current} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
-        </div>
+        <DiagramStage proc={proc} src={src} current={current} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
         <button type="button" className="expand" onClick={() => { setActive(null); setFull(true); }} aria-haspopup="dialog">
           <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="currentColor" strokeWidth="1.8" /></svg>
           Full screen

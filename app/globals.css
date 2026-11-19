@@ -63,11 +63,9 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
 .key .num{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--ink);display:inline-flex;align-items:center;justify-content:center;font:500 13px var(--f-mono),'IBM Plex Mono',monospace}
 .key button.on .num{background:var(--rust);border-color:var(--rust);color:#fff}
 .ref:focus-visible,.key button:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
-/* Phones and tablets: pinned diagram at a readable size, scrolls sideways */
+/* Phones and tablets: pinned diagram fits the width; full screen for detail */
 @media (max-width:999px){
   .diagram{position:sticky;top:0;z-index:2;padding:8px;box-shadow:0 6px 12px -10px rgba(0,0,0,.35)}
-  .scroller{overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
-  .stage{min-width:560px}
   .diagram figcaption{padding-top:6px}
   .diagram figcaption .legend{display:none}
   .proc.has-active .diagram figcaption .legend{display:block}
@@ -104,6 +102,5 @@ dialog.viewer::backdrop{background:rgba(28,32,27,.7)}
 .chips button.on{border-color:var(--rust);background:var(--rust);color:#fff}
 .chips .num{width:24px;height:24px;border-radius:50%;border:1.5px solid currentColor;display:inline-flex;align-items:center;justify-content:center;font:500 12px var(--f-mono),'IBM Plex Mono',monospace}
 .viewer-foot .credit{font-size:12px}
-@media (max-width:999px){.viewer-port .stage{min-width:0}}
 .proc.has-active .viewer .stage .art{opacity:1}
 @media (max-width:600px){.viewer-foot .hint{display:none}.viewer-title strong{font-size:18px}}
