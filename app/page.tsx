@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { variants, photos, tables, groups } from "@/lib/data";
 import { PhotoFigure } from "@/lib/ui";
+import { pageMeta } from "@/lib/seo";
+
+export const metadata = pageMeta({ title: "Humvee (HMMWV) Variants, Specs and Photos | hmmwv.ai", absoluteTitle: true, description: "Humvee (HMMWV) reference: every factory variant with engine, dimensions and performance data, plus credited photos and spec tables from the book.", path: "/" });
 
 export default function Home() {
   const featured = photos.filter((p) => p.caption && p.confidence >= 0.9 && p.kind === "photo").slice(0, 6);

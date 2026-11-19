@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { variants, groups } from "@/lib/data";
-export const metadata = { title: "Variants" };
+import { pageMeta } from "@/lib/seo";
+export const metadata = pageMeta({ title: "All Humvee (HMMWV) variants by series", description: `All ${variants.length} factory Humvee variants from Table 1, grouped by series: M998, M998A1, M998A2, ECV, M1100 and RECAP, with year and role.`, path: "/variants/" });
 export default function Variants() {
   return (
     <div className="wrap"><section className="sec"><div className="kicker">Table 1</div><h1>Variants</h1>

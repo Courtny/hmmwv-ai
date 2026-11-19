@@ -27,7 +27,7 @@ export const variants: Variant[] = (variantsRaw as any[]).map((v) => {
 
 export const photoById = (id: string) => photos.find((p) => p.id === id);
 export const photosFor = (designation: string) => {
-  const re = new RegExp(`(^|[^A-Za-z0-9])${designation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^0-9]|$)`);
+  const re = new RegExp(`(^|[^A-Za-z0-9])${designation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![0-9]|[AR][0-9])`);
   return photos.filter((p) => p.caption && re.test(p.caption));
 };
 export const groups = Array.from(new Set(variants.map((v) => v.group)));
@@ -91,4 +91,15 @@ export const repairBrackets = (s: string) => {
   if (open > close) return s + ")";
   if (close > open) return s.replace(/(\s)([^\s()]*\))/, "$1($2");
   return s;
+};
+
+/**
+ * Caption and credit for a photo. A spread half with no caption of its own takes them from its
+ * other half (DATA-README: "The caption sits on one half"). `from` names the half they came from.
+ */
+export const captionOf = (p: Photo): { caption: string | null; credit: string | null; alt: string; from?: string } => {
+  if (p.caption || p.related.length !== 1) return { caption: p.caption, credit: p.credit, alt: p.alt };
+  const o = photoById(p.related[0]);
+  if (!o?.caption) return { caption: p.caption, credit: p.credit, alt: p.alt };
+  return { caption: o.caption, credit: p.credit ?? o.credit, alt: `Other half of a two-page spread: ${o.alt}`, from: o.id };
 };
