@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { Procedure } from "./procedures";
+import { DiagramStage } from "./DiagramStage";
+import { DiagramViewer } from "./DiagramViewer";
 
 /** Split step text so each "(n)" that names a part becomes a linked chip. "(34 N•m)" is left alone. */
 function stepText(text: string, known: Set<number>, ref: (n: number, key: string) => ReactNode) {
@@ -22,6 +24,8 @@ export function ProcedureView({ proc, src }: { proc: Procedure; src: string }) {
   const [active, setActive] = useState<number | null>(null);
   const [pinned, setPinned] = useState<number | null>(null);
   const current = active ?? pinned;
+  const [full, setFull] = useState(false);
+  const pick = (n: number) => setPinned((p) => (p === n ? null : n));
   const known = new Set(proc.parts.map((p) => p.n));
   const name = (n: number) => proc.parts.find((p) => p.n === n)?.name ?? `Part ${n}`;
   const stepsFor = (n: number) => proc.steps.flatMap((s, i) => (new RegExp(`\\(${n}\\)`).test(s) ? [i + 1] : []));
@@ -31,7 +35,7 @@ export function ProcedureView({ proc, src }: { proc: Procedure; src: string }) {
     onMouseLeave: () => setActive(null),
     onFocus: () => setActive(n),
     onBlur: () => setActive(null),
-    onClick: () => setPinned((p) => (p === n ? null : n)),
+    onClick: () => pick(n),
     "aria-pressed": pinned === n,
   });
 
@@ -52,21 +56,12 @@ export function ProcedureView({ proc, src }: { proc: Procedure; src: string }) {
     <div className={`proc${current ? " has-active" : ""}`}>
       <figure className="diagram">
         <div className="scroller" ref={scroller}>
-        <div className="stage" style={{ aspectRatio: `${w} / ${h}` }}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="art" src={src} alt={proc.diagram.alt} width={w} height={h} />
-        <svg viewBox={`0 0 ${w} ${h}`} aria-hidden="true">
-          <g className="callouts">
-            {proc.diagram.callouts.map((c, i) => (
-              <g key={i} className={`co${current === c.n ? " on" : ""}`} onMouseEnter={() => setActive(c.n)} onMouseLeave={() => setActive(null)} onClick={() => setPinned((p) => (p === c.n ? null : c.n))}>
-                <circle cx={c.x} cy={c.y} r={24} className="hit" />
-                <circle cx={c.x} cy={c.y} r={21} className="ring" />
-              </g>
-            ))}
-          </g>
-        </svg>
+          <DiagramStage proc={proc} src={src} current={current} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
         </div>
-        </div>
+        <button type="button" className="expand" onClick={() => { setActive(null); setFull(true); }} aria-haspopup="dialog">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="currentColor" strokeWidth="1.8" /></svg>
+          Full screen
+        </button>
         <figcaption>
           <div className="mono">Diagram: {proc.diagram.credit}.</div>
           <div className="mono legend" aria-live="polite">
@@ -74,6 +69,8 @@ export function ProcedureView({ proc, src }: { proc: Procedure; src: string }) {
           </div>
         </figcaption>
       </figure>
+      <DiagramViewer open={full} onClose={() => { setFull(false); setActive(null); }} proc={proc} src={src}
+        current={current} pinned={pinned} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
 
       <div className="proc-body">
         {proc.caution && <aside className="callout caution" role="note"><strong>Caution</strong><p>{proc.caution}</p></aside>}

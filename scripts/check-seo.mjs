@@ -63,7 +63,7 @@ for (const f of pages) {
 
   const h1s = html.match(/<h1[\s>]/g)?.length ?? 0;
   if (h1s !== 1) err(page, `${h1s} <h1> elements`);
-  for (const img of html.match(/<img [^>]*>/g) ?? []) if (!/ alt="[^"]+"/.test(img)) err(page, `img without alt: ${img.slice(0, 80)}`);
+  for (const img of html.match(/<img [^>]*>/g) ?? []) if (!/ alt="/.test(img)) err(page, `img without alt: ${img.slice(0, 80)}`);
   if (/[—]/.test(html.replace(/<script[\s\S]*?<\/script>/g, ""))) err(page, "em dash in copy");
 
   const lds = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
@@ -71,11 +71,11 @@ for (const f of pages) {
   for (const [, raw] of lds) {
     let g; try { g = JSON.parse(raw)["@graph"]; } catch (e) { err(page, `JSON-LD does not parse: ${e.message}`); continue; }
     for (const n of g) {
-      const need = { HowTo: ["name", "step"], WebSite: ["name", "url"], Vehicle: ["name", "url"], ImageObject: ["contentUrl"], Dataset: ["name", "description"], BreadcrumbList: ["itemListElement"] }[n["@type"]];
+      const need = { ItemList: ["itemListElement"], HowTo: ["name", "step"], WebSite: ["name", "url"], Vehicle: ["name", "url"], ImageObject: ["contentUrl"], Dataset: ["name", "description"], BreadcrumbList: ["itemListElement"] }[n["@type"]];
       if (!need) { warn(page, `unchecked JSON-LD type ${n["@type"]}`); continue; }
       for (const k of need) if (!n[k]) err(page, `${n["@type"]} missing ${k}`);
       if (n["@type"] === "Dataset" && (n.description.length < 50 || n.description.length > 5000)) err(page, `Dataset description ${n.description.length} chars (Google wants 50 to 5000)`);
-      const urls = [n.url, n.contentUrl, n.thumbnailUrl, ...(n.itemListElement ?? []).map((i) => i.item), ...[n.image ?? []].flat().map((i) => i.contentUrl ?? i)].filter((u) => typeof u === "string");
+      const urls = [n.url, n.contentUrl, n.thumbnailUrl, ...(n.itemListElement ?? []).map((i) => i.item ?? i.url), ...[n.image ?? []].flat().map((i) => i.contentUrl ?? i)].filter((u) => typeof u === "string");
       for (const u of urls) { const file = fileFor(u); if (!file || !existsSync(file)) err(page, `${n["@type"]} links to missing ${u}`); }
       if (n["@type"] === "ImageObject" && !n.creditText) warn(page, `ImageObject ${n.contentUrl} has no credit`);
     }

@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <a href="#main" className="skip">Skip to content</a>
         <header className="top"><div className="wrap bar">
           <Link href="/" className="brand">Humvee Reference</Link>
-          <nav aria-label="Main"><Link href="/variants/">Variants</Link><Link href="/photos/">Photos</Link><Link href="/tables/">Tables</Link></nav>
+          <nav aria-label="Main"><Link href="/variants/">Variants</Link><Link href="/photos/">Photos</Link><Link href="/tables/">Tables</Link><Link href="/procedures/">Procedures</Link></nav>
         </div></header>
         <main id="main">{children}</main>
         <footer className="foot"><div className="wrap">Content from the book, with credits printed under every image. hmmwv.ai</div></footer>

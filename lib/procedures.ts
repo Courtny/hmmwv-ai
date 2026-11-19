@@ -11,6 +11,8 @@ export type Procedure = {
   title: string;
   section: string;
   page: string;
+  /** Draft procedures are noindex and left out of the sitemap (rights or review pending). */
+  draft?: boolean;
   caution?: string;
   note?: string;
   steps: string[];
@@ -26,6 +28,7 @@ export const procedures: Procedure[] = [
     title: "Water crossover repair",
     section: "d. Assembly",
     page: "2-147",
+    draft: true, // Confirm the TM distribution statement before indexing.
     caution: "Thermostat must be installed correctly or engine damage may result.",
     note: "For general assembly instructions, refer to para. 2-12.",
     steps: [
@@ -64,6 +67,9 @@ export const procedures: Procedure[] = [
     },
   },
 ];
+
+/** The index is indexable once at least one procedure is published. */
+export const anyPublished = () => procedures.some((p) => !p.draft);
 
 export const procedureBySlug = (slug: string) => procedures.find((p) => p.slug === slug);
 

@@ -15,8 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: `${p.title}, ${p.section.replace(/^\w\. /, "").toLowerCase()}: ${p.steps.length} steps with an interactive parts diagram, from ${p.manual}, page ${p.page}.`,
       path: `/procedures/${p.slug}/`,
     }),
-    // Test page: keep it out of search until it is approved.
-    robots: { index: false, follow: true },
+    ...(p.draft && { robots: { index: false, follow: true } }),
   };
 }
 
@@ -32,8 +31,8 @@ export default async function ProcedurePage({ params }: { params: Promise<{ slug
   };
   return (
     <article className="wrap wide">
-      <JsonLd data={[howTo, breadcrumbLd([["Home", "/"], ["Procedures", `/procedures/${p.slug}/`], [p.title, `/procedures/${p.slug}/`]])]} />
-      <nav aria-label="Breadcrumb" className="crumb mono"><Link href="/">Home</Link> › {p.manual} › para. {p.para}</nav>
+      <JsonLd data={[howTo, breadcrumbLd([["Home", "/"], ["Procedures", "/procedures/"], [p.title, `/procedures/${p.slug}/`]])]} />
+      <nav aria-label="Breadcrumb" className="crumb mono"><Link href="/procedures/">Procedures</Link> › {p.manual} › para. {p.para}</nav>
       <section className="sec">
         <div className="kicker">{p.manual} · para. {p.para} · page {p.page}</div>
         <h1>{p.title}</h1>
