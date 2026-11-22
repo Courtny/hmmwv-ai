@@ -6,6 +6,12 @@
       "runtimeExecutable": ".venv/bin/python",
       "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1", "-d", "work/diagrams"],
       "port": 8765
+    },
+    {
+      "name": "site-static",
+      "runtimeExecutable": ".venv/bin/python",
+      "runtimeArgs": ["-m", "http.server", "3001", "--bind", "127.0.0.1", "-d", "out"],
+      "port": 3001
     }
   ]
 }

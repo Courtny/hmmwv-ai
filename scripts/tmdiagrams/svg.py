@@ -47,9 +47,33 @@ def problems(info: SvgInfo, png_size: tuple[int, int]) -> list[str]:
     dark = [c for c in info.fills if c != "#ffffff"]
     if len(dark) > 1:
         out.append(f"{len(info.fills)} colours ({', '.join(sorted(info.fills))}); use a 2-colour palette")
-    if info.bytes > 600_000:
+    if info.bytes > 1_000_000:
         out.append(f"large file ({info.bytes // 1000} kB); try a lower detail setting")
     return out
+
+
+def snap_two_tone(src: Path, dst: Path, threshold: float = 0.5) -> int:
+    """Copy src to dst with every fill snapped to black or white by luminance.
+
+    VectorMagic sometimes keeps anti-aliasing greys even on 1-bit art. The site turns
+    every non-white fill into ink, so a near-white grey would print as a dark blob.
+    Paths stay in their original order, so a light layer over a dark one still reads
+    correctly. Returns how many distinct colours were snapped.
+    """
+    s = src.read_text(errors="replace")
+    seen: set[str] = set()
+
+    def snap(m: re.Match) -> str:
+        c = m.group(1).lower()
+        if c in ("#000000", "#ffffff"):
+            return f'fill="{c}"'
+        seen.add(c)
+        r, g, b = (int(c[i:i + 2], 16) / 255 for i in (1, 3, 5))
+        lum = 0.2126 * r + 0.7152 * g + 0.0722 * b
+        return 'fill="#ffffff"' if lum >= threshold else 'fill="#000000"'
+
+    dst.write_text(re.sub(r'fill="(#[0-9a-fA-F]{6})"', snap, s))
+    return len(seen)
 
 
 def potrace_available() -> bool:

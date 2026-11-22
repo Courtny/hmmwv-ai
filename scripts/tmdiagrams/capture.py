@@ -99,9 +99,16 @@ def parse_page(md: str) -> PageProcedure:
         para = m.group(1)
         title = re.sub(r"\s*\(Cont.?d\)\s*$", "", m.group(2), flags=re.I).strip()
         title = title[:1].upper() + title[1:].lower()
-    m = re.search(r"^([a-z])\.\s+([A-Z][^\n]{1,60})$", body, re.M)
-    if m:
-        section = f"{m.group(1)}. {m.group(2).strip()}"
+    # Section headers ("a. Disassembly"), skipping the "This task covers" table rows.
+    heads = [m for m in re.finditer(r"^([a-z])\.\s+([A-Z][^\n|]{1,60})$", body, re.M)]
+    first_step = re.search(r"^\d+\.\s", body, re.M)
+    if heads:
+        # The section the first numbered step belongs to; its steps end at the next header.
+        before = [h for h in heads if not first_step or h.start() < first_step.start()] or heads[:1]
+        h = before[-1]
+        section = f"{h.group(1)}. {h.group(2).strip()}"
+        nxt = next((x.start() for x in heads if x.start() > h.start()), len(body))
+        body = body[:heads[0].start()] + body[h.start():nxt]
 
     def block(word: str) -> str | None:
         m = re.search(rf">\s*\*\*{word}\*\*\s*\n+(.+?)(?:\n\n|$)", body, re.S)
