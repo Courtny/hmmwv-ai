@@ -10,6 +10,7 @@ export function DiagramStage({ proc, src, current, onEnter, onLeave, onPick, sty
   style?: CSSProperties; alt?: string;
 }) {
   const [w, h] = proc.diagram.viewBox;
+  const ring = proc.diagram.ring ?? 21;
   return (
     <div className="stage" style={{ aspectRatio: `${w} / ${h}`, ...style }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -18,8 +19,8 @@ export function DiagramStage({ proc, src, current, onEnter, onLeave, onPick, sty
         <g className="callouts">
           {proc.diagram.callouts.map((c, i) => (
             <g key={i} className={`co${current === c.n ? " on" : ""}`} onMouseEnter={() => onEnter(c.n)} onMouseLeave={onLeave} onClick={() => onPick(c.n)}>
-              <circle cx={c.x} cy={c.y} r={24} className="hit" />
-              <circle cx={c.x} cy={c.y} r={21} className="ring" />
+              <circle cx={c.x} cy={c.y} r={ring + 3} className="hit" />
+              <circle cx={c.x} cy={c.y} r={ring} className="ring" />
             </g>
           ))}
         </g>

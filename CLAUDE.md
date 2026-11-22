@@ -13,5 +13,8 @@ npm run build                (static export to /out)
 - Style: paper ground, olive and rust accents, Barlow Condensed headings, IBM Plex body. No em dashes in copy.
 - Remove `output: "export"` in next.config.mjs when adding server features (forum, Supabase, Clerk).
 
+## Diagrams from TM captures
+scripts/tm_diagrams.py turns captured TM figures into traced SVGs, callout positions and procedure drafts (VectorMagic hand-off, potrace fallback). See scripts/tmdiagrams/README.md. Python venv in .venv; work files in work/ (ignored).
+
 ## First task
 Join the series tables so each variant page shows engine and performance like the M1025 prototype: map each designation to its series (M998, M998A1, M998A2) and pull the matching columns from tables 3, 8 and 9 in data/tables_data.json. Skip swept volume (Table 1 and Table 3 disagree). See README.md TODO for the rest.

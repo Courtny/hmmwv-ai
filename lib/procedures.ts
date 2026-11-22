@@ -17,7 +17,8 @@ export type Procedure = {
   note?: string;
   steps: string[];
   parts: Part[];
-  diagram: { file: string; viewBox: [number, number]; callouts: Callout[]; alt: string; credit: string };
+  /** ring: callout ring radius in viewBox units (default 21). */
+  diagram: { file: string; viewBox: [number, number]; ring?: number; callouts: Callout[]; alt: string; credit: string };
 };
 
 export const procedures: Procedure[] = [
