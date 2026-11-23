@@ -52,7 +52,7 @@ export default async function ProcedurePage({ params }: { params: Promise<{ manu
         <div className="kicker">{p.manual} · para. {p.para} · page {p.page}</div>
         <h1>{p.title}</h1>
         <p className="lede">{p.section}</p>
-        <ProcedureView proc={p} srcs={p.diagrams.map(diagramUrl)} />
+        <ProcedureView proc={p} srcs={p.diagrams.map(diagramUrl)} path={procedurePath(p)} />
         <p className="mono">
           Text transcribed as printed in {p.manual}, from page {p.page}. Torque values and part numbers are the manual&rsquo;s.
           {para && <> The full paragraph, with every figure, is in <Link href={sectionPath(m, para)}>para. {p.para} of the manual</Link>.</>}

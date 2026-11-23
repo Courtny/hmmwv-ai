@@ -34,7 +34,19 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
 /* Procedures: traced diagram with linked callouts */
 .wrap.wide{max-width:1280px}
 .proc{display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}
-@media (min-width:1000px){.proc{grid-template-columns:minmax(0,1.6fr) minmax(320px,1fr);align-items:start}.diagram{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto}}
+/* Phones: .proc-side drops out of the layout so the diagram can stick above the steps and the key follows them. */
+.proc-side{display:contents}
+.proc-key{order:3}
+.proc-key h2{font-size:28px;margin:0 0 8px}
+@media (min-width:1000px){
+  .proc{grid-template-columns:minmax(0,1.6fr) minmax(320px,1fr);align-items:start}
+  .proc-side{display:flex;flex-direction:column;gap:16px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;overscroll-behavior:contain}
+  .proc-key{order:0}
+  .diagram{position:relative}
+  .proc-key h2{font-size:22px;margin:0 0 6px}
+  .key{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+  .key button{min-height:36px;padding:5px 8px}
+}
 .diagram{margin:0;background:var(--card);border:1px solid var(--line);padding:12px}
 .stage{position:relative;width:100%}
 .stage .art,.stage svg{position:absolute;inset:0;width:100%;height:100%;display:block}
@@ -64,9 +76,12 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
 .key button.on .num{background:var(--rust);border-color:var(--rust);color:#fff}
 .ref:focus-visible,.key button:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
 /* Procedures with several figures */
-.fig-head{display:flex;align-items:center;justify-content:space-between;gap:8px 12px;flex-wrap:wrap;padding:0 120px 10px 0;min-height:34px}
+.fig-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:0 0 10px}
+.fig-head .fig-label{flex:1 1 100%}
+.fig-head .expand{margin-left:auto}
+.fig-head.solo{position:absolute;top:10px;right:10px;z-index:3;padding:0}
 .fig-tabs{display:flex;flex-wrap:wrap;gap:4px}
-.fig-tabs button{min-width:34px;height:34px;padding:0 8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:500 13px var(--f-mono),'IBM Plex Mono',monospace;cursor:pointer}
+.fig-tabs button{min-width:34px;height:32px;padding:0 8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:500 13px var(--f-mono),'IBM Plex Mono',monospace;cursor:pointer}
 .fig-tabs button.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .fig-tabs button:hover:not(.on){border-color:var(--rust)}
 .fig-tabs button:focus-visible,.fig-link:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
@@ -90,7 +105,7 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
 .tm-proc-list li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid var(--line)}
 .tm-proc-list li .mono{white-space:nowrap;color:var(--olive)}
 /* Full-screen diagram viewer */
-.expand{position:absolute;top:10px;right:10px;z-index:3;display:inline-flex;align-items:center;gap:6px;font:500 12px var(--f-mono),'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--paper);background:var(--ink);border:0;padding:8px 10px;cursor:pointer;opacity:.9}
+.expand{display:inline-flex;height:32px;align-items:center;gap:6px;font:500 12px var(--f-mono),'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--paper);background:var(--ink);border:0;padding:8px 10px;cursor:pointer;opacity:.9}
 .expand:hover{opacity:1;background:var(--olive)}
 .expand:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
 html.no-scroll{overflow:hidden}
@@ -175,3 +190,25 @@ h1.tm-h1{font-size:clamp(44px,7vw,80px)}
 .tm-pager a[rel=next]{text-align:right}
 @media (max-width:600px){.tm-pager{grid-template-columns:1fr}.tm-pager a[rel=next]{text-align:left}.tm-toc li a{grid-template-columns:56px minmax(0,1fr)}.tm-toc .pg{display:none}.tm-facts dl{grid-template-columns:1fr}}
 @media (max-width:700px){.top nav{gap:18px}.top nav a{white-space:nowrap}}
+/* Toolbar over the diagram */
+.fig-head .new-window{margin-left:0;text-decoration:none}
+@media (max-width:699px){.fig-head .new-window{display:none}}
+/* Diagram window (New window): the diagram on its own, sized to the window */
+body:has(.dw) .top,body:has(.dw) .foot{display:none}
+.dw{min-height:100vh;display:flex;flex-direction:column;background:var(--paper)}
+.dw-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 16px;background:var(--ink);color:var(--paper)}
+.dw-title{display:flex;flex-direction:column;min-width:0;flex:1}
+.dw-title strong{font:700 20px var(--f-head),'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.02em;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dw-title .mono{color:#D9D5C8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dw-title b{color:#F0B48F;font-weight:600}
+.dw-bar .fig-tabs button{background:transparent;border-color:#4F5648;color:var(--paper)}
+.dw-bar .fig-tabs button.on{background:var(--paper);color:var(--ink)}
+.dw-back{color:var(--paper);border:1px solid #4F5648;padding:7px 12px;text-decoration:none;text-transform:uppercase;letter-spacing:.06em;font-size:12px}
+.dw-back:hover{border-color:var(--paper)}
+.dw-main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:12px;padding:12px 16px;align-items:start}
+.dw-stage{display:flex;justify-content:center;background:var(--card);border:1px solid var(--line);padding:8px}
+.dw.has-active .stage .art{opacity:.5}
+.dw-key{grid-template-columns:1fr;max-height:calc(100vh - 96px);overflow:auto}
+.dw-key button{min-height:34px;padding:4px 8px}
+.dw-credit{margin:0;padding:0 16px 10px}
+@media (max-width:760px){.dw-main{grid-template-columns:1fr}.dw-key{max-height:none;grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}}

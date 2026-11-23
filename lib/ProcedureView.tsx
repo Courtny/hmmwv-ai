@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { Procedure } from "./procedures";
 import { DiagramStage } from "./DiagramStage";
 import { DiagramViewer } from "./DiagramViewer";
+import { useDiagramSync, openDiagramWindow, diagramWindowPath } from "./useDiagramSync";
 
 const REF = /\((\d{1,2}(?:\.\d)?|[A-Z])\)/g;
 
@@ -23,7 +24,7 @@ function stepText(text: string, known: Set<string>, ref: (n: string, key: string
 
 const names = (text: string) => new Set([...text.matchAll(REF)].map((m) => m[1]));
 
-export function ProcedureView({ proc, srcs }: { proc: Procedure; srcs: string[] }) {
+export function ProcedureView({ proc, srcs, path }: { proc: Procedure; srcs: string[]; path: string }) {
   const [view, setView] = useState(0);
   const [active, setActive] = useState<string | null>(null);
   const [pinned, setPinned] = useState<string | null>(null);
@@ -34,6 +35,9 @@ export function ProcedureView({ proc, srcs }: { proc: Procedure; srcs: string[] 
   const keys = proc.diagrams.map((d) => new Set(d.parts.map((p) => String(p.n))));
   const name = (n: string) => diagram.parts.find((p) => String(p.n) === n)?.name ?? `Part ${n}`;
   const stepsFor = (n: string) => proc.steps.flatMap((s) => (s.d === view && names(s.text).has(n) ? [s.n] : []));
+
+  // A diagram window opened from this page follows the figure and the part picked here, and back.
+  useDiagramSync(proc.slug, { view, pinned, active }, (s) => { setView(s.view); setPinned(s.pinned); setActive(s.active); });
 
   const show = (d: number) => { if (d !== view) { setView(d); setPinned(null); setActive(null); } };
 
@@ -75,25 +79,49 @@ export function ProcedureView({ proc, srcs }: { proc: Procedure; srcs: string[] 
 
   return (
     <div className={`proc${current ? " has-active" : ""}`}>
-      <figure className="diagram">
-        {multi && (
-          <div className="fig-head">
-            <span className="mono">{figLabel(view)} of {proc.diagrams.length}</span>
+      {/* Diagram and key share the left column on desktop; on phones the key follows the steps. */}
+      <div className="proc-side">
+        <figure className="diagram">
+          <div className={`fig-head${multi ? "" : " solo"}`}>
+            {multi && <span className="mono fig-label">{figLabel(view)} of {proc.diagrams.length}</span>}
             {tabs}
+            <button type="button" className="expand" onClick={() => { setActive(null); setFull(true); }} aria-haspopup="dialog">
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="currentColor" strokeWidth="1.8" /></svg>
+              Full screen
+            </button>
+            <a className="expand new-window" href={diagramWindowPath(path)} target="_blank" rel="noopener"
+              onClick={(e) => { e.preventDefault(); openDiagramWindow(path, proc.slug); }}
+              title="Open the diagram in its own window, for example on a second screen. It follows this page.">
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M9 1h6v6M15 1 8 8M6 3H1v12h12v-5" fill="none" stroke="currentColor" strokeWidth="1.8" /></svg>
+              New window
+            </a>
           </div>
-        )}
-        <DiagramStage key={diagram.file} diagram={diagram} src={srcs[view]} current={current} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
-        <button type="button" className="expand" onClick={() => { setActive(null); setFull(true); }} aria-haspopup="dialog">
-          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M1 6V1h5M10 1h5v5M15 10v5h-5M6 15H1v-5" fill="none" stroke="currentColor" strokeWidth="1.8" /></svg>
-          Full screen
-        </button>
-        <figcaption>
-          <div className="mono">Diagram: {diagram.credit}.</div>
-          <div className="mono legend" aria-live="polite">
-            {current ? <>Showing <strong>({current}) {name(current)}</strong>{stepsFor(current).length > 0 && <>, used in step {stepsFor(current).join(" and ")}</>}.</> : "Tap a part in the key or the steps to find it in the diagram."}
-          </div>
-        </figcaption>
-      </figure>
+          <DiagramStage key={diagram.file} diagram={diagram} src={srcs[view]} current={current} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
+          <figcaption>
+            <div className="mono">Diagram: {diagram.credit}.</div>
+            <div className="mono legend" aria-live="polite">
+              {current ? <>Showing <strong>({current}) {name(current)}</strong>{stepsFor(current).length > 0 && <>, used in step {stepsFor(current).join(" and ")}</>}.</> : "Tap a part in the key or the steps to find it in the diagram."}
+            </div>
+          </figcaption>
+        </figure>
+
+        <section className="proc-key" aria-labelledby="proc-key-h">
+          <h2 id="proc-key-h">Key{multi && <span className="mono key-fig"> · figure {view + 1}</span>}</h2>
+          <ul className="key">
+            {diagram.parts.map((p) => {
+              const n = String(p.n);
+              return (
+                <li key={n}>
+                  <button type="button" className={current === n ? "on" : ""} {...chip(view, n)}>
+                    <span className="num">{n}</span>
+                    <span>{p.name}{p.qty ? ` (${p.qty})` : ""}</span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      </div>
       <DiagramViewer open={full} onClose={() => { setFull(false); setActive(null); }} title={proc.title}
         subtitle={`${proc.manual} · ${multi ? figLabel(view) : `page ${diagram.page ?? proc.page}`}`} diagram={diagram} src={srcs[view]} nav={tabs || undefined}
         current={current} pinned={pinned} onEnter={setActive} onLeave={() => setActive(null)} onPick={pick} />
@@ -124,21 +152,6 @@ export function ProcedureView({ proc, srcs }: { proc: Procedure; srcs: string[] 
             );
           })}
         </ol>
-
-        <h2>Key{multi && <span className="mono key-fig"> · figure {view + 1}</span>}</h2>
-        <ul className="key">
-          {diagram.parts.map((p) => {
-            const n = String(p.n);
-            return (
-              <li key={n}>
-                <button type="button" className={current === n ? "on" : ""} {...chip(view, n)}>
-                  <span className="num">{n}</span>
-                  <span>{p.name}{p.qty ? ` (${p.qty})` : ""}</span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </div>
   );

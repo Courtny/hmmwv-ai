@@ -41,6 +41,8 @@ for (const f of pages) {
   }
 
   if (path === "/404/") { if (!/<meta name="robots" content="noindex/.test(html)) err(page, "404 is indexable"); continue; }
+  // Other noindex pages (draft procedures, diagram windows) are not for search: only the sitemap rule below applies.
+  if (/<meta name="robots" content="noindex/.test(html)) continue;
   const canon = html.match(/<link rel="canonical" href="([^"]*)"/)?.[1];
   if (canon !== SITE + path) err(page, `canonical is ${canon}`);
 
