@@ -1,0 +1,58 @@
+{
+ "id": "p103-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 103,
+ "printed_page": "2-84",
+ "kind": "assembly view",
+ "caption": "2-30. INTAKE MANIFOLD REPAIR",
+ "alt": "Intake manifold with a nipple shown separated from its port.",
+ "size_px": [
+  1022,
+  689
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Intake manifold"
+  },
+  {
+   "n": "2",
+   "label": "Nipple"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 149.0,
+   "y": 59.5,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 230.0,
+   "y": 599.0,
+   "r": 37.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p103-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1022.0,
+  689.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 141,
+ "svg_snapped": 1
+}

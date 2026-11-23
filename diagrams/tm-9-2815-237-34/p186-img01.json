@@ -1,0 +1,142 @@
+{
+ "id": "p186-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 186,
+ "printed_page": "2-140.25",
+ "kind": "exploded view",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont'd) - c. Removal of Fuel Injection Pump from Test Stand",
+ "alt": "Exploded view of the test adapter, O-ring, washer, tab and screw at the transfer test port of the injection pump.",
+ "size_px": [
+  1605,
+  1113
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "5",
+   "label": "Test stand"
+  },
+  {
+   "n": "6",
+   "label": "Transfer test port"
+  },
+  {
+   "n": "7",
+   "label": "O-ring"
+  },
+  {
+   "n": "8",
+   "label": "Washer"
+  },
+  {
+   "n": "9",
+   "label": "Tab"
+  },
+  {
+   "n": "10",
+   "label": "Screw"
+  },
+  {
+   "n": "11",
+   "label": "Auxiliary pressure quick-connect"
+  }
+ ],
+ "expected": [
+  "1",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11"
+ ],
+ "rings": [
+  {
+   "x": 740.0,
+   "y": 80.0,
+   "r": 35.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 133.0,
+   "y": 837.5,
+   "r": 35.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 684.0,
+   "y": 249.0,
+   "r": 35.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 745.5,
+   "y": 351.0,
+   "r": 35.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 836.0,
+   "y": 391.5,
+   "r": 35.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 929.0,
+   "y": 430.0,
+   "r": 35.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1138.0,
+   "y": 831.0,
+   "r": 35.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 512.0,
+   "y": 799.0,
+   "r": 35.0,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p186-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  803.0,
+  557.0
+ ],
+ "scale": 0.5003115264797507,
+ "svg_problems": [],
+ "svg_kb": 232,
+ "svg_snapped": 31
+}

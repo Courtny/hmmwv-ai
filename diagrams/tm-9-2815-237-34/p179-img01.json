@@ -1,0 +1,422 @@
+{
+ "id": "p179-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 179,
+ "printed_page": "2-140.18",
+ "kind": "diagram/chart",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont'd) - b. Test Stand Setup Procedures",
+ "alt": "Front control panel of the fuel injection pump test stand with 28 numbered controls and gauges.",
+ "size_px": [
+  1378,
+  1470
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cathode Ray Tube (CRT) Monitor"
+  },
+  {
+   "n": "2",
+   "label": "Injection Pump/Auxiliary Selector"
+  },
+  {
+   "n": "3",
+   "label": "DC Supply Selector"
+  },
+  {
+   "n": "4",
+   "label": "Printer Switch"
+  },
+  {
+   "n": "5",
+   "label": "Accumulator Switch"
+  },
+  {
+   "n": "6",
+   "label": "Low-Limit Thumbwheel"
+  },
+  {
+   "n": "7",
+   "label": "Outlet Number"
+  },
+  {
+   "n": "8",
+   "label": "Number of Outlets"
+  },
+  {
+   "n": "9",
+   "label": "Stop"
+  },
+  {
+   "n": "10",
+   "label": "Mode Selector"
+  },
+  {
+   "n": "11",
+   "label": "Ratio Switch"
+  },
+  {
+   "n": "12",
+   "label": "Units Switch"
+  },
+  {
+   "n": "13",
+   "label": "Hi-Limit Thumbwheel"
+  },
+  {
+   "n": "14",
+   "label": "Stroke"
+  },
+  {
+   "n": "15",
+   "label": "Pump Rotation Selector"
+  },
+  {
+   "n": "16",
+   "label": "Speed Select Control"
+  },
+  {
+   "n": "17",
+   "label": "Main Drive Off"
+  },
+  {
+   "n": "18",
+   "label": "Main Drive On"
+  },
+  {
+   "n": "19",
+   "label": "Lube Oil System Off"
+  },
+  {
+   "n": "20",
+   "label": "Calibration Fluid System Off Pushbutton"
+  },
+  {
+   "n": "21",
+   "label": "Nominal Temperature Thumbwheel"
+  },
+  {
+   "n": "22",
+   "label": "Stop"
+  },
+  {
+   "n": "23",
+   "label": "Reservoir Bulkhead Selector"
+  },
+  {
+   "n": "24",
+   "label": "Calibration Fluid System On Pushbutton"
+  },
+  {
+   "n": "25",
+   "label": "Lube Oil System On"
+  },
+  {
+   "n": "26",
+   "label": "Calibration Fluid System"
+  },
+  {
+   "n": "27",
+   "label": "Calibration Fluid Pressure"
+  },
+  {
+   "n": "28",
+   "label": "Lube Pressure"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28"
+ ],
+ "rings": [
+  {
+   "x": 509.5,
+   "y": 61.5,
+   "r": 37.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 926.0,
+   "y": 106.0,
+   "r": 37.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1248.5,
+   "y": 361.5,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1250.5,
+   "y": 491.0,
+   "r": 36.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1253.5,
+   "y": 728.0,
+   "r": 36.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1213.5,
+   "y": 941.0,
+   "r": 37.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1260.0,
+   "y": 1027.5,
+   "r": 36.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1318.0,
+   "y": 1107.5,
+   "r": 36.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1261.0,
+   "y": 1244.0,
+   "r": 37.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1088.5,
+   "y": 1353.0,
+   "r": 36.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 990.0,
+   "y": 1399.5,
+   "r": 36.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 901.5,
+   "y": 1340.0,
+   "r": 37.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 830.5,
+   "y": 1405.5,
+   "r": 36.5,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 761.5,
+   "y": 1339.5,
+   "r": 36.5,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 686.0,
+   "y": 1410.5,
+   "r": 36.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 617.5,
+   "y": 1340.0,
+   "r": 36.2,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 544.5,
+   "y": 1411.5,
+   "r": 36.5,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 482.5,
+   "y": 1336.5,
+   "r": 36.5,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 405.5,
+   "y": 1411.5,
+   "r": 36.5,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 349.5,
+   "y": 1335.5,
+   "r": 36.5,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 269.0,
+   "y": 1404.0,
+   "r": 37.5,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 103.5,
+   "y": 1176.5,
+   "r": 36.5,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 56.5,
+   "y": 1089.0,
+   "r": 37.2,
+   "text": "23",
+   "n": "23",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 104.5,
+   "y": 1001.5,
+   "r": 36.5,
+   "text": "24",
+   "n": "24",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 118.5,
+   "y": 905.5,
+   "r": 36.5,
+   "text": "25",
+   "n": "25",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 80.5,
+   "y": 806.5,
+   "r": 36.5,
+   "text": "26",
+   "n": "26",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 118.0,
+   "y": 725.0,
+   "r": 36.0,
+   "text": "27",
+   "n": "27",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 89.5,
+   "y": 624.5,
+   "r": 36.5,
+   "text": "28",
+   "n": "28",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p179-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  689.0,
+  735.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 355,
+ "svg_snapped": 1
+}

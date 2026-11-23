@@ -1,0 +1,58 @@
+{
+ "id": "p126-img05",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 126,
+ "printed_page": "2-105",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Cam ring with its internal cam lobes.",
+ "size_px": [
+  436,
+  456
+ ],
+ "key": [
+  {
+   "n": "15",
+   "label": "Cam ring"
+  },
+  {
+   "n": "16",
+   "label": "Cam lobes"
+  }
+ ],
+ "expected": [
+  "15",
+  "16"
+ ],
+ "rings": [
+  {
+   "x": 100.5,
+   "y": 75.5,
+   "r": 36.0,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 352.5,
+   "y": 155.5,
+   "r": 36.0,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p126-img05.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  436.0,
+  456.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 86,
+ "svg_snapped": 0
+}

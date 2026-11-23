@@ -1,0 +1,163 @@
+{
+ "id": "p013-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 13,
+ "printed_page": "1-3",
+ "kind": "assembly view",
+ "caption": "1-11. COMPONENT LOCATION",
+ "alt": "Left-front view of the V8 diesel engine with lettered callouts A through H marking major components.",
+ "size_px": [
+  1299,
+  992
+ ],
+ "key": [
+  {
+   "n": "A",
+   "label": "Fan clutch"
+  },
+  {
+   "n": "B",
+   "label": "Rocker arm covers (2)"
+  },
+  {
+   "n": "C",
+   "label": "Fuel injectors (8)"
+  },
+  {
+   "n": "D",
+   "label": "Oil filter"
+  },
+  {
+   "n": "E",
+   "label": "Exhaust manifolds (2)"
+  },
+  {
+   "n": "F",
+   "label": "Oil pan"
+  },
+  {
+   "n": "G",
+   "label": "Timing gear cover"
+  },
+  {
+   "n": "H",
+   "label": "Crankshaft pulley"
+  }
+ ],
+ "expected": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H"
+ ],
+ "rings": [
+  {
+   "x": 213.5,
+   "y": 129.5,
+   "r": 34.5,
+   "text": "A",
+   "n": "A",
+   "confidence": 1.0,
+   "notes": [
+    "reads A (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 1072.0,
+   "y": 90.0,
+   "r": 34.0,
+   "text": "BO",
+   "n": "B",
+   "confidence": 1.0,
+   "notes": [
+    "reads B (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 1155.0,
+   "y": 269.0,
+   "r": 35.0,
+   "text": "O",
+   "n": "C",
+   "confidence": 1.0,
+   "notes": [
+    "reads C (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 1152.0,
+   "y": 464.5,
+   "r": 33.8,
+   "text": "DO",
+   "n": "D",
+   "confidence": 1.0,
+   "notes": [
+    "reads D (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 1076.0,
+   "y": 832.0,
+   "r": 35.0,
+   "text": "E",
+   "n": "E",
+   "confidence": 1.0,
+   "notes": [
+    "reads E (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 745.0,
+   "y": 820.0,
+   "r": 33.5,
+   "text": "OF",
+   "n": "F",
+   "confidence": 1.0,
+   "notes": [
+    "reads F (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 552.5,
+   "y": 700.5,
+   "r": 35.0,
+   "text": null,
+   "n": "G",
+   "confidence": 1.0,
+   "notes": [
+    "reads G (letter callout, read by eye)"
+   ]
+  },
+  {
+   "x": 149.0,
+   "y": 399.0,
+   "r": 34.0,
+   "text": "H",
+   "n": "H",
+   "confidence": 1.0,
+   "notes": [
+    "reads H (letter callout, read by eye)"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p013-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1299.0,
+  992.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [
+  "large file (1055 kB); try a lower detail setting"
+ ],
+ "svg_kb": 1055,
+ "svg_snapped": 43,
+ "review_notes": [
+  "rings I, J, K at the bottom belong to the next figure (the crops overlap)"
+ ]
+}

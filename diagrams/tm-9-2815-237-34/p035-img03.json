@@ -1,0 +1,160 @@
+{
+ "id": "p035-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 35,
+ "printed_page": "2-16",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont’d)",
+ "alt": "Fuel injection lines, clamps, brackets and boot on the engine, with enlarged details of the pump boot clamp and a 6.5L clamp.",
+ "size_px": [
+  1959,
+  844
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "2",
+   "label": "Support brackets"
+  },
+  {
+   "n": "3",
+   "label": "Injection nozzles"
+  },
+  {
+   "n": "4",
+   "label": "Fuel injection line nuts"
+  },
+  {
+   "n": "5",
+   "label": "Screw-assembled washers"
+  },
+  {
+   "n": "6",
+   "label": "Clamps"
+  },
+  {
+   "n": "7",
+   "label": "Injection lines"
+  },
+  {
+   "n": "8",
+   "label": "Clamp"
+  },
+  {
+   "n": "9",
+   "label": "Boot"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "rings": [
+  {
+   "x": 296.0,
+   "y": 82.0,
+   "r": 37.0,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 436.5,
+   "y": 411.0,
+   "r": 36.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 512.5,
+   "y": 507.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 144.5,
+   "y": 717.0,
+   "r": 35.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 59.5,
+   "y": 540.5,
+   "r": 35.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 84.0,
+   "y": 309.5,
+   "r": 35.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 199.0,
+   "y": 195.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1785.5,
+   "y": 319.0,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": [
+    "readings 8×1, 00×1"
+   ]
+  },
+  {
+   "x": 1768.0,
+   "y": 439.0,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p035-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  980.0,
+  422.0
+ ],
+ "scale": 0.5002552322613578,
+ "svg_problems": [],
+ "svg_kb": 406,
+ "svg_snapped": 0
+}

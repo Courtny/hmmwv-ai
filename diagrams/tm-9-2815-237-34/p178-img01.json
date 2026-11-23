@@ -1,0 +1,47 @@
+{
+ "id": "p178-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 178,
+ "printed_page": "2-140.17",
+ "kind": "assembly view",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont’d)",
+ "alt": "Advance indicator with quick-connect, screw plug and rubber hose assembly attached to the fuel injection pump on the test stand.",
+ "size_px": [
+  1302,
+  1082
+ ],
+ "key": [
+  {
+   "n": "8",
+   "label": "Advance indicator block"
+  }
+ ],
+ "expected": [
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 462.5,
+   "y": 994.0,
+   "r": 35.2,
+   "text": "00",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "readings 00×2, 0O×1",
+    "checked by eye"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p178-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1302.0,
+  1082.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 510,
+ "svg_snapped": 1
+}

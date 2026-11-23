@@ -1,0 +1,151 @@
+{
+ "id": "p038-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 38,
+ "printed_page": "2-19",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > j. Rocker Arm Covers",
+ "alt": "Rocker arm cover with studs, washers, gasket and injection line support bracket above the cylinder head, plus a 6.5L detail.",
+ "size_px": [
+  1130,
+  1752
+ ],
+ "key": [
+  {
+   "n": "6",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "8",
+   "label": "Nuts"
+  },
+  {
+   "n": "9",
+   "label": "Injection line support bracket"
+  },
+  {
+   "n": "10",
+   "label": "Capscrews"
+  },
+  {
+   "n": "11",
+   "label": "Washers"
+  },
+  {
+   "n": "12",
+   "label": "Rocker arm cover"
+  },
+  {
+   "n": "13",
+   "label": "Gasket"
+  },
+  {
+   "n": "14",
+   "label": "Studs"
+  }
+ ],
+ "expected": [
+  "6",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14"
+ ],
+ "rings": [
+  {
+   "x": 1081.5,
+   "y": 1239.0,
+   "r": 36.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 132.5,
+   "y": 84.5,
+   "r": 35.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 435.5,
+   "y": 61.5,
+   "r": 35.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 733.5,
+   "y": 457.0,
+   "r": 35.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 787.5,
+   "y": 600.0,
+   "r": 36.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 68.5,
+   "y": 685.0,
+   "r": 36.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1009.5,
+   "y": 815.5,
+   "r": 36.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1081.0,
+   "y": 1068.5,
+   "r": 36.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 98.0,
+   "y": 519.5,
+   "r": 36.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p038-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  565.0,
+  876.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 303,
+ "svg_snapped": 1
+}

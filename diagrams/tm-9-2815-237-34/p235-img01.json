@@ -1,0 +1,114 @@
+{
+ "id": "p235-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 235,
+ "printed_page": "2-187",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of a fan drive and water pump pulley with socket head screws at the water pump.",
+ "size_px": [
+  2002,
+  1335
+ ],
+ "key": [
+  {
+   "n": "2",
+   "label": "Crankshaft pulley"
+  },
+  {
+   "n": "4",
+   "label": "Socket head screw"
+  },
+  {
+   "n": "5",
+   "label": "Fan drive"
+  },
+  {
+   "n": "6",
+   "label": "Water pump pulley"
+  },
+  {
+   "n": "7",
+   "label": "Water pump"
+  },
+  {
+   "n": "8",
+   "label": "Socket head screw"
+  }
+ ],
+ "expected": [
+  "2",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 912.0,
+   "y": 954.0,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 97.0,
+   "y": 322.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 469.0,
+   "y": 284.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 864.0,
+   "y": 289.0,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1154.0,
+   "y": 323.0,
+   "r": 36.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 670.0,
+   "y": 773.0,
+   "r": 35.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p235-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1001.0,
+  668.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 344,
+ "svg_snapped": 12
+}

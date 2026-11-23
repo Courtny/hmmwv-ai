@@ -1,0 +1,130 @@
+{
+ "id": "p209-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 209,
+ "printed_page": "2-163",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of the camshaft, spacer, thrust plate and capscrews aligned with the front of the cylinder block.",
+ "size_px": [
+  1969,
+  1086
+ ],
+ "key": [
+  {
+   "n": "7",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "9",
+   "label": "Camshaft thrust plate"
+  },
+  {
+   "n": "10",
+   "label": "Spacer"
+  },
+  {
+   "n": "11",
+   "label": "Cam lobes"
+  },
+  {
+   "n": "12",
+   "label": "Bearing journals"
+  },
+  {
+   "n": "13",
+   "label": "Camshaft"
+  },
+  {
+   "n": "14",
+   "label": "Capscrews"
+  }
+ ],
+ "expected": [
+  "7",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14"
+ ],
+ "rings": [
+  {
+   "x": 1090.5,
+   "y": 93.5,
+   "r": 36.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 61.5,
+   "y": 625.5,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": [
+    "readings 9×3, G×1"
+   ]
+  },
+  {
+   "x": 235.0,
+   "y": 588.5,
+   "r": 36.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 475.5,
+   "y": 533.0,
+   "r": 36.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 667.0,
+   "y": 483.5,
+   "r": 36.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 724.5,
+   "y": 311.0,
+   "r": 36.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 308.0,
+   "y": 992.0,
+   "r": 36.0,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p209-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  985.0,
+  543.0
+ ],
+ "scale": 0.500253936008126,
+ "svg_problems": [],
+ "svg_kb": 175,
+ "svg_snapped": 1
+}

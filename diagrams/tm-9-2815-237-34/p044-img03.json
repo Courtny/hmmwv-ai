@@ -1,0 +1,89 @@
+{
+ "id": "p044-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 44,
+ "printed_page": "2-25",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > p. Water Pump and Adapter Plate",
+ "alt": "Water pump separated from the adapter plate with the gasket and capscrews shown in line.",
+ "size_px": [
+  1221,
+  638
+ ],
+ "key": [
+  {
+   "n": "9",
+   "label": "adapter plate"
+  },
+  {
+   "n": "13",
+   "label": "water pump"
+  },
+  {
+   "n": "19",
+   "label": "gasket"
+  },
+  {
+   "n": "20",
+   "label": "capscrews"
+  }
+ ],
+ "expected": [
+  "9",
+  "13",
+  "19",
+  "20"
+ ],
+ "rings": [
+  {
+   "x": 680.0,
+   "y": 56.5,
+   "r": 34.8,
+   "text": "6",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "readings 6×2, 9×2",
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 57.0,
+   "y": 246.5,
+   "r": 34.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 475.5,
+   "y": 141.5,
+   "r": 35.0,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1151.0,
+   "y": 382.5,
+   "r": 34.2,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p044-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1221.0,
+  638.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 377,
+ "svg_snapped": 1
+}

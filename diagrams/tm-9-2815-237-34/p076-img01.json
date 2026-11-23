@@ -1,0 +1,209 @@
+{
+ "id": "p076-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 76,
+ "printed_page": "2-57",
+ "kind": "exploded view",
+ "caption": "2-18. CONNECTING ROD AND PISTON REPAIR (Cont’d)",
+ "alt": "Exploded view of a piston with its three rings, snaprings and pin above a connecting rod, rod cap and nuts.",
+ "size_px": [
+  1079,
+  1849
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Top compression ring"
+  },
+  {
+   "n": "2",
+   "label": "Second compression ring"
+  },
+  {
+   "n": "3",
+   "label": "Spring"
+  },
+  {
+   "n": "4",
+   "label": "Oil ring"
+  },
+  {
+   "n": "5",
+   "label": "Piston"
+  },
+  {
+   "n": "6",
+   "label": "Snaprings"
+  },
+  {
+   "n": "7",
+   "label": "Connecting rod"
+  },
+  {
+   "n": "8",
+   "label": "Identification number"
+  },
+  {
+   "n": "9",
+   "label": "Nuts"
+  },
+  {
+   "n": "10",
+   "label": "Rod cap"
+  },
+  {
+   "n": "11",
+   "label": "Piston pin"
+  },
+  {
+   "n": "12",
+   "label": "Depression"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12"
+ ],
+ "rings": [
+  {
+   "x": 371.5,
+   "y": 104.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 903.5,
+   "y": 224.0,
+   "r": 36.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 933.5,
+   "y": 325.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 946.0,
+   "y": 436.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 950.0,
+   "y": 585.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 950.0,
+   "y": 735.0,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 69.5,
+   "y": 1010.5,
+   "r": 35.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 943.5,
+   "y": 1170.5,
+   "r": 34.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": [
+    "readings 7×3, RAMND×1"
+   ]
+  },
+  {
+   "x": 908.0,
+   "y": 1539.5,
+   "r": 35.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 843.5,
+   "y": 1773.5,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 340.5,
+   "y": 1675.0,
+   "r": 36.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 253.5,
+   "y": 890.5,
+   "r": 36.0,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 400.5,
+   "y": 646.5,
+   "r": 36.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p076-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  540.0,
+  925.0
+ ],
+ "scale": 0.5004633920296571,
+ "svg_problems": [],
+ "svg_kb": 175,
+ "svg_snapped": 1
+}

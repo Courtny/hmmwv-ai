@@ -22,7 +22,8 @@ installed, but it is not needed.
 ## Workflow
 
 `CAPTURE` is the unzipped capture folder (the one holding `manifest.json`, or its parent).
-Work files go to `work/diagrams/<tm>/` (git ignored).
+Work files go to `work/diagrams/<tm>/` (git ignored). Each figure's callouts and review edits
+are kept in `diagrams/<tm>/<id>.json`, which is in git, so commit them after a review.
 
 1. **Prep**: choose figures, copy them to `in/`, find and read their callouts.
    ```bash
@@ -41,7 +42,7 @@ Work files go to `work/diagrams/<tm>/` (git ignored).
 4. **Review**: open `review.html` (start the `diagram-review` server in `.claude/launch.json`,
    then go to `http://localhost:8765/<tm>/review.html`). Each figure shows the scan and the
    trace with the detected rings: green read and in the key, amber guessed, red unread.
-   Fix a figure by editing `figures/<id>.json` (set `n`, and `confidence` to 1 once checked;
+   Fix a figure by editing `diagrams/<tm>/<id>.json` (set `n`, and `confidence` to 1 once checked;
    delete false rings; add a ring the detector missed with its `x`, `y`, `r`), then
    `review CAPTURE` to rebuild the page. Other fields the review uses:
    - `review_notes`: a list of strings shown on the card (why a key number was dropped, say).

@@ -80,7 +80,7 @@ def states(fig: dict) -> list[str]:
 
 
 def build(work: Path, tm: str) -> Path:
-    figs = [json.loads(p.read_text()) for p in sorted((work / "figures").glob("*.json"))]
+    figs = [json.loads(p.read_text()) for p in sorted((work.parent.parent.parent / "diagrams" / work.name).glob("*.json"))]
     cards = []
     for f in figs:
         st = states(f)
@@ -117,7 +117,7 @@ def build(work: Path, tm: str) -> Path:
             f' · key: {key or "none"}</div>'
             f'<div class="views">{"".join(views)}</div>'
             + (f'<ul>{"".join(f"<li>{i}</li>" for i in issues)}</ul>' if issues else "")
-            + f'<div class="meta" style="margin-top:8px">Fix callouts in <code>figures/{f["id"]}.json</code>, then rerun <code>review</code>.</div>'
+            + f'<div class="meta" style="margin-top:8px">Fix callouts in <code>diagrams/{tm}/{f["id"]}.json</code>, then rerun <code>review</code>.</div>'
             "</section>"
         )
     counts = {k: sum(k in states(f) for f in figs) for k in ("review", "clean", "norings", "traced", "untraced")}

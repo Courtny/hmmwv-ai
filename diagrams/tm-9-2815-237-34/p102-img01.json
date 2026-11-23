@@ -1,0 +1,46 @@
+{
+ "id": "p102-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 102,
+ "printed_page": "2-83",
+ "kind": "assembly view",
+ "caption": "2-29. EXHAUST MANIFOLD REPAIR",
+ "alt": "Left exhaust manifold with four runners and an outlet flange, naturally aspirated engine.",
+ "size_px": [
+  989,
+  750
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Exhaust manifold"
+  }
+ ],
+ "expected": [
+  "1"
+ ],
+ "rings": [
+  {
+   "x": 286.0,
+   "y": 514.5,
+   "r": 36.8,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p102-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  989.0,
+  750.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 45,
+ "svg_snapped": 0
+}

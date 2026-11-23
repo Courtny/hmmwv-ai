@@ -1,0 +1,90 @@
+{
+ "id": "p062-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 62,
+ "printed_page": "2-43",
+ "kind": "assembly view",
+ "caption": "2-16. CYLINDER BLOCK REPAIR (Cont’d)",
+ "alt": "Bottom view of a 1997 6.5L cylinder block showing a piston oil nozzle and its bores.",
+ "size_px": [
+  608,
+  926
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "11",
+   "label": "Piston oil nozzles"
+  },
+  {
+   "n": "12",
+   "label": "Bores"
+  }
+ ],
+ "expected": [
+  "1",
+  "11",
+  "12"
+ ],
+ "rings": [
+  {
+   "x": 96.5,
+   "y": 240.5,
+   "r": 36.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 509.5,
+   "y": 256.0,
+   "r": 36.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 275.0,
+   "y": 229.0,
+   "r": 36.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 60.5,
+   "y": 377.0,
+   "r": 36.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 533.5,
+   "y": 386.0,
+   "r": 36.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p062-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  608.0,
+  926.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 377,
+ "svg_snapped": 14
+}

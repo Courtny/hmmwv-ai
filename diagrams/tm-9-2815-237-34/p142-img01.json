@@ -1,0 +1,360 @@
+{
+ "id": "p142-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 142,
+ "printed_page": "2-121",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Pump housing in a holding fixture with enlarged insets showing the idle spring, pushrod, min-max governor, thrust spring and guide stud.",
+ "size_px": [
+  2146,
+  2686
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Idle spring"
+  },
+  {
+   "n": "2",
+   "label": "Pushrod"
+  },
+  {
+   "n": "3",
+   "label": "Throttle block"
+  },
+  {
+   "n": "4",
+   "label": "Min-max governor"
+  },
+  {
+   "n": "5",
+   "label": "Housing"
+  },
+  {
+   "n": "6",
+   "label": "Washer"
+  },
+  {
+   "n": "7",
+   "label": "Guide stud"
+  },
+  {
+   "n": "8",
+   "label": "Throttle shaft"
+  },
+  {
+   "n": "9",
+   "label": "Inner governor spring"
+  },
+  {
+   "n": "10",
+   "label": "Tang"
+  },
+  {
+   "n": "11",
+   "label": "Thrust spring"
+  },
+  {
+   "n": "12",
+   "label": "Tang"
+  },
+  {
+   "n": "13",
+   "label": "Groove"
+  },
+  {
+   "n": "14",
+   "label": "Spring"
+  },
+  {
+   "n": "15",
+   "label": "Metering valve arm"
+  },
+  {
+   "n": "16",
+   "label": "Seal"
+  },
+  {
+   "n": "17",
+   "label": "Nut"
+  },
+  {
+   "n": "18",
+   "label": "Cap"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18"
+ ],
+ "rings": [
+  {
+   "x": 386.5,
+   "y": 231.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 638.5,
+   "y": 1096.5,
+   "r": 37.0,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "reads 1"
+   ]
+  },
+  {
+   "x": 531.5,
+   "y": 213.5,
+   "r": 36.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 743.5,
+   "y": 1104.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 646.0,
+   "y": 190.5,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1435.5,
+   "y": 625.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 949.5,
+   "y": 1112.5,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": [
+    "readings 3×3, CAS×1"
+   ]
+  },
+  {
+   "x": 768.0,
+   "y": 1393.0,
+   "r": 37.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1969.5,
+   "y": 406.5,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1122.0,
+   "y": 1481.0,
+   "r": 37.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1217.5,
+   "y": 1551.0,
+   "r": 36.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1691.5,
+   "y": 1423.0,
+   "r": 37.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1334.5,
+   "y": 1573.5,
+   "r": 37.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1773.0,
+   "y": 2179.5,
+   "r": 36.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 695.0,
+   "y": 104.0,
+   "r": 37.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 613.5,
+   "y": 2057.0,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 806.0,
+   "y": 559.5,
+   "r": 36.2,
+   "text": "G",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "reads 9 (Vision read G)"
+   ]
+  },
+  {
+   "x": 1547.5,
+   "y": 208.0,
+   "r": 36.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1529.5,
+   "y": 113.0,
+   "r": 36.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1808.5,
+   "y": 159.5,
+   "r": 36.0,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1425.0,
+   "y": 542.0,
+   "r": 37.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1530.5,
+   "y": 1137.0,
+   "r": 36.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1559.5,
+   "y": 1370.5,
+   "r": 36.5,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1578.5,
+   "y": 2101.5,
+   "r": 36.0,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1629.0,
+   "y": 2168.5,
+   "r": 36.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1904.5,
+   "y": 2193.0,
+   "r": 36.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p142-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1073.0,
+  1343.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 664,
+ "svg_snapped": 0
+}

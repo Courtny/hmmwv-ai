@@ -1,0 +1,128 @@
+{
+ "id": "p037-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 37,
+ "printed_page": "2-18",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > i. Modulator Link",
+ "alt": "Modulator link, bracket, water jacket cover and gasket above the cylinder head and intake area.",
+ "size_px": [
+  1570,
+  1546
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Modulator link"
+  },
+  {
+   "n": "2",
+   "label": "Capscrews"
+  },
+  {
+   "n": "3",
+   "label": "Modulator link bracket"
+  },
+  {
+   "n": "4",
+   "label": "Water jacket cover"
+  },
+  {
+   "n": "5",
+   "label": "Gasket"
+  },
+  {
+   "n": "6",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "7",
+   "label": "Fuel injection pump"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 277.0,
+   "y": 442.5,
+   "r": 37.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 943.5,
+   "y": 75.5,
+   "r": 37.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1298.0,
+   "y": 241.5,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1422.0,
+   "y": 370.0,
+   "r": 36.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1453.5,
+   "y": 464.5,
+   "r": 37.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1505.5,
+   "y": 565.0,
+   "r": 36.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 727.0,
+   "y": 727.0,
+   "r": 37.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p037-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  785.0,
+  773.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 208,
+ "svg_snapped": 1
+}

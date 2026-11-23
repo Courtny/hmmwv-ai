@@ -1,0 +1,142 @@
+{
+ "id": "p176-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 176,
+ "printed_page": "2-140.15",
+ "kind": "assembly view",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont’d)",
+ "alt": "Test adapter, quick-connect plug and rubber hose connected to the transfer port of the mounted fuel injection pump.",
+ "size_px": [
+  1241,
+  1194
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "3",
+   "label": "Test stand"
+  },
+  {
+   "n": "4",
+   "label": "Fuel injection pump transfer port"
+  },
+  {
+   "n": "5",
+   "label": "O-ring"
+  },
+  {
+   "n": "6",
+   "label": "Washer"
+  },
+  {
+   "n": "7",
+   "label": "Tab"
+  },
+  {
+   "n": "8",
+   "label": "Screw"
+  },
+  {
+   "n": "9",
+   "label": "Rubber hose assembly"
+  }
+ ],
+ "expected": [
+  "1",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "rings": [
+  {
+   "x": 563.5,
+   "y": 46.5,
+   "r": 35.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 232.5,
+   "y": 926.5,
+   "r": 35.5,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 612.5,
+   "y": 316.0,
+   "r": 35.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 691.5,
+   "y": 444.0,
+   "r": 35.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 778.0,
+   "y": 475.5,
+   "r": 35.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 907.5,
+   "y": 538.0,
+   "r": 35.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1031.0,
+   "y": 813.0,
+   "r": 35.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1127.0,
+   "y": 992.0,
+   "r": 35.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p176-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1241.0,
+  1194.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 337,
+ "svg_snapped": 28
+}

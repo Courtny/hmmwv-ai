@@ -1,0 +1,86 @@
+{
+ "id": "p056-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 56,
+ "printed_page": "2-37",
+ "kind": "assembly view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont’d)",
+ "alt": "Close view of a main bearing cap and crankshaft journal in the cylinder block showing the cap location numbers.",
+ "size_px": [
+  1631,
+  1288
+ ],
+ "key": [
+  {
+   "n": "3",
+   "label": "Crankshaft"
+  },
+  {
+   "n": "4",
+   "label": "Main bearing caps"
+  },
+  {
+   "n": "5",
+   "label": "Location numbers"
+  },
+  {
+   "n": "6",
+   "label": "Cylinder block"
+  }
+ ],
+ "expected": [
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 1342.0,
+   "y": 314.0,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 218.5,
+   "y": 836.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 497.5,
+   "y": 152.5,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 995.0,
+   "y": 137.0,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p056-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  816.0,
+  644.0
+ ],
+ "scale": 0.5003065603923973,
+ "svg_problems": [],
+ "svg_kb": 120,
+ "svg_snapped": 1
+}

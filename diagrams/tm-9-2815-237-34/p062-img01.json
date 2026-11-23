@@ -1,0 +1,188 @@
+{
+ "id": "p062-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 62,
+ "printed_page": "2-43",
+ "kind": "exploded view",
+ "caption": "2-16. CYLINDER BLOCK REPAIR (Cont’d)",
+ "alt": "Cylinder block with dust caps, plugs and a capscrew shown exploded, marking bores, dowel pins, water jacket and main bearing cap.",
+ "size_px": [
+  1526,
+  1126
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "2",
+   "label": "Lifter bores"
+  },
+  {
+   "n": "3",
+   "label": "Dowel pins"
+  },
+  {
+   "n": "4",
+   "label": "Cylinder walls"
+  },
+  {
+   "n": "5",
+   "label": "Water jacket"
+  },
+  {
+   "n": "6",
+   "label": "Main bearing caps"
+  },
+  {
+   "n": "7",
+   "label": "Main bearing cap bolts"
+  },
+  {
+   "n": "8",
+   "label": "Main bearing webs"
+  },
+  {
+   "n": "9",
+   "label": "Protective dust caps"
+  },
+  {
+   "n": "10",
+   "label": "Plugs"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10"
+ ],
+ "rings": [
+  {
+   "x": 218.0,
+   "y": 261.5,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 434.0,
+   "y": 68.0,
+   "r": 37.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 931.5,
+   "y": 78.0,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 100.5,
+   "y": 512.0,
+   "r": 37.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1453.5,
+   "y": 581.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1085.5,
+   "y": 104.5,
+   "r": 36.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1181.5,
+   "y": 69.0,
+   "r": 36.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1391.5,
+   "y": 736.0,
+   "r": 37.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1267.5,
+   "y": 1045.0,
+   "r": 37.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1068.0,
+   "y": 903.0,
+   "r": 37.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 445.0,
+   "y": 1067.5,
+   "r": 37.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 465.5,
+   "y": 812.5,
+   "r": 36.5,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p062-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  763.0,
+  563.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 221,
+ "svg_snapped": 1
+}

@@ -1,0 +1,44 @@
+{
+ "id": "p095-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 95,
+ "printed_page": "2-76",
+ "kind": "assembly view",
+ "caption": "2-25. ROCKER ARM COVER REPAIR",
+ "alt": "Rocker arm cover viewed from the outside.",
+ "size_px": [
+  1052,
+  736
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Rocker arm cover"
+  }
+ ],
+ "expected": [
+  "1"
+ ],
+ "rings": [
+  {
+   "x": 232.0,
+   "y": 121.0,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p095-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1052.0,
+  736.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 77,
+ "svg_snapped": 1
+}

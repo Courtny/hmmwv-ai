@@ -1,0 +1,216 @@
+{
+ "id": "p046-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 46,
+ "printed_page": "2-27",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > r. Timing Gear Cover",
+ "alt": "Timing gear cover with baffle, oil pan capscrews, front seal and a 6.5L detail of the rpm sensor.",
+ "size_px": [
+  2069,
+  1942
+ ],
+ "key": [
+  {
+   "n": "3",
+   "label": "Timing gear cover"
+  },
+  {
+   "n": "12",
+   "label": "Nut"
+  },
+  {
+   "n": "13",
+   "label": "Baffle"
+  },
+  {
+   "n": "14",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "15",
+   "label": "Capscrews"
+  },
+  {
+   "n": "16",
+   "label": "Oil pan"
+  },
+  {
+   "n": "17",
+   "label": "Washers"
+  },
+  {
+   "n": "18",
+   "label": "Capscrews"
+  },
+  {
+   "n": "19",
+   "label": "Front cover seal"
+  },
+  {
+   "n": "20",
+   "label": "Capscrews"
+  },
+  {
+   "n": "21",
+   "label": "Capscrew"
+  },
+  {
+   "n": "22",
+   "label": "Rpm sensor"
+  }
+ ],
+ "expected": [
+  "3",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22"
+ ],
+ "rings": [
+  {
+   "x": 962.0,
+   "y": 63.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1327.5,
+   "y": 1680.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 111.0,
+   "y": 429.0,
+   "r": 36.0,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 397.0,
+   "y": 283.0,
+   "r": 37.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1220.5,
+   "y": 137.5,
+   "r": 36.0,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1833.0,
+   "y": 1176.0,
+   "r": 36.0,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1491.5,
+   "y": 1097.0,
+   "r": 35.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 960.0,
+   "y": 1193.0,
+   "r": 37.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 745.5,
+   "y": 843.5,
+   "r": 35.5,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 816.0,
+   "y": 1211.5,
+   "r": 36.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 385.5,
+   "y": 1217.5,
+   "r": 35.5,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 88.5,
+   "y": 871.5,
+   "r": 35.5,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1393.5,
+   "y": 1490.0,
+   "r": 36.2,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1366.5,
+   "y": 1582.5,
+   "r": 36.5,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p046-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1035.0,
+  971.0
+ ],
+ "scale": 0.500241662638956,
+ "svg_problems": [],
+ "svg_kb": 512,
+ "svg_snapped": 1
+}

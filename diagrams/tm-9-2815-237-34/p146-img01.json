@@ -1,0 +1,284 @@
+{
+ "id": "p146-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 146,
+ "printed_page": "2-125",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Exploded view of cover, gasket, timing cover, end cap and locking screw hardware on the assembled injection pump held in a fixture.",
+ "size_px": [
+  1730,
+  1587
+ ],
+ "key": [
+  {
+   "n": "11",
+   "label": "Cover"
+  },
+  {
+   "n": "15",
+   "label": "Washer"
+  },
+  {
+   "n": "16",
+   "label": "Ground strap"
+  },
+  {
+   "n": "17",
+   "label": "Screws"
+  },
+  {
+   "n": "18",
+   "label": "Lockwashers"
+  },
+  {
+   "n": "19",
+   "label": "Washers"
+  },
+  {
+   "n": "20",
+   "label": "Head locking capscrews"
+  },
+  {
+   "n": "21",
+   "label": "Hydraulic head"
+  },
+  {
+   "n": "22",
+   "label": "Rubber washer"
+  },
+  {
+   "n": "23",
+   "label": "Flat washer"
+  },
+  {
+   "n": "24",
+   "label": "Plate"
+  },
+  {
+   "n": "25",
+   "label": "Transfer pump end cap locking screw"
+  },
+  {
+   "n": "26",
+   "label": "End cap"
+  },
+  {
+   "n": "27",
+   "label": "Gasket"
+  },
+  {
+   "n": "28",
+   "label": "Timing cover"
+  },
+  {
+   "n": "29",
+   "label": "Screws"
+  },
+  {
+   "n": "30",
+   "label": "Housing"
+  },
+  {
+   "n": "31",
+   "label": "Gasket"
+  }
+ ],
+ "expected": [
+  "11",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31"
+ ],
+ "rings": [
+  {
+   "x": 731.0,
+   "y": 195.0,
+   "r": 36.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 259.0,
+   "y": 384.5,
+   "r": 36.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 540.0,
+   "y": 279.5,
+   "r": 36.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1020.5,
+   "y": 90.5,
+   "r": 36.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1034.5,
+   "y": 185.0,
+   "r": 35.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1036.5,
+   "y": 267.5,
+   "r": 36.0,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1056.5,
+   "y": 864.0,
+   "r": 35.8,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1053.5,
+   "y": 945.5,
+   "r": 36.0,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1150.0,
+   "y": 941.5,
+   "r": 36.8,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1233.2,
+   "y": 921.8,
+   "r": 36.2,
+   "text": null,
+   "n": "23",
+   "confidence": 1.0,
+   "notes": [
+    "missed by the detector; placed by eye"
+   ]
+  },
+  {
+   "x": 1334.0,
+   "y": 934.0,
+   "r": 36.0,
+   "text": "24",
+   "n": "24",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1462.0,
+   "y": 934.5,
+   "r": 36.8,
+   "text": "25",
+   "n": "25",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1207.0,
+   "y": 1351.5,
+   "r": 36.2,
+   "text": "26",
+   "n": "26",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 607.0,
+   "y": 1367.5,
+   "r": 36.2,
+   "text": "27",
+   "n": "27",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 529.5,
+   "y": 1483.5,
+   "r": 36.5,
+   "text": "28",
+   "n": "28",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 108.5,
+   "y": 1424.5,
+   "r": 36.0,
+   "text": "29",
+   "n": "29",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 190.0,
+   "y": 1184.0,
+   "r": 36.0,
+   "text": "30",
+   "n": "30",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 402.0,
+   "y": 550.0,
+   "r": 37.5,
+   "text": "31",
+   "n": "31",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p146-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  865.0,
+  794.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 339,
+ "svg_snapped": 37
+}

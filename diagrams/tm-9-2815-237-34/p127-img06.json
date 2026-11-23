@@ -1,0 +1,44 @@
+{
+ "id": "p127-img06",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 127,
+ "printed_page": "2-106",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Check valve with threaded fitting.",
+ "size_px": [
+  194,
+  467
+ ],
+ "key": [
+  {
+   "n": "8",
+   "label": "Check valve"
+  }
+ ],
+ "expected": [
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 62.5,
+   "y": 63.0,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p127-img06.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  194.0,
+  467.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 43,
+ "svg_snapped": 0
+}

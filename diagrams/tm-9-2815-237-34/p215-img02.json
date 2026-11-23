@@ -1,0 +1,100 @@
+{
+ "id": "p215-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 215,
+ "printed_page": "2-169",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Oil pump drive, gasket, clamp and capscrew above the cylinder block on the 6.5L turbo engine.",
+ "size_px": [
+  1060,
+  1447
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "9",
+   "label": "Capscrew"
+  },
+  {
+   "n": "10",
+   "label": "Oil pump drive"
+  },
+  {
+   "n": "11",
+   "label": "Gasket"
+  },
+  {
+   "n": "12",
+   "label": "Clamp"
+  }
+ ],
+ "expected": [
+  "1",
+  "9",
+  "10",
+  "11",
+  "12"
+ ],
+ "rings": [
+  {
+   "x": 127.0,
+   "y": 604.0,
+   "r": 34.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 552.5,
+   "y": 62.5,
+   "r": 33.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 594.0,
+   "y": 177.5,
+   "r": 34.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 322.5,
+   "y": 463.0,
+   "r": 33.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 739.0,
+   "y": 360.5,
+   "r": 33.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p215-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1060.0,
+  1447.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 714,
+ "svg_snapped": 0
+}

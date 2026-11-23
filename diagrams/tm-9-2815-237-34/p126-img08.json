@@ -1,0 +1,58 @@
+{
+ "id": "p126-img08",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 126,
+ "printed_page": "2-105",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Delivery valve with the reaction cuff indicated.",
+ "size_px": [
+  403,
+  579
+ ],
+ "key": [
+  {
+   "n": "22",
+   "label": "Reaction cuff"
+  },
+  {
+   "n": "23",
+   "label": "Delivery valve"
+  }
+ ],
+ "expected": [
+  "22",
+  "23"
+ ],
+ "rings": [
+  {
+   "x": 246.5,
+   "y": 73.5,
+   "r": 36.5,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 192.0,
+   "y": 507.5,
+   "r": 35.8,
+   "text": "23",
+   "n": "23",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p126-img08.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  403.0,
+  579.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 16,
+ "svg_snapped": 1
+}

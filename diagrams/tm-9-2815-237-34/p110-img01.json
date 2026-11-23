@@ -1,0 +1,237 @@
+{
+ "id": "p110-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 110,
+ "printed_page": "2-89",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont'd)",
+ "alt": "Exploded view of the fuel injection pump housing with throttle shaft, face cam, cam, rocker lever and related small parts.",
+ "size_px": [
+  2128,
+  1712
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Throttle shaft"
+  },
+  {
+   "n": "2",
+   "label": "Spacer"
+  },
+  {
+   "n": "3",
+   "label": "O-ring"
+  },
+  {
+   "n": "4",
+   "label": "Housing"
+  },
+  {
+   "n": "5",
+   "label": "Governor thrust spring"
+  },
+  {
+   "n": "6",
+   "label": "Housing boss"
+  },
+  {
+   "n": "7",
+   "label": "Washer"
+  },
+  {
+   "n": "8",
+   "label": "Face cam"
+  },
+  {
+   "n": "10",
+   "label": "Cam pin"
+  },
+  {
+   "n": "11",
+   "label": "Cam"
+  },
+  {
+   "n": "13",
+   "label": "Rocker lever"
+  },
+  {
+   "n": "14",
+   "label": "Screw"
+  },
+  {
+   "n": "15",
+   "label": "Retaining clip"
+  },
+  {
+   "n": "16",
+   "label": "Rocker lever pin"
+  },
+  {
+   "n": "17",
+   "label": "Linkage hook"
+  }
+ ],
+ "expected": [
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "10",
+  "11",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17"
+ ],
+ "rings": [
+  {
+   "x": 765.5,
+   "y": 407.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 874.5,
+   "y": 490.5,
+   "r": 35.5,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 951.5,
+   "y": 460.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1162.5,
+   "y": 260.5,
+   "r": 35.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 729.5,
+   "y": 787.5,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1541.0,
+   "y": 906.5,
+   "r": 35.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1738.5,
+   "y": 927.5,
+   "r": 35.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1933.5,
+   "y": 1054.5,
+   "r": 35.5,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 2097.6,
+   "y": 1170.4,
+   "r": 35.5,
+   "text": null,
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "ring cut off at the right edge of the scan; placed by eye"
+   ]
+  },
+  {
+   "x": 1571.5,
+   "y": 1635.5,
+   "r": 35.5,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1282.0,
+   "y": 1376.5,
+   "r": 35.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1194.5,
+   "y": 1633.5,
+   "r": 35.5,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 900.5,
+   "y": 1293.5,
+   "r": 35.5,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 612.5,
+   "y": 1518.5,
+   "r": 35.5,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "reads 17; part of p110-img02, the key there calls it linkage hook"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p110-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1064.0,
+  856.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 265,
+ "svg_snapped": 14,
+ "review_notes": [
+  "1: ring cut off by the scan crop"
+ ]
+}

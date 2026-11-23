@@ -1,0 +1,86 @@
+{
+ "id": "p229-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 229,
+ "printed_page": "2-183",
+ "kind": "assembly view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "View of the intake manifold showing a clamp, stud, hose and fuel supply line.",
+ "size_px": [
+  926,
+  926
+ ],
+ "key": [
+  {
+   "n": "19",
+   "label": "Clamp"
+  },
+  {
+   "n": "7",
+   "label": "Stud"
+  },
+  {
+   "n": "20",
+   "label": "Hose"
+  },
+  {
+   "n": "21",
+   "label": "Fuel supply line"
+  }
+ ],
+ "expected": [
+  "19",
+  "7",
+  "20",
+  "21"
+ ],
+ "rings": [
+  {
+   "x": 646.0,
+   "y": 77.5,
+   "r": 36.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 380.5,
+   "y": 101.0,
+   "r": 36.2,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 750.5,
+   "y": 109.5,
+   "r": 36.5,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 872.5,
+   "y": 343.5,
+   "r": 36.5,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p229-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  926.0,
+  926.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 262,
+ "svg_snapped": 26
+}

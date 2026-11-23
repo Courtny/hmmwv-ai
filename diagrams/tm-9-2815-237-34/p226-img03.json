@@ -1,0 +1,167 @@
+{
+ "id": "p226-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 226,
+ "printed_page": "2-180",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Fuel injection lines between the injection pump and nozzles, with a cylinder firing-order diagram and detail views.",
+ "size_px": [
+  2001,
+  1092
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "2",
+   "label": "Support bracket"
+  },
+  {
+   "n": "3",
+   "label": "Nut"
+  },
+  {
+   "n": "4",
+   "label": "Fuel injection nozzle"
+  },
+  {
+   "n": "5",
+   "label": "Clamp"
+  },
+  {
+   "n": "6",
+   "label": "Screw-assembled washer"
+  },
+  {
+   "n": "7",
+   "label": "Fuel injection line"
+  },
+  {
+   "n": "8",
+   "label": "Boot"
+  },
+  {
+   "n": "9",
+   "label": "Clamp"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "rings": [
+  {
+   "x": 329.0,
+   "y": 104.5,
+   "r": 35.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 527.0,
+   "y": 547.0,
+   "r": 36.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 812.0,
+   "y": 597.0,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 218.5,
+   "y": 967.0,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 572.5,
+   "y": 976.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 72.0,
+   "y": 683.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 59.0,
+   "y": 394.0,
+   "r": 36.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 176.5,
+   "y": 232.0,
+   "r": 35.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1595.5,
+   "y": 199.5,
+   "r": 36.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1872.0,
+   "y": 316.5,
+   "r": 36.8,
+   "text": null,
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p226-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1001.0,
+  546.0
+ ],
+ "scale": 0.5002498750624688,
+ "svg_problems": [],
+ "svg_kb": 443,
+ "svg_snapped": 0
+}

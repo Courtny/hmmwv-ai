@@ -1,0 +1,86 @@
+{
+ "id": "p093-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 93,
+ "printed_page": "2-74",
+ "kind": "assembly view",
+ "caption": "2-23. TORSIONAL DAMPER REPAIR",
+ "alt": "Torsional damper viewed from the front, showing its capscrew holes, rubber insulator and seal surface.",
+ "size_px": [
+  698,
+  665
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Torsional damper"
+  },
+  {
+   "n": "2",
+   "label": "Front cover seal mating surface"
+  },
+  {
+   "n": "3",
+   "label": "Rubber insulator"
+  },
+  {
+   "n": "4",
+   "label": "Capscrew holes"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 64.5,
+   "y": 58.0,
+   "r": 37.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 647.0,
+   "y": 113.5,
+   "r": 35.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 615.0,
+   "y": 578.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 74.5,
+   "y": 585.5,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p093-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  698.0,
+  665.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 209,
+ "svg_snapped": 0
+}

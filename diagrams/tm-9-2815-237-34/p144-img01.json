@@ -1,0 +1,278 @@
+{
+ "id": "p144-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 144,
+ "printed_page": "2-123",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Exploded view of the pump cover with check valve, cold start advance solenoid, plunger, studs, washers, nuts and terminal.",
+ "size_px": [
+  1660,
+  1759
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Check valve"
+  },
+  {
+   "n": "2",
+   "label": "Cover"
+  },
+  {
+   "n": "3",
+   "label": "Fiber washer"
+  },
+  {
+   "n": "4",
+   "label": "Washer"
+  },
+  {
+   "n": "5",
+   "label": "Lockwasher"
+  },
+  {
+   "n": "6",
+   "label": "Nut"
+  },
+  {
+   "n": "7",
+   "label": "Locknut"
+  },
+  {
+   "n": "8",
+   "label": "Stud"
+  },
+  {
+   "n": "9",
+   "label": "Cold start advance solenoid"
+  },
+  {
+   "n": "10",
+   "label": "Plunger"
+  },
+  {
+   "n": "11",
+   "label": "Stud"
+  },
+  {
+   "n": "12",
+   "label": "Shell"
+  },
+  {
+   "n": "13",
+   "label": "Washer"
+  },
+  {
+   "n": "14",
+   "label": "Terminal"
+  },
+  {
+   "n": "15",
+   "label": "O-ring"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "rings": [
+  {
+   "x": 782.5,
+   "y": 93.0,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1155.0,
+   "y": 734.5,
+   "r": 35.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 649.5,
+   "y": 836.0,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1280.0,
+   "y": 1097.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 564.5,
+   "y": 785.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1365.0,
+   "y": 1146.5,
+   "r": 36.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 482.5,
+   "y": 739.0,
+   "r": 35.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1454.0,
+   "y": 1194.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 403.0,
+   "y": 694.0,
+   "r": 36.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1538.5,
+   "y": 1247.0,
+   "r": 35.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1329.0,
+   "y": 1495.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": [
+    "readings 7×3, 1×1"
+   ]
+  },
+  {
+   "x": 819.0,
+   "y": 1660.0,
+   "r": 35.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 686.5,
+   "y": 1656.5,
+   "r": 35.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 580.5,
+   "y": 1650.0,
+   "r": 35.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 359.5,
+   "y": 1373.5,
+   "r": 36.0,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 295.5,
+   "y": 643.5,
+   "r": 35.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 204.0,
+   "y": 587.0,
+   "r": 36.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 96.0,
+   "y": 537.5,
+   "r": 35.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 655.5,
+   "y": 257.0,
+   "r": 35.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p144-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  830.0,
+  880.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 199,
+ "svg_snapped": 25
+}

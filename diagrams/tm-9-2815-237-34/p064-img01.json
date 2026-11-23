@@ -1,0 +1,101 @@
+{
+ "id": "p064-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 64,
+ "printed_page": "2-45",
+ "kind": "assembly view",
+ "caption": "2-16. CYLINDER BLOCK REPAIR (Cont’d)",
+ "alt": "Cylinder block with a bore measurement point marked, and a piston held in a micrometer.",
+ "size_px": [
+  1792,
+  1093
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "2",
+   "label": "Cylinder bore"
+  },
+  {
+   "n": "3",
+   "label": "Point B"
+  },
+  {
+   "n": "4",
+   "label": "Point A"
+  },
+  {
+   "n": "5",
+   "label": "Piston"
+  },
+  {
+   "n": "6",
+   "label": "Piston pin"
+  },
+  {
+   "n": "7",
+   "label": "Piston skirt"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 86.5,
+   "y": 138.0,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 321.5,
+   "y": 55.0,
+   "r": 37.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 306.0,
+   "y": 689.5,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 76.5,
+   "y": 484.5,
+   "r": 37.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p064-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  896.0,
+  547.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 200,
+ "svg_snapped": 34,
+ "review_notes": [
+  "5, 6, 7: not in this drawing; the capture key includes the neighbouring figure"
+ ]
+}

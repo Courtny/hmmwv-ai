@@ -1,0 +1,58 @@
+{
+ "id": "p082-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 82,
+ "printed_page": "2-63",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Precombustion chamber in the cylinder head, with an inset for 6.5L and 1990-and-above 6.2L engines.",
+ "size_px": [
+  879,
+  613
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "18",
+   "label": "Precombustion chambers"
+  }
+ ],
+ "expected": [
+  "1",
+  "18"
+ ],
+ "rings": [
+  {
+   "x": 717.0,
+   "y": 165.5,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 461.0,
+   "y": 77.0,
+   "r": 37.0,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p082-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  879.0,
+  613.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 373,
+ "svg_snapped": 18
+}

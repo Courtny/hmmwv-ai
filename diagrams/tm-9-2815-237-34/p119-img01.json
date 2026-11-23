@@ -1,0 +1,44 @@
+{
+ "id": "p119-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 119,
+ "printed_page": "2-98",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Hydraulic head viewed from its end face.",
+ "size_px": [
+  429,
+  676
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Hydraulic head"
+  }
+ ],
+ "expected": [
+  "1"
+ ],
+ "rings": [
+  {
+   "x": 104.5,
+   "y": 75.5,
+   "r": 37.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p119-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  429.0,
+  676.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 131,
+ "svg_snapped": 0
+}

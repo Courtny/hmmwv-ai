@@ -1,0 +1,71 @@
+{
+ "id": "p189-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 189,
+ "printed_page": "2-143",
+ "kind": "assembly view",
+ "caption": "2-37. FUEL INJECTION NOZZLE REPAIR (Cont’d)",
+ "alt": "Fuel injection nozzle with its two return line nipples on top.",
+ "size_px": [
+  688,
+  848
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Return line nipples"
+  },
+  {
+   "n": "2",
+   "label": "Fuel injection nozzle"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 87.0,
+   "y": 190.5,
+   "r": 35.8,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "reads 1"
+   ]
+  },
+  {
+   "x": 587.0,
+   "y": 190.5,
+   "r": 35.8,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "reads 1"
+   ]
+  },
+  {
+   "x": 592.5,
+   "y": 418.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p189-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  688.0,
+  848.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 275,
+ "svg_snapped": 1
+}

@@ -1,0 +1,44 @@
+{
+ "id": "p066-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 66,
+ "printed_page": "2-47",
+ "kind": "assembly view",
+ "caption": "2-16. CYLINDER BLOCK REPAIR (Cont’d)",
+ "alt": "A boring machine with its cutter boring a cylinder in the top of the cylinder block.",
+ "size_px": [
+  950,
+  1038
+ ],
+ "key": [
+  {
+   "n": "2",
+   "label": "Cylinder"
+  }
+ ],
+ "expected": [
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 181.0,
+   "y": 465.0,
+   "r": 37.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p066-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  950.0,
+  1038.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 266,
+ "svg_snapped": 1
+}

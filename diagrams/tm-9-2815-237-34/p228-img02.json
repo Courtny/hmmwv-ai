@@ -1,0 +1,167 @@
+{
+ "id": "p228-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 228,
+ "printed_page": "2-182",
+ "kind": "assembly view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Assembly diagram of studs, capscrews, washers and clips on the intake manifold.",
+ "size_px": [
+  1094,
+  1022
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Intake manifold"
+  },
+  {
+   "n": "4",
+   "label": "Washer"
+  },
+  {
+   "n": "5",
+   "label": "Injection line clip"
+  },
+  {
+   "n": "6",
+   "label": "Long stud"
+  },
+  {
+   "n": "7",
+   "label": "Stud"
+  },
+  {
+   "n": "8",
+   "label": "Capscrew"
+  },
+  {
+   "n": "9",
+   "label": "Long capscrew"
+  },
+  {
+   "n": "10",
+   "label": "Injection line clip"
+  },
+  {
+   "n": "11",
+   "label": "Fuel supply line clamp"
+  }
+ ],
+ "expected": [
+  "1",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11"
+ ],
+ "rings": [
+  {
+   "x": 67.5,
+   "y": 620.0,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 112.0,
+   "y": 458.0,
+   "r": 36.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 164.0,
+   "y": 366.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 466.0,
+   "y": 179.5,
+   "r": 36.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 794.0,
+   "y": 322.0,
+   "r": 36.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": [
+    "readings 6×2, LD×1"
+   ]
+  },
+  {
+   "x": 604.5,
+   "y": 140.0,
+   "r": 36.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 821.5,
+   "y": 137.5,
+   "r": 36.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 854.5,
+   "y": 781.5,
+   "r": 36.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 737.5,
+   "y": 893.5,
+   "r": 35.5,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 209.5,
+   "y": 876.0,
+   "r": 36.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p228-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1094.0,
+  1022.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 298,
+ "svg_snapped": 0
+}

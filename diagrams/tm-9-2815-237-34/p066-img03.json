@@ -1,0 +1,58 @@
+{
+ "id": "p066-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 66,
+ "printed_page": "2-47",
+ "kind": "assembly view",
+ "caption": "2-16. CYLINDER BLOCK REPAIR (Cont’d)",
+ "alt": "Top corner of the cylinder block showing a bore and the head deck surface.",
+ "size_px": [
+  1093,
+  798
+ ],
+ "key": [
+  {
+   "n": "3",
+   "label": "Block"
+  },
+  {
+   "n": "4",
+   "label": "Head deck surface"
+  }
+ ],
+ "expected": [
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 412.5,
+   "y": 82.0,
+   "r": 37.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 150.5,
+   "y": 110.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p066-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1093.0,
+  798.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 88,
+ "svg_snapped": 0
+}

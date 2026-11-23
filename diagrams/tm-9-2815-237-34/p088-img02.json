@@ -1,0 +1,72 @@
+{
+ "id": "p088-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 88,
+ "printed_page": "2-69",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Cutaway of a cylinder head showing an installed valve spring with the spring height measurement marked.",
+ "size_px": [
+  746,
+  686
+ ],
+ "key": [
+  {
+   "n": "2",
+   "label": "Valve spring shim"
+  },
+  {
+   "n": "3",
+   "label": "Valve spring"
+  },
+  {
+   "n": "4",
+   "label": "Shield"
+  }
+ ],
+ "expected": [
+  "2",
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 523.5,
+   "y": 484.0,
+   "r": 36.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 664.5,
+   "y": 195.5,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 627.0,
+   "y": 80.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p088-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  746.0,
+  686.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 241,
+ "svg_snapped": 1
+}

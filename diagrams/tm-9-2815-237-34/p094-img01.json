@@ -1,0 +1,58 @@
+{
+ "id": "p094-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 94,
+ "printed_page": "2-75",
+ "kind": "assembly view",
+ "caption": "2-24. FLYWHEEL REPAIR",
+ "alt": "Flywheel viewed face-on showing the ring gear teeth.",
+ "size_px": [
+  973,
+  1115
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Flywheel"
+  },
+  {
+   "n": "2",
+   "label": "Teeth"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 129.5,
+   "y": 80.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 902.5,
+   "y": 149.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p094-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  973.0,
+  1115.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 275,
+ "svg_snapped": 1
+}

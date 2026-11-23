@@ -1,0 +1,123 @@
+{
+ "id": "p221-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 221,
+ "printed_page": "2-175",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of a fuel injection nozzle, gasket, hoses, clamps and cap on a cylinder head.",
+ "size_px": [
+  1629,
+  1718
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "3",
+   "label": "Gasket"
+  },
+  {
+   "n": "4",
+   "label": "Fuel injection nozzle"
+  },
+  {
+   "n": "5",
+   "label": "Clamp"
+  },
+  {
+   "n": "6",
+   "label": "Hose"
+  },
+  {
+   "n": "7",
+   "label": "Cap"
+  }
+ ],
+ "expected": [
+  "1",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 494.0,
+   "y": 261.0,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 776.5,
+   "y": 169.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 967.5,
+   "y": 89.5,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1185.0,
+   "y": 110.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1452.5,
+   "y": 568.5,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1150.5,
+   "y": 509.5,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1256.5,
+   "y": 579.5,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p221-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  815.0,
+  859.0
+ ],
+ "scale": 0.5003069367710252,
+ "svg_problems": [],
+ "svg_kb": 298,
+ "svg_snapped": 1
+}

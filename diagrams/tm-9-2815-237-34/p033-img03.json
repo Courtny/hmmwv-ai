@@ -1,0 +1,94 @@
+{
+ "id": "p033-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 33,
+ "printed_page": "2-14",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > e. Intake Manifold (turbo engines)",
+ "alt": "Turbo engine outer intake manifold with studs and gasket above the cylinder head.",
+ "size_px": [
+  794,
+  796
+ ],
+ "key": [
+  {
+   "n": "8.1",
+   "label": "Intake manifold studs"
+  },
+  {
+   "n": "8.2",
+   "label": "Intake manifold"
+  },
+  {
+   "n": "8.3",
+   "label": "Gasket"
+  },
+  {
+   "n": "8.4",
+   "label": "Cylinder head"
+  }
+ ],
+ "expected": [
+  "8.1",
+  "8.2",
+  "8.3",
+  "8.4"
+ ],
+ "rings": [
+  {
+   "x": 59.5,
+   "y": 53.0,
+   "r": 34.8,
+   "text": "81",
+   "n": "8.1",
+   "confidence": 0.95,
+   "notes": [
+    "OCR read '81', the key has 8.1"
+   ]
+  },
+  {
+   "x": 54.0,
+   "y": 165.0,
+   "r": 35.5,
+   "text": null,
+   "n": "8.2",
+   "confidence": 1.0,
+   "notes": [
+    "missed by the detector"
+   ]
+  },
+  {
+   "x": 54.0,
+   "y": 285.0,
+   "r": 35.5,
+   "text": null,
+   "n": "8.3",
+   "confidence": 1.0,
+   "notes": [
+    "missed by the detector"
+   ]
+  },
+  {
+   "x": 54.5,
+   "y": 396.0,
+   "r": 36.2,
+   "text": "84",
+   "n": "8.4",
+   "confidence": 0.95,
+   "notes": [
+    "OCR read '84', the key has 8.4"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p033-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  794.0,
+  796.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 357,
+ "svg_snapped": 9
+}

@@ -1,0 +1,86 @@
+{
+ "id": "p104-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 104,
+ "printed_page": "2-85",
+ "kind": "assembly view",
+ "caption": "2-31. FUEL PUMP REPAIR",
+ "alt": "Mechanical fuel pump with its lever, vent tube and inlet tube.",
+ "size_px": [
+  618,
+  882
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fuel pump"
+  },
+  {
+   "n": "2",
+   "label": "Fuel pump lever"
+  },
+  {
+   "n": "5",
+   "label": "Vent tube"
+  },
+  {
+   "n": "6",
+   "label": "Inlet tube"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "5",
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 57.0,
+   "y": 168.5,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 564.5,
+   "y": 61.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 523.5,
+   "y": 445.0,
+   "r": 36.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 358.5,
+   "y": 820.0,
+   "r": 36.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p104-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  618.0,
+  882.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 97,
+ "svg_snapped": 0
+}

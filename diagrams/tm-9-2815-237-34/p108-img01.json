@@ -1,0 +1,304 @@
+{
+ "id": "p108-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 108,
+ "printed_page": "2-87",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont'd)",
+ "alt": "Exploded view of a fuel injection pump in a holding fixture with the governor control cover, gasket and min-max governor removed, plus two detail circles for 6.5L and 1990 and above 6.2L pumps.",
+ "size_px": [
+  2085,
+  1519
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Governor control cover"
+  },
+  {
+   "n": "2",
+   "label": "Screw"
+  },
+  {
+   "n": "3",
+   "label": "Lockwasher"
+  },
+  {
+   "n": "4",
+   "label": "Washer"
+  },
+  {
+   "n": "5",
+   "label": "Seal"
+  },
+  {
+   "n": "6",
+   "label": "Nut"
+  },
+  {
+   "n": "7",
+   "label": "Guide stud"
+  },
+  {
+   "n": "8",
+   "label": "Cap"
+  },
+  {
+   "n": "9",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "10",
+   "label": "Washer"
+  },
+  {
+   "n": "11",
+   "label": "Throttle shaft"
+  },
+  {
+   "n": "12",
+   "label": "Min-max governor"
+  },
+  {
+   "n": "13",
+   "label": "Gasket"
+  },
+  {
+   "n": "14",
+   "label": "Inner governor spring"
+  },
+  {
+   "n": "15",
+   "label": "Governor thrust spring"
+  },
+  {
+   "n": "16",
+   "label": "Idle spring"
+  },
+  {
+   "n": "17",
+   "label": "Sleeve"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17"
+ ],
+ "rings": [
+  {
+   "x": 974.0,
+   "y": 231.0,
+   "r": 36.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1319.5,
+   "y": 128.0,
+   "r": 36.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1332.5,
+   "y": 222.0,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1330.5,
+   "y": 307.0,
+   "r": 36.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1582.5,
+   "y": 357.5,
+   "r": 37.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1667.5,
+   "y": 390.5,
+   "r": 37.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1811.0,
+   "y": 432.0,
+   "r": 36.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1706.5,
+   "y": 991.5,
+   "r": 36.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1969.5,
+   "y": 480.5,
+   "r": 36.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1358.5,
+   "y": 804.0,
+   "r": 36.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1371.0,
+   "y": 909.5,
+   "r": 36.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 366.0,
+   "y": 258.5,
+   "r": 37.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 851.5,
+   "y": 1404.5,
+   "r": 37.0,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 326.0,
+   "y": 337.0,
+   "r": 37.0,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1512.5,
+   "y": 625.0,
+   "r": 37.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 689.0,
+   "y": 669.0,
+   "r": 37.0,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 661.0,
+   "y": 546.5,
+   "r": 36.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 450.5,
+   "y": 613.5,
+   "r": 37.0,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 189.0,
+   "y": 657.5,
+   "r": 36.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 134.0,
+   "y": 331.5,
+   "r": 36.2,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 216.5,
+   "y": 326.0,
+   "r": 36.2,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p108-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1043.0,
+  760.0
+ ],
+ "scale": 0.5002398081534772,
+ "svg_problems": [],
+ "svg_kb": 477,
+ "svg_snapped": 35
+}

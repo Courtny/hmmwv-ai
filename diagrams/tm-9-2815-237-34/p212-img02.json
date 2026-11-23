@@ -1,0 +1,200 @@
+{
+ "id": "p212-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 212,
+ "printed_page": "2-166",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of the oil pan, gasket, capscrews, studs, drainplug and rear seal above the cylinder block.",
+ "size_px": [
+  1663,
+  1113
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Capscrews"
+  },
+  {
+   "n": "2",
+   "label": "Drainplug"
+  },
+  {
+   "n": "3",
+   "label": "Washer"
+  },
+  {
+   "n": "4",
+   "label": "Studs"
+  },
+  {
+   "n": "5",
+   "label": "Oil pan"
+  },
+  {
+   "n": "6",
+   "label": "Large capscrews"
+  },
+  {
+   "n": "7",
+   "label": "Oil pan rear seal"
+  },
+  {
+   "n": "8",
+   "label": "Rear main cap"
+  },
+  {
+   "n": "9",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "10",
+   "label": "Large holes"
+  },
+  {
+   "n": "11",
+   "label": "Engine oil pan gasket"
+  },
+  {
+   "n": "12",
+   "label": "Oil pan sealing surface"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12"
+ ],
+ "rings": [
+  {
+   "x": 88.5,
+   "y": 301.0,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 119.0,
+   "y": 143.0,
+   "r": 36.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 249.5,
+   "y": 178.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 568.0,
+   "y": 64.0,
+   "r": 36.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 683.5,
+   "y": 57.0,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 840.0,
+   "y": 90.5,
+   "r": 35.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 976.0,
+   "y": 117.0,
+   "r": 36.5,
+   "text": null,
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 1209.5,
+   "y": 398.5,
+   "r": 36.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1358.5,
+   "y": 616.0,
+   "r": 36.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1181.5,
+   "y": 861.5,
+   "r": 36.5,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 302.5,
+   "y": 693.5,
+   "r": 35.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 86.0,
+   "y": 613.5,
+   "r": 36.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p212-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  832.0,
+  557.0
+ ],
+ "scale": 0.5003006614552015,
+ "svg_problems": [],
+ "svg_kb": 338,
+ "svg_snapped": 1
+}

@@ -1,0 +1,67 @@
+{
+ "id": "p103-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 103,
+ "printed_page": "2-84",
+ "kind": "assembly view",
+ "caption": "2-30. INTAKE MANIFOLD REPAIR",
+ "alt": "Turbocharged engine intake manifold set: center manifold above two intake manifolds.",
+ "size_px": [
+  1150,
+  1159
+ ],
+ "key": [
+  {
+   "n": "3",
+   "label": "Center intake manifold"
+  },
+  {
+   "n": "4",
+   "label": "Intake manifold"
+  }
+ ],
+ "expected": [
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 991.0,
+   "y": 58.0,
+   "r": 37.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1090.5,
+   "y": 626.5,
+   "r": 36.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 351.5,
+   "y": 1100.5,
+   "r": 36.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p103-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1150.0,
+  1159.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 172,
+ "svg_snapped": 7
+}

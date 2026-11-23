@@ -6,7 +6,7 @@ Workflow, per TM capture folder (see scripts/tmdiagrams/README.md):
   prep     copy chosen figures to work/diagrams/<tm>/in/ and find their callouts
   (you)    run VectorMagic batch: in/ -> out/ as SVG
   ingest   check the SVGs in out/ (or trace with potrace), refresh the review page
-  review   rebuild review.html after hand edits to figures/<id>.json
+  review   rebuild review.html after hand edits to diagrams/<tm>/<id>.json
   emit     copy approved SVGs to assets/diagrams/ and write procedure drafts
   status   counts per stage
 """
@@ -32,21 +32,28 @@ ASSETS = ROOT / "assets" / "diagrams"
 
 def workdir(cap: Capture) -> Path:
     w = WORK / cap.tm
-    for sub in ("in", "out", "clean", "traced", "figures", "drafts", "to-trace"):
+    for sub in ("in", "out", "clean", "traced", "drafts", "to-trace"):
         (w / sub).mkdir(parents=True, exist_ok=True)
+    figdir(w).mkdir(parents=True, exist_ok=True)
     return w
 
 
+def figdir(w: Path) -> Path:
+    """Reviewed callouts are kept in git (diagrams/<tm>/), unlike the rest of work/."""
+    return ROOT / "diagrams" / w.name
+
+
 def load_fig(w: Path, fid: str) -> dict:
-    return json.loads((w / "figures" / f"{fid}.json").read_text())
+    return json.loads((figdir(w) / f"{fid}.json").read_text())
 
 
 def save_fig(w: Path, fig: dict) -> None:
-    (w / "figures" / f"{fig['id']}.json").write_text(json.dumps(fig, indent=1, ensure_ascii=False) + "\n")
+    fig.pop("capture", None)  # a local path; the capture is passed on the command line
+    (figdir(w) / f"{fig['id']}.json").write_text(json.dumps(fig, indent=1, ensure_ascii=False) + "\n")
 
 
 def fig_ids(w: Path, ids: list[str] | None) -> list[str]:
-    have = sorted(p.stem for p in (w / "figures").glob("*.json"))
+    have = sorted(p.stem for p in figdir(w).glob("*.json"))
     if ids:
         missing = [i for i in ids if i not in have]
         if missing:
@@ -66,7 +73,7 @@ def cmd_prep(a) -> None:
         raise SystemExit("No figures match.")
     w = workdir(cap)
     for i, f in enumerate(figs, 1):
-        target = w / "figures" / f"{f.id}.json"
+        target = figdir(w) / f"{f.id}.json"
         if target.exists() and not a.force:
             print(f"  {f.id}: already prepped (use --force to redo callouts)")
             shutil.copyfile(f.file, w / "in" / f"{f.id}.png")
@@ -75,7 +82,7 @@ def cmd_prep(a) -> None:
         expected = [str(c["n"]) for c in f.callouts]
         hits, missing = callouts.detect(str(f.file), expected)
         fig = {
-            "id": f.id, "tm": cap.tm, "capture": str(cap.root), "pdf_page": f.pdf_page,
+            "id": f.id, "tm": cap.tm, "pdf_page": f.pdf_page,
             "printed_page": f.printed_page, "kind": f.kind, "caption": f.caption, "alt": f.alt,
             "size_px": list(f.size_px), "key": f.callouts, "expected": expected,
             "rings": [{k: (round(v, 1) if k in ("x", "y", "r") else v) for k, v in asdict(h).items()} for h in hits],
@@ -217,7 +224,7 @@ def cmd_emit(a) -> None:
         unsure = [r for r in fig["rings"] if r.get("confidence", 0) < 0.95]
         if (unsure or fig["missing"]) and not a.force:
             raise SystemExit(f"{fid}: {len(unsure)} unconfirmed rings, {len(fig['missing'])} missing labels. "
-                             f"Fix figures/{fid}.json (set confidence to 1 once checked) or use --force.")
+                             f"Fix diagrams/{cap.tm}/{fid}.json (set confidence to 1 once checked) or use --force.")
         page = parse_page(cap.page_text(fig["pdf_page"]))
         steps_page = fig["printed_page"]
         if not page.steps:
