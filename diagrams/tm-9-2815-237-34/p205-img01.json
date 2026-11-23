@@ -1,0 +1,170 @@
+{
+ "id": "p205-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 205,
+ "printed_page": "2-159",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Piston and connecting rod with rod bearing halves and cap about to be installed in the cylinder block, with an inset of the crankshaft rod journal.",
+ "size_px": [
+  1359,
+  996
+ ],
+ "key": [
+  {
+   "n": "4",
+   "label": "Crankshaft"
+  },
+  {
+   "n": "5",
+   "label": "Rod cap"
+  },
+  {
+   "n": "6",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "7",
+   "label": "Upper rod bearing half"
+  },
+  {
+   "n": "8",
+   "label": "Connecting rod bolts"
+  },
+  {
+   "n": "9",
+   "label": "Connecting rod"
+  },
+  {
+   "n": "10",
+   "label": "Piston"
+  },
+  {
+   "n": "11",
+   "label": "Piston rings"
+  },
+  {
+   "n": "12",
+   "label": "Lower rod bearing half"
+  },
+  {
+   "n": "13",
+   "label": "Rod journal"
+  }
+ ],
+ "expected": [
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13"
+ ],
+ "rings": [
+  {
+   "x": 483.0,
+   "y": 242.5,
+   "r": 36.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 87.5,
+   "y": 420.0,
+   "r": 36.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 714.5,
+   "y": 368.5,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 804.5,
+   "y": 382.0,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 891.5,
+   "y": 369.5,
+   "r": 36.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1002.5,
+   "y": 363.0,
+   "r": 36.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1119.0,
+   "y": 357.5,
+   "r": 35.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1168.0,
+   "y": 735.5,
+   "r": 36.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 199.5,
+   "y": 803.5,
+   "r": 36.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 214.5,
+   "y": 388.5,
+   "r": 36.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p205-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1359.0,
+  996.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 899,
+ "svg_snapped": 31
+}

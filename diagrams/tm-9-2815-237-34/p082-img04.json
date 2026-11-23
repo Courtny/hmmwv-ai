@@ -1,0 +1,58 @@
+{
+ "id": "p082-img04",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 82,
+ "printed_page": "2-63",
+ "kind": "exploded view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Cold start advance switch with its wiring above a port on the right cylinder head.",
+ "size_px": [
+  706,
+  616
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "20",
+   "label": "Cold start advance switch"
+  }
+ ],
+ "expected": [
+  "1",
+  "20"
+ ],
+ "rings": [
+  {
+   "x": 133.5,
+   "y": 348.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 70.5,
+   "y": 86.0,
+   "r": 35.8,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p082-img04.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  706.0,
+  616.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 167,
+ "svg_snapped": 1
+}

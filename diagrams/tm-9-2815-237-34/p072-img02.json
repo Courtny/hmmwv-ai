@@ -1,0 +1,102 @@
+{
+ "id": "p072-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 72,
+ "printed_page": "2-53",
+ "kind": "assembly view",
+ "caption": "2-17. CRANKSHAFT REPAIR (Cont’d)",
+ "alt": "Crankshaft viewed from the front end showing journals, oil passages and the front threaded hole.",
+ "size_px": [
+  1413,
+  792
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Crankshaft"
+  },
+  {
+   "n": "4",
+   "label": "Main bearing journals"
+  },
+  {
+   "n": "5",
+   "label": "Oil passages"
+  },
+  {
+   "n": "6",
+   "label": "Connecting rod journals"
+  },
+  {
+   "n": "7",
+   "label": "Threaded hole"
+  }
+ ],
+ "expected": [
+  "1",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 391.0,
+   "y": 659.0,
+   "r": 36.0,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 1113.0,
+   "y": 628.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 864.0,
+   "y": 699.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 604.0,
+   "y": 702.5,
+   "r": 35.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1325.5,
+   "y": 179.5,
+   "r": 36.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p072-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1413.0,
+  792.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 83,
+ "svg_snapped": 0
+}

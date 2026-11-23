@@ -1,0 +1,109 @@
+{
+ "id": "p215-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 215,
+ "printed_page": "2-169",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Oil pump drive, gasket, clamp and capscrew above the cylinder block, with a 6.5L inset of the drive.",
+ "size_px": [
+  1427,
+  1623
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "9",
+   "label": "Capscrew"
+  },
+  {
+   "n": "10",
+   "label": "Oil pump drive"
+  },
+  {
+   "n": "11",
+   "label": "Gasket"
+  },
+  {
+   "n": "12",
+   "label": "Clamp"
+  }
+ ],
+ "expected": [
+  "1",
+  "9",
+  "10",
+  "11",
+  "12"
+ ],
+ "rings": [
+  {
+   "x": 1077.5,
+   "y": 709.0,
+   "r": 34.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 303.5,
+   "y": 65.5,
+   "r": 33.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 828.0,
+   "y": 167.0,
+   "r": 34.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 984.0,
+   "y": 340.0,
+   "r": 34.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 858.5,
+   "y": 555.5,
+   "r": 33.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 270.5,
+   "y": 279.5,
+   "r": 34.0,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p215-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  714.0,
+  812.0
+ ],
+ "scale": 0.5003503854239664,
+ "svg_problems": [],
+ "svg_kb": 290,
+ "svg_snapped": 10
+}

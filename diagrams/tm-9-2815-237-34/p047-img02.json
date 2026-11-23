@@ -1,0 +1,184 @@
+{
+ "id": "p047-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 47,
+ "printed_page": "2-28",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > s. Timing Chain and Drive Sprockets",
+ "alt": "Timing chain, sprockets, pump drive gear and woodruff keys separated from the camshaft and crankshaft, plus a dial indicator check view and a 6.5L detail.",
+ "size_px": [
+  1876,
+  1297
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Capscrew"
+  },
+  {
+   "n": "2",
+   "label": "Washer"
+  },
+  {
+   "n": "3",
+   "label": "Pump drive gear"
+  },
+  {
+   "n": "4",
+   "label": "Camshaft sprocket"
+  },
+  {
+   "n": "5",
+   "label": "Camshaft"
+  },
+  {
+   "n": "6",
+   "label": "Woodruff key"
+  },
+  {
+   "n": "7",
+   "label": "Thrust plate"
+  },
+  {
+   "n": "8",
+   "label": "Woodruff key"
+  },
+  {
+   "n": "9",
+   "label": "Crankshaft"
+  },
+  {
+   "n": "10",
+   "label": "Timing chain"
+  },
+  {
+   "n": "11",
+   "label": "Crankshaft sprocket"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11"
+ ],
+ "rings": [
+  {
+   "x": 71.5,
+   "y": 836.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 193.5,
+   "y": 725.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 340.5,
+   "y": 536.5,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 632.5,
+   "y": 365.0,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 827.0,
+   "y": 281.0,
+   "r": 36.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 963.5,
+   "y": 123.0,
+   "r": 36.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1604.0,
+   "y": 824.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1487.0,
+   "y": 1017.5,
+   "r": 35.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1159.5,
+   "y": 1030.0,
+   "r": 35.8,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1017.5,
+   "y": 1170.0,
+   "r": 35.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 737.0,
+   "y": 1177.0,
+   "r": 36.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p047-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  938.0,
+  649.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 490,
+ "svg_snapped": 1
+}

@@ -1,0 +1,85 @@
+{
+ "id": "p182-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 182,
+ "printed_page": "2-140.21",
+ "kind": "assembly view",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont'd) - c. Removal of Fuel Injection Pump from Test Stand",
+ "alt": "Fuel injection pump mounted on the test stand with red and black test leads attached.",
+ "size_px": [
+  1154,
+  1178
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "DC power supply socket"
+  },
+  {
+   "n": "2",
+   "label": "Electric shutoff solenoid terminal"
+  },
+  {
+   "n": "3",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "4",
+   "label": "Ground terminal"
+  },
+  {
+   "n": "5",
+   "label": "Test stand"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 677.0,
+   "y": 28.0,
+   "r": 35.0,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "missed by the detector"
+   ]
+  },
+  {
+   "x": 1085.0,
+   "y": 433.0,
+   "r": 35.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 328.0,
+   "y": 576.0,
+   "r": 35.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p182-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1154.0,
+  1178.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 547,
+ "svg_snapped": 70,
+ "review_notes": [
+  "3, 5: rings cut off at the right edge of the scan"
+ ]
+}

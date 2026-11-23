@@ -1,0 +1,72 @@
+{
+ "id": "p064-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 64,
+ "printed_page": "2-45",
+ "kind": "diagram",
+ "caption": "2-16. CYLINDER BLOCK REPAIR (Cont'd)",
+ "alt": "Micrometer measuring piston diameter across the skirt at the piston pin centerline.",
+ "size_px": [
+  1042,
+  822
+ ],
+ "key": [
+  {
+   "n": "5",
+   "label": "piston"
+  },
+  {
+   "n": "6",
+   "label": "piston pin"
+  },
+  {
+   "n": "7",
+   "label": "piston skirt"
+  }
+ ],
+ "expected": [
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 322.0,
+   "y": 62.0,
+   "r": 36.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 538.0,
+   "y": 588.5,
+   "r": 36.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 62.5,
+   "y": 300.0,
+   "r": 36.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p064-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1042.0,
+  822.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 196,
+ "svg_snapped": 0
+}

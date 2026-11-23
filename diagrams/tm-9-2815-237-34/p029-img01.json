@@ -1,0 +1,102 @@
+{
+ "id": "p029-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 29,
+ "printed_page": "2-12",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > c. Torsional Damper",
+ "alt": "Torsional damper with capscrew, washer and woodruff key separated from the crankshaft nose.",
+ "size_px": [
+  1762,
+  1471
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Capscrew"
+  },
+  {
+   "n": "2",
+   "label": "Washer"
+  },
+  {
+   "n": "3",
+   "label": "Torsional damper"
+  },
+  {
+   "n": "4",
+   "label": "Woodruff key"
+  },
+  {
+   "n": "5",
+   "label": "Crankshaft"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 122.0,
+   "y": 824.5,
+   "r": 35.8,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 264.5,
+   "y": 820.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 449.0,
+   "y": 654.0,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 663.0,
+   "y": 719.0,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 827.5,
+   "y": 1226.5,
+   "r": 35.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p029-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  881.0,
+  736.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 290,
+ "svg_snapped": 13
+}

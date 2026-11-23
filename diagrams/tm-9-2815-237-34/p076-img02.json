@@ -1,0 +1,58 @@
+{
+ "id": "p076-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 76,
+ "printed_page": "2-57",
+ "kind": "assembly view",
+ "caption": "2-18. CONNECTING ROD AND PISTON REPAIR (Cont’d)",
+ "alt": "A piston ring set squarely in a cylinder bore with a feeler gauge measuring ring end gap.",
+ "size_px": [
+  916,
+  1030
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Piston ring"
+  },
+  {
+   "n": "13",
+   "label": "Cylinder bore"
+  }
+ ],
+ "expected": [
+  "1",
+  "13"
+ ],
+ "rings": [
+  {
+   "x": 578.5,
+   "y": 81.0,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 106.5,
+   "y": 338.0,
+   "r": 35.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p076-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  916.0,
+  1030.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 74,
+ "svg_snapped": 0
+}

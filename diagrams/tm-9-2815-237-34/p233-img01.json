@@ -1,0 +1,118 @@
+{
+ "id": "p233-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 233,
+ "printed_page": "2-185",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of a torsional damper, washer, capscrew and woodruff key at the crankshaft.",
+ "size_px": [
+  1612,
+  1248
+ ],
+ "key": [
+  {
+   "n": "6",
+   "label": "Capscrew"
+  },
+  {
+   "n": "7",
+   "label": "Washer"
+  },
+  {
+   "n": "8",
+   "label": "Torsional damper"
+  },
+  {
+   "n": "9",
+   "label": "Woodruff key"
+  },
+  {
+   "n": "10",
+   "label": "Crankshaft"
+  },
+  {
+   "n": "11",
+   "label": "Seal surface"
+  }
+ ],
+ "expected": [
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11"
+ ],
+ "rings": [
+  {
+   "x": 141.5,
+   "y": 663.5,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 275.0,
+   "y": 652.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 461.5,
+   "y": 500.0,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 612.5,
+   "y": 551.0,
+   "r": 36.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": [
+    "readings 9×4, G×1"
+   ]
+  },
+  {
+   "x": 815.0,
+   "y": 1012.5,
+   "r": 35.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 673.0,
+   "y": 1025.5,
+   "r": 35.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": [
+    "readings 11×1, 17×1"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p233-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  806.0,
+  624.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 276,
+ "svg_snapped": 1
+}

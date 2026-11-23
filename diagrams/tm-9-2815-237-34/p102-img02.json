@@ -1,0 +1,44 @@
+{
+ "id": "p102-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 102,
+ "printed_page": "2-83",
+ "kind": "assembly view",
+ "caption": "2-29. EXHAUST MANIFOLD REPAIR",
+ "alt": "Left turbo exhaust manifold with four ports and a turbocharger outlet.",
+ "size_px": [
+  890,
+  690
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Exhaust manifold"
+  }
+ ],
+ "expected": [
+  "1"
+ ],
+ "rings": [
+  {
+   "x": 625.5,
+   "y": 525.5,
+   "r": 37.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p102-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  890.0,
+  690.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 143,
+ "svg_snapped": 0
+}

@@ -1,0 +1,67 @@
+{
+ "id": "p090-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 90,
+ "printed_page": "2-71",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Cylinder head face showing a precombustion chamber in place, with a circular detail inset.",
+ "size_px": [
+  1079,
+  1206
+ ],
+ "key": [
+  {
+   "n": "2",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "7",
+   "label": "Precombustion chamber"
+  }
+ ],
+ "expected": [
+  "2",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 685.0,
+   "y": 442.0,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 220.0,
+   "y": 144.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 362.5,
+   "y": 579.5,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p090-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1079.0,
+  1206.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 239,
+ "svg_snapped": 1
+}

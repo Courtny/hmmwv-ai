@@ -1,0 +1,72 @@
+{
+ "id": "p120-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 120,
+ "printed_page": "2-99",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Fuel injection pump housing with the drive shaft bearing and pilot tube pulled out along their axis, and a pilot tube mandrel.",
+ "size_px": [
+  1599,
+  829
+ ],
+ "key": [
+  {
+   "n": "3",
+   "label": "Drive shaft bearing"
+  },
+  {
+   "n": "4",
+   "label": "Pilot tube"
+  },
+  {
+   "n": "5",
+   "label": "Housing"
+  }
+ ],
+ "expected": [
+  "3",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 104.5,
+   "y": 484.5,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 298.0,
+   "y": 442.5,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 767.0,
+   "y": 85.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p120-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1599.0,
+  829.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 121,
+ "svg_snapped": 0
+}

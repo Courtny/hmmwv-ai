@@ -1,0 +1,60 @@
+{
+ "id": "p090-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 90,
+ "printed_page": "2-71",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "View of a cold start advance switch above its threaded hole in the cylinder head.",
+ "size_px": [
+  973,
+  1060
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cold start advance switch"
+  },
+  {
+   "n": "2",
+   "label": "Cylinder head"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 92.0,
+   "y": 89.0,
+   "r": 36.0,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 662.0,
+   "y": 453.0,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p090-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  973.0,
+  1060.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 286,
+ "svg_snapped": 1
+}

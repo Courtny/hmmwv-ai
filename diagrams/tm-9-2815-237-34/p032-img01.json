@@ -1,0 +1,100 @@
+{
+ "id": "p032-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 32,
+ "printed_page": "2-13",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > d. Exhaust Manifolds (RIGHT EXHAUST MANIFOLD)",
+ "alt": "Right exhaust manifold with gasket, washers and screws lifted off the right cylinder head.",
+ "size_px": [
+  958,
+  968
+ ],
+ "key": [
+  {
+   "n": "13",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "14",
+   "label": "Gasket"
+  },
+  {
+   "n": "15",
+   "label": "Right exhaust manifold"
+  },
+  {
+   "n": "16",
+   "label": "Washers"
+  },
+  {
+   "n": "17",
+   "label": "Socket-head screws"
+  }
+ ],
+ "expected": [
+  "13",
+  "14",
+  "15",
+  "16",
+  "17"
+ ],
+ "rings": [
+  {
+   "x": 709.0,
+   "y": 304.0,
+   "r": 34.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 857.0,
+   "y": 368.5,
+   "r": 33.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 910.0,
+   "y": 446.0,
+   "r": 34.0,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 804.0,
+   "y": 794.0,
+   "r": 34.0,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 863.0,
+   "y": 900.0,
+   "r": 34.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p032-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  958.0,
+  968.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 542,
+ "svg_snapped": 39
+}

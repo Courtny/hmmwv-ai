@@ -1,0 +1,86 @@
+{
+ "id": "p086-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 86,
+ "printed_page": "2-67",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Cross section of a cylinder head with a valve installed in its guide.",
+ "size_px": [
+  1060,
+  883
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Valve stem"
+  },
+  {
+   "n": "2",
+   "label": "Valve"
+  },
+  {
+   "n": "3",
+   "label": "Valve seat"
+  },
+  {
+   "n": "4",
+   "label": "Valve guide"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 352.0,
+   "y": 70.0,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 677.5,
+   "y": 817.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 487.5,
+   "y": 810.5,
+   "r": 35.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 320.5,
+   "y": 256.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p086-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1060.0,
+  883.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 149,
+ "svg_snapped": 0
+}

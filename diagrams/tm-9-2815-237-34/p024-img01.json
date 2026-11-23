@@ -1,0 +1,339 @@
+{
+ "id": "p024-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 24,
+ "printed_page": "7",
+ "kind": "exploded view",
+ "caption": "2-13.1. ENGINE REPLACEMENT IN SHIPPING/STORAGE CONTAINER",
+ "alt": "Exploded view of the engine shipping container, showing the upper and lower containers, engine, mounts and fasteners.",
+ "size_px": [
+  2239,
+  1238
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Air-release button"
+  },
+  {
+   "n": "2",
+   "label": "Breather valve"
+  },
+  {
+   "n": "3",
+   "label": "Desiccant"
+  },
+  {
+   "n": "4",
+   "label": "Upper container"
+  },
+  {
+   "n": "5",
+   "label": "Engine container"
+  },
+  {
+   "n": "6",
+   "label": "Engine assembly"
+  },
+  {
+   "n": "7",
+   "label": "Washers"
+  },
+  {
+   "n": "8",
+   "label": "Lockwashers"
+  },
+  {
+   "n": "9",
+   "label": "Capscrews"
+  },
+  {
+   "n": "10",
+   "label": "Rear engine mounts"
+  },
+  {
+   "n": "11",
+   "label": "Gasket"
+  },
+  {
+   "n": "12",
+   "label": "Engine mounts"
+  },
+  {
+   "n": "13",
+   "label": "Lower container"
+  },
+  {
+   "n": "14",
+   "label": "Capscrews"
+  },
+  {
+   "n": "15",
+   "label": "Alignment pins"
+  },
+  {
+   "n": "16",
+   "label": "Capscrews"
+  },
+  {
+   "n": "17",
+   "label": "Humidity indicator"
+  },
+  {
+   "n": "18",
+   "label": "Washers"
+  },
+  {
+   "n": "19",
+   "label": "Nuts"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19"
+ ],
+ "rings": [
+  {
+   "x": 109.0,
+   "y": 216.0,
+   "r": 36.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 197.0,
+   "y": 132.5,
+   "r": 36.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 270.0,
+   "y": 89.5,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 891.5,
+   "y": 64.5,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1234.5,
+   "y": 92.5,
+   "r": 37.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": [
+    "readings 5×3, E5×1"
+   ]
+  },
+  {
+   "x": 2128.5,
+   "y": 838.5,
+   "r": 37.0,
+   "text": "EN",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "readings EN×2, 5×1",
+    "reads 5"
+   ]
+  },
+  {
+   "x": 1862.5,
+   "y": 271.5,
+   "r": 37.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1819.0,
+   "y": 632.0,
+   "r": 37.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1282.5,
+   "y": 911.5,
+   "r": 37.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1888.5,
+   "y": 580.0,
+   "r": 37.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1964.5,
+   "y": 1139.5,
+   "r": 37.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1990.0,
+   "y": 550.5,
+   "r": 36.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1967.5,
+   "y": 814.0,
+   "r": 37.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 2064.0,
+   "y": 780.0,
+   "r": 38.0,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1716.5,
+   "y": 617.0,
+   "r": 37.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1820.5,
+   "y": 1182.5,
+   "r": 37.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1706.5,
+   "y": 1161.5,
+   "r": 37.0,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1293.0,
+   "y": 699.0,
+   "r": 37.0,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1605.5,
+   "y": 1180.5,
+   "r": 37.5,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 908.5,
+   "y": 1054.5,
+   "r": 36.5,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 479.5,
+   "y": 743.5,
+   "r": 36.5,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": [
+    "readings 17×5, MAND×1"
+   ]
+  },
+  {
+   "x": 83.5,
+   "y": 621.5,
+   "r": 36.5,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 98.0,
+   "y": 409.5,
+   "r": 37.2,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p024-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1120.0,
+  619.0
+ ],
+ "scale": 0.5002233139794551,
+ "svg_problems": [],
+ "svg_kb": 507,
+ "svg_snapped": 1
+}

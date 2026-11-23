@@ -1,0 +1,72 @@
+{
+ "id": "p084-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 84,
+ "printed_page": "2-65",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Valve showing the stem tip, stem and head.",
+ "size_px": [
+  506,
+  883
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Valves"
+  },
+  {
+   "n": "2",
+   "label": "Valve stems"
+  },
+  {
+   "n": "3",
+   "label": "Valve heads"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3"
+ ],
+ "rings": [
+  {
+   "x": 83.5,
+   "y": 93.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 361.0,
+   "y": 423.0,
+   "r": 36.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 424.0,
+   "y": 797.5,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p084-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  506.0,
+  883.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 17,
+ "svg_snapped": 0
+}

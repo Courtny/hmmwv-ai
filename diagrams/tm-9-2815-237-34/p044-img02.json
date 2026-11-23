@@ -1,0 +1,195 @@
+{
+ "id": "p044-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 44,
+ "printed_page": "2-25",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > p. Water Pump and Adapter Plate",
+ "alt": "Three views of the oil fill tube, water pump and adapter plate, with their studs, capscrews and gasket separated from the timing gear cover.",
+ "size_px": [
+  1205,
+  826
+ ],
+ "key": [
+  {
+   "n": "6",
+   "label": "Nuts"
+  },
+  {
+   "n": "7",
+   "label": "Washers"
+  },
+  {
+   "n": "8",
+   "label": "Oil fill tube"
+  },
+  {
+   "n": "9",
+   "label": "Adapter plate"
+  },
+  {
+   "n": "10",
+   "label": "Studs"
+  },
+  {
+   "n": "11",
+   "label": "Washers"
+  },
+  {
+   "n": "12",
+   "label": "Timing gear cover"
+  },
+  {
+   "n": "13",
+   "label": "Water pump"
+  },
+  {
+   "n": "14",
+   "label": "Studs"
+  },
+  {
+   "n": "15",
+   "label": "Capscrews"
+  },
+  {
+   "n": "16",
+   "label": "Capscrew"
+  },
+  {
+   "n": "17",
+   "label": "Studs"
+  },
+  {
+   "n": "18",
+   "label": "Capscrews"
+  },
+  {
+   "n": "19",
+   "label": "Gasket"
+  },
+  {
+   "n": "20",
+   "label": "Capscrews"
+  }
+ ],
+ "expected": [
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18"
+ ],
+ "rings": [
+  {
+   "x": 619.5,
+   "y": 54.0,
+   "r": 34.8,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": [
+    "readings 9×3, G×1"
+   ]
+  },
+  {
+   "x": 222.5,
+   "y": 82.0,
+   "r": 34.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 431.0,
+   "y": 83.0,
+   "r": 34.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 855.0,
+   "y": 65.0,
+   "r": 35.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 733.0,
+   "y": 715.5,
+   "r": 34.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 412.5,
+   "y": 750.0,
+   "r": 34.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 239.5,
+   "y": 608.0,
+   "r": 35.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 84.0,
+   "y": 601.5,
+   "r": 34.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 94.0,
+   "y": 339.5,
+   "r": 34.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 218.5,
+   "y": 287.0,
+   "r": 34.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p044-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1205.0,
+  826.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 808,
+ "svg_snapped": 1,
+ "review_notes": [
+  "6, 7, 8, 19, 20: not in this drawing; the capture key includes the neighbouring figure"
+ ]
+}

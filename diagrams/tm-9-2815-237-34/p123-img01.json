@@ -1,0 +1,100 @@
+{
+ "id": "p123-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 123,
+ "printed_page": "2-102",
+ "kind": "diagram",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont'd)",
+ "alt": "Assembled min-max governor showing the idle spring, pushrod and throttle block with measurement A from the throttle block to the end of the pushrod.",
+ "size_px": [
+  884,
+  626
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "min-max governor"
+  },
+  {
+   "n": "2",
+   "label": "idle spring"
+  },
+  {
+   "n": "3",
+   "label": "min-max spring"
+  },
+  {
+   "n": "4",
+   "label": "throttle block"
+  },
+  {
+   "n": "5",
+   "label": "pushrod"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 438.0,
+   "y": 60.0,
+   "r": 37.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 329.0,
+   "y": 215.0,
+   "r": 37.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 552.5,
+   "y": 187.0,
+   "r": 37.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 777.5,
+   "y": 517.5,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 356.5,
+   "y": 470.5,
+   "r": 37.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p123-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  884.0,
+  626.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 154,
+ "svg_snapped": 0
+}

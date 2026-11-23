@@ -1,0 +1,100 @@
+{
+ "id": "p185-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 185,
+ "printed_page": "2-140.24",
+ "kind": "assembly view",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont'd) - c. Removal of Fuel Injection Pump from Test Stand",
+ "alt": "Fuel injection pump on the test stand with tubing, test adapter and hose assembly connected.",
+ "size_px": [
+  1880,
+  1214
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "2",
+   "label": "Fuel inlet port"
+  },
+  {
+   "n": "3",
+   "label": "Calibration fluid push-on connector"
+  },
+  {
+   "n": "4",
+   "label": "Calibration fluid supply quick-connect"
+  },
+  {
+   "n": "5",
+   "label": "Test stand"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 1487.5,
+   "y": 375.5,
+   "r": 35.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1525.0,
+   "y": 496.5,
+   "r": 35.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 342.5,
+   "y": 1030.0,
+   "r": 35.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 62.5,
+   "y": 604.0,
+   "r": 35.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 262.5,
+   "y": 413.0,
+   "r": 35.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p185-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  940.0,
+  607.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 299,
+ "svg_snapped": 53
+}

@@ -1,0 +1,72 @@
+{
+ "id": "p126-img07",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 126,
+ "printed_page": "2-105",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Governor weight showing the heel and toe wear areas.",
+ "size_px": [
+  550,
+  593
+ ],
+ "key": [
+  {
+   "n": "19",
+   "label": "Heel"
+  },
+  {
+   "n": "20",
+   "label": "Toe"
+  },
+  {
+   "n": "21",
+   "label": "Governor weights"
+  }
+ ],
+ "expected": [
+  "19",
+  "20",
+  "21"
+ ],
+ "rings": [
+  {
+   "x": 298.5,
+   "y": 65.0,
+   "r": 36.2,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 452.5,
+   "y": 276.5,
+   "r": 36.0,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 186.5,
+   "y": 526.5,
+   "r": 36.0,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p126-img07.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  550.0,
+  593.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 21,
+ "svg_snapped": 0
+}

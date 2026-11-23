@@ -1,0 +1,116 @@
+{
+ "id": "p092-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 92,
+ "printed_page": "2-73",
+ "kind": "exploded view",
+ "caption": "2-22. VALVE TRAIN REPAIR (Cont’d)",
+ "alt": "Rocker shaft with rocker arms and a retainer, above a pushrod and a lifter with its roller.",
+ "size_px": [
+  1366,
+  2343
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Rocker shaft"
+  },
+  {
+   "n": "2",
+   "label": "Retainer"
+  },
+  {
+   "n": "3",
+   "label": "Rocker arm"
+  },
+  {
+   "n": "4",
+   "label": "Pushrod"
+  },
+  {
+   "n": "5",
+   "label": "Lifter"
+  },
+  {
+   "n": "6",
+   "label": "Roller"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 142.5,
+   "y": 178.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "reads 1 (Vision read 4)"
+   ]
+  },
+  {
+   "x": 1164.0,
+   "y": 252.5,
+   "r": 35.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1039.0,
+   "y": 773.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 787.5,
+   "y": 1391.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 779.0,
+   "y": 1919.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 545.5,
+   "y": 2214.5,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p092-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  683.0,
+  1172.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 103,
+ "svg_snapped": 3
+}

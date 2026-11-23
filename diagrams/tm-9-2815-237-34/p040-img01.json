@@ -1,0 +1,123 @@
+{
+ "id": "p040-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 40,
+ "printed_page": "2-21",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont’d) > l. Fuel Injection Nozzles",
+ "alt": "Fuel injection nozzle, gasket, hose, cap and clamps separated from the cylinder head.",
+ "size_px": [
+  1610,
+  1733
+ ],
+ "key": [
+  {
+   "n": "5",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "6",
+   "label": "Fuel injection nozzles"
+  },
+  {
+   "n": "7",
+   "label": "Gaskets"
+  },
+  {
+   "n": "8",
+   "label": "Hoses"
+  },
+  {
+   "n": "9",
+   "label": "Cap"
+  },
+  {
+   "n": "10",
+   "label": "Clamps"
+  }
+ ],
+ "expected": [
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10"
+ ],
+ "rings": [
+  {
+   "x": 501.0,
+   "y": 166.0,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 915.0,
+   "y": 119.0,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1037.5,
+   "y": 379.0,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1254.0,
+   "y": 522.0,
+   "r": 36.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1405.0,
+   "y": 555.0,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1360.0,
+   "y": 115.0,
+   "r": 36.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1478.0,
+   "y": 871.0,
+   "r": 36.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p040-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  805.0,
+  867.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 301,
+ "svg_snapped": 1
+}

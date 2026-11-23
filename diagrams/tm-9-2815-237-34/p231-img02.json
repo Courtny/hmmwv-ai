@@ -1,0 +1,95 @@
+{
+ "id": "p231-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 231,
+ "printed_page": "2-184.1",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of an exhaust pipe with two clamps between a turbocharger and an exhaust manifold.",
+ "size_px": [
+  1118,
+  1079
+ ],
+ "key": [
+  {
+   "n": "15",
+   "label": "Turbocharger"
+  },
+  {
+   "n": "17",
+   "label": "Exhaust pipe"
+  },
+  {
+   "n": "18",
+   "label": "Clamp"
+  },
+  {
+   "n": "19",
+   "label": "Exhaust manifold"
+  }
+ ],
+ "expected": [
+  "15",
+  "17",
+  "18",
+  "19"
+ ],
+ "rings": [
+  {
+   "x": 647.0,
+   "y": 589.5,
+   "r": 36.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 278.0,
+   "y": 162.5,
+   "r": 36.2,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 410.5,
+   "y": 55.0,
+   "r": 36.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 54.5,
+   "y": 345.0,
+   "r": 37.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 155.5,
+   "y": 736.0,
+   "r": 36.8,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p231-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1118.0,
+  1079.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 462,
+ "svg_snapped": 8
+}

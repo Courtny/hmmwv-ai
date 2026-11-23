@@ -1,0 +1,60 @@
+{
+ "id": "p041-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 41,
+ "printed_page": "2-22",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > m. Glow Plugs",
+ "alt": "Glow plug and its socket position beside the cylinder head on the engine.",
+ "size_px": [
+  1526,
+  1479
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Glow plugs"
+  },
+  {
+   "n": "2",
+   "label": "Cylinder head"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 1217.0,
+   "y": 44.5,
+   "r": 35.8,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 1401.5,
+   "y": 392.0,
+   "r": 36.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p041-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  763.0,
+  740.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 232,
+ "svg_snapped": 1
+}

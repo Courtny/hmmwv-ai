@@ -1,0 +1,46 @@
+{
+ "id": "p086-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 86,
+ "printed_page": "2-67",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Engine temperature sending unit.",
+ "size_px": [
+  489,
+  350
+ ],
+ "key": [
+  {
+   "n": "5",
+   "label": "Engine temperature sending unit"
+  }
+ ],
+ "expected": [
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 82.5,
+   "y": 186.5,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": [
+    "readings 5×2, EN×1"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p086-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  489.0,
+  350.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 29,
+ "svg_snapped": 0
+}

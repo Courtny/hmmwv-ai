@@ -1,0 +1,58 @@
+{
+ "id": "p101-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 101,
+ "printed_page": "2-82",
+ "kind": "exploded view",
+ "caption": "2-28. OIL FILTER ADAPTER AND OIL PRESSURE SENDING UNIT REPAIR",
+ "alt": "Oil pressure sending unit with its elbow fitting separated from it.",
+ "size_px": [
+  820,
+  678
+ ],
+ "key": [
+  {
+   "n": "4",
+   "label": "Oil pressure sending unit"
+  },
+  {
+   "n": "5",
+   "label": "Fitting"
+  }
+ ],
+ "expected": [
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 115.0,
+   "y": 400.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 567.5,
+   "y": 74.5,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p101-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  820.0,
+  678.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 136,
+ "svg_snapped": 1
+}

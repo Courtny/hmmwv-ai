@@ -1,0 +1,100 @@
+{
+ "id": "p230-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 230,
+ "printed_page": "2-184",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of a gasket, right exhaust manifold, washers and socket-head screws on the cylinder head.",
+ "size_px": [
+  1038,
+  1050
+ ],
+ "key": [
+  {
+   "n": "4",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "8",
+   "label": "Gasket"
+  },
+  {
+   "n": "9",
+   "label": "Right exhaust manifold"
+  },
+  {
+   "n": "10",
+   "label": "Washer"
+  },
+  {
+   "n": "11",
+   "label": "Socket-head screw"
+  }
+ ],
+ "expected": [
+  "4",
+  "8",
+  "9",
+  "10",
+  "11"
+ ],
+ "rings": [
+  {
+   "x": 772.5,
+   "y": 335.0,
+   "r": 37.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 934.0,
+   "y": 397.0,
+   "r": 37.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 987.5,
+   "y": 480.5,
+   "r": 36.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 874.5,
+   "y": 858.5,
+   "r": 36.5,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 945.5,
+   "y": 975.0,
+   "r": 37.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p230-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1038.0,
+  1050.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 317,
+ "svg_snapped": 0
+}

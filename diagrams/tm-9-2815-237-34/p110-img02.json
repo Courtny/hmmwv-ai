@@ -1,0 +1,130 @@
+{
+ "id": "p110-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 110,
+ "printed_page": "2-89",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont'd)",
+ "alt": "Exploded view of the governor linkage hook, governor arm, spring, metering valve and vent wire screw above the open pump housing.",
+ "size_px": [
+  894,
+  1209
+ ],
+ "key": [
+  {
+   "n": "4",
+   "label": "Housing"
+  },
+  {
+   "n": "17",
+   "label": "Linkage hook"
+  },
+  {
+   "n": "18",
+   "label": "Valve arm pin"
+  },
+  {
+   "n": "19",
+   "label": "Metering valve"
+  },
+  {
+   "n": "20",
+   "label": "Vent wire socket head screw"
+  },
+  {
+   "n": "21",
+   "label": "Spring"
+  },
+  {
+   "n": "22",
+   "label": "Governor arm"
+  }
+ ],
+ "expected": [
+  "4",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22"
+ ],
+ "rings": [
+  {
+   "x": 889.5,
+   "y": 949.9,
+   "r": 35.4,
+   "text": null,
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "ring cut off at the right edge; 4 (housing) by where the leader points; placed by eye"
+   ]
+  },
+  {
+   "x": 572.5,
+   "y": 262.5,
+   "r": 35.5,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 828.5,
+   "y": 606.5,
+   "r": 35.5,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 804.5,
+   "y": 812.5,
+   "r": 35.5,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 501.0,
+   "y": 709.5,
+   "r": 35.2,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 377.0,
+   "y": 560.5,
+   "r": 35.2,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 86.5,
+   "y": 502.0,
+   "r": 35.2,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p110-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  894.0,
+  1209.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 217,
+ "svg_snapped": 1
+}

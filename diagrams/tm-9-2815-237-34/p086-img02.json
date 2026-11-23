@@ -1,0 +1,44 @@
+{
+ "id": "p086-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 86,
+ "printed_page": "2-67",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Cold start advance switch with its wiring.",
+ "size_px": [
+  806,
+  636
+ ],
+ "key": [
+  {
+   "n": "6",
+   "label": "Cold start advance switch"
+  }
+ ],
+ "expected": [
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 116.0,
+   "y": 536.5,
+   "r": 36.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p086-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  806.0,
+  636.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 32,
+ "svg_snapped": 0
+}

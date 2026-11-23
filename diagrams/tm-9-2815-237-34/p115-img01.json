@@ -1,0 +1,144 @@
+{
+ "id": "p115-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 115,
+ "printed_page": "2-94",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Hydraulic head with rotor, leaf spring, adjusting screw and head seal drawn around it.",
+ "size_px": [
+  1446,
+  783
+ ],
+ "key": [
+  {
+   "n": "4",
+   "label": "Rotor"
+  },
+  {
+   "n": "5",
+   "label": "Hydraulic head"
+  },
+  {
+   "n": "6",
+   "label": "Leaf spring"
+  },
+  {
+   "n": "7",
+   "label": "Leaf spring adjusting screw"
+  },
+  {
+   "n": "8",
+   "label": "Head seal"
+  },
+  {
+   "n": "1",
+   "label": "Cam rollers"
+  },
+  {
+   "n": "2",
+   "label": "Cam roller shoes"
+  },
+  {
+   "n": "3",
+   "label": "Plungers"
+  }
+ ],
+ "expected": [
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "1",
+  "2",
+  "3"
+ ],
+ "rings": [
+  {
+   "x": 165.0,
+   "y": 498.0,
+   "r": 36.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 295.0,
+   "y": 387.0,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 401.0,
+   "y": 290.5,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 991.5,
+   "y": 87.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1083.0,
+   "y": 188.0,
+   "r": 36.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1248.5,
+   "y": 254.5,
+   "r": 36.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1365.0,
+   "y": 414.0,
+   "r": 36.0,
+   "text": null,
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  },
+  {
+   "x": 960.0,
+   "y": 649.0,
+   "r": 36.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p115-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1446.0,
+  783.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 179,
+ "svg_snapped": 0
+}

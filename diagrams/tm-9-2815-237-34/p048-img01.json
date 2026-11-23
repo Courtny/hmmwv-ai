@@ -1,0 +1,170 @@
+{
+ "id": "p048-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 48,
+ "printed_page": "2-29",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > t. Oil Filter, Adapter, and Oil Pressure Sending Unit",
+ "alt": "Oil filter, filter adapter, adapter bolt, O-rings, fittings and oil pressure sending unit removed from the cylinder block.",
+ "size_px": [
+  1489,
+  1840
+ ],
+ "key": [
+  {
+   "n": "12",
+   "label": "Oil pressure sending unit"
+  },
+  {
+   "n": "13",
+   "label": "Fitting"
+  },
+  {
+   "n": "14",
+   "label": "O-ring"
+  },
+  {
+   "n": "15",
+   "label": "Adapter"
+  },
+  {
+   "n": "16",
+   "label": "Gasket"
+  },
+  {
+   "n": "17",
+   "label": "Adapter bolt"
+  },
+  {
+   "n": "18",
+   "label": "O-rings"
+  },
+  {
+   "n": "19",
+   "label": "Oil filter"
+  },
+  {
+   "n": "20",
+   "label": "Oil cooler line fittings"
+  },
+  {
+   "n": "21",
+   "label": "Cylinder block"
+  }
+ ],
+ "expected": [
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21"
+ ],
+ "rings": [
+  {
+   "x": 816.0,
+   "y": 80.5,
+   "r": 35.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1353.5,
+   "y": 107.5,
+   "r": 36.0,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1204.5,
+   "y": 1316.5,
+   "r": 35.5,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1209.0,
+   "y": 1508.5,
+   "r": 35.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1105.5,
+   "y": 1618.0,
+   "r": 35.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1102.0,
+   "y": 1763.5,
+   "r": 35.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 674.0,
+   "y": 1605.5,
+   "r": 36.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 67.5,
+   "y": 1297.0,
+   "r": 35.8,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 410.0,
+   "y": 1179.0,
+   "r": 37.0,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 184.0,
+   "y": 596.5,
+   "r": 35.8,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p048-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  745.0,
+  920.0
+ ],
+ "scale": 0.5003357958361316,
+ "svg_problems": [],
+ "svg_kb": 258,
+ "svg_snapped": 1
+}

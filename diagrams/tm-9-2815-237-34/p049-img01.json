@@ -1,0 +1,151 @@
+{
+ "id": "p049-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 49,
+ "printed_page": "2-30",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > u. Oil Pan",
+ "alt": "Oil pan with drain plug, gasket, capscrews, studs and rear seal separated from the cylinder block.",
+ "size_px": [
+  1980,
+  1768
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Capscrews"
+  },
+  {
+   "n": "2",
+   "label": "Oil drainplug"
+  },
+  {
+   "n": "3",
+   "label": "Gasket"
+  },
+  {
+   "n": "4",
+   "label": "Studs"
+  },
+  {
+   "n": "5",
+   "label": "Oil pan"
+  },
+  {
+   "n": "6",
+   "label": "Oil pan rear seal"
+  },
+  {
+   "n": "7",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "8",
+   "label": "Gasket"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 1075.0,
+   "y": 190.5,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 219.0,
+   "y": 475.0,
+   "r": 36.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 173.5,
+   "y": 189.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 403.5,
+   "y": 78.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 590.5,
+   "y": 59.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 860.5,
+   "y": 223.0,
+   "r": 36.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1307.0,
+   "y": 334.5,
+   "r": 36.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1763.0,
+   "y": 778.0,
+   "r": 36.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 370.0,
+   "y": 1046.5,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p049-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  990.0,
+  884.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 400,
+ "svg_snapped": 37
+}

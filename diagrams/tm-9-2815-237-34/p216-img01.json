@@ -1,0 +1,246 @@
+{
+ "id": "p216-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 216,
+ "printed_page": "2-170",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d) > l. Fuel Injection Pump",
+ "alt": "Exploded view of the fuel injection pump, gasket, accelerator cable bracket and driven gear at the timing gear cover, with an inset of the pump drive and driven gear timing marks.",
+ "size_px": [
+  2200,
+  1728
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Capscrews"
+  },
+  {
+   "n": "2",
+   "label": "Pump driven gear"
+  },
+  {
+   "n": "3",
+   "label": "Timing gear cover"
+  },
+  {
+   "n": "4",
+   "label": "Timing marks"
+  },
+  {
+   "n": "5",
+   "label": "Gasket"
+  },
+  {
+   "n": "6",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "7",
+   "label": "Throttle lever"
+  },
+  {
+   "n": "8",
+   "label": "Idle return spring"
+  },
+  {
+   "n": "9",
+   "label": "Nuts"
+  },
+  {
+   "n": "10",
+   "label": "Washers"
+  },
+  {
+   "n": "11",
+   "label": "Capscrews"
+  },
+  {
+   "n": "12",
+   "label": "Accelerator cable bracket"
+  },
+  {
+   "n": "13",
+   "label": "Pump drive gear"
+  },
+  {
+   "n": "14",
+   "label": "Timing mark"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14"
+ ],
+ "rings": [
+  {
+   "x": 524.5,
+   "y": 145.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1012.0,
+   "y": 61.0,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 300.0,
+   "y": 1030.5,
+   "r": 35.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1182.0,
+   "y": 89.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1305.0,
+   "y": 143.0,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1687.0,
+   "y": 371.0,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1550.5,
+   "y": 353.0,
+   "r": 36.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1920.5,
+   "y": 344.5,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 2065.5,
+   "y": 641.0,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1720.0,
+   "y": 1064.0,
+   "r": 36.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": [
+    "readings 8×5, 00×1"
+   ]
+  },
+  {
+   "x": 1414.5,
+   "y": 1182.5,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1277.0,
+   "y": 1162.0,
+   "r": 36.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1038.5,
+   "y": 1050.5,
+   "r": 36.0,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1158.5,
+   "y": 830.5,
+   "r": 35.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 506.0,
+   "y": 1502.5,
+   "r": 36.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 222.0,
+   "y": 1437.5,
+   "r": 35.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p216-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1100.0,
+  864.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 513,
+ "svg_snapped": 55
+}

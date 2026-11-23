@@ -1,0 +1,249 @@
+{
+ "id": "p117-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 117,
+ "printed_page": "2-96",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Exploded view of the electrical shutoff solenoid, studs, terminal hardware and check valve on the pump cover.",
+ "size_px": [
+  953,
+  1682
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Check valve"
+  },
+  {
+   "n": "2",
+   "label": "Terminal"
+  },
+  {
+   "n": "3",
+   "label": "Washer"
+  },
+  {
+   "n": "4",
+   "label": "Shell"
+  },
+  {
+   "n": "5",
+   "label": "Nut"
+  },
+  {
+   "n": "6",
+   "label": "Lockwasher"
+  },
+  {
+   "n": "7",
+   "label": "Washer"
+  },
+  {
+   "n": "8",
+   "label": "Fiber washer"
+  },
+  {
+   "n": "9",
+   "label": "Stud"
+  },
+  {
+   "n": "10",
+   "label": "Electrical shutoff solenoid"
+  },
+  {
+   "n": "11",
+   "label": "Stud"
+  },
+  {
+   "n": "12",
+   "label": "Cover"
+  },
+  {
+   "n": "13",
+   "label": "Ground strap"
+  },
+  {
+   "n": "14",
+   "label": "Locknut"
+  },
+  {
+   "n": "15",
+   "label": "O-ring"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "rings": [
+  {
+   "x": 403.0,
+   "y": 109.5,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 742.0,
+   "y": 275.5,
+   "r": 36.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 773.5,
+   "y": 394.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 775.5,
+   "y": 522.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 740.5,
+   "y": 743.5,
+   "r": 35.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 358.5,
+   "y": 671.5,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 750.0,
+   "y": 835.0,
+   "r": 36.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 789.5,
+   "y": 921.5,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 820.0,
+   "y": 1158.5,
+   "r": 34.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 797.5,
+   "y": 1338.5,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 729.5,
+   "y": 1601.5,
+   "r": 36.5,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 356.5,
+   "y": 1367.5,
+   "r": 35.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 111.5,
+   "y": 906.5,
+   "r": 35.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 372.0,
+   "y": 548.5,
+   "r": 36.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 430.0,
+   "y": 420.5,
+   "r": 36.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 103.5,
+   "y": 455.0,
+   "r": 36.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p117-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  477.0,
+  841.0
+ ],
+ "scale": 0.5005246589716684,
+ "svg_problems": [],
+ "svg_kb": 227,
+ "svg_snapped": 23
+}

@@ -1,0 +1,142 @@
+{
+ "id": "p133-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 133,
+ "printed_page": "2-112",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Side exploded view of hydraulic head with end cap seal, rotor retainers, locating ring, liner, springs and blades.",
+ "size_px": [
+  1632,
+  652
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Hydraulic head"
+  },
+  {
+   "n": "2",
+   "label": "Transfer pump end cap seal"
+  },
+  {
+   "n": "3",
+   "label": "Rotor retainers"
+  },
+  {
+   "n": "4",
+   "label": "Liner locating ring"
+  },
+  {
+   "n": "5",
+   "label": "Transfer pump liner"
+  },
+  {
+   "n": "6",
+   "label": "Springs"
+  },
+  {
+   "n": "7",
+   "label": "Transfer pump blades"
+  },
+  {
+   "n": "8",
+   "label": "Rotor"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 284.5,
+   "y": 56.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 739.5,
+   "y": 57.5,
+   "r": 34.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 917.0,
+   "y": 61.5,
+   "r": 34.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1063.5,
+   "y": 57.5,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1203.5,
+   "y": 59.0,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1382.0,
+   "y": 202.5,
+   "r": 35.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1367.5,
+   "y": 561.0,
+   "r": 35.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 628.5,
+   "y": 558.5,
+   "r": 36.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p133-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1632.0,
+  652.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 514,
+ "svg_snapped": 1
+}

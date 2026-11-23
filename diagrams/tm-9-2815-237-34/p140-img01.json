@@ -1,0 +1,221 @@
+{
+ "id": "p140-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 140,
+ "printed_page": "2-119",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Exploded view of throttle shaft, face cam, kickdown cam and rocker lever parts around the pump housing.",
+ "size_px": [
+  2128,
+  1712
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Throttle shaft"
+  },
+  {
+   "n": "2",
+   "label": "Spacer"
+  },
+  {
+   "n": "3",
+   "label": "O-rings"
+  },
+  {
+   "n": "4",
+   "label": "Housing"
+  },
+  {
+   "n": "5",
+   "label": "Governor thrust spring"
+  },
+  {
+   "n": "6",
+   "label": "Mylar washer"
+  },
+  {
+   "n": "7",
+   "label": "Face cam"
+  },
+  {
+   "n": "9",
+   "label": "Retaining pin"
+  },
+  {
+   "n": "10",
+   "label": "Kickdown cam"
+  },
+  {
+   "n": "12",
+   "label": "Rocker lever"
+  },
+  {
+   "n": "13",
+   "label": "Screw"
+  },
+  {
+   "n": "14",
+   "label": "Retaining clips"
+  },
+  {
+   "n": "15",
+   "label": "Rocker lever pin"
+  },
+  {
+   "n": "16",
+   "label": "Housing boss"
+  }
+ ],
+ "expected": [
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "9",
+  "10",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16"
+ ],
+ "rings": [
+  {
+   "x": 765.5,
+   "y": 407.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 874.5,
+   "y": 490.0,
+   "r": 35.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 951.5,
+   "y": 460.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1162.5,
+   "y": 260.5,
+   "r": 35.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1541.0,
+   "y": 906.0,
+   "r": 35.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1738.5,
+   "y": 927.5,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1933.0,
+   "y": 1054.5,
+   "r": 35.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 2097.6,
+   "y": 1170.4,
+   "r": 35.5,
+   "text": null,
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "ring cut off at the right edge of the scan; placed by eye"
+   ]
+  },
+  {
+   "x": 1571.5,
+   "y": 1635.5,
+   "r": 35.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1282.0,
+   "y": 1376.5,
+   "r": 35.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1194.5,
+   "y": 1633.5,
+   "r": 35.5,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 900.5,
+   "y": 1293.5,
+   "r": 35.5,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 789.5,
+   "y": 1166.5,
+   "r": 35.5,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p140-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1064.0,
+  856.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 259,
+ "svg_snapped": 15,
+ "review_notes": [
+  "1: ring cut off by the scan crop"
+ ]
+}

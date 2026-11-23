@@ -1,0 +1,44 @@
+{
+ "id": "p126-img06",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 126,
+ "printed_page": "2-105",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Single transfer pump blade with measuring point A marked.",
+ "size_px": [
+  340,
+  448
+ ],
+ "key": [
+  {
+   "n": "17",
+   "label": "Transfer pump blades"
+  }
+ ],
+ "expected": [
+  "17"
+ ],
+ "rings": [
+  {
+   "x": 67.0,
+   "y": 59.0,
+   "r": 35.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p126-img06.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  340.0,
+  448.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 44,
+ "svg_snapped": 0
+}

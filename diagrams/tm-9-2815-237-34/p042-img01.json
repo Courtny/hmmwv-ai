@@ -1,0 +1,118 @@
+{
+ "id": "p042-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 42,
+ "printed_page": "2-23",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > n. Cylinder Heads",
+ "alt": "Cylinder head, head gasket, cylinder block and an optional lifting device with capscrew and washer.",
+ "size_px": [
+  1268,
+  1664
+ ],
+ "key": [
+  {
+   "n": "2",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "3",
+   "label": "Capscrews"
+  },
+  {
+   "n": "3.1",
+   "label": "Capscrews"
+  },
+  {
+   "n": "3.2",
+   "label": "Washers"
+  },
+  {
+   "n": "4",
+   "label": "Cylinder head gasket"
+  },
+  {
+   "n": "5",
+   "label": "Cylinder block"
+  }
+ ],
+ "expected": [
+  "2",
+  "3",
+  "3.1",
+  "3.2",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 315.0,
+   "y": 472.5,
+   "r": 34.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 399.5,
+   "y": 370.5,
+   "r": 34.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1034.1,
+   "y": 147.4,
+   "r": 34.0,
+   "text": null,
+   "n": "3.1",
+   "confidence": 1.0,
+   "notes": [
+    "blank ring in the scan; 3.1 (capscrews) by where the leader points; placed by eye"
+   ]
+  },
+  {
+   "x": 993.6,
+   "y": 339.9,
+   "r": 34.0,
+   "text": null,
+   "n": "3.2",
+   "confidence": 1.0,
+   "notes": [
+    "blank ring in the scan; 3.2 (washers) by where the leader points; placed by eye"
+   ]
+  },
+  {
+   "x": 829.0,
+   "y": 734.0,
+   "r": 34.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 668.5,
+   "y": 1125.5,
+   "r": 34.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p042-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  634.0,
+  832.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 349,
+ "svg_snapped": 53
+}

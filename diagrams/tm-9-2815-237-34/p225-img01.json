@@ -1,0 +1,406 @@
+{
+ "id": "p225-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 225,
+ "printed_page": "2-179",
+ "kind": "assembly view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Exploded view of fuel supply and return lines, clamps and hoses on the front of an engine.",
+ "size_px": [
+  2036,
+  1650
+ ],
+ "key": [
+  {
+   "n": "8",
+   "label": "Fuel supply line"
+  },
+  {
+   "n": "9",
+   "label": "Hose clamp"
+  },
+  {
+   "n": "10",
+   "label": "Fuel filter inlet hose"
+  },
+  {
+   "n": "11",
+   "label": "Capscrew"
+  },
+  {
+   "n": "12",
+   "label": "Washer"
+  },
+  {
+   "n": "13",
+   "label": "Clamp"
+  },
+  {
+   "n": "14",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "15",
+   "label": "Clamp"
+  },
+  {
+   "n": "16",
+   "label": "Rubber hose"
+  },
+  {
+   "n": "17",
+   "label": "Fuel return line"
+  },
+  {
+   "n": "18",
+   "label": "Nut"
+  },
+  {
+   "n": "19",
+   "label": "Washer"
+  },
+  {
+   "n": "20",
+   "label": "Clamp"
+  },
+  {
+   "n": "21",
+   "label": "Valve cover stud"
+  },
+  {
+   "n": "22",
+   "label": "Fuel injection nozzle"
+  },
+  {
+   "n": "23",
+   "label": "Stud"
+  },
+  {
+   "n": "24",
+   "label": "Washer"
+  },
+  {
+   "n": "25",
+   "label": "Timing gear cover"
+  },
+  {
+   "n": "26",
+   "label": "Tube nut"
+  },
+  {
+   "n": "27",
+   "label": "Fuel pump"
+  },
+  {
+   "n": "28",
+   "label": "Clamp"
+  },
+  {
+   "n": "29",
+   "label": "Cylinder block"
+  }
+ ],
+ "expected": [
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29"
+ ],
+ "rings": [
+  {
+   "x": 400.0,
+   "y": 101.5,
+   "r": 36.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1008.5,
+   "y": 1523.5,
+   "r": 36.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": [
+    "readings 8×4, 00×1"
+   ]
+  },
+  {
+   "x": 522.5,
+   "y": 66.5,
+   "r": 36.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": [
+    "readings 9×1, G×1, O×1"
+   ]
+  },
+  {
+   "x": 695.5,
+   "y": 64.0,
+   "r": 36.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 802.0,
+   "y": 186.0,
+   "r": 36.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 876.0,
+   "y": 269.0,
+   "r": 36.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 974.0,
+   "y": 257.5,
+   "r": 36.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1071.0,
+   "y": 192.0,
+   "r": 36.5,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1161.5,
+   "y": 123.5,
+   "r": 36.5,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 89.5,
+   "y": 706.0,
+   "r": 36.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1811.0,
+   "y": 900.0,
+   "r": 36.5,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": [
+    "readings 15×4, 5×1"
+   ]
+  },
+  {
+   "x": 1266.5,
+   "y": 127.5,
+   "r": 36.0,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1956.5,
+   "y": 788.0,
+   "r": 35.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": [
+    "readings 16×4, 6×1"
+   ]
+  },
+  {
+   "x": 101.0,
+   "y": 888.0,
+   "r": 35.5,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": [
+    "readings 16×5, 1×1"
+   ]
+  },
+  {
+   "x": 1476.0,
+   "y": 267.0,
+   "r": 36.5,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1803.5,
+   "y": 267.0,
+   "r": 36.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1939.5,
+   "y": 471.0,
+   "r": 36.2,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1921.0,
+   "y": 586.5,
+   "r": 36.8,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1944.5,
+   "y": 676.5,
+   "r": 35.5,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 411.5,
+   "y": 641.5,
+   "r": 35.5,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1720.5,
+   "y": 886.0,
+   "r": 36.2,
+   "text": "22",
+   "n": "22",
+   "confidence": 0.95,
+   "notes": [
+    "readings 22×5, 9×1"
+   ]
+  },
+  {
+   "x": 1807.0,
+   "y": 1122.5,
+   "r": 36.8,
+   "text": "23",
+   "n": "23",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1635.0,
+   "y": 1328.5,
+   "r": 36.8,
+   "text": "24",
+   "n": "24",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1354.5,
+   "y": 1536.0,
+   "r": 36.2,
+   "text": "25",
+   "n": "25",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 840.5,
+   "y": 1566.5,
+   "r": 35.5,
+   "text": "26",
+   "n": "26",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 484.0,
+   "y": 1473.0,
+   "r": 36.0,
+   "text": "27",
+   "n": "27",
+   "confidence": 0.95,
+   "notes": [
+    "readings 27×2, 21×1"
+   ]
+  },
+  {
+   "x": 506.0,
+   "y": 1233.5,
+   "r": 35.8,
+   "text": "28",
+   "n": "28",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 164.0,
+   "y": 1191.0,
+   "r": 35.5,
+   "text": "29",
+   "n": "29",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p225-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1018.0,
+  825.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 550,
+ "svg_snapped": 22
+}

@@ -1,0 +1,158 @@
+{
+ "id": "p113-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 113,
+ "printed_page": "2-92",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Exploded view of the fuel injection pump housing with the hydraulic head assembly, weights, thrust sleeve, washer, rings and seal removed.",
+ "size_px": [
+  2143,
+  1979
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Head locking capscrew"
+  },
+  {
+   "n": "2",
+   "label": "Governor thrust sleeve"
+  },
+  {
+   "n": "3",
+   "label": "Washer"
+  },
+  {
+   "n": "4",
+   "label": "Liner locating ring"
+  },
+  {
+   "n": "5",
+   "label": "Rotor retainers"
+  },
+  {
+   "n": "6",
+   "label": "Transfer pump end cap seal"
+  },
+  {
+   "n": "7",
+   "label": "Hydraulic head"
+  },
+  {
+   "n": "8",
+   "label": "Weights"
+  },
+  {
+   "n": "9",
+   "label": "Housing"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9"
+ ],
+ "rings": [
+  {
+   "x": 463.5,
+   "y": 420.0,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1565.5,
+   "y": 504.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1878.0,
+   "y": 607.0,
+   "r": 37.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1933.5,
+   "y": 1895.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1771.5,
+   "y": 1842.5,
+   "r": 36.5,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1565.5,
+   "y": 1794.5,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1190.0,
+   "y": 1773.5,
+   "r": 36.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 624.0,
+   "y": 1709.5,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 447.5,
+   "y": 803.5,
+   "r": 35.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": [
+    "readings 9×2, G×1"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p113-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1072.0,
+  990.0
+ ],
+ "scale": 0.5002333177788147,
+ "svg_problems": [],
+ "svg_kb": 280,
+ "svg_snapped": 27
+}

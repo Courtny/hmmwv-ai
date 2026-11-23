@@ -1,0 +1,207 @@
+{
+ "id": "p193-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 193,
+ "printed_page": "2-147",
+ "kind": "exploded view",
+ "caption": "2-39. WATER CROSSOVER REPAIR (Cont’d)",
+ "alt": "Exploded view of the water crossover with thermostat, gasket, water outlet, nipples, glow plug controller and temperature switch.",
+ "size_px": [
+  2040,
+  1342
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Glow plug controller"
+  },
+  {
+   "n": "2",
+   "label": "De-airation nipple"
+  },
+  {
+   "n": "3",
+   "label": "Temperature switch"
+  },
+  {
+   "n": "4",
+   "label": "Washers"
+  },
+  {
+   "n": "5",
+   "label": "Stud"
+  },
+  {
+   "n": "6",
+   "label": "Capscrew"
+  },
+  {
+   "n": "7",
+   "label": "Water outlet"
+  },
+  {
+   "n": "8",
+   "label": "Gasket"
+  },
+  {
+   "n": "9",
+   "label": "Thermostat"
+  },
+  {
+   "n": "10",
+   "label": "Bypass hose nipple"
+  },
+  {
+   "n": "11",
+   "label": "Water crossover"
+  },
+  {
+   "n": "12",
+   "label": "Heater hose nipple"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12"
+ ],
+ "rings": [
+  {
+   "x": 400.5,
+   "y": 176.0,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 769.5,
+   "y": 246.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1134.0,
+   "y": 278.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1826.0,
+   "y": 718.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1641.5,
+   "y": 1207.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1965.0,
+   "y": 771.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1818.5,
+   "y": 1272.5,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1468.5,
+   "y": 1145.5,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1291.0,
+   "y": 1079.5,
+   "r": 35.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1089.5,
+   "y": 1005.5,
+   "r": 35.5,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 755.0,
+   "y": 931.0,
+   "r": 36.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 539.0,
+   "y": 778.0,
+   "r": 36.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 58.0,
+   "y": 699.5,
+   "r": 36.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p193-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1020.0,
+  671.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 212,
+ "svg_snapped": 25
+}

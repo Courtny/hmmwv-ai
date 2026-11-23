@@ -1,0 +1,170 @@
+{
+ "id": "p078-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 78,
+ "printed_page": "2-59",
+ "kind": "exploded view",
+ "caption": "2-19. CAMSHAFT, TIMING CHAIN, AND DRIVE GEARS REPAIR (Cont’d)",
+ "alt": "Exploded view of the camshaft with its timing chain, camshaft and crankshaft sprockets, thrust plate, spacer and pump drive gears.",
+ "size_px": [
+  1856,
+  1722
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Pump driven gear"
+  },
+  {
+   "n": "2",
+   "label": "Timing chain"
+  },
+  {
+   "n": "3",
+   "label": "Camshaft sprocket"
+  },
+  {
+   "n": "4",
+   "label": "Camshaft thrust plate"
+  },
+  {
+   "n": "5",
+   "label": "Spacer"
+  },
+  {
+   "n": "6",
+   "label": "Camshaft"
+  },
+  {
+   "n": "7",
+   "label": "Bearing journals"
+  },
+  {
+   "n": "8",
+   "label": "Lobes"
+  },
+  {
+   "n": "9",
+   "label": "Crankshaft sprocket"
+  },
+  {
+   "n": "10",
+   "label": "Pump drive gear"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10"
+ ],
+ "rings": [
+  {
+   "x": 221.5,
+   "y": 102.5,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 627.5,
+   "y": 233.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 986.0,
+   "y": 227.0,
+   "r": 36.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1318.0,
+   "y": 229.0,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1586.0,
+   "y": 227.0,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1186.5,
+   "y": 1631.5,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1256.0,
+   "y": 1493.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1067.5,
+   "y": 1522.5,
+   "r": 36.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 890.5,
+   "y": 1160.5,
+   "r": 36.0,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 465.5,
+   "y": 918.0,
+   "r": 36.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p078-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  928.0,
+  861.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 479,
+ "svg_snapped": 1
+}

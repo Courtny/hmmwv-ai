@@ -1,0 +1,326 @@
+{
+ "id": "p088-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 88,
+ "printed_page": "2-69",
+ "kind": "exploded view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Exploded view of intake and exhaust valve parts (keys, caps, seals, shields, springs, shims, valves) above a cylinder head, with a 6.5L seal detail.",
+ "size_px": [
+  1780,
+  1612
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "2",
+   "label": "Valve spring shim"
+  },
+  {
+   "n": "3",
+   "label": "Valve spring"
+  },
+  {
+   "n": "4",
+   "label": "Shield"
+  },
+  {
+   "n": "5",
+   "label": "Valve seal"
+  },
+  {
+   "n": "6",
+   "label": "Valve cap"
+  },
+  {
+   "n": "7",
+   "label": "Valve keys"
+  },
+  {
+   "n": "8",
+   "label": "Valve keys"
+  },
+  {
+   "n": "9",
+   "label": "Valve cap"
+  },
+  {
+   "n": "10",
+   "label": "Valve seal"
+  },
+  {
+   "n": "11",
+   "label": "Shield"
+  },
+  {
+   "n": "12",
+   "label": "Valve stem seal"
+  },
+  {
+   "n": "13",
+   "label": "Valve spring"
+  },
+  {
+   "n": "14",
+   "label": "Valve spring shim"
+  },
+  {
+   "n": "15",
+   "label": "Valve guide"
+  },
+  {
+   "n": "16",
+   "label": "Valve guide"
+  },
+  {
+   "n": "17",
+   "label": "Groove"
+  },
+  {
+   "n": "18",
+   "label": "Exhaust valve"
+  },
+  {
+   "n": "19",
+   "label": "Intake valve"
+  },
+  {
+   "n": "20",
+   "label": "Groove"
+  },
+  {
+   "n": "21",
+   "label": "Seal"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21"
+ ],
+ "rings": [
+  {
+   "x": 390.5,
+   "y": 621.0,
+   "r": 36.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 537.5,
+   "y": 492.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 625.5,
+   "y": 426.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 733.5,
+   "y": 316.0,
+   "r": 36.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 796.0,
+   "y": 237.5,
+   "r": 36.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 847.5,
+   "y": 172.0,
+   "r": 36.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 913.5,
+   "y": 109.0,
+   "r": 36.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1247.0,
+   "y": 449.5,
+   "r": 35.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1175.5,
+   "y": 484.0,
+   "r": 36.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 0.95,
+   "notes": [
+    "readings 9×1, G×1, 0×1"
+   ]
+  },
+  {
+   "x": 1156.0,
+   "y": 559.5,
+   "r": 35.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1135.0,
+   "y": 671.0,
+   "r": 36.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1083.0,
+   "y": 742.0,
+   "r": 36.5,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1060.5,
+   "y": 829.0,
+   "r": 36.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 987.5,
+   "y": 912.0,
+   "r": 36.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 905.5,
+   "y": 937.0,
+   "r": 36.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 814.5,
+   "y": 987.5,
+   "r": 36.0,
+   "text": "16",
+   "n": "16",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 795.0,
+   "y": 1246.0,
+   "r": 36.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 731.0,
+   "y": 1352.5,
+   "r": 35.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 387.0,
+   "y": 1007.0,
+   "r": 36.5,
+   "text": "19",
+   "n": "19",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 458.5,
+   "y": 910.5,
+   "r": 35.5,
+   "text": "20",
+   "n": "20",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 59.5,
+   "y": 650.5,
+   "r": 36.0,
+   "text": "21",
+   "n": "21",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p088-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  890.0,
+  806.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 273,
+ "svg_snapped": 10
+}

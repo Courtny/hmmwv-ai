@@ -1,0 +1,123 @@
+{
+ "id": "p218-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 218,
+ "printed_page": "2-172",
+ "kind": "exploded view",
+ "caption": "2-41. ENGINE ASSEMBLY FROM SUBASSEMBLIES (Cont’d)",
+ "alt": "Valve lifters, guide plates, clamps and capscrew above the cylinder block.",
+ "size_px": [
+  1247,
+  1663
+ ],
+ "key": [
+  {
+   "n": "3",
+   "label": "Lifters"
+  },
+  {
+   "n": "4",
+   "label": "Guide plate clamps"
+  },
+  {
+   "n": "5",
+   "label": "Capscrews"
+  },
+  {
+   "n": "6",
+   "label": "Guide plates"
+  },
+  {
+   "n": "7",
+   "label": "Cylinder block"
+  },
+  {
+   "n": "8",
+   "label": "Crankshaft"
+  }
+ ],
+ "expected": [
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 586.0,
+   "y": 540.5,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 913.0,
+   "y": 713.0,
+   "r": 35.5,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 804.0,
+   "y": 232.5,
+   "r": 35.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1160.0,
+   "y": 82.0,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1064.5,
+   "y": 552.5,
+   "r": 35.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1137.5,
+   "y": 816.5,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 93.5,
+   "y": 1565.0,
+   "r": 36.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p218-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  624.0,
+  832.0
+ ],
+ "scale": 0.5004009623095429,
+ "svg_problems": [],
+ "svg_kb": 334,
+ "svg_snapped": 1
+}

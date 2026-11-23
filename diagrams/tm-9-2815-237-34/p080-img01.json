@@ -1,0 +1,73 @@
+{
+ "id": "p080-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 80,
+ "printed_page": "2-61",
+ "kind": "assembly view",
+ "caption": "2-20. TIMING GEAR COVER REPAIR (Cont’d)",
+ "alt": "Water pump adapter plate with the oil filler tube grommet.",
+ "size_px": [
+  886,
+  1179
+ ],
+ "key": [
+  {
+   "n": "5",
+   "label": "Timing gear cover"
+  },
+  {
+   "n": "6",
+   "label": "Sealing surface"
+  },
+  {
+   "n": "7",
+   "label": "Sealing surface"
+  }
+ ],
+ "expected": [
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 580.0,
+   "y": 106.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 806.5,
+   "y": 664.0,
+   "r": 35.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 74.0,
+   "y": 744.5,
+   "r": 35.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p080-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  886.0,
+  1179.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 125,
+ "svg_snapped": 0,
+ "key_from": "p080-img02"
+}

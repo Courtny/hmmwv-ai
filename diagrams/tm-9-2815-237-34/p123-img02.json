@@ -1,0 +1,134 @@
+{
+ "id": "p123-img02",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 123,
+ "printed_page": "2-102",
+ "kind": "exploded view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Min-max governor spring parts shown assembled with measurement A and exploded, with a detail circle of the inner governor spring and governor thrust spring.",
+ "size_px": [
+  1618,
+  859
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Min-max governor"
+  },
+  {
+   "n": "2",
+   "label": "Idle spring"
+  },
+  {
+   "n": "3",
+   "label": "Min-max spring"
+  },
+  {
+   "n": "4",
+   "label": "Throttle block"
+  },
+  {
+   "n": "5",
+   "label": "Pushrod"
+  },
+  {
+   "n": "6",
+   "label": "Washer"
+  },
+  {
+   "n": "7",
+   "label": "Inner governor spring"
+  },
+  {
+   "n": "8",
+   "label": "Governor thrust spring"
+  }
+ ],
+ "expected": [
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 429.5,
+   "y": 333.0,
+   "r": 36.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1178.0,
+   "y": 109.5,
+   "r": 37.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 627.5,
+   "y": 348.0,
+   "r": 37.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 117.5,
+   "y": 343.5,
+   "r": 37.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 263.0,
+   "y": 354.0,
+   "r": 37.5,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1390.5,
+   "y": 245.0,
+   "r": 37.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1076.0,
+   "y": 476.0,
+   "r": 37.5,
+   "text": "8",
+   "n": "8",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p123-img02.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1618.0,
+  859.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 350,
+ "svg_snapped": 0,
+ "review_notes": [
+  "1, 2: not in this drawing; the capture key includes the neighbouring figure"
+ ]
+}

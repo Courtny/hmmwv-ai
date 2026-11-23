@@ -1,0 +1,109 @@
+{
+ "id": "p043-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 43,
+ "printed_page": "2-24",
+ "kind": "exploded view",
+ "caption": "2-15. ENGINE DISASSEMBLY INTO SUBASSEMBLIES (Cont'd) > o. Valve Lifters",
+ "alt": "Valve lifters, guide plates, clamps and capscrews removed from the cylinder block with a lifter remover.",
+ "size_px": [
+  1629,
+  2020
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Valve lifters"
+  },
+  {
+   "n": "2",
+   "label": "Guide plate clamps"
+  },
+  {
+   "n": "3",
+   "label": "Capscrews"
+  },
+  {
+   "n": "4",
+   "label": "Guide plates"
+  },
+  {
+   "n": "5",
+   "label": "Cylinder block"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 640.5,
+   "y": 600.5,
+   "r": 35.5,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1213.5,
+   "y": 819.0,
+   "r": 36.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1212.0,
+   "y": 148.0,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1529.5,
+   "y": 68.0,
+   "r": 35.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1286.0,
+   "y": 658.0,
+   "r": 36.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1443.0,
+   "y": 1034.5,
+   "r": 35.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p043-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  815.0,
+  1010.0
+ ],
+ "scale": 0.5003069367710252,
+ "svg_problems": [],
+ "svg_kb": 375,
+ "svg_snapped": 21
+}

@@ -1,0 +1,86 @@
+{
+ "id": "p084-img04",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 84,
+ "printed_page": "2-65",
+ "kind": "assembly view",
+ "caption": "2-21. CYLINDER HEAD AND VALVE REPAIR (Cont’d)",
+ "alt": "Face of a cylinder head showing combustion chambers, ports and the coolant chamber edge.",
+ "size_px": [
+  1412,
+  796
+ ],
+ "key": [
+  {
+   "n": "11",
+   "label": "Cylinder head"
+  },
+  {
+   "n": "12",
+   "label": "Combustion chambers"
+  },
+  {
+   "n": "13",
+   "label": "Intake and exhaust ports"
+  },
+  {
+   "n": "14",
+   "label": "Coolant chamber"
+  }
+ ],
+ "expected": [
+  "11",
+  "12",
+  "13",
+  "14"
+ ],
+ "rings": [
+  {
+   "x": 355.0,
+   "y": 99.0,
+   "r": 36.5,
+   "text": "11",
+   "n": "11",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 546.0,
+   "y": 150.5,
+   "r": 36.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 531.5,
+   "y": 733.5,
+   "r": 36.5,
+   "text": "13",
+   "n": "13",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 134.0,
+   "y": 475.0,
+   "r": 36.5,
+   "text": "14",
+   "n": "14",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p084-img04.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1412.0,
+  796.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 182,
+ "svg_snapped": 1
+}

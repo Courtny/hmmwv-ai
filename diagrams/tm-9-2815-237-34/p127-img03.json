@@ -1,0 +1,46 @@
+{
+ "id": "p127-img03",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 127,
+ "printed_page": "2-106",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Rubber connector, a short sleeve.",
+ "size_px": [
+  220,
+  498
+ ],
+ "key": [
+  {
+   "n": "6",
+   "label": "Rubber connectors"
+  }
+ ],
+ "expected": [
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 117.0,
+   "y": 84.0,
+   "r": 36.5,
+   "text": "8",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "checked by eye"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p127-img03.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  220.0,
+  498.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 33,
+ "svg_snapped": 0
+}

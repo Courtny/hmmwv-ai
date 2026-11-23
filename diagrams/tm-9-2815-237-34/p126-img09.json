@@ -1,0 +1,58 @@
+{
+ "id": "p126-img09",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 126,
+ "printed_page": "2-105",
+ "kind": "assembly view",
+ "caption": "2-32. FUEL INJECTION PUMP REPAIR (Cont’d)",
+ "alt": "Vent wire screw with the vent wire hooked into its end.",
+ "size_px": [
+  410,
+  338
+ ],
+ "key": [
+  {
+   "n": "24",
+   "label": "Vent wire screw"
+  },
+  {
+   "n": "25",
+   "label": "Vent wire"
+  }
+ ],
+ "expected": [
+  "24",
+  "25"
+ ],
+ "rings": [
+  {
+   "x": 60.5,
+   "y": 63.5,
+   "r": 35.0,
+   "text": "24",
+   "n": "24",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 356.5,
+   "y": 285.5,
+   "r": 36.0,
+   "text": "25",
+   "n": "25",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p126-img09.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  410.0,
+  338.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 15,
+ "svg_snapped": 0
+}

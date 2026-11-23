@@ -1,0 +1,141 @@
+{
+ "id": "p177-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 177,
+ "printed_page": "2-140.16",
+ "kind": "assembly view",
+ "caption": "2-35.3. (6.2L or 6.5L) FUEL INJECTION PUMPS (DB2829-4523, DB2829-4879, or DB2831-5149) CALIBRATION USING FUEL INJECTION PUMP TEST STAND (FTIS) MODEL A8022 (Cont’d)",
+ "alt": "Throttle arm positioner assembly on the bedplate and advance indicator parts beside the mounted fuel injection pump.",
+ "size_px": [
+  1382,
+  1182
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Throttle lever"
+  },
+  {
+   "n": "2",
+   "label": "Fuel injection pump"
+  },
+  {
+   "n": "3",
+   "label": "Throttle arm positioner assembly"
+  },
+  {
+   "n": "4",
+   "label": "Gasket"
+  },
+  {
+   "n": "5",
+   "label": "Timing cover"
+  },
+  {
+   "n": "6",
+   "label": "Screws"
+  },
+  {
+   "n": "7",
+   "label": "Bedplate"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 730.5,
+   "y": 175.0,
+   "r": 35.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1108.5,
+   "y": 133.5,
+   "r": 35.5,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1362.3,
+   "y": 730.5,
+   "r": 35.2,
+   "text": null,
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "ring cut off at the right edge of the scan; placed by eye"
+   ]
+  },
+  {
+   "x": 735.5,
+   "y": 1011.5,
+   "r": 35.5,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 629.5,
+   "y": 1023.0,
+   "r": 35.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 389.0,
+   "y": 486.5,
+   "r": 35.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": [
+    "readings 6×2, 9×1"
+   ]
+  },
+  {
+   "x": 520.0,
+   "y": 1017.0,
+   "r": 35.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 148.0,
+   "y": 491.0,
+   "r": 35.5,
+   "text": "7",
+   "n": "7",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p177-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  691.0,
+  591.0
+ ],
+ "scale": 0.5,
+ "svg_problems": [],
+ "svg_kb": 328,
+ "svg_snapped": 64
+}

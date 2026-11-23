@@ -1,0 +1,114 @@
+{
+ "id": "p072-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 72,
+ "printed_page": "2-53",
+ "kind": "assembly view",
+ "caption": "2-17. CRANKSHAFT REPAIR (Cont’d)",
+ "alt": "Crankshaft viewed from the flywheel end showing journals, oil passages and rear seal area.",
+ "size_px": [
+  1356,
+  979
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Crankshaft"
+  },
+  {
+   "n": "2",
+   "label": "Threaded holes"
+  },
+  {
+   "n": "3",
+   "label": "Rear seal area"
+  },
+  {
+   "n": "4",
+   "label": "Main bearing journals"
+  },
+  {
+   "n": "5",
+   "label": "Oil passages"
+  },
+  {
+   "n": "6",
+   "label": "Connecting rod journals"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 605.0,
+   "y": 76.0,
+   "r": 36.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1179.5,
+   "y": 143.0,
+   "r": 36.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 1153.5,
+   "y": 880.0,
+   "r": 36.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 879.5,
+   "y": 901.5,
+   "r": 37.0,
+   "text": "4",
+   "n": "4",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 740.5,
+   "y": 898.5,
+   "r": 36.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 0.95,
+   "notes": []
+  },
+  {
+   "x": 350.0,
+   "y": 846.0,
+   "r": 36.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p072-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1356.0,
+  979.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 92,
+ "svg_snapped": 0
+}

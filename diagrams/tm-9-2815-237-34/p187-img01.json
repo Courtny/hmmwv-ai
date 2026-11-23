@@ -1,0 +1,67 @@
+{
+ "id": "p187-img01",
+ "tm": "tm-9-2815-237-34",
+ "pdf_page": 187,
+ "printed_page": "2-141",
+ "kind": "assembly view",
+ "caption": "2-36. GLOW PLUG REPAIR",
+ "alt": "Side view of a glow plug showing its terminal and threaded area.",
+ "size_px": [
+  1542,
+  368
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Glow plug"
+  },
+  {
+   "n": "2",
+   "label": "Terminal"
+  },
+  {
+   "n": "3",
+   "label": "Threaded area"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 430.5,
+   "y": 329.5,
+   "r": 36.0,
+   "text": null,
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "reads 1"
+   ]
+  },
+  {
+   "x": 66.5,
+   "y": 196.5,
+   "r": 36.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 0.95,
+   "notes": []
+  }
+ ],
+ "missing": [],
+ "svg": "clean/p187-img01.svg",
+ "svg_source": "VectorMagic",
+ "viewbox": [
+  1542.0,
+  368.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 158,
+ "svg_snapped": 1,
+ "review_notes": [
+  "3: ring cut off at the top of the scan (leader only)"
+ ]
+}
