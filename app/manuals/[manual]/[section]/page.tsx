@@ -91,7 +91,7 @@ export default async function SectionPage({ params }: { params: Promise<{ manual
               <Link key={p.slug} href={procedurePath(p)} className="card">
                 <span className="mono">Interactive procedure · page {p.page}</span>
                 <strong>{p.title}: {p.section.replace(/^\w\. /, "").toLowerCase()}</strong>
-                <span>{p.steps.length} steps with the traced parts diagram</span>
+                <span>{p.steps.length} steps with {p.diagrams.length === 1 ? "the traced parts diagram" : `${p.diagrams.length} traced parts diagrams`}</span>
               </Link>
             ))}
           </div>

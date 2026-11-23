@@ -30,12 +30,12 @@ function manualText(m: Manual): string[] {
     `Original PDF (${m.data.pdf.pages} pages): ${abs(pdfUrl(m))}`,
     "",
   ];
-  for (const p of proceduresFor(m.id)) {
-    out.push(`### Procedure: ${p.title}, ${p.section} (para. ${p.para}, page ${p.page})`, "", `URL: ${abs(procedurePath(p))}`);
-    if (p.caution) out.push(`CAUTION: ${p.caution}`);
-    if (p.note) out.push(`NOTE: ${p.note}`);
-    p.steps.forEach((s, i) => out.push(`${i + 1}. ${s}`));
-    out.push(`Parts: ${p.parts.map((x) => `(${x.n}) ${x.name}${x.qty ? ` x${x.qty}` : ""}`).join("; ")}`, "");
+  // The steps themselves are in the section text below; list where each has its interactive diagram.
+  const procs = proceduresFor(m.id).filter((p) => !p.draft);
+  if (procs.length) {
+    out.push("### Interactive procedures", "");
+    for (const p of procs) out.push(`- ${p.title}, ${p.section} (para. ${p.para}, page ${p.page}): ${abs(procedurePath(p))}`);
+    out.push("");
   }
   for (const s of m.data.sections) out.push(...sectionText(m, s));
   return out;

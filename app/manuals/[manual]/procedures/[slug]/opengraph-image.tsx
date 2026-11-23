@@ -11,8 +11,8 @@ export function generateStaticParams() { return procedures.map((p) => ({ manual:
 export default async function Image({ params }: { params: Promise<{ manual: string; slug: string }> }) {
   const { slug } = await params;
   const p = procedureBySlug(slug)!;
-  const svg = `data:image/svg+xml;base64,${Buffer.from(diagramSvg(p.diagram.file, { ink: C.ink, bg: C.card })).toString("base64")}`;
-  const [w, h] = p.diagram.viewBox;
+  const svg = `data:image/svg+xml;base64,${Buffer.from(diagramSvg(p.diagrams[0].file, { ink: C.ink, bg: C.card })).toString("base64")}`;
+  const [w, h] = p.diagrams[0].viewBox;
   // Fit inside the 1088 x 500 area under the title.
   const imgH = Math.min(500, Math.round((1088 * h) / w)), imgW = Math.round((imgH * w) / h);
   return new ImageResponse(

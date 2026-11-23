@@ -15,7 +15,9 @@ Project rules are in CLAUDE.md. Next steps: the TODO list below.
 ## TODO
 
 ### Follow-ups
-- Trace the remaining TM 9-2815-237-34 figures into interactive procedures (VectorMagic batches through `scripts/tm_diagrams.py`; 157 of 247 figures already have clean callouts).
+- Check the four draft procedures (noindex) and decide whether to publish them: fuel injection pump repair cleaning (2-32 b), fan drive repair cleaning (2-40 b), 2-20 b and 2-31 b inspection. Their steps name parts the matched figures only partly show.
+- Para. 2-15 f (water crossover removal) has no procedure: the capture placed the wrong figure under it. 19 other subsections with steps have no traced figure near them, so they have no procedure (their steps stay on the manual pages).
+- Most procedure titles are long printed paragraph names; consider shorter display names.
 - Keep the TM capture somewhere permanent (the importer and the diagram tool read it; the unzipped copy used so far was temporary).
 - After the next deploy, check the `/procedures/` redirects in vercel.json (they cannot be tested on the static preview).
 - After the next deploy, submit the sitemap in Google Search Console and Bing Webmaster Tools, and request indexing for /manuals/.
@@ -27,8 +29,9 @@ Project rules are in CLAUDE.md. Next steps: the TODO list below.
 - Make Node available on the shell PATH (it is installed in ~/.local/node).
 
 ### Reviews
-- Check the three published procedures against the PDF: water crossover (para. 2-39, page 2-147) and fan drive disassembly and assembly (para. 2-40, pages 2-148 and 2-152). Steps were transcribed by the capture and three punctuation slips fixed by hand.
-- TM capture callout keys to fix: p197-img01 and p197-img02 have each other's keys; p044-img02 includes a neighbouring figure's callouts; p219-img02 and p080-img02 keys do not match their drawings; p191-img01 ring 1 was only matched by elimination.
+- Check the three hand-written procedures against the PDF: water crossover (para. 2-39, page 2-147) and fan drive disassembly and assembly (para. 2-40, pages 2-148 and 2-152). Steps were transcribed by the capture and three punctuation slips fixed by hand.
+- Spot-check the 88 generated procedures, especially which figure each step is tied to in the long ones (2-32 fuel injection pump repair: 69, 61 and 95 steps). Step text is as captured, so notes printed mid-step ("NOT E If unable...") and merged sub-steps show up as printed.
+- TM capture callout keys fixed in the reviewed callouts (`diagrams/tm-9-2815-237-34/`), not in the capture: swapped keys on p080 and p197, neighbouring figures' numbers on p044, p064 and p123, the p082 key that stops at 17. The capture itself still has them wrong.
 - "INITIAL SETUP" boxes and other pipe rows on the manual pages come from the PDF text layer and were not checked; some cells run together. The 36 transcribed tables were checked during capture.
 - Section II of chapter 2 ("Service upon receipt") has no heading in the capture, so para. 2-5 is listed under Section I.
 - Para. 2-13.1 shows printed page "2" for its first page (the capture's page number reading).

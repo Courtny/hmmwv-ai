@@ -51,13 +51,22 @@ are kept in `diagrams/<tm>/<id>.json`, which is in git, so commit them after a r
    `rematch CAPTURE` matches the stored readings to the key again without re-running OCR.
    It keeps rings set to confidence 1, reads decimal callouts ("51" for 5.1), and swaps the
    keys of two figures on one page when each matches the other's key better.
-5. **Emit**: copy approved traces to `assets/diagrams/` and write procedure drafts.
+5. **Emit**: copy approved traces to `assets/diagrams/` (it also writes a one-figure draft to
+   `drafts/<id>.ts`, useful for a hand-written procedure).
    ```bash
    .venv/bin/python scripts/tm_diagrams.py emit CAPTURE --ids p193-img01
    ```
-   The draft lands in `drafts/<id>.ts`. Paste it into `procedures` in `lib/procedures.ts`,
-   check the steps and names against the page, and keep `draft: true` until reviewed.
-   Text is kept as printed (for example "tO 25 lb-ft"); repair it in the entry by hand.
+6. **Build procedures**: one procedure per lettered subsection of a paragraph, from the
+   manual data, the reviewed callouts and the emitted SVGs.
+   ```bash
+   .venv/bin/python scripts/build_procedures.py tm-9-2815-237-34
+   ```
+   It writes `data/manuals/<tm>-procedures.json`, which `lib/procedures.ts` loads. Each step
+   is tied to the figure whose callout key best matches the part numbers it names (figures
+   printed under the next or previous heading count when the key's names match the step).
+   A subsection whose steps match under half their part numbers is skipped; under 80% it is
+   published as a draft (noindex). Subsections with a hand-written procedure are listed in
+   `HAND_WRITTEN` at the top of the script.
 
 `status CAPTURE` prints counts per stage.
 

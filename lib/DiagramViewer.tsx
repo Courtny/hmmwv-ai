@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import type { Procedure } from "./procedures";
+import type { Diagram } from "./procedures";
 import { DiagramStage } from "./DiagramStage";
 
 const MIN = 1, MAX = 8;
@@ -12,16 +12,18 @@ type View = { s: number; x: number; y: number };
  * Zoom: pinch, wheel, double-click, +/- keys or buttons. Pan: drag or arrow keys.
  * The stage is resized rather than CSS-scaled so the SVG re-renders sharp at every zoom level.
  */
-export function DiagramViewer({ open, onClose, proc, src, current, pinned, onEnter, onLeave, onPick }: {
-  open: boolean; onClose: () => void; proc: Procedure; src: string;
-  current: number | null; pinned: number | null;
-  onEnter: (n: number) => void; onLeave: () => void; onPick: (n: number) => void;
+export function DiagramViewer({ open, onClose, title, subtitle, diagram, src, nav, current, pinned, onEnter, onLeave, onPick }: {
+  open: boolean; onClose: () => void; title: string; subtitle: string; diagram: Diagram; src: string;
+  /** Figure switcher, shown when a procedure has more than one diagram. */
+  nav?: React.ReactNode;
+  current: string | null; pinned: string | null;
+  onEnter: (n: string) => void; onLeave: () => void; onPick: (n: string) => void;
 }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const port = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState({ w: 0, h: 0 });
   const [view, setView] = useState<View>({ s: 1, x: 0, y: 0 });
-  const [w, h] = proc.diagram.viewBox;
+  const [w, h] = diagram.viewBox;
 
   // Diagram size at zoom 1: fit inside the viewport.
   const fitW = Math.min(size.w, (size.h * w) / h);
@@ -47,15 +49,15 @@ export function DiagramViewer({ open, onClose, proc, src, current, pinned, onEnt
   const reset = useCallback(() => setView(clamp({ s: 1, x: 0, y: 0 })), [clamp]);
 
   /** Centre the callouts for part n, zooming in if needed. */
-  const focusPart = useCallback((n: number, minZoom = 2.5) => {
-    const cs = proc.diagram.callouts.filter((c) => c.n === n);
+  const focusPart = useCallback((n: string, minZoom = 2.5) => {
+    const cs = diagram.callouts.filter((c) => String(c.n) === n);
     if (!cs.length || !fitW) return;
     const cx = cs.reduce((a, c) => a + c.x, 0) / cs.length, cy = cs.reduce((a, c) => a + c.y, 0) / cs.length;
     setView((v) => {
       const s = Math.max(v.s, minZoom), u = (fitW * s) / w;
       return clamp({ s, x: size.w / 2 - cx * u, y: size.h / 2 - cy * u });
     });
-  }, [proc.diagram.callouts, fitW, w, clamp, size.w, size.h]);
+  }, [diagram.callouts, fitW, w, clamp, size.w, size.h]);
 
   // Open and close the native dialog; lock page scroll while open.
   useEffect(() => {
@@ -81,6 +83,12 @@ export function DiagramViewer({ open, onClose, proc, src, current, pinned, onEnt
     if (!opened.current && pinned != null) focusPart(pinned); else setView((v) => clamp(v));
     opened.current = true;
   }, [open, size.w, size.h]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Another figure: fit it, then find the pinned part on it.
+  useEffect(() => {
+    if (!open || !size.w) return;
+    if (pinned != null && diagram.callouts.some((c) => String(c.n) === pinned)) focusPart(pinned); else reset();
+  }, [diagram.file]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Wheel zoom needs a non-passive listener to stop the page scrolling.
   useEffect(() => {
@@ -119,7 +127,7 @@ export function DiagramViewer({ open, onClose, proc, src, current, pinned, onEnt
     pts.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
   };
   const onPointerUp = (e: React.PointerEvent) => { pts.current.delete(e.pointerId); };
-  const pick = (n: number) => { if (moved.current > 6) return; onPick(n); };
+  const pick = (n: string) => { if (moved.current > 6) return; onPick(n); };
 
   const onKeyDown = (e: React.KeyboardEvent) => {
     const step = 60;
@@ -131,15 +139,16 @@ export function DiagramViewer({ open, onClose, proc, src, current, pinned, onEnt
     if (k[e.key]) { e.preventDefault(); k[e.key](); }
   };
 
-  const name = (n: number) => proc.parts.find((p) => p.n === n)?.name;
+  const name = (n: string) => diagram.parts.find((p) => String(p.n) === n)?.name;
 
   return (
-    <dialog ref={dialog} className="viewer" onClose={onClose} onCancel={onClose} aria-label={`${proc.title} diagram, full screen`} onKeyDown={onKeyDown}>
+    <dialog ref={dialog} className="viewer" onClose={onClose} onCancel={onClose} aria-label={`${title} diagram, full screen`} onKeyDown={onKeyDown}>
       <div className="viewer-bar">
         <div className="viewer-title">
-          <strong>{proc.title}</strong>
-          <span className="mono">{current != null ? `(${current}) ${name(current)}` : `${proc.manual} · page ${proc.page}`}</span>
+          <strong>{title}</strong>
+          <span className="mono">{current != null && name(current) ? `(${current}) ${name(current)}` : subtitle}</span>
         </div>
+        {nav}
         <div className="viewer-tools" role="toolbar" aria-label="Zoom">
           <button type="button" onClick={() => zoomAt(1 / 1.4)} disabled={view.s <= MIN} aria-label="Zoom out">−</button>
           <span className="mono zoom">{Math.round(view.s * 100)}%</span>
@@ -152,24 +161,24 @@ export function DiagramViewer({ open, onClose, proc, src, current, pinned, onEnt
       <div ref={port} className="viewer-port" onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}
         onDoubleClick={(e) => { const r = port.current!.getBoundingClientRect(); view.s >= 4 ? reset() : zoomAt(2, e.clientX - r.left, e.clientY - r.top); }}>
         {fitW > 0 && (
-          <DiagramStage proc={proc} src={src} current={current} onEnter={onEnter} onLeave={onLeave} onPick={pick}
+          <DiagramStage diagram={diagram} src={src} current={current} onEnter={onEnter} onLeave={onLeave} onPick={pick}
             style={{ position: "absolute", left: 0, top: 0, width: fitW * view.s, height: fitH * view.s, transform: `translate(${view.x}px, ${view.y}px)` }} />
         )}
       </div>
 
       <div className="viewer-foot">
         <ul className="chips" aria-label="Parts">
-          {proc.parts.map((p) => (
-            <li key={p.n}>
-              <button type="button" className={pinned === p.n ? "on" : ""} aria-pressed={pinned === p.n}
-                onClick={() => { onPick(p.n); if (pinned !== p.n) focusPart(p.n); }}
-                onMouseEnter={() => onEnter(p.n)} onMouseLeave={onLeave}>
+          {diagram.parts.map((p) => { const n = String(p.n); return (
+            <li key={n}>
+              <button type="button" className={pinned === n ? "on" : ""} aria-pressed={pinned === n}
+                onClick={() => { onPick(n); if (pinned !== n) focusPart(n); }}
+                onMouseEnter={() => onEnter(n)} onMouseLeave={onLeave}>
                 <span className="num">{p.n}</span>{p.name}
               </button>
             </li>
-          ))}
+          ); })}
         </ul>
-        <div className="mono credit">Diagram: {proc.diagram.credit}.<span className="hint"> Pinch, scroll or double-tap to zoom; drag to move.</span></div>
+        <div className="mono credit">Diagram: {diagram.credit}.<span className="hint"> Pinch, scroll or double-tap to zoom; drag to move.</span></div>
       </div>
     </dialog>
   );

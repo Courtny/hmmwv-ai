@@ -1,10 +1,17 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { manuals, manualById, manualPath, sectionPath, sectionLabel, pageRange, contents, credit, pdfUrl, pdfName, fileSize } from "@/lib/manuals";
-import { proceduresFor, procedurePath, diagramUrl } from "@/lib/procedures";
+import { proceduresFor, procedurePath } from "@/lib/procedures";
 import { pageMeta, clip, JsonLd, breadcrumbLd, abs } from "@/lib/seo";
 
 export const dynamicParams = false;
+
+const groupBy = <T,>(xs: T[], key: (x: T) => string) =>
+  xs.reduce<[string, T[]][]>((out, x) => {
+    const k = key(x), last = out[out.length - 1];
+    if (last && last[0] === k) last[1].push(x); else out.push([k, [x]]);
+    return out;
+  }, []);
 export function generateStaticParams() { return manuals.map((m) => ({ manual: m.id })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ manual: string }> }) {
@@ -70,19 +77,25 @@ export default async function ManualPage({ params }: { params: Promise<{ manual:
       </section>
 
       {procs.length > 0 && (
-        <section className="sec">
+        <section className="sec" id="procedures">
           <h2>Interactive procedures</h2>
-          <p style={{ maxWidth: "70ch", margin: 0 }}>Steps as printed beside a traced exploded view. Pick a part number in a step to find its callout on the diagram.</p>
-          <div className="grid proc-grid">
-            {procs.map((p) => (
-              <Link key={p.slug} href={procedurePath(p)} className="card proc-card">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={diagramUrl(p)} alt="" width={p.diagram.viewBox[0]} height={p.diagram.viewBox[1]} loading="lazy" />
-                <span className="mono">para. {p.para} · page {p.page}</span>
-                <strong style={{ fontSize: 22 }}>{p.title}</strong>
-                <span>{p.section}</span>
-                <span className="mono">{p.steps.length} steps · {p.parts.length} parts{p.draft ? " · draft" : ""}</span>
-              </Link>
+          <p style={{ maxWidth: "70ch", margin: 0 }}>
+            {procs.length} procedures, one per lettered subsection: the steps as printed beside the traced figures.
+            Pick a part number in a step to find its callout on the diagram.
+          </p>
+          <div className="tm-proc-list">
+            {groupBy(procs, (p) => p.para).map(([para, ps]) => (
+              <div key={para}>
+                <h3><span className="mono">{para}</span> {ps[0].title}</h3>
+                <ul>
+                  {ps.map((p) => (
+                    <li key={p.slug}>
+                      <Link href={procedurePath(p)}>{p.section}</Link>
+                      <span className="mono">{p.steps.length} steps · {p.diagrams.length === 1 ? "1 diagram" : `${p.diagrams.length} diagrams`}{p.draft ? " · draft" : ""}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
           </div>
         </section>

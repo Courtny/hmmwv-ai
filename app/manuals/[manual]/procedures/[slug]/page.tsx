@@ -14,13 +14,15 @@ const lookup = async (params: Promise<{ manual: string; slug: string }>) => {
   return p && p.manualId === manual ? p : undefined;
 };
 const what = (section: string) => section.replace(/^\w\. /, "").toLowerCase();
+/** Title without bracketed model lists, for the page title and description. */
+const short = (title: string) => { const t = title.replace(/\s*\([^)]*\)/g, "").trim(); return t.charAt(0).toUpperCase() + t.slice(1); };
 
 export async function generateMetadata({ params }: { params: Promise<{ manual: string; slug: string }> }) {
   const p = await lookup(params); if (!p) return {};
   return {
     ...pageMeta({
-      title: `${p.title}: ${what(p.section)} (${p.manual} para. ${p.para})`,
-      description: `${p.title}, ${what(p.section)}: ${p.steps.length} steps with an interactive parts diagram, from ${p.manual}, page ${p.page}.`,
+      title: `${short(p.title)}: ${what(p.section)} (${p.manual} para. ${p.para})`,
+      description: `${short(p.title)}, ${what(p.section)}: ${p.steps.length} steps with ${p.diagrams.length === 1 ? "an interactive parts diagram" : `${p.diagrams.length} interactive parts diagrams`}, from ${p.manual}, page ${p.page}.`,
       path: procedurePath(p),
     }),
     ...(p.draft && { robots: { index: false, follow: true } }),
@@ -36,8 +38,8 @@ export default async function ProcedurePage({ params }: { params: Promise<{ manu
     name: `${p.title}: ${p.section}`,
     ...(p.tools?.length && { tool: p.tools.map((name) => ({ "@type": "HowToTool", name })) }),
     supply: p.parts.map((x) => ({ "@type": "HowToSupply", name: x.name, ...(x.qty && { requiredQuantity: x.qty }) })),
-    step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: s })),
-    image: abs(diagramUrl(p)),
+    step: p.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, text: s.text })),
+    image: p.diagrams.map((d) => abs(diagramUrl(d))),
   };
   return (
     <article className="wrap wide">
@@ -50,9 +52,9 @@ export default async function ProcedurePage({ params }: { params: Promise<{ manu
         <div className="kicker">{p.manual} · para. {p.para} · page {p.page}</div>
         <h1>{p.title}</h1>
         <p className="lede">{p.section}</p>
-        <ProcedureView proc={p} src={diagramUrl(p)} />
+        <ProcedureView proc={p} srcs={p.diagrams.map(diagramUrl)} />
         <p className="mono">
-          Text transcribed as printed in {p.manual}, page {p.page}. Torque values and part numbers are the manual&rsquo;s.
+          Text transcribed as printed in {p.manual}, from page {p.page}. Torque values and part numbers are the manual&rsquo;s.
           {para && <> The full paragraph, with every figure, is in <Link href={sectionPath(m, para)}>para. {p.para} of the manual</Link>.</>}
         </p>
       </section>

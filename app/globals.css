@@ -34,7 +34,7 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
 /* Procedures: traced diagram with linked callouts */
 .wrap.wide{max-width:1280px}
 .proc{display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}
-@media (min-width:1000px){.proc{grid-template-columns:minmax(0,1.6fr) minmax(320px,1fr);align-items:start}.diagram{position:sticky;top:16px}}
+@media (min-width:1000px){.proc{grid-template-columns:minmax(0,1.6fr) minmax(320px,1fr);align-items:start}.diagram{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto}}
 .diagram{margin:0;background:var(--card);border:1px solid var(--line);padding:12px}
 .stage{position:relative;width:100%}
 .stage .art,.stage svg{position:absolute;inset:0;width:100%;height:100%;display:block}
@@ -63,6 +63,18 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
 .key .num{flex:none;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--ink);display:inline-flex;align-items:center;justify-content:center;font:500 13px var(--f-mono),'IBM Plex Mono',monospace}
 .key button.on .num{background:var(--rust);border-color:var(--rust);color:#fff}
 .ref:focus-visible,.key button:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+/* Procedures with several figures */
+.fig-head{display:flex;align-items:center;justify-content:space-between;gap:8px 12px;flex-wrap:wrap;padding:0 120px 10px 0;min-height:34px}
+.fig-tabs{display:flex;flex-wrap:wrap;gap:4px}
+.fig-tabs button{min-width:34px;height:34px;padding:0 8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:500 13px var(--f-mono),'IBM Plex Mono',monospace;cursor:pointer}
+.fig-tabs button.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.fig-tabs button:hover:not(.on){border-color:var(--rust)}
+.fig-tabs button:focus-visible,.fig-link:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.viewer-bar .fig-tabs button{background:transparent;border-color:#4F5648;color:var(--paper);height:40px;min-width:40px}
+.viewer-bar .fig-tabs button.on{background:var(--paper);color:var(--ink)}
+.fig-link{display:block;margin:0 0 4px;padding:0;border:0;background:none;color:var(--rust);font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.steps .callout{margin:0 0 8px}
+.key-fig{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--olive)}
 /* Phones and tablets: pinned diagram fits the width; full screen for detail */
 @media (max-width:999px){
   .diagram{position:sticky;top:0;z-index:2;padding:8px;box-shadow:0 6px 12px -10px rgba(0,0,0,.35)}
@@ -70,10 +82,14 @@ th[scope=row]{font:inherit;font-size:15px;text-transform:none;letter-spacing:0;c
   .diagram figcaption .legend{display:none}
   .proc.has-active .diagram figcaption .legend{display:block}
 }
-.proc-grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
-.proc-card img{width:100%;height:auto;display:block;background:var(--card);border-bottom:1px solid var(--line);margin:-18px -20px 8px;width:calc(100% + 40px);max-width:none}
+.tm-proc-list{columns:2 360px;column-gap:40px;margin-top:16px}
+.tm-proc-list>div{break-inside:avoid;margin:0 0 20px}
+.tm-proc-list h3{font-size:20px;margin:0 0 6px;line-height:1.2}
+.tm-proc-list h3 .mono{color:var(--rust);margin-right:6px;font-size:14px}
+.tm-proc-list ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.tm-proc-list li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid var(--line)}
+.tm-proc-list li .mono{white-space:nowrap;color:var(--olive)}
 /* Full-screen diagram viewer */
-.diagram{position:relative}
 .expand{position:absolute;top:10px;right:10px;z-index:3;display:inline-flex;align-items:center;gap:6px;font:500 12px var(--f-mono),'IBM Plex Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--paper);background:var(--ink);border:0;padding:8px 10px;cursor:pointer;opacity:.9}
 .expand:hover{opacity:1;background:var(--olive)}
 .expand:focus-visible{outline:2px solid var(--rust);outline-offset:2px}

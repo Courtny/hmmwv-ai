@@ -243,7 +243,7 @@ def cmd_emit(a) -> None:
         draft = procedure_draft(fig, page, name, tm_name, slug)
         (w / "drafts" / f"{fid}.ts").write_text(draft)
         print(f"  {fid}: assets/diagrams/{name}\n          draft: {(w / 'drafts' / f'{fid}.ts').relative_to(ROOT)}")
-    print("\nPaste each draft into the procedures array in lib/procedures.ts and check the steps against the page.")
+    print("\nThen rebuild the procedures:  .venv/bin/python scripts/build_procedures.py " + cap.tm)
 
 
 def procedure_draft(fig: dict, page, file: str, tm_name: str, slug: str) -> str:

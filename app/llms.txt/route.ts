@@ -34,7 +34,7 @@ export function GET() {
       `${m.summary} Text is transcribed as printed. [Original PDF](${abs(pdfUrl(m))}).`,
       "",
       `- [${m.number} contents](${abs(manualPath(m))})`,
-      ...proceduresFor(m.id).map((p) => `- [Procedure: ${p.title}, ${p.section} (para. ${p.para})](${abs(procedurePath(p))}): ${p.steps.length} steps with an interactive parts diagram; parts ${p.parts.map((x) => `(${x.n}) ${x.name}`).join(", ")}`),
+      ...proceduresFor(m.id).filter((p) => !p.draft).map((p) => `- [Procedure: ${p.title}, ${p.section} (para. ${p.para})](${abs(procedurePath(p))}): ${p.steps.length} steps with ${p.diagrams.length === 1 ? "an interactive parts diagram" : `${p.diagrams.length} interactive parts diagrams`}`),
       ...m.data.sections.map((s) => `- [${s.kind === "para" ? `${s.id} ${s.title}` : s.title}](${abs(sectionPath(m, s))})`),
       "",
     ]),

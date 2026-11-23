@@ -1,33 +1,63 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import tm9281523734 from "@/data/manuals/tm-9-2815-237-34-procedures.json";
 
-/** A maintenance procedure transcribed from a technical manual page. Text is kept as printed. */
-export type Part = { n: number; name: string; qty?: number };
-export type Callout = { n: number; x: number; y: number };
+/**
+ * Maintenance procedures from the technical manuals: numbered steps beside traced parts
+ * diagrams. Text is kept as printed. Most are generated per subsection by
+ * scripts/build_procedures.py into data/manuals/<tm>-procedures.json; a few are written by
+ * hand below.
+ */
+export type N = number | string;
+export type Part = { n: N; name: string; qty?: number };
+export type Callout = { n: N; x: number; y: number };
+export type Note = { kind: string; text: string };
+export type Diagram = {
+  /** Figure id in the manual capture that the diagram was traced from. */
+  figure: string;
+  file: string;
+  viewBox: [number, number];
+  /** Callout ring radius in viewBox units (default 21). */
+  ring?: number;
+  callouts: Callout[];
+  /** The figure's callout key. */
+  parts: Part[];
+  alt: string;
+  credit: string;
+  page?: string | null;
+};
+/** A step as printed, the diagram (index into diagrams) its part numbers refer to, and notes printed before it. */
+export type Step = { n: string; text: string; d: number; notes?: Note[] };
 export type Procedure = {
   slug: string;
   manual: string;
   /** Manual id in lib/manuals.ts; the procedure lives under /manuals/<manualId>/procedures/. */
   manualId: string;
-  /** Figure id in the manual capture that the diagram was traced from. */
-  figure: string;
   /** Tools and materials the steps call for (HowTo structured data). */
   tools?: string[];
   para: string;
   title: string;
   section: string;
   page: string;
-  /** Draft procedures are noindex and left out of the sitemap (rights or review pending). */
+  /** Draft procedures are noindex and left out of the sitemap (review pending). */
   draft?: boolean;
   caution?: string;
   note?: string;
-  steps: string[];
+  steps: Step[];
+  diagrams: Diagram[];
+  /** Every part named in the keys, once (HowTo supplies, llms.txt). */
   parts: Part[];
-  /** ring: callout ring radius in viewBox units (default 21). */
-  diagram: { file: string; viewBox: [number, number]; ring?: number; callouts: Callout[]; alt: string; credit: string };
 };
 
-export const procedures: Procedure[] = [
+/** Hand-written procedures: one page, one diagram. */
+type HandProcedure = Omit<Procedure, "steps" | "diagrams" | "parts"> & {
+  figure: string;
+  steps: string[];
+  parts: Part[];
+  diagram: Omit<Diagram, "figure" | "parts">;
+};
+
+const handWritten: HandProcedure[] = [
   {
     slug: "water-crossover-repair",
     manual: "TM 9-2815-237-34",
@@ -177,16 +207,46 @@ export const procedures: Procedure[] = [
   },
 ];
 
+const fromHand = (p: HandProcedure): Procedure => {
+  const { figure, diagram, steps, ...rest } = p;
+  return {
+    ...rest,
+    steps: steps.map((text, i) => ({ n: String(i + 1), text, d: 0 })),
+    diagrams: [{ ...diagram, figure, parts: p.parts }],
+  };
+};
+
+type Generated = { manual: string; procedures: (Omit<Procedure, "manual" | "manualId" | "parts"> & { coverage: number })[] };
+const fromGenerated = (g: Generated, manual: string): Procedure[] =>
+  g.procedures.map(({ coverage: _coverage, ...p }) => {
+    const seen = new Set<string>();
+    const parts = p.diagrams.flatMap((d) => d.parts).filter((x) => !seen.has(x.name.toLowerCase()) && seen.add(x.name.toLowerCase()));
+    return { ...p, manual, manualId: g.manual, parts, draft: p.draft || undefined };
+  });
+
+export const procedures: Procedure[] = [
+  ...handWritten.map(fromHand),
+  ...fromGenerated(tm9281523734 as unknown as Generated, "TM 9-2815-237-34"),
+];
+
 export const procedureBySlug = (slug: string) => procedures.find((p) => p.slug === slug);
 
 export const procedurePath = (p: Procedure) => `/manuals/${p.manualId}/procedures/${p.slug}/`;
-export const proceduresFor = (manualId: string) =>
-  procedures.filter((p) => p.manualId === manualId).sort((a, b) => a.para.localeCompare(b.para, undefined, { numeric: true }) || a.section.localeCompare(b.section));
-/** Procedures whose diagram was traced from this figure. */
-export const proceduresForFigure = (figure: string) => procedures.filter((p) => p.figure === figure);
+const byPara = (a: Procedure, b: Procedure) =>
+  a.para.localeCompare(b.para, undefined, { numeric: true }) || a.section.localeCompare(b.section);
+export const proceduresFor = (manualId: string) => procedures.filter((p) => p.manualId === manualId).sort(byPara);
+/** Procedures with a diagram traced from this figure. */
+export const proceduresForFigure = (figure: string) => procedures.filter((p) => p.diagrams.some((d) => d.figure === figure));
 
-/** Public URL of the recoloured diagram (served by app/diagrams/[file]/route.ts). */
-export const diagramUrl = (p: Procedure) => `/diagrams/${p.diagram.file}`;
+/** Public URL of a recoloured diagram (served by app/diagrams/[file]/route.ts). */
+export const diagramUrl = (d: Diagram) => `/diagrams/${d.file}`;
+/** Every diagram file the procedures use, once. */
+export const diagramFiles = () => [...new Set(procedures.flatMap((p) => p.diagrams.map((d) => d.file)))];
+
+/** Part numbers a step names, as written: "(7)", "(5.1)", "(A)". */
+export const STEP_REF = /\((\d{1,2}(?:\.\d)?|[A-Z])\)/g;
+/** Steps as plain text, numbered as printed (HowTo, llms-full.txt). */
+export const stepLines = (p: Procedure) => p.steps.map((s) => `${s.n}. ${s.text}`);
 
 /**
  * A traced two-tone diagram recoloured to the site palette: dark fills become ink, white fills
