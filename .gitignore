@@ -6,3 +6,4 @@ next-env.d.ts
 .venv
 work
 __pycache__
+.DS_Store

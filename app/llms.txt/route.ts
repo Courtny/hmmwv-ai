@@ -1,5 +1,7 @@
 import { variants, tables, groups, photos, seriesFor } from "@/lib/data";
 import { abs, tableTitle } from "@/lib/seo";
+import { manuals, manualPath, sectionPath, pdfUrl } from "@/lib/manuals";
+import { proceduresFor, procedurePath } from "@/lib/procedures";
 
 export const dynamic = "force-static";
 
@@ -24,8 +26,21 @@ export function GET() {
     "",
     ...tables.map((t) => `- [${tableTitle(t)}](${abs(`/tables/${t.key}/`)})${t.intro ? `: ${t.intro}` : ""}`),
     "",
+    "## Technical manuals",
+    "",
+    ...manuals.flatMap((m) => [
+      `### ${m.number}: ${m.title}, ${m.subject} (${m.date})`,
+      "",
+      `${m.summary} Text is transcribed as printed. [Original PDF](${abs(pdfUrl(m))}).`,
+      "",
+      `- [${m.number} contents](${abs(manualPath(m))})`,
+      ...proceduresFor(m.id).map((p) => `- [Procedure: ${p.title}, ${p.section} (para. ${p.para})](${abs(procedurePath(p))}): ${p.steps.length} steps with an interactive parts diagram; parts ${p.parts.map((x) => `(${x.n}) ${x.name}`).join(", ")}`),
+      ...m.data.sections.map((s) => `- [${s.kind === "para" ? `${s.id} ${s.title}` : s.title}](${abs(sectionPath(m, s))})`),
+      "",
+    ]),
     "## Optional",
     "",
+    `- [Full text of the technical manuals](${abs("/llms-full.txt")}): every section as plain text, with figure callout keys and tables`,
     `- [All photos](${abs("/photos/")}): ${photos.length} images with printed captions and credits`,
     `- [Sitemap](${abs("/sitemap.xml")})`,
     "",

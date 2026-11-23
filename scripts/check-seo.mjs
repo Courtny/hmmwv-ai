@@ -71,7 +71,7 @@ for (const f of pages) {
   for (const [, raw] of lds) {
     let g; try { g = JSON.parse(raw)["@graph"]; } catch (e) { err(page, `JSON-LD does not parse: ${e.message}`); continue; }
     for (const n of g) {
-      const need = { ItemList: ["itemListElement"], HowTo: ["name", "step"], WebSite: ["name", "url"], Vehicle: ["name", "url"], ImageObject: ["contentUrl"], Dataset: ["name", "description"], BreadcrumbList: ["itemListElement"] }[n["@type"]];
+      const need = { ItemList: ["itemListElement"], HowTo: ["name", "step"], WebSite: ["name", "url"], Vehicle: ["name", "url"], ImageObject: ["contentUrl"], Dataset: ["name", "description"], BreadcrumbList: ["itemListElement"], Book: ["name", "url"], TechArticle: ["headline", "url"] }[n["@type"]];
       if (!need) { warn(page, `unchecked JSON-LD type ${n["@type"]}`); continue; }
       for (const k of need) if (!n[k]) err(page, `${n["@type"]} missing ${k}`);
       if (n["@type"] === "Dataset" && (n.description.length < 50 || n.description.length > 5000)) err(page, `Dataset description ${n.description.length} chars (Google wants 50 to 5000)`);
