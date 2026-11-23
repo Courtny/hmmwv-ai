@@ -32,7 +32,7 @@ ASSETS = ROOT / "assets" / "diagrams"
 
 def workdir(cap: Capture) -> Path:
     w = WORK / cap.tm
-    for sub in ("in", "out", "clean", "traced", "figures", "drafts"):
+    for sub in ("in", "out", "clean", "traced", "figures", "drafts", "to-trace"):
         (w / sub).mkdir(parents=True, exist_ok=True)
     return w
 
@@ -86,11 +86,18 @@ def cmd_prep(a) -> None:
         flag = "" if ok == len(hits) and not missing else "  <- review"
         print(f"  [{i}/{len(figs)}] {f.id}: {len(hits)} rings, {ok} read in key, {len(missing)} missing{flag}")
     page = review.build(w, cap.tm)
+    # PNGs with no VectorMagic SVG yet, so a batch never re-traces finished figures.
+    todo = w / "to-trace"
+    shutil.rmtree(todo, ignore_errors=True)
+    todo.mkdir()
+    waiting = [png for png in sorted((w / "in").glob("*.png")) if not (w / "out" / f"{png.stem}.svg").exists()]
+    for png in waiting:
+        shutil.copyfile(png, todo / png.name)
     print(f"""
-Prepped {len(figs)} figures in {w.relative_to(ROOT)}/
+Prepped {len(figs)} figures in {w.relative_to(ROOT)}/ ({len(waiting)} still to trace)
 
 Next, in VectorMagic (batch mode):
-  1. Add every PNG in {(w / 'in').relative_to(ROOT)}/
+  1. Add every PNG in {todo.relative_to(ROOT)}/
   2. Settings for black-and-white line art: no blending, high quality,
      2 colours (black and white). Same settings as the water crossover.
   3. Export SVG into {(w / 'out').relative_to(ROOT)}/ keeping the file names
@@ -144,6 +151,55 @@ def cmd_review(a) -> None:
     print(review.build(workdir(cap), cap.tm))
 
 
+# ---------------------------------------------------------------- rematch
+
+_ASSIGN_NOTES = ("OCR read", "no OCR reading", "only unmatched ring")
+
+
+def _hits(fig: dict) -> list[callouts.Hit]:
+    return [callouts.Hit(**{**r, "notes": [n for n in r.get("notes", []) if not n.startswith(_ASSIGN_NOTES)]}) for r in fig["rings"]]
+
+
+def _score(fig: dict, expected: list[str]) -> int:
+    hits = _hits(fig)
+    callouts.assign(hits, expected)
+    return sum(h.confidence >= 0.95 for h in hits)
+
+
+def cmd_rematch(a) -> None:
+    """Match stored ring readings to the key again (no OCR). Keeps rings checked by hand."""
+    cap = Capture(a.capture)
+    w = workdir(cap)
+    figs = {i: load_fig(w, i) for i in fig_ids(w, a.ids)}
+    # Keys swapped between figures on one page: swap when both match better.
+    by_page: dict[int, list[dict]] = {}
+    for f in figs.values():
+        by_page.setdefault(f["pdf_page"], []).append(f)
+    for group in by_page.values():
+        for i, f in enumerate(group):
+            for g in group[i + 1:]:
+                if "key_from" in f or "key_from" in g:
+                    continue
+                own = (_score(f, f["expected"]), _score(g, g["expected"]))
+                swapped = (_score(f, g["expected"]), _score(g, f["expected"]))
+                if swapped[0] > own[0] and swapped[1] > own[1]:
+                    f["key"], g["key"] = g["key"], f["key"]
+                    f["expected"], g["expected"] = g["expected"], f["expected"]
+                    f["key_from"], g["key_from"] = g["id"], f["id"]
+                    print(f"  {f['id']} <-> {g['id']}: callout keys swapped (the capture has them the wrong way round)")
+    for f in figs.values():
+        before = sum(r.get("confidence", 0) >= 0.95 for r in f["rings"]), len(f["missing"])
+        hits = _hits(f)
+        f["missing"] = callouts.assign(hits, f["expected"])
+        hits.sort(key=lambda h: (callouts.natural(h.n or "~"), h.y, h.x))
+        f["rings"] = [asdict(h) for h in hits]
+        save_fig(w, f)
+        after = sum(h.confidence >= 0.95 for h in hits), len(f["missing"])
+        if after != before:
+            print(f"  {f['id']}: {before[0]} -> {after[0]} read in key, {before[1]} -> {after[1]} missing")
+    print(review.build(w, cap.tm))
+
+
 # ---------------------------------------------------------------- emit
 
 def cmd_emit(a) -> None:
@@ -154,6 +210,8 @@ def cmd_emit(a) -> None:
         fig = load_fig(w, fid)
         if not fig.get("svg"):
             raise SystemExit(f"{fid}: no trace yet; run ingest first.")
+        if fig.get("not_callouts"):
+            raise SystemExit(f"{fid}: marked image only (no callout rings), so it has no procedure diagram.")
         if fig.get("svg_problems") and not a.force:
             raise SystemExit(f"{fid}: trace issues ({'; '.join(fig['svg_problems'])}). Use --force to emit anyway.")
         unsure = [r for r in fig["rings"] if r.get("confidence", 0) < 0.95]
@@ -240,10 +298,11 @@ def cmd_status(a) -> None:
     w = workdir(cap)
     figs = [load_fig(w, i) for i in fig_ids(w, None)]
     clean = sum(1 for f in figs if f["rings"] and all(r.get("confidence", 0) >= 0.95 for r in f["rings"]) and not f["missing"])
+    images = sum(1 for f in figs if f.get("not_callouts"))
     traced = sum(1 for f in figs if f.get("svg"))
     waiting = len(list((w / "in").glob("*.png"))) - len(list((w / "out").glob("*.svg")))
     emitted = len(list((w / "drafts").glob("*.ts")))
-    print(f"{cap.tm}: {len(cap.figures)} figures in capture, {len(figs)} prepped, {clean} with clean callouts,\n"
+    print(f"{cap.tm}: {len(cap.figures)} figures in capture, {len(figs)} prepped, {clean} with clean callouts, {images} image only,\n"
           f"{traced} traced, {max(waiting, 0)} PNGs without a VectorMagic SVG, {emitted} emitted.")
 
 
@@ -271,6 +330,11 @@ def main() -> None:
     s = sub.add_parser("review", help="rebuild review.html")
     s.add_argument("capture")
     s.set_defaults(fn=cmd_review)
+
+    s = sub.add_parser("rematch", help="match stored ring readings to the key again, keeping hand edits")
+    s.add_argument("capture")
+    s.add_argument("--ids", nargs="+")
+    s.set_defaults(fn=cmd_rematch)
 
     s = sub.add_parser("emit", help="copy approved diagrams to assets/diagrams and write procedure drafts")
     s.add_argument("capture")

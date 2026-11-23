@@ -299,9 +299,17 @@ def ocr_tesseract(crop: np.ndarray) -> str | None:
 def assign(hits: list[Hit], expected: list[str]) -> list[str]:
     """Match OCR text to the expected callout key. Returns expected labels never found."""
     exp = set(expected)
+    # Decimal callouts ("5.1"): Vision drops the small point and reads "51".
+    undotted = {e.replace(".", ""): e for e in exp if "." in e}
     for h in hits:
+        if h.confidence >= 1:  # checked by hand
+            continue
+        h.n, h.confidence = None, 0.0
         if h.text and h.text in exp:
             h.n, h.confidence = h.text, 0.95
+        elif h.text and h.text in undotted and h.text not in exp:
+            h.n, h.confidence = undotted[h.text], 0.95
+            h.notes.append(f"OCR read {h.text!r}, the key has {undotted[h.text]}")
         elif h.text:
             near = [e for e in exp if similar(h.text, e)]
             if len(near) == 1:

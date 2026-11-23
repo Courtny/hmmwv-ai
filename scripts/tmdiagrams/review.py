@@ -65,7 +65,9 @@ def overlay(rings: list[dict], w: float, h: float, scale: float = 1.0) -> str:
 def states(fig: dict) -> list[str]:
     s = []
     rings = fig["rings"]
-    if not rings:
+    if fig.get("not_callouts"):
+        s.append("image")
+    elif not rings:
         s.append("norings")
     elif all(r.get("confidence", 0) >= 0.95 for r in rings) and not fig["missing"]:
         s.append("clean")
@@ -85,7 +87,8 @@ def build(work: Path, tm: str) -> Path:
         w, h = f["size_px"]
         rings = f["rings"]
         n_ok = sum(r.get("confidence", 0) >= 0.95 for r in rings)
-        badge = ('<span class="badge ok">callouts clean</span>' if "clean" in st else
+        badge = ('<span class="badge none">image only, no callouts</span>' if "image" in st else
+                 '<span class="badge ok">callouts clean</span>' if "clean" in st else
                  '<span class="badge none">no rings found</span>' if "norings" in st else
                  f'<span class="badge warn">{n_ok}/{len(rings)} rings read</span>')
         badge += ('<span class="badge ok">traced</span>' if f.get("svg") else '<span class="badge none">not traced</span>')
@@ -97,8 +100,8 @@ def build(work: Path, tm: str) -> Path:
             vw, vh = f["viewbox"]
             views.append(f'<div class="view"><span class="cap">trace ({html.escape(f["svg_source"])})</span>'
                          f'<img src="{html.escape(f["svg"])}" alt="" loading="lazy">{overlay(rings, vw, vh, f["scale"])}</div>')
-        issues = []
-        if f["missing"]:
+        issues = [f"Reviewed: {html.escape(n)}" for n in f.get("review_notes", [])]
+        if f["missing"] and not f.get("not_callouts"):
             issues.append("In the key but not found in the drawing: " + ", ".join(f["missing"]))
         for r in rings:
             for note in r.get("notes", []):
