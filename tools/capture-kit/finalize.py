@@ -41,7 +41,8 @@ rev.append("## Source problems (not extraction errors)\n")
 blank = [s["pdf_page"] for s in S if s["words"] < 5]
 rev += CFG.get("source_problems", [])
 if blank: rev.append("- Pages with no text layer content (blank or image-only in the PDF): " + ", ".join(map(str, blank)) + ". Check whether content is missing.")
-rev.append("- Printed page numbers are blank on pages with no folio: " + ", ".join(str(s['pdf_page']) for s in S if not s['printed_page']) + ".\n")
+nf = [s["pdf_page"] for s in S if not s["printed_page"]]
+rev.append(f"- Printed page numbers were not detected on {len(nf)} of {len(S)} pages (folios on those pages are missing or in a layout the extractor does not read). PDF page numbers are used for IDs.\n")
 rev.append("## Representation choices\n")
 rev += ["- Figures are page-region renders at 300 dpi with page text removed except circled callout digits and letters, so callouts survive and orientation is correct.",
         "- Neighbouring panels that touch can leave a sliver of the next panel at an edge (noted on those figures).",
@@ -56,7 +57,7 @@ try:
 except Exception: pass
 try:
     d = json.load(open("tbl/diff_report.json"))["summary"]
-    rev.append(f"- Tables transcribed twice independently and compared cell by cell: {d['cells_compared']} cells compared, {d['differing']} differences resolved against the scan.")
+    rev.append(f"- Tables transcribed twice independently and compared cell by cell: {d['cells_compared']} cells compared; {d['differing']} cells differ, mostly layout choices (row splits, page-spill rows), and the second pass is used.")
 except Exception: pass
 rev.append("")
 open(f"{OUT}/review.md", "w").write("\n".join(rev) + "\n")

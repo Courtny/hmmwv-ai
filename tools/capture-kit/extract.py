@@ -19,7 +19,7 @@ doc = fitz.open(PDF)
 HEAD_RE = re.compile(r"^((?:\d{1,2}|[A-F])-\d{1,3}(?:\.\d+)?)\.\s+([A-Z0-9(][A-Z0-9 ,/&()'\-\.]+.*)$")   # 2-15. ENGINE DISASSEMBLY
 APPX_RE = re.compile(r"^((?:APPENDIX [A-Z]|CHAPTER \d+|Section [IVX]+\.).*)$")
 SUB_RE = re.compile(r"^([IVXl]{1,4}|[A-Z])\.\s+([A-Z][A-Za-z0-9 ,/&()'\-]+)$")                      # I. Fuel Injection Nozzles
-FIG_RE = re.compile(r"^(Figure|FIGURE)\s+([A-Z0-9]+-\d+(?:\.\d+)?)\.?\s*(.*)$")
+FIG_RE = re.compile(r"^(Figure|FIGURE)\s+((?:[A-Z0-9]+-)?\d+(?:\.\d+)?)\.?\s*(.*)$")
 TAB_RE = re.compile(r"^(Table|TABLE)\s+([A-Z0-9]+-\d+(?:\.\d+)?)\.?\s*(.*)$")
 PAGENO_RE = re.compile(r"^(?:[A-Z]|[ivx]+|\d{1,2}|Index)?-?\d{0,3}(?:\.\d+)?(?:/\(.*blank\))?$")
 CALL_RE = re.compile(r"([A-Za-z][A-Za-z0-9 /,\-']{2,60}?)\s*\((\d{1,2}|[A-Z])\)")                    # nozzles (6)
@@ -272,7 +272,7 @@ for pno in range(n_pages):
         above = [h for h in heads_here if h["y"] < rc.y0]
         para = next((h for h in reversed(above) if h["kind"] == "para"), None)
         sub = next((h for h in reversed(above) if h["kind"] == "sub"), None)
-        ftxt = [f for f in figs_text if abs(f["y"] - rc.y1) < 80 or abs(f["y"] - rc.y0) < 60]
+        ftxt = [f for f in figs_text if abs(f["y"] - rc.y1) < 80 or abs(f["y"] - rc.y0) < 60 or rc.y0 - 10 <= f["y"] <= rc.y1 + 10]
         # text on this page that touches the figure: steps above/below, used for callouts
         ctx = [b["text"] for b in blocks if not (b["y0"] > rc.y1 or b["y1"] < rc.y0) is False or True]
         callouts, seen = [], set()
