@@ -8,6 +8,7 @@ Stages:
   adjprep   after audit/counts.json: disagreement pages + inputs [script]
   (agents)  adjudicate figures and tables
   build     merge_fig, apply_actions, build_tables, finalize     [script]
+  vectorize    trace out/images/*.png to two-tone SVG in out/svg (potrace, unattended) [script, after build]
   all-scripts  extract + prep
 """
 import os, sys, shutil, subprocess, json, fitz
@@ -34,3 +35,8 @@ if stage == "adjprep": run("adjprep.py", pdf)
 if stage == "build":
     for s in ("merge_fig.py", "apply_actions.py", "build_tables.py", "finalize.py"): run(s)
     print("DONE: web package in", work + "/out/web")
+if stage == "vectorize":
+    m = json.load(open(f"{work}/out/manifest.json"))
+    ids = [r["id"] for r in m if r.get("type") != "table" and os.path.exists(f"{work}/out/images/{r['id']}.png")]
+    run("vectorize.py", "out/images", "out/svg", *ids)
+    print("DONE:", len(ids), "SVGs in", work + "/out/svg (feed to scripts/tm_diagrams.py ingest)")

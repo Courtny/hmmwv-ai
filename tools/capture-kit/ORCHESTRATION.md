@@ -14,3 +14,4 @@ Use a mid-tier model for builders and verifiers; a stronger model for the blind 
 9. Spot-check: open 10 random figures and 5 tables against the page, confirm counts in review.md, then send the zip of out/ (images, tables, excluded, pages, data, web, manual.md, captions.md, tables.md, manifest.json, review.md) with a short summary: counts, open issues, next steps.
 
 Notes: merge_fig.py expects every v1 figure id from figv/manifest_v1.json to appear in the verifier output; ids that don't match are listed as unmatched. Tables in Appendix-style vector blocks ("Figure C-2" data blocks) are tables, not figures.
+9. Optional: `python3 -I run_capture.py PDF WORK vectorize` traces every figure to a two-tone SVG in out/svg named by figure ID (potracer, no hand-off, about 5 to 15 s per figure). Needs `pip install potracer`. Output drops straight into the repo's `scripts/tm_diagrams.py ingest` flow; callout detection and review still happen there.
