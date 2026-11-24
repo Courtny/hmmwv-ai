@@ -24,7 +24,7 @@ def trace(path):
 def one(f):
     w, h, d = trace(os.path.join(src, f))
     open(os.path.join(dst, f[:-4] + ".svg"), "w").write(
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"><rect width="{w}" height="{h}" fill="#fff"/><path d="{d}" fill="#000" fill-rule="evenodd"/></svg>')
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"><rect width="{w}" height="{h}" fill="#ffffff"/><path d="{d}" fill="#000000" fill-rule="evenodd"/></svg>')
     return f, round(os.path.getsize(os.path.join(dst, f[:-4] + ".svg")) / 1024)
 if __name__ == "__main__":
     from multiprocessing import Pool

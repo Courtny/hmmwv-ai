@@ -4,6 +4,10 @@ A callout ring is found by its hole: the white disc inside the ring is a near pe
 circle even when a leader arrow touches the outside of the ring. The disc must hold a
 small, centred glyph (the number). Each hit is read with tesseract when it is installed
 and matched to the figure's expected callout key.
+
+Some manuals (RPSTL parts lists) print callouts as bare numbers at the end of a leader,
+with no ring. When a figure has no rings, find_bare_labels() groups digit-sized ink
+into words, reads them the same way, and keeps the ones that match the key.
 """
 from __future__ import annotations
 
@@ -201,7 +205,8 @@ def glyph_crop(ink: np.ndarray, hit: Hit) -> np.ndarray:
 _LAYOUTS = [(32, 1.0), (32, 1.6), (24, 1.0), (48, 1.0), (48, 1.6), (40, 1.3)]
 
 
-def read_labels(ink: np.ndarray, hits: list[Hit]) -> None:
+def read_labels(ink: np.ndarray, hits: list[Hit], glyphs: list[np.ndarray] | None = None,
+                counts: list[int] | None = None) -> None:
     """Fill hit.text for every ring.
 
     macOS Vision reads lone characters poorly but reads a line of words well. The
@@ -211,7 +216,8 @@ def read_labels(ink: np.ndarray, hits: list[Hit]) -> None:
     """
     if not hits:
         return
-    glyphs = [tight_glyph(ink, h) for h in hits]
+    if glyphs is None:
+        glyphs = [tight_glyph(ink, h) for h in hits]
     votes: list[dict[str, int]] = [{} for _ in hits]
     for height, gap in _LAYOUTS:
         g = int(height * gap)
@@ -223,20 +229,30 @@ def read_labels(ink: np.ndarray, hits: list[Hit]) -> None:
             x += g + c.shape[1]
         parts.append(np.full((height, g), 255, np.uint8))
         strip = cv2.copyMakeBorder(np.hstack(parts), height, height, 0, 0, cv2.BORDER_CONSTANT, value=255)
+        read: dict[int, list[tuple[float, str]]] = {}
         for x0, x1, text in vision_words(strip):
             inside = [i for i, (a, b) in enumerate(spans) if a < x1 and b > x0]
             if len(inside) == 1:  # a word that spans two rings is two labels run together
-                v = votes[inside[0]]
-                v[text] = v.get(text, 0) + 1
-    for h, v in zip(hits, votes):
+                read.setdefault(inside[0], []).append((x0, x1, text))
+        for i, words in read.items():  # a widely spaced "1 1" comes back as two words
+            kept: list[tuple[float, float, str]] = []
+            for w in sorted(words):  # Vision sometimes returns one word twice
+                if not kept or w[0] >= kept[-1][1] - 0.5 * (kept[-1][1] - kept[-1][0]):
+                    kept.append(w)
+            text = "".join(t for _, _, t in kept)
+            votes[i][text] = votes[i].get(text, 0) + 1
+    for i, (h, v) in enumerate(zip(hits, votes)):
         if v:
-            text, n = max(v.items(), key=lambda kv: kv[1])
+            # With a known glyph count (bare labels), a reading of that length beats a
+            # more common shorter one: Vision often reads "11" as "1".
+            fits = (lambda t: len(t) == counts[i]) if counts else (lambda t: False)
+            text, n = max(v.items(), key=lambda kv: (kv[1] + 1.5 * fits(kv[0]), kv[1]))
             h.text = text
             if len(v) > 1:
                 h.notes.append("readings " + ", ".join(f"{t}×{k}" for t, k in sorted(v.items(), key=lambda kv: -kv[1])))
     if shutil.which("tesseract"):
-        for h in hits:
-            if not h.text:
+        for h, c in zip(hits, glyphs):
+            if not h.text and h.r:
                 h.text = ocr_tesseract(glyph_crop(ink, h))
 
 
@@ -251,6 +267,11 @@ def tight_glyph(ink: np.ndarray, hit: Hit) -> np.ndarray:
 
 def vision_words(img: np.ndarray) -> list[tuple[float, float, str]]:
     """(left x, right x, text) for each space-separated word macOS Vision finds."""
+    return [(x0, x1, t) for x0, _, x1, _, t in vision_boxes(img)]
+
+
+def vision_boxes(img: np.ndarray) -> list[tuple[float, float, float, float, str]]:
+    """(x0, y0, x1, y1, text) in image px, top-left origin, for each word Vision finds."""
     try:
         import Quartz
         import Vision
@@ -268,7 +289,7 @@ def vision_words(img: np.ndarray) -> list[tuple[float, float, str]]:
     handler = Vision.VNImageRequestHandler.alloc().initWithCGImage_options_(cg, None)
     if not handler.performRequests_error_([req], None)[0]:
         return []
-    width = img.shape[1]
+    height, width = img.shape[:2]
     out = []
     for obs in req.results() or []:
         cands = obs.topCandidates_(1)
@@ -284,7 +305,8 @@ def vision_words(img: np.ndarray) -> list[tuple[float, float, str]]:
             if box is None:
                 continue
             r = box.boundingBox()
-            out.append((r.origin.x * width, (r.origin.x + r.size.width) * width, text))
+            out.append((r.origin.x * width, (1 - r.origin.y - r.size.height) * height,
+                        (r.origin.x + r.size.width) * width, (1 - r.origin.y) * height, text))
     return out
 
 
@@ -296,9 +318,16 @@ def ocr_tesseract(crop: np.ndarray) -> str | None:
     return re.sub(r"[^0-9A-Z]", "", txt) or None
 
 
+def norm(label: str) -> str:
+    """A key label as OCR text comes back: letters and digits only, upper case ("*a" -> "A")."""
+    return re.sub(r"[^0-9A-Z]", "", label.upper())
+
+
 def assign(hits: list[Hit], expected: list[str]) -> list[str]:
     """Match OCR text to the expected callout key. Returns expected labels never found."""
     exp = set(expected)
+    # Keys with marks OCR drops ("*a" footnote markers): match on letters and digits.
+    marked = {norm(e): e for e in exp if norm(e) != e and norm(e) and norm(e) not in exp}
     # Decimal callouts ("5.1"): Vision drops the small point and reads "51".
     undotted = {e.replace(".", ""): e for e in exp if "." in e}
     for h in hits:
@@ -307,6 +336,8 @@ def assign(hits: list[Hit], expected: list[str]) -> list[str]:
         h.n, h.confidence = None, 0.0
         if h.text and h.text in exp:
             h.n, h.confidence = h.text, 0.95
+        elif h.text and h.text in marked:
+            h.n, h.confidence = marked[h.text], 0.95
         elif h.text and h.text in undotted and h.text not in exp:
             h.n, h.confidence = undotted[h.text], 0.95
             h.notes.append(f"OCR read {h.text!r}, the key has {undotted[h.text]}")
@@ -340,10 +371,99 @@ def similar(a: str, b: str) -> bool:
     return all(x == y or _CONFUSE.get(x) == y or _CONFUSE.get(y) == x for x, y in zip(a, b))
 
 
+def find_bare_labels(ink: np.ndarray, expected: list[str]) -> list[Hit]:
+    """Callouts printed as bare numbers (no ring), for figures where find_rings finds none.
+
+    Ink blobs of glyph size are grouped into words (shared line, small gaps), each word is
+    read with read_labels, and only words that match the key are kept, since a drawing has
+    plenty of small blobs. Words in a bracket ("5 thru 11", an assembly's item range) are
+    dropped: they name items, they do not point at them.
+    """
+    if not expected:
+        return []
+    scale = ink.shape[1] / 2000  # glyph sizes below are for a ~2000 px wide figure
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(ink, connectivity=8)
+    glyphs = []
+    for i in range(1, n):
+        x, y, w, h, area = stats[i]
+        if not (14 * scale <= h <= 70 * scale and 3 <= w <= 1.2 * h and area >= 0.12 * w * h):
+            continue
+        if w < 0.35 * h and area > 0.85 * w * h:  # a plain bar (a tick, a centre line), not a "1"
+            continue
+        glyphs.append([x, y, x + w, y + h, i])
+    # Group glyphs left to right into words: overlapping rows, gap under ~0.6 glyph heights.
+    glyphs.sort(key=lambda g: g[0])
+    words: list[list[list[int]]] = []
+    for g in glyphs:
+        gh = g[3] - g[1]
+        for wd in words:
+            x0, y0, x1, y1 = (min(c[0] for c in wd), min(c[1] for c in wd),
+                              max(c[2] for c in wd), max(c[3] for c in wd))
+            wh = y1 - y0
+            overlap = min(y1, g[3]) - max(y0, g[1])
+            if 0 <= g[0] - x1 <= 0.6 * max(wh, gh) and overlap >= 0.4 * min(wh, gh) and max(wh, gh) <= 1.8 * min(wh, gh):
+                wd.append(g)
+                break
+        else:
+            words.append([g])
+    words = [w for w in words if len(w) <= 4]
+    hits, crops, counts = [], [], []
+    for wd in words:
+        x0, y0 = min(c[0] for c in wd), min(c[1] for c in wd)
+        x1, y1 = max(c[2] for c in wd), max(c[3] for c in wd)
+        # Only this word's own blobs (a leader or part edge in the box would be read too),
+        # set close together: Vision reads a widely spaced "1 1" as one "1".
+        gap = np.full((y1 - y0, max(2, round(0.12 * (y1 - y0)))), 255, np.uint8)
+        parts = []
+        for c in sorted(wd):
+            m = lab[y0:y1, c[0]:c[2]] == c[4]
+            parts += [np.where(m, 0, 255).astype(np.uint8), gap]
+        crop = np.hstack(parts[:-1])
+        counts.append(len(wd))
+        # Clear paper around: other ink in a margin of half a glyph height. A leader line
+        # crosses it, a label drawn inside the art (a cast part number) sits in clutter.
+        m = int(0.5 * (y1 - y0)) + 2
+        X0, Y0, X1, Y1 = max(x0 - m, 0), max(y0 - m, 0), min(x1 + m, ink.shape[1]), min(y1 + m, ink.shape[0])
+        around = (ink[Y0:Y1, X0:X1] > 0) & ~np.isin(lab[Y0:Y1, X0:X1], [c[4] for c in wd])
+        clutter = around.sum() / max(1, (X1 - X0) * (Y1 - Y0) - (x1 - x0) * (y1 - y0))
+        if clutter > 0.045:  # 0.03 at most on RPSTL callouts, 0.05+ on numbers in the art
+            continue
+        hits.append(Hit((x0 + x1) / 2, (y0 + y1) / 2, 0.6 * max(x1 - x0, y1 - y0) + 4,
+                        notes=["bare number, no ring"]))
+        crops.append(crop)
+    read_labels(ink, hits, crops, counts)
+    # Vision's reading of a word depends on its neighbours in the strip, so words left
+    # unread or read short (a lone "1", "11" as "1") get another try among themselves.
+    for order in (1, -1):
+        redo = [i for i, h in enumerate(hits) if not h.text or len(h.text) < counts[i]][::order]
+        if not redo:
+            break
+        again = [Hit(hits[i].x, hits[i].y, hits[i].r) for i in redo]
+        read_labels(ink, again, [crops[i] for i in redo], [counts[i] for i in redo])
+        for i, h in zip(redo, again):
+            if h.text and (not hits[i].text or len(h.text) > len(hits[i].text)):
+                hits[i].text = h.text
+                hits[i].notes.append(f"read {h.text!r} on a second pass")
+    # Brackets: Vision reads a word like "thru" well across the whole figure.
+    brackets = [b for b in vision_boxes(cv2.bitwise_not(ink)) if b[4] in ("THRU", "THR", "HRU", "TH", "RU")]
+    keys = set(expected) | {norm(e) for e in expected}
+    out = []
+    for h in hits:
+        bh = [(x0, y0, x1, y1) for x0, y0, x1, y1, _ in brackets]
+        if any(abs(h.y - (y0 + y1) / 2) < 3.5 * (y1 - y0) and x0 - 5 * (y1 - y0) < h.x < x1 + 2 * (y1 - y0)
+               for x0, y0, x1, y1 in bh):
+            continue
+        if h.text in keys:  # exact only: a near miss on a bare blob is usually not a callout
+            out.append(h)
+    return out
+
+
 def detect(path: str, expected: list[str] | None = None) -> tuple[list[Hit], list[str]]:
     ink = load_ink(path)
     hits = find_rings(ink)
     read_labels(ink, hits)
+    if not hits and expected:
+        hits = find_bare_labels(ink, expected)
     missing = assign(hits, expected or []) if expected is not None else []
     hits.sort(key=lambda h: (natural(h.n or "~"), h.y, h.x))
     return hits, missing
