@@ -51,6 +51,7 @@ for (const f of pages) {
   if (meta(html, "name", "twitter:card") !== "summary_large_image") err(page, "twitter:card is not summary_large_image");
   const og = meta(html, "property", "og:image");
   if (og) {
+    if (!/\.(png|jpe?g|webp|gif)(\?|$)/.test(og)) err(page, `og:image has no image extension (Vercel redirects it): ${og}`);
     const file = fileFor(og);
     if (!file || !existsSync(file)) err(page, `og:image missing on disk: ${og}`);
     else {
@@ -62,6 +63,7 @@ for (const f of pages) {
     }
   }
   if (!html.includes('rel="icon"')) err(page, "no favicon link");
+  for (const m of html.matchAll(/href="([^"]*\/(?:apple-)?icon)\?/g)) err(page, `icon link has no extension: ${m[1]}`);
 
   const h1s = html.match(/<h1[\s>]/g)?.length ?? 0;
   if (h1s !== 1) err(page, `${h1s} <h1> elements`);
@@ -106,7 +108,7 @@ if (!robots.includes(`Sitemap: ${SITE}/sitemap.xml`)) err("robots.txt", "no site
 const llms = readFileSync(join(OUT, "llms.txt"), "utf8");
 if (!llms.startsWith("# ")) err("llms.txt", "must start with an H1");
 for (const m of llms.matchAll(/\]\((https:[^)]*)\)/g)) if (!existsSync(fileFor(m[1]))) err("llms.txt", `dead link ${m[1]}`);
-for (const f of ["favicon.ico", "icon", "apple-icon", "opengraph-image"]) if (!existsSync(join(OUT, f))) err("out", `missing /${f}`);
+for (const f of ["favicon.ico", "icon.png", "apple-icon.png", "opengraph-image.png"]) if (!existsSync(join(OUT, f))) err("out", `missing /${f}`);
 
 console.log(`Checked ${pages.length} pages, ${smUrls.length} sitemap URLs.`);
 const group = (list) => { const c = new Map(); for (const l of list) { const k = l.replace(/^[^:]*: /, "").replace(/\d+/g, "N").replace(/"[^"]*"/g, '"..."').replace(/https?:\S+/g, "URL"); c.set(k, [...(c.get(k) ?? []), l]); } return c; };
