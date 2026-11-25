@@ -4,7 +4,14 @@
   .venv/bin/python scripts/import_manual.py CAPTURE --pdf "path/to/manual.pdf" --pdf-name NAME.pdf
 
 CAPTURE is the capture-technical-manual output (the folder with manifest.json, pages/
-and web/). Writes:
+and web/). Two layouts, picked from the printed page numbers:
+
+  paragraphs   maintenance manuals (2-15. TITLE): one section per numbered paragraph or appendix
+  parts        repair parts lists (RPSTL), whose folios are work packages ("0002 00-1"): one
+               section per work package (illustration plate plus parts list, the special tools,
+               the cross-reference indexes), titled from the contents list
+
+Writes:
 
   data/manuals/<tm>.json          sections (paragraphs, appendices) as blocks, figures, tables
   public/manuals/<tm>/images/     figure WebP (and thumbs/), table crops in tables/
@@ -105,7 +112,32 @@ def parse_toc(md: str) -> dict[str, str]:
     return out
 
 
+WP_FOLIO = re.compile(r"^(\d{4}) \d{2}(?:-|$)")
+WP_ENTRY = re.compile(r"(?:(\d{4}) )?([A-Z][A-Za-z0-9 ,()./&'-]*?)\s*(?:\.\s*){3,}(\d{4}) 00\b")
+
+
+def parse_wp_toc(md: str) -> list[dict]:
+    """RPSTL contents: 'GROUP 01 | ENGINE' then '0100 Engine and container assembly . . . 0002 00'."""
+    out, group = [], None
+    for line in md.splitlines():
+        m = re.match(r"^GROUP (\d+)\s*\|\s*(.+)$", line.strip())
+        if m:
+            group = f"Group {m.group(1)}. {sentence_case(m.group(2))}"
+            continue
+        for e in WP_ENTRY.finditer(line):
+            code, title, wp = e.group(1), " ".join(e.group(2).split()), e.group(3)
+            title = re.sub(r"^TABLE OF CONTENTS.*?\bNo\.\s*", "", title)  # the list's own heading
+            if not code:  # introduction and the indexes stand outside the functional groups
+                label = "Cross-reference indexes" if "INDEX" in title.upper() else "Introduction"
+            else:
+                label = group
+            out.append({"wp": wp, "code": code, "group": label, "title": sentence_case(title) if title.isupper() else title})
+    return out
+
+
 class Builder:
+    skip_text = False
+
     def __init__(self, capture: Path):
         self.cap = capture
         self.units: list[dict] = []
@@ -151,13 +183,19 @@ class Builder:
             if p.exists():
                 self.read_page(n, p.read_text())
 
+    @staticmethod
+    def printed_of(md: str) -> str | None:
+        m = re.search(r"printed page (.+?) -->", md)
+        return m.group(1).strip() if m and m.group(1).strip() != "None" else None
+
     def read_page(self, n: int, md: str) -> None:
-        m = re.search(r"printed page (\S+)", md)
-        printed = m.group(1) if m and m.group(1) != "None" else None
-        self.page = (n, printed)
+        self.page = (n, self.printed_of(md))
         self.page_marked = False
+        self.read_body(md)
+
+    def read_body(self, md: str) -> None:
         body, _, figs = md.partition("\n---\n")
-        lines = [l.rstrip() for l in body.splitlines()]
+        lines = [] if self.skip_text else [l.rstrip() for l in body.splitlines()]
         i = 0
         while i < len(lines):
             line = lines[i].strip()
@@ -269,25 +307,66 @@ class Builder:
         return True
 
 
+class PartsBuilder(Builder):
+    """Repair parts list: one unit per work package, found from each page's folio."""
+
+    def run(self, n_pages: int) -> None:
+        self.wps = {}
+        for n in range(1, min(n_pages, 12) + 1):
+            p = self.cap / "pages" / f"page-{n:03d}.md"
+            if p.exists():
+                for e in parse_wp_toc(p.read_text()):
+                    self.wps.setdefault(e["wp"], e)
+        self.new_unit(slug="front-matter", kind="front", id=None, chapter=None, section=None,
+                      title="Warnings and front matter")
+        for n in range(1, n_pages + 1):
+            p = self.cap / "pages" / f"page-{n:03d}.md"
+            if p.exists():
+                self.read_page(n, p.read_text())
+
+    def read_page(self, n: int, md: str) -> None:
+        printed = self.printed_of(md)
+        self.page = (n, printed)
+        self.page_marked = False
+        m = WP_FOLIO.match(printed or "")
+        # Back matter opens with the authentication page or the DA Form 2028 (printed in capitals).
+        if re.search(r"^(By Order of the Secretary|RECOMMENDED CHANGES TO\b)", md, re.M) and self.unit["kind"] != "back":
+            self.new_unit(slug="forms-and-back-matter", kind="back", id=None, chapter=None, section=None,
+                          title="Forms and back matter")
+        elif m and self.unit["kind"] != "back" and not (self.unit["kind"] == "wp" and self.unit["id"] == m.group(1)):
+            wp = m.group(1)
+            e = self.wps.get(wp, {"group": None, "title": f"Work package {wp}", "code": None})
+            self.new_unit(slug=f"{wp}-{slugify(e['title'])}"[:80].rstrip("-"), kind="wp", id=wp,
+                          chapter=e["group"], section=None, title=e["title"], code=e["code"])
+        # Plates and parts lists are carried by their figure and table records; the page text
+        # of a parts list would only repeat the table. Introduction and front matter keep text.
+        self.skip_text = self.unit["kind"] == "wp" and self.unit["id"] != "0001"
+        self.read_body(md)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("capture")
     ap.add_argument("--pdf", required=True, help="the original PDF")
     ap.add_argument("--pdf-name", required=True, help="download file name, from the cover")
+    ap.add_argument("--id", help="manual id (default: the capture folder name, e.g. tm-9-2815-237-34)")
     a = ap.parse_args()
 
     cap = Path(a.capture).expanduser().resolve()
     if not (cap / "manifest.json").exists():
         subs = [d for d in cap.iterdir() if (d / "manifest.json").exists()]
         cap = subs[0]
-    tm = cap.name
+    tm = a.id or cap.name
     web = cap / "web"
     manifest = {r["id"]: r for r in json.loads((cap / "manifest.json").read_text())}
     content = {r["id"]: r for r in json.loads((web / "content.json").read_text())}
     tables_index = json.loads((web / "data" / "tables_index.json").read_text())
     n_pages = len(json.loads((cap / "structure.json").read_text()))
 
-    b = Builder(cap)
+    structure = json.loads((cap / "structure.json").read_text())
+    wp_pages = sum(bool(WP_FOLIO.match(r.get("printed_page") or "")) for r in structure)
+    layout = "parts" if wp_pages > 0.3 * len(structure) else "paragraphs"
+    b = PartsBuilder(cap) if layout == "parts" else Builder(cap)
     b.run(n_pages)
     units = [u for u in b.units if any(x["t"] != "page" for x in u["blocks"])]
     for u in units:  # a page marker with nothing after it belongs to the next section
@@ -303,8 +382,18 @@ def main() -> None:
             u["slug"] = f"{u['slug']}-{k + 1}"
         printed = [x["printed"] for x in u["blocks"] if x["t"] == "page" and x["printed"]]
         u["printed"] = [printed[0], printed[-1]] if printed else None
+        u.setdefault("code", None)
 
     figures = {}
+    # Work packages that share a contents title ("Special tools" x4): add the figure number.
+    titles = [u["title"] for u in units if u["kind"] == "wp"]
+    for u in units:
+        if u["kind"] == "wp" and titles.count(u["title"]) > 1:
+            fig = next((x["id"] for x in u["blocks"] if x["t"] == "fig"), None)
+            m = re.match(r"Figure (\d+)", (content.get(fig) or {}).get("caption") or "")
+            if m:
+                u["title"] = f"{u['title']} (figure {m.group(1)})"
+                u["slug"] = f"{u['id']}-{slugify(u['title'])}"
     for fid, c in content.items():
         m = manifest.get(fid, {})
         figures[fid] = {
@@ -348,6 +437,7 @@ def main() -> None:
         "source": "Generated by scripts/import_manual.py from the capture-technical-manual output. Do not hand-edit.",
         "pdf": {"file": f"manuals/{tm}/{a.pdf_name}", "bytes": (pub / a.pdf_name).stat().st_size, "pages": n_pages},
         "cover": cover,
+        "layout": layout,
         "toc": b.toc,
         "sections": units,
         "figures": figures,
@@ -356,7 +446,7 @@ def main() -> None:
     dest = ROOT / "data" / "manuals" / f"{tm}.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n")
-    kinds = {k: sum(u["kind"] == k for u in units) for k in ("front", "para", "appendix", "back")}
+    kinds = {k: sum(u["kind"] == k for u in units) for k in ("front", "para", "appendix", "wp", "back")}
     print(f"{dest.relative_to(ROOT)}: {len(units)} sections {kinds}, {len(figures)} figures, {len(tables)} tables, "
           f"{dest.stat().st_size // 1000} kB")
     for u in units:

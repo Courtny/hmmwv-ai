@@ -26,13 +26,17 @@ def run(*a): subprocess.run(["python3", "-I", *a], cwd=work, env=env, check=True
 def specs():
     n = len(fitz.open(pdf)); os.makedirs(f"{work}/specs", exist_ok=True)
     for f in os.listdir(kit):
-        if f.endswith(".md") and f.endswith(("SPEC.md", "ADJ_TBL.md")):
+        if f.endswith(".md") and f.endswith(("SPEC.md", "ADJ_TBL.md", "RPSTL_NOTES.md")):
             t = open(f"{kit}/{f}").read().replace("{WORK}", work).replace("{PDF}", pdf).replace("{TITLE}", title).replace("{N}", str(n))
             open(f"{work}/specs/{f}", "w").write(t)
 if stage in ("extract", "all-scripts"): run("extract.py", pdf, "out")
 if stage in ("prep", "all-scripts"): run("prep.py", pdf); specs(); print("agent specs in", work + "/specs", "; batches in plan.json; follow ORCHESTRATION.md")
 if stage == "adjprep": run("adjprep.py", pdf)
 if stage == "build":
+    # merge_fig works on the extraction manifest; apply_actions overwrites it, so start from
+    # the copy prep saved. This makes build safe to run again after editing agent outputs.
+    if os.path.exists(f"{work}/figv/manifest_v1.json"):
+        shutil.copy(f"{work}/figv/manifest_v1.json", f"{work}/out/manifest.json")
     for s in ("merge_fig.py", "apply_actions.py", "build_tables.py", "finalize.py"): run(s)
     print("DONE: web package in", work + "/out/web")
 if stage == "vectorize":

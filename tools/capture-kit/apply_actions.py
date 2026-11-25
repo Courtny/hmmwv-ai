@@ -36,10 +36,14 @@ for pg, e in sorted(ACT.items()):
         op = a["op"]
         if op == "resize":
             figs[a["id"]]["bbox_pt"] = a["bbox_pt"]; figs[a["id"]].setdefault("notes", []).append("crop adjusted after audit adjudication: " + a.get("reason", ""))
+        elif op == "exclude" and a["id"] not in figs:
+            log.append(f"exclude {a['id']}: already left out by extraction (signature_pages)")
         elif op == "exclude":
             m = figs.pop(a["id"]); consumed.add(a["id"])
             r = fitz.Rect(m["bbox_pt"]); os.makedirs(f"{OUT}/excluded", exist_ok=True)
-            shutil.copy(f"{OUT}/{m['file']}", f"{OUT}/excluded/{m['id']}-excluded.png"); log.append(f"excluded {m['id']}: {a.get('reason','')}")
+            if os.path.exists(f"{OUT}/{m['file']}"):  # gone already when build runs a second time
+                shutil.copy(f"{OUT}/{m['file']}", f"{OUT}/excluded/{m['id']}-excluded.png")
+            log.append(f"excluded {m['id']}: {a.get('reason','')}")
         elif op == "merge":
             ids = a["ids"]; base = figs[ids[0]]
             r = fitz.Rect(base["bbox_pt"])

@@ -17,7 +17,7 @@ export function generateStaticParams() { return manuals.map((m) => ({ manual: m.
 export async function generateMetadata({ params }: { params: Promise<{ manual: string }> }) {
   const m = manualById((await params).manual); if (!m) return {};
   return pageMeta({
-    title: `${m.number}: ${m.subject} maintenance manual`,
+    title: `${m.number}: ${m.subject} ${m.noun}`,
     description: clip(`${m.number} (${m.date}): ${m.summary}`),
     path: manualPath(m),
   });

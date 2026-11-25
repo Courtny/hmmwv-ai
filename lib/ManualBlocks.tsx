@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Block, Manual, Section } from "./manuals";
-import { credit, pdfUrl, show } from "./manuals";
+import { credit, pdfUrl, show, partsListSections, sectionPath } from "./manuals";
 import { proceduresForFigure, procedurePath } from "./procedures";
 
 /** One manual section, block by block, as captured from the page text. */
@@ -101,6 +101,13 @@ function TableBlock({ m, k, id, printed }: { m: Manual; k: string | null; id: st
   // A table continued over several pages is listed once, at its first page.
   if (t.source_ids[0] !== id) return null;
   const width = Math.max(t.columns.length, ...t.rows.map((r) => r.cells?.length ?? 0));
+  // Cross-reference indexes: the figure number links to that figure's parts list.
+  const figCol = m.data.layout === "parts" ? t.columns.findIndex((c) => /^figure no$/i.test(c)) : -1;
+  const lists = figCol >= 0 ? partsListSections(m) : null;
+  const cell = (c: string, l: number) => {
+    const s = l === figCol ? lists?.get(c) : undefined;
+    return s ? <Link href={sectionPath(m, s)}>{show(c)}</Link> : show(c);
+  };
   return (
     <figure className="tm-tbl" id={id}>
       {t.title && <strong className="tm-tbl-title">{show(t.title)}</strong>}
@@ -114,7 +121,7 @@ function TableBlock({ m, k, id, printed }: { m: Manual; k: string | null; id: st
               r.group ? (
                 <tr key={j} className="grp"><td colSpan={width}>{show(r.group)}</td></tr>
               ) : (
-                <tr key={j}>{(r.cells ?? []).map((c, l) => <td key={l}>{show(c)}</td>)}</tr>
+                <tr key={j}>{(r.cells ?? []).map((c, l) => <td key={l}>{cell(c, l)}</td>)}</tr>
               ),
             )}
           </tbody>

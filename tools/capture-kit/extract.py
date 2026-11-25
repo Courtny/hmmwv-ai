@@ -99,14 +99,30 @@ def page_blocks(page):
 
 
 def printed_page(blocks, h):
-    pat = re.compile(r"^(?:[A-Z]-\d{1,3}|\d{1,2}-\d{1,3}(?:\.\d+)?|[ivx]{1,5}|[a-b]|Index\s?\d+|[A-Z]|\d{1,3})(?:/\(.*blank\))?$")
-    cands = sorted([b for b in blocks if b["y0"] > h - 70], key=lambda b: -b["y0"])
-    for b in cands:
-        t = re.sub(r"\bChange \d+\b", " ", b["text"]).replace("|", " ")
+    def clean(text):
+        t = re.sub(r"\bChange \d+\b", " ", text).replace("|", " ")
+        return re.sub(r"/\s*\(?[^/()]*\bblank\)?", "", t, flags=re.I).strip()  # "iii/(iv Blank)", "A/B blank"
+
+    # Work package folios ("0002 00-1": package 0002, its page 1), checked first so the
+    # page part alone ("00-1") is not taken for a chapter folio. They sit above the PIN line.
+    for b in sorted([b for b in blocks if b["y0"] > h - 110], key=lambda b: -b["y0"]):
+        m = re.search(r"(?:^|\s)(\d{4} \d{2}-\d+(?:\.\d+)?)$", clean(b["text"]))
+        if m:
+            return m.group(1)
+    pat = re.compile(r"^(?:[A-Z]-\d{1,3}|\d{1,2}-\d{1,3}(?:\.\d+)?|[ivx]{1,5}|[a-b]|Index\s?\d+|[A-Z]|\d{1,3})$")
+    for b in sorted([b for b in blocks if b["y0"] > h - 70], key=lambda b: -b["y0"]):
+        t = clean(b["text"])
+        if re.match(r"^(Figure|Table|FIGURE|TABLE)\s+[\w-]+\.", t):
+            continue  # a caption printed low on the page ("Figure 2. ... (Sheet 1 of 2).")
         for tok in reversed(t.split()):
             if pat.match(tok) and tok not in ("TM",):
                 return tok
-        m = re.search(r"(Index\s+\d+|[A-Z]-\d+|\d-\d+(?:\.\d+)?)", t)
+        m = re.search(r"(?<![\w-])(Index\s+\d+|[A-Z]-\d+|\d-\d+(?:\.\d+)?)(?![\w-])", t)  # not inside "TM 9-2815-237-34P"
+        if m:
+            return m.group(1)
+    # Illustration plates print no folio, only the work package in the running header.
+    for b in [b for b in blocks if b["y0"] < 50]:
+        m = re.search(r"(?:^|\s)(\d{4} \d{2})$", b["text"].replace("|", " ").strip())
         if m:
             return m.group(1)
     return None
@@ -256,11 +272,19 @@ for pno in range(n_pages):
         for xr in all_x - set(g["xrefs"]):
             try: sp.delete_image(xr)
             except Exception: pass
+        lines_of = {}
+        for w in words_all:
+            lines_of.setdefault((w[5], w[6]), []).append(w[4].strip())
         for w in words_all:
             wr = fitz.Rect(w[:4]); t = w[4].strip()
             inside = (wr & rc).get_area() > 0.5 * wr.get_area()
+            line = lines_of[(w[5], w[6])]
+            if inside and all(re.fullmatch(r"\d{1,3},?|thru|THRU|and|AND|,", x) for x in line) and any(x.lower() in ("thru", "and") for x in line):
+                continue                           # bracket box "10 thru 28" (an assembly and its parts): keep whole
+            if re.search(r"PART OF ITEM|USED ON|\bITEM\b", " ".join(line)):
+                sp.add_redact_annot(wr, fill=(1, 1, 1)); continue   # plate legend: its digits are not callouts
             if inside and re.fullmatch(r"\(?(\d{1,2}|[A-Z])\)?", t):
-                continue                           # circled callout digits/letters drawn as text: keep
+                continue                           # callout digits/letters drawn as text: keep
             sp.add_redact_annot(wr, fill=(1, 1, 1))
         sp.apply_redactions(images=fitz.PDF_REDACT_IMAGE_NONE, graphics=fitz.PDF_REDACT_LINE_ART_NONE)
         cp = sp.get_pixmap(dpi=DPI, clip=crop, colorspace=fitz.csGRAY)
