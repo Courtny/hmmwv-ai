@@ -26,7 +26,6 @@ Project rules are in CLAUDE.md. Next steps: the TODO list below.
 - Stitch the 10 spread photos.
 - Chapter structure and timeline from the book's contents page.
 - Replace the placeholder brand name.
-- Make Node available on the shell PATH (it is installed in ~/.local/node).
 
 ### Reviews
 - Check the three hand-written procedures against the PDF: water crossover (para. 2-39, page 2-147) and fan drive disassembly and assembly (para. 2-40, pages 2-148 and 2-152). Steps were transcribed by the capture and three punctuation slips fixed by hand.
