@@ -455,14 +455,18 @@ def main() -> None:
 
 
 def render_cover(pdf: Path, pub: Path) -> dict:
-    """First page as WebP (sips renders PDFs on macOS; OpenCV writes the WebP)."""
+    """First page as WebP on white (sips renders PDFs on macOS; OpenCV writes the WebP)."""
     import cv2
 
     with tempfile.TemporaryDirectory() as tmp:
         png = Path(tmp) / "cover.png"
         subprocess.run(["sips", "-s", "format", "png", str(pdf), "--resampleWidth", "900", "--out", str(png)],
                        check=True, capture_output=True)
-        img = cv2.imread(str(png))
+        img = cv2.imread(str(png), cv2.IMREAD_UNCHANGED)
+    if img.ndim == 3 and img.shape[2] == 4:
+        # A cover drawn as boxes on a transparent page: put it on white paper, not black.
+        a = img[..., 3:].astype("float32") / 255
+        img = (img[..., :3] * a + 255 * (1 - a)).astype("uint8")
     cv2.imwrite(str(pub / "cover.webp"), img, [cv2.IMWRITE_WEBP_QUALITY, 85])
     h, w = img.shape[:2]
     return {"image": f"manuals/{pub.name}/cover.webp", "width": w, "height": h}

@@ -22,9 +22,9 @@ export default function Home() {
       <section className="sec"><div className="kicker">Technical manuals</div>
         <div className="grid">{manuals.map((m) => (
           <Link key={m.id} className="card" href={manualPath(m)}>
-            <strong>{m.number}: {m.subject}</strong>
+            <strong>{m.number}: {m.subject} {m.noun}</strong>
             <span>{m.title}, {m.date}</span>
-            <span className="mono">{m.data.sections.length} sections · {Object.keys(m.data.figures).length} figures · {proceduresFor(m.id).length} interactive procedures · PDF</span>
+            <span className="mono">{m.data.sections.length} sections · {Object.keys(m.data.figures).length} figures{proceduresFor(m.id).length > 0 && ` · ${proceduresFor(m.id).length} interactive procedures`} · PDF</span>
           </Link>
         ))}</div>
       </section>

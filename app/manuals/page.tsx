@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { plateFor } from "@/lib/plates";
 import { manuals, manualPath, pdfUrl, pdfName, fileSize } from "@/lib/manuals";
 import { proceduresFor } from "@/lib/procedures";
 import { pageMeta, JsonLd, breadcrumbLd, abs } from "@/lib/seo";
@@ -28,6 +29,7 @@ export default function Manuals() {
           {manuals.map((m) => {
             const procs = proceduresFor(m.id);
             const parts = m.data.layout === "parts";
+            const plates = Object.keys(m.data.figures).filter((id) => plateFor(id)).length;
             const units = m.data.sections.filter((s) => s.kind === (parts ? "wp" : "para")).length;
             return (
               <article key={m.id} className="card tm-card">
@@ -36,11 +38,12 @@ export default function Manuals() {
                   <img src={`/${m.data.cover.image}`} alt={`Cover of ${m.number}`} width={m.data.cover.width} height={m.data.cover.height} />
                 </Link>
                 <span className="mono">{m.number} · {m.date}</span>
-                <Link href={manualPath(m)} className="tm-card-title"><strong>{m.subject}</strong></Link>
+                <Link href={manualPath(m)} className="tm-card-title"><strong>{m.subject} {m.noun}</strong></Link>
                 <span>{m.title}</span>
                 <span className="mono">
                   {units} {parts ? "work packages" : "paragraphs"} · {Object.keys(m.data.figures).length} figures · {m.data.pdf.pages} pages
                   {procs.length > 0 && ` · ${procs.length} interactive procedure${procs.length === 1 ? "" : "s"}`}
+                  {plates > 0 && ` · ${plates} interactive plates`}
                 </span>
                 <a className="mono" href={pdfUrl(m)} download={pdfName(m)}>Download PDF ({fileSize(m.data.pdf.bytes)})</a>
               </article>
