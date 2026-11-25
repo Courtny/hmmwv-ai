@@ -1,0 +1,89 @@
+{
+ "id": "p056-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 56,
+ "printed_page": "0015 00",
+ "kind": "assembly view",
+ "caption": "Figure 14. Exhaust Manifolds (6.5L Turbo)",
+ "alt": "Two views showing the left and right turbo exhaust manifolds being bolted to the cylinder heads, with FRONT arrows.",
+ "size_px": [
+  1626,
+  2484
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Manifold, exhaust l.h."
+  },
+  {
+   "n": "2",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "3",
+   "label": "Manifold, exhaust r.h."
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3"
+ ],
+ "rings": [
+  {
+   "x": 1050.0,
+   "y": 1055.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 988.0,
+   "y": 2383.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 484.0,
+   "y": 2325.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1416.5,
+   "y": 899.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p056-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1626.0,
+  2484.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 293,
+ "svg_snapped": 0
+}

@@ -1,0 +1,360 @@
+{
+ "id": "p042-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 42,
+ "printed_page": "0009 00",
+ "kind": "exploded view",
+ "caption": "Figure 8. Crankcase Cover Assembly and Rocker Cover",
+ "alt": "Exploded view of a rocker cover with gasket, the timing gear cover with baffle, seal, timing indicator and hardware, and the cover plate.",
+ "size_px": [
+  2124,
+  2161
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cover, engine poppet"
+  },
+  {
+   "n": "2",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "3",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "4",
+   "label": "Cover, timing gear, i"
+  },
+  {
+   "n": "5",
+   "label": "Stud, plain"
+  },
+  {
+   "n": "6",
+   "label": "Stud, plain"
+  },
+  {
+   "n": "7",
+   "label": "Seal, plain encased"
+  },
+  {
+   "n": "8",
+   "label": "Indicator, timing, en"
+  },
+  {
+   "n": "9",
+   "label": "Screw, machine"
+  },
+  {
+   "n": "10",
+   "label": "Plug, protective, dust"
+  },
+  {
+   "n": "11",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "12",
+   "label": "Bolt, close tolerance"
+  },
+  {
+   "n": "13",
+   "label": "Bolt, self-locking"
+  },
+  {
+   "n": "14",
+   "label": "Baffle, crankcase, ve"
+  },
+  {
+   "n": "15",
+   "label": "Plate assembly, wate"
+  },
+  {
+   "n": "16",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "17",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "18",
+   "label": "Gasket"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 4"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "*a"
+ ],
+ "rings": [
+  {
+   "x": 1151.0,
+   "y": 561.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1360.5,
+   "y": 430.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 2023.5,
+   "y": 766.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1710.0,
+   "y": 1000.0,
+   "r": 20.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1757.0,
+   "y": 1389.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 847.5,
+   "y": 2076.5,
+   "r": 20.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1982.5,
+   "y": 2118.0,
+   "r": 20.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1845.0,
+   "y": 2017.5,
+   "r": 20.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1728.5,
+   "y": 1964.5,
+   "r": 27.4,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 249.0,
+   "y": 1649.5,
+   "r": 23.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1349.5,
+   "y": 2052.0,
+   "r": 23.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 11×4, 1L×1"
+   ]
+  },
+  {
+   "x": 145.0,
+   "y": 1654.5,
+   "r": 25.6,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1189.5,
+   "y": 2092.5,
+   "r": 26.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 751.0,
+   "y": 1615.0,
+   "r": 26.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1161.5,
+   "y": 1754.0,
+   "r": 26.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 937.5,
+   "y": 1633.5,
+   "r": 27.4,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 440.5,
+   "y": 1921.5,
+   "r": 26.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 208.0,
+   "y": 1175.0,
+   "r": 26.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 671.0,
+   "y": 1157.0,
+   "r": 26.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 839.5,
+   "y": 1167.5,
+   "r": 26.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1775.5,
+   "y": 1551.5,
+   "r": 16.6,
+   "text": "*a",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p042-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2124.0,
+  2161.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 117,
+ "svg_snapped": 0
+}

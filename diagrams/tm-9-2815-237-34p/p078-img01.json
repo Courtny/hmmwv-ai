@@ -1,0 +1,773 @@
+{
+ "id": "p078-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 78,
+ "printed_page": "0022 00",
+ "kind": "exploded view",
+ "caption": "Figure 21. Fuel Injection Pump Throttle Shaft, Regulator, Transfer Pump, and Related Parts",
+ "alt": "Exploded view of the fuel injection pump throttle shaft, regulator, transfer pump parts, springs, pistons and plugs around the pump housing.",
+ "size_px": [
+  1982,
+  1987
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "2",
+   "label": "Screw"
+  },
+  {
+   "n": "3",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "4",
+   "label": "Spacer, sleeve"
+  },
+  {
+   "n": "5",
+   "label": "O-ring"
+  },
+  {
+   "n": "6",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "7",
+   "label": "Shim"
+  },
+  {
+   "n": "8",
+   "label": "Cam face, pump"
+  },
+  {
+   "n": "9",
+   "label": "Screw, machine"
+  },
+  {
+   "n": "10",
+   "label": "Pin, grooved, headles"
+  },
+  {
+   "n": "11",
+   "label": "Cam, control"
+  },
+  {
+   "n": "12",
+   "label": "Lever, remote contro"
+  },
+  {
+   "n": "13",
+   "label": "Ring, retaining"
+  },
+  {
+   "n": "14",
+   "label": "Ring, retaining"
+  },
+  {
+   "n": "15",
+   "label": "Pin, grooved, headles"
+  },
+  {
+   "n": "16",
+   "label": "Setscrew"
+  },
+  {
+   "n": "17",
+   "label": "Plunger, detent"
+  },
+  {
+   "n": "18",
+   "label": "Seal"
+  },
+  {
+   "n": "19",
+   "label": "Plug, machine thread"
+  },
+  {
+   "n": "20",
+   "label": "Seal, drain plug"
+  },
+  {
+   "n": "21",
+   "label": "Packing, preformed"
+  },
+  {
+   "n": "22",
+   "label": "Retainer, rotor, tran"
+  },
+  {
+   "n": "23",
+   "label": "Liner, transfer pump"
+  },
+  {
+   "n": "24",
+   "label": "Vane, injection pump"
+  },
+  {
+   "n": "25",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "26",
+   "label": "Pin"
+  },
+  {
+   "n": "27",
+   "label": "Regulator assembly"
+  },
+  {
+   "n": "28",
+   "label": "Ring, retaining"
+  },
+  {
+   "n": "29",
+   "label": "Cap, transfer pump"
+  },
+  {
+   "n": "30",
+   "label": "Plate, pump pressure"
+  },
+  {
+   "n": "31",
+   "label": "Strainer element, se"
+  },
+  {
+   "n": "32",
+   "label": "Plug assembly, end p"
+  },
+  {
+   "n": "33",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "34",
+   "label": "Piston, valve"
+  },
+  {
+   "n": "35",
+   "label": "O-ring"
+  },
+  {
+   "n": "36",
+   "label": "Screw"
+  },
+  {
+   "n": "37",
+   "label": "Pin, cam advance"
+  },
+  {
+   "n": "38",
+   "label": "O-ring"
+  },
+  {
+   "n": "39",
+   "label": "Plug, machine thread"
+  },
+  {
+   "n": "40",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "41",
+   "label": "Valve, servo advance"
+  },
+  {
+   "n": "42",
+   "label": "Piston, linear actua"
+  },
+  {
+   "n": "43",
+   "label": "Plug, machine thread"
+  },
+  {
+   "n": "44",
+   "label": "Shaft assembly, thro"
+  },
+  {
+   "n": "45",
+   "label": "Screw, machine"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "35",
+  "36",
+  "37",
+  "38",
+  "39",
+  "40",
+  "41",
+  "42",
+  "43",
+  "44",
+  "45"
+ ],
+ "rings": [
+  {
+   "x": 127.5,
+   "y": 181.5,
+   "r": 19.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 273.5,
+   "y": 70.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 397.5,
+   "y": 88.0,
+   "r": 19.6,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 479.5,
+   "y": 215.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 519.0,
+   "y": 399.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 675.0,
+   "y": 411.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 883.5,
+   "y": 544.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 982.0,
+   "y": 444.0,
+   "r": 20.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1060.5,
+   "y": 406.0,
+   "r": 20.8,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1102.0,
+   "y": 340.0,
+   "r": 26.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1207.0,
+   "y": 343.0,
+   "r": 23.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1546.0,
+   "y": 381.0,
+   "r": 26.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1702.5,
+   "y": 449.5,
+   "r": 26.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1843.0,
+   "y": 556.0,
+   "r": 26.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1717.5,
+   "y": 721.5,
+   "r": 26.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1620.5,
+   "y": 771.5,
+   "r": 26.2,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1491.0,
+   "y": 802.0,
+   "r": 26.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1421.0,
+   "y": 833.0,
+   "r": 25.6,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1370.0,
+   "y": 877.0,
+   "r": 26.8,
+   "text": "19",
+   "n": "19",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 289.0,
+   "y": 1489.0,
+   "r": 28.0,
+   "text": "20",
+   "n": "20",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1182.5,
+   "y": 946.0,
+   "r": 26.2,
+   "text": "21",
+   "n": "21",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1311.0,
+   "y": 964.5,
+   "r": 29.2,
+   "text": "22",
+   "n": "22",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1411.0,
+   "y": 970.5,
+   "r": 29.2,
+   "text": "23",
+   "n": "23",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1536.5,
+   "y": 913.0,
+   "r": 29.8,
+   "text": "24",
+   "n": "24",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1457.0,
+   "y": 1253.0,
+   "r": 28.0,
+   "text": "24",
+   "n": "24",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1658.5,
+   "y": 931.0,
+   "r": 29.8,
+   "text": "26",
+   "n": "26",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1845.5,
+   "y": 1012.0,
+   "r": 29.8,
+   "text": "27",
+   "n": "27",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1634.0,
+   "y": 1299.5,
+   "r": 29.2,
+   "text": "28",
+   "n": "28",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1714.5,
+   "y": 1730.5,
+   "r": 29.8,
+   "text": "29",
+   "n": "29",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 29×5, 20×1"
+   ]
+  },
+  {
+   "x": 1540.0,
+   "y": 1713.0,
+   "r": 30.4,
+   "text": "30",
+   "n": "30",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1381.5,
+   "y": 1656.0,
+   "r": 26.2,
+   "text": "31",
+   "n": "31",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1223.5,
+   "y": 1565.0,
+   "r": 28.6,
+   "text": "32",
+   "n": "32",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1155.5,
+   "y": 1560.0,
+   "r": 28.6,
+   "text": "33",
+   "n": "33",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1088.0,
+   "y": 1550.0,
+   "r": 29.2,
+   "text": "34",
+   "n": "34",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 900.0,
+   "y": 1578.0,
+   "r": 28.0,
+   "text": "35",
+   "n": "35",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 895.0,
+   "y": 1695.0,
+   "r": 29.2,
+   "text": "36",
+   "n": "36",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 875.0,
+   "y": 1809.5,
+   "r": 29.2,
+   "text": "37",
+   "n": "37",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 831.5,
+   "y": 1915.5,
+   "r": 28.6,
+   "text": "38",
+   "n": "38",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 568.0,
+   "y": 1908.0,
+   "r": 29.2,
+   "text": "39",
+   "n": "39",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 577.5,
+   "y": 1309.5,
+   "r": 29.8,
+   "text": "40",
+   "n": "40",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 511.5,
+   "y": 1360.0,
+   "r": 26.2,
+   "text": "41",
+   "n": "41",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 411.0,
+   "y": 1413.5,
+   "r": 29.2,
+   "text": "42",
+   "n": "42",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 121.5,
+   "y": 1269.0,
+   "r": 28.6,
+   "text": "43",
+   "n": "43",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 92.0,
+   "y": 675.0,
+   "r": 28.0,
+   "text": "45",
+   "n": "45",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1490.5,
+   "y": 1029.5,
+   "r": 28.6,
+   "text": "25",
+   "n": "25",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 224.0,
+   "y": 634.5,
+   "r": 29.2,
+   "text": "44",
+   "n": "44",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1266.5,
+   "y": 911.0,
+   "r": 28.6,
+   "text": "20",
+   "n": "20",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p078-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1982.0,
+  1987.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 152,
+ "svg_snapped": 0
+}

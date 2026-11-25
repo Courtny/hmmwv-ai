@@ -1,0 +1,63 @@
+{
+ "id": "p116-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 116,
+ "printed_page": "0035 00",
+ "kind": "assembly view",
+ "caption": "Figure 34. Data Plates.",
+ "alt": "Data plate and tapping screw mounted at the injection pump, drawn on a dashed engine outline.",
+ "size_px": [
+  2132,
+  1895
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Screw, tapping"
+  },
+  {
+   "n": "2",
+   "label": "Plate, identification"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 254.5,
+   "y": 1355.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "read '1' on a second pass"
+   ]
+  },
+  {
+   "x": 415.5,
+   "y": 1134.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p116-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2132.0,
+  1895.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 158,
+ "svg_snapped": 0
+}

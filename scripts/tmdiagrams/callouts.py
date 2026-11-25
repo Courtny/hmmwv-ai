@@ -376,8 +376,8 @@ def find_bare_labels(ink: np.ndarray, expected: list[str]) -> list[Hit]:
 
     Ink blobs of glyph size are grouped into words (shared line, small gaps), each word is
     read with read_labels, and only words that match the key are kept, since a drawing has
-    plenty of small blobs. Words in a bracket ("5 thru 11", an assembly's item range) are
-    dropped: they name items, they do not point at them.
+    plenty of small blobs. Words in a bracket ("5 thru 11", "2 and 3": an assembly's items)
+    or after "ITEM" in a footnote legend are dropped: they name items, they do not point at them.
     """
     if not expected:
         return []
@@ -444,14 +444,19 @@ def find_bare_labels(ink: np.ndarray, expected: list[str]) -> list[Hit]:
             if h.text and (not hits[i].text or len(h.text) > len(hits[i].text)):
                 hits[i].text = h.text
                 hits[i].notes.append(f"read {h.text!r} on a second pass")
-    # Brackets: Vision reads a word like "thru" well across the whole figure.
-    brackets = [b for b in vision_boxes(cv2.bitwise_not(ink)) if b[4] in ("THRU", "THR", "HRU", "TH", "RU")]
+    # Brackets ("5 thru 11", "2 and 3") and footnote legends ("*a PART OF ITEM 1") name items,
+    # they do not point at them. Vision reads these words well across the whole figure.
+    words_all = vision_boxes(cv2.bitwise_not(ink))
+    brackets = [b[:4] for b in words_all if b[4] in ("THRU", "THR", "HRU", "TH", "RU", "AND", "OR")]
+    legends = [b[:4] for b in words_all if b[4] in ("ITEM", "ITE", "TEM")]
     keys = set(expected) | {norm(e) for e in expected}
     out = []
     for h in hits:
-        bh = [(x0, y0, x1, y1) for x0, y0, x1, y1, _ in brackets]
         if any(abs(h.y - (y0 + y1) / 2) < 3.5 * (y1 - y0) and x0 - 5 * (y1 - y0) < h.x < x1 + 2 * (y1 - y0)
-               for x0, y0, x1, y1 in bh):
+               for x0, y0, x1, y1 in brackets):
+            continue
+        if any(abs(h.y - (y0 + y1) / 2) < 0.8 * (y1 - y0) and x1 - 5 < h.x < x1 + 4 * (y1 - y0)
+               for x0, y0, x1, y1 in legends):
             continue
         if h.text in keys:  # exact only: a near miss on a bare blob is usually not a callout
             out.append(h)
@@ -462,8 +467,15 @@ def detect(path: str, expected: list[str] | None = None) -> tuple[list[Hit], lis
     ink = load_ink(path)
     hits = find_rings(ink)
     read_labels(ink, hits)
-    if not hits and expected:
-        hits = find_bare_labels(ink, expected)
+    if expected:
+        # Bare numbers (parts manuals): try them when the rings found few of the key, since a
+        # round part or an inset circle can pass for a ring. Keep whichever reads more labels.
+        keys = {norm(e) for e in expected}
+        in_key = sum(1 for h in hits if h.text and norm(h.text) in keys)
+        if in_key < len(keys) / 2:
+            bare = find_bare_labels(ink, expected)
+            if len(bare) > in_key:
+                hits = bare
     missing = assign(hits, expected or []) if expected is not None else []
     hits.sort(key=lambda h: (natural(h.n or "~"), h.y, h.x))
     return hits, missing

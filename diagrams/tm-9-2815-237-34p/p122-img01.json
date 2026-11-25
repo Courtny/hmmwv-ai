@@ -1,0 +1,94 @@
+{
+ "id": "p122-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 122,
+ "printed_page": "0038 00",
+ "kind": "exploded view",
+ "caption": "Figure 35. Special Tools",
+ "alt": "Four special tools: seal installer, engine lifting sling, seal inserter and engine maintenance stand.",
+ "size_px": [
+  2078,
+  2469
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Installer, seal"
+  },
+  {
+   "n": "2",
+   "label": "Sling, engine and tr"
+  },
+  {
+   "n": "3",
+   "label": "Inserter, seal"
+  },
+  {
+   "n": "4",
+   "label": "Stand, maintenance, a"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "rings": [
+  {
+   "x": 416.5,
+   "y": 258.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1500.5,
+   "y": 70.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1219.5,
+   "y": 1023.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 712.5,
+   "y": 1560.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p122-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2078.0,
+  2469.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 65,
+ "svg_snapped": 0
+}

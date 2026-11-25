@@ -68,6 +68,16 @@ are kept in `diagrams/<tm>/<id>.json`, which is in git, so commit them after a r
    published as a draft (noindex). Subsections with a hand-written procedure are listed in
    `HAND_WRITTEN` at the top of the script.
 
+7. **Parts manuals (RPSTL)**: plates are not procedures. After emit, build the plates the work
+   package pages show beside their parts lists (a callout finds the item's rows, a row its callout):
+   ```bash
+   .venv/bin/python scripts/build_plates.py tm-9-2815-237-34p
+   ```
+   It writes `data/manuals/<tm>-plates.json`, which `lib/plates.ts` loads. Items the plate names
+   only in a bracket (an assembly and its parts) have no callout; note them in `review_notes`
+   and leave them out of `missing`. A capture-kit work dir can be passed as `<workdir>/out`: the
+   manual id comes from the folder above it.
+
 `status CAPTURE` prints counts per stage.
 
 ## How callouts are found
@@ -82,7 +92,7 @@ wins, and it is matched against the capture's callout key.
 Parts manuals (RPSTL) print callouts as bare numbers at the end of a leader, with no ring.
 When a figure has no rings, digit-sized ink is grouped into words, words sitting in cluttered
 art are dropped, and the rest are read the same way and kept only on an exact key match.
-Numbers in a "thru" bracket (an assembly's item range) are skipped. On two RPSTL test figures
+Numbers in a bracket ("5 thru 11", "2 and 3": an assembly's items) and after "ITEM" in a footnote legend are skipped. On two RPSTL test figures
 this found 10 of 10 and 19 of 20 labels with no false hits; a lone "1" can still go unread.
 
 On TM 9-2815-237-34 (228 figures with keys, 1,521 rings): 95% of rings are read and in the

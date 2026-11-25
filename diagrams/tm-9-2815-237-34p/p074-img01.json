@@ -1,0 +1,749 @@
+{
+ "id": "p074-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 74,
+ "printed_page": "0021 00",
+ "kind": "exploded view",
+ "caption": "Figure 20. Fuel Injection Pump Cover Assembly, Governor Linkage, and Related Parts",
+ "alt": "Exploded view of the fuel injection pump cover, solenoids, terminals, governor linkage, springs and washers above the pump housing.",
+ "size_px": [
+  2128,
+  2536
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "2",
+   "label": "Washer, lock"
+  },
+  {
+   "n": "3",
+   "label": "Screw, machine"
+  },
+  {
+   "n": "4",
+   "label": "Cover assembly, fuel"
+  },
+  {
+   "n": "5",
+   "label": "Nut, self-locking, he"
+  },
+  {
+   "n": "6",
+   "label": "Lead, ignition, engin"
+  },
+  {
+   "n": "7",
+   "label": "Washer, lock"
+  },
+  {
+   "n": "8",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "9",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "10",
+   "label": "Washer, shouldered"
+  },
+  {
+   "n": "11",
+   "label": "Valve, check"
+  },
+  {
+   "n": "12",
+   "label": "O-ring"
+  },
+  {
+   "n": "13",
+   "label": "Housing, terminal"
+  },
+  {
+   "n": "14",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "15",
+   "label": "Terminal, stud"
+  },
+  {
+   "n": "16",
+   "label": "Boot, vehicular com"
+  },
+  {
+   "n": "17",
+   "label": "Cover, access"
+  },
+  {
+   "n": "18",
+   "label": "Solenoid, electrical cold avance"
+  },
+  {
+   "n": "19",
+   "label": "Tube, insulating"
+  },
+  {
+   "n": "20",
+   "label": "Solenoid, electrical fuel shutoff"
+  },
+  {
+   "n": "21",
+   "label": "Tube, insulating"
+  },
+  {
+   "n": "22",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "23",
+   "label": "Block, pump, injectio"
+  },
+  {
+   "n": "24",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "25",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "26",
+   "label": "Hook assembly, gover"
+  },
+  {
+   "n": "27",
+   "label": "Gasket"
+  },
+  {
+   "n": "28",
+   "label": "Spring, helical, exte"
+  },
+  {
+   "n": "29",
+   "label": "Shifter fork"
+  },
+  {
+   "n": "30",
+   "label": "Spring, helical, comp"
+  },
+  {
+   "n": "31",
+   "label": "Connecting link, rig"
+  },
+  {
+   "n": "32",
+   "label": "Sleeve, adjusting, go"
+  },
+  {
+   "n": "33",
+   "label": "Retainer, helical co"
+  },
+  {
+   "n": "34",
+   "label": "Washer, lock"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 18"
+  },
+  {
+   "n": "*b",
+   "label": "Part of item 20"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31",
+  "32",
+  "33",
+  "34",
+  "*a",
+  "*b"
+ ],
+ "rings": [
+  {
+   "x": 475.0,
+   "y": 339.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 973.0,
+   "y": 564.0,
+   "r": 23.2,
+   "text": "1",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "reads 11 (checked by eye)"
+   ]
+  },
+  {
+   "x": 487.5,
+   "y": 267.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 488.5,
+   "y": 193.0,
+   "r": 19.6,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1016.0,
+   "y": 475.5,
+   "r": 25.6,
+   "text": "3",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 3×1, 13×1",
+    "reads 13 (checked by eye)"
+   ]
+  },
+  {
+   "x": 841.5,
+   "y": 304.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1771.0,
+   "y": 729.0,
+   "r": 20.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 867.5,
+   "y": 362.0,
+   "r": 19.6,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1219.0,
+   "y": 1084.0,
+   "r": 22.0,
+   "text": "6",
+   "n": "*b",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "reads *b (checked by eye)"
+   ]
+  },
+  {
+   "x": 877.5,
+   "y": 443.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 888.5,
+   "y": 565.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1427.5,
+   "y": 569.5,
+   "r": 20.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1222.0,
+   "y": 614.5,
+   "r": 19.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1660.0,
+   "y": 1023.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 884.5,
+   "y": 512.0,
+   "r": 20.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1472.5,
+   "y": 544.0,
+   "r": 19.6,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1211.0,
+   "y": 544.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1716.5,
+   "y": 994.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1380.5,
+   "y": 590.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 880.5,
+   "y": 611.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1221.5,
+   "y": 665.5,
+   "r": 20.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1600.5,
+   "y": 1047.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 875.0,
+   "y": 664.5,
+   "r": 26.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1537.5,
+   "y": 1076.5,
+   "r": 26.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1025.0,
+   "y": 633.5,
+   "r": 25.6,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1023.0,
+   "y": 386.0,
+   "r": 25.6,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1631.5,
+   "y": 486.5,
+   "r": 26.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1026.0,
+   "y": 304.5,
+   "r": 25.6,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1694.0,
+   "y": 446.5,
+   "r": 26.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1550.0,
+   "y": 502.5,
+   "r": 26.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1417.0,
+   "y": 1065.5,
+   "r": 28.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 17×4, 7×1"
+   ]
+  },
+  {
+   "x": 1400.0,
+   "y": 1311.5,
+   "r": 26.8,
+   "text": "19",
+   "n": "19",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1775.0,
+   "y": 1748.5,
+   "r": 29.2,
+   "text": "22",
+   "n": "22",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1670.5,
+   "y": 1727.5,
+   "r": 28.6,
+   "text": "23",
+   "n": "23",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1509.0,
+   "y": 1711.5,
+   "r": 29.2,
+   "text": "24",
+   "n": "24",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1423.0,
+   "y": 1701.0,
+   "r": 28.0,
+   "text": "25",
+   "n": "25",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1393.0,
+   "y": 1801.0,
+   "r": 29.2,
+   "text": "26",
+   "n": "26",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1408.5,
+   "y": 1900.0,
+   "r": 29.8,
+   "text": "27",
+   "n": "27",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 839.0,
+   "y": 1824.5,
+   "r": 29.2,
+   "text": "28",
+   "n": "28",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 735.5,
+   "y": 1675.0,
+   "r": 29.8,
+   "text": "29",
+   "n": "29",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 29×4, 20×1"
+   ]
+  },
+  {
+   "x": 921.5,
+   "y": 1577.5,
+   "r": 29.8,
+   "text": "30",
+   "n": "30",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1192.5,
+   "y": 1408.0,
+   "r": 25.0,
+   "text": "31",
+   "n": "31",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1073.5,
+   "y": 1628.5,
+   "r": 28.6,
+   "text": "32",
+   "n": "32",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1208.5,
+   "y": 1639.5,
+   "r": 27.4,
+   "text": "33",
+   "n": "33",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 485.5,
+   "y": 615.0,
+   "r": 28.6,
+   "text": "34",
+   "n": "34",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1331.5,
+   "y": 612.0,
+   "r": 26.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1424.5,
+   "y": 1368.0,
+   "r": 17.8,
+   "text": "*a",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1009.0,
+   "y": 2435.5,
+   "r": 22.6,
+   "text": "21",
+   "n": "21",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+  "Item 18 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+  "Item 20 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p074-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2128.0,
+  2536.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 181,
+ "svg_snapped": 0
+}

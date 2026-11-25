@@ -1,0 +1,149 @@
+{
+ "id": "p054-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 54,
+ "printed_page": "0014 00",
+ "kind": "exploded view",
+ "caption": "Figure 13. Exhaust Manifolds (6.2L and 6.5L Naturally Aspirated and 6.5L Detuned)",
+ "alt": "Two exploded views of the right and left exhaust manifolds with gaskets, washers and fasteners.",
+ "size_px": [
+  1951,
+  2042
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Gasket"
+  },
+  {
+   "n": "2",
+   "label": "Manifold, exhaust r.h."
+  },
+  {
+   "n": "3",
+   "label": "Manifold, exhaust l.h."
+  },
+  {
+   "n": "4",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "5",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "6",
+   "label": "Screw, cap, socket he"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 1263.0,
+   "y": 963.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1112.0,
+   "y": 316.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1664.5,
+   "y": 1892.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1140.5,
+   "y": 1992.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 231.0,
+   "y": 840.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1068.0,
+   "y": 1901.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 142.5,
+   "y": 922.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 6×2, 9×1"
+   ]
+  },
+  {
+   "x": 434.0,
+   "y": 100.0,
+   "r": 19.6,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p054-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1951.0,
+  2042.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 49,
+ "svg_snapped": 0
+}

@@ -1,0 +1,364 @@
+{
+ "id": "p028-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 28,
+ "printed_page": "0004 00",
+ "kind": "exploded view",
+ "caption": "Figure 3. Crankshaft, Damper, Bearings, and Pulley",
+ "alt": "Exploded view of a crankshaft with main bearing halves, rear seal, key, vibration damper, bolt and two drive pulleys.",
+ "size_px": [
+  2106,
+  2050
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Key, special"
+  },
+  {
+   "n": "2",
+   "label": "Bearing, sleeve"
+  },
+  {
+   "n": "3",
+   "label": "Bearing set, sleeve"
+  },
+  {
+   "n": "4",
+   "label": "Bearing, sleeve"
+  },
+  {
+   "n": "5",
+   "label": "Seal, encased plain"
+  },
+  {
+   "n": "6",
+   "label": "Crankshaft, engine"
+  },
+  {
+   "n": "7",
+   "label": "Pin, straight, headless"
+  },
+  {
+   "n": "8",
+   "label": "Damper assembly, tor"
+  },
+  {
+   "n": "9",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "10",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "11",
+   "label": "Pulley, groove"
+  },
+  {
+   "n": "12",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "13",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "14",
+   "label": "Pulley assembly, iso"
+  },
+  {
+   "n": "15",
+   "label": "Spacer, ring"
+  },
+  {
+   "n": "*",
+   "label": "Used on 6.5 liter only"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "*"
+ ],
+ "rings": [
+  {
+   "x": 790.0,
+   "y": 878.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1209.0,
+   "y": 375.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 957.0,
+   "y": 556.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1527.5,
+   "y": 1159.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1331.5,
+   "y": 1351.5,
+   "r": 21.4,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1109.0,
+   "y": 448.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1424.5,
+   "y": 1236.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1369.5,
+   "y": 281.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1636.5,
+   "y": 1065.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1656.5,
+   "y": 57.0,
+   "r": 20.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1513.5,
+   "y": 161.0,
+   "r": 20.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1828.5,
+   "y": 945.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1627.5,
+   "y": 445.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1975.5,
+   "y": 175.5,
+   "r": 20.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 811.5,
+   "y": 1472.5,
+   "r": 21.4,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 8×3, 00×1"
+   ]
+  },
+  {
+   "x": 624.5,
+   "y": 1438.5,
+   "r": 20.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 580.0,
+   "y": 1497.0,
+   "r": 26.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 414.5,
+   "y": 1723.5,
+   "r": 23.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 164.0,
+   "y": 1837.5,
+   "r": 26.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 122.0,
+   "y": 1277.0,
+   "r": 25.6,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 208.0,
+   "y": 823.0,
+   "r": 26.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 424.5,
+   "y": 728.5,
+   "r": 26.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1860.5,
+   "y": 99.0,
+   "r": 16.6,
+   "text": "*",
+   "n": "*",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p028-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2106.0,
+  2050.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 87,
+ "svg_snapped": 0
+}

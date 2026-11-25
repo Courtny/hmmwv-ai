@@ -1,0 +1,142 @@
+{
+ "id": "p104-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 104,
+ "printed_page": "0030 00",
+ "kind": "assembly view",
+ "caption": "Figure 29. Sending Units (6.2L and 6.5L Naturally Aspirated)",
+ "alt": "Sending units and switches shown beside and installed on the top of a V8 diesel engine.",
+ "size_px": [
+  2134,
+  2331
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Switch, thermostatic fan"
+  },
+  {
+   "n": "2",
+   "label": "Control unit, breake"
+  },
+  {
+   "n": "3",
+   "label": "Switch, sensitive"
+  },
+  {
+   "n": "4",
+   "label": "Tachometer, mechanic"
+  },
+  {
+   "n": "5",
+   "label": "Switch, thermostatic cold advance"
+  },
+  {
+   "n": "6",
+   "label": "Transmitter, pressur"
+  },
+  {
+   "n": "7",
+   "label": "Transmitter, engine coolant"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7"
+ ],
+ "rings": [
+  {
+   "x": 613.5,
+   "y": 454.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1049.0,
+   "y": 577.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1598.5,
+   "y": 427.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1813.5,
+   "y": 1416.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 907.5,
+   "y": 2219.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 186.0,
+   "y": 1705.5,
+   "r": 17.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 323.0,
+   "y": 113.0,
+   "r": 19.6,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p104-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2134.0,
+  2331.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 141,
+ "svg_snapped": 0
+}

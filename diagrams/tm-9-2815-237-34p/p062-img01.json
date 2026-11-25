@@ -1,0 +1,281 @@
+{
+ "id": "p062-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 62,
+ "printed_page": "0018 00",
+ "kind": "exploded view",
+ "caption": "Figure 17. Fuel Injection Pump and Fuel Filter Lines (6.2L and 6.5L Naturally Aspirated and 6.5L Detuned).",
+ "alt": "Exploded view of the fuel injection pump, gasket, fuel filter lines, hoses, clamps and nuts.",
+ "size_px": [
+  2158,
+  2365
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Gasket"
+  },
+  {
+   "n": "2",
+   "label": "Pump, fuel, metering"
+  },
+  {
+   "n": "3",
+   "label": "Tube assembly, metal"
+  },
+  {
+   "n": "4",
+   "label": "Clip, spring tension"
+  },
+  {
+   "n": "5",
+   "label": "Clamp, loop"
+  },
+  {
+   "n": "6",
+   "label": "Nut"
+  },
+  {
+   "n": "7",
+   "label": "Clamp, loop"
+  },
+  {
+   "n": "8",
+   "label": "Clamp, hose"
+  },
+  {
+   "n": "9",
+   "label": "Hose, nonmetallic"
+  },
+  {
+   "n": "10",
+   "label": "Hose, nonmetallic"
+  },
+  {
+   "n": "11",
+   "label": "Tube, metallic"
+  },
+  {
+   "n": "12",
+   "label": "Inverted nut, tube c"
+  },
+  {
+   "n": "13",
+   "label": "Boot"
+  },
+  {
+   "n": "14",
+   "label": "Clamp, hose"
+  },
+  {
+   "n": "15",
+   "label": "Nut, plain, hexagon"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15"
+ ],
+ "rings": [
+  {
+   "x": 1188.0,
+   "y": 332.5,
+   "r": 21.4,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1767.0,
+   "y": 564.5,
+   "r": 21.4,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1665.0,
+   "y": 1282.5,
+   "r": 21.4,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1932.0,
+   "y": 2020.5,
+   "r": 21.4,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1408.5,
+   "y": 2225.0,
+   "r": 20.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1542.0,
+   "y": 1749.5,
+   "r": 21.4,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1124.5,
+   "y": 2270.5,
+   "r": 21.4,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 884.0,
+   "y": 2307.0,
+   "r": 20.8,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1328.0,
+   "y": 1830.5,
+   "r": 26.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1279.5,
+   "y": 1543.5,
+   "r": 26.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1000.5,
+   "y": 1484.5,
+   "r": 26.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 845.0,
+   "y": 1378.0,
+   "r": 26.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 733.0,
+   "y": 1015.5,
+   "r": 26.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 638.5,
+   "y": 254.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1785.0,
+   "y": 865.0,
+   "r": 20.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1402.0,
+   "y": 1628.5,
+   "r": 23.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p062-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2158.0,
+  2365.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 125,
+ "svg_snapped": 0
+}

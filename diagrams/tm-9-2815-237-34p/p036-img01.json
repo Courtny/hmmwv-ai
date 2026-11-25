@@ -1,0 +1,421 @@
+{
+ "id": "p036-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 36,
+ "printed_page": "0007 00",
+ "kind": "exploded view",
+ "caption": "Figure 6. Valves, Guides, and Rocker Arm Assemblies",
+ "alt": "Exploded view of rocker arms, rocker shaft, intake and exhaust valves with springs and seals, a push rod, tappet and valve lifter plate and clamp.",
+ "size_px": [
+  1855,
+  2290
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Rocker arm, engine p"
+  },
+  {
+   "n": "2",
+   "label": "Shaft, straight"
+  },
+  {
+   "n": "3",
+   "label": "Retainer, rocker shaft"
+  },
+  {
+   "n": "4",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "5",
+   "label": "Retainer, rocker arm"
+  },
+  {
+   "n": "6",
+   "label": "Lock, valve spring r"
+  },
+  {
+   "n": "7",
+   "label": "Rotor, engine poppet intake valve"
+  },
+  {
+   "n": "8",
+   "label": "Spacer, sleeve"
+  },
+  {
+   "n": "9",
+   "label": "Seal"
+  },
+  {
+   "n": "10",
+   "label": "Spring"
+  },
+  {
+   "n": "11",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "12",
+   "label": "Seal, plain"
+  },
+  {
+   "n": "13",
+   "label": "Valve, poppet, engine"
+  },
+  {
+   "n": "14",
+   "label": "Valve, poppet, engine"
+  },
+  {
+   "n": "15",
+   "label": "Cap, engine poppet v"
+  },
+  {
+   "n": "16",
+   "label": "Tappet, engine poppe"
+  },
+  {
+   "n": "17",
+   "label": "Push rod, engine pop"
+  },
+  {
+   "n": "18",
+   "label": "Plate, valve lifter"
+  },
+  {
+   "n": "19",
+   "label": "Clamp, valve lifter"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 19"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "*a"
+ ],
+ "rings": [
+  {
+   "x": 1570.5,
+   "y": 953.0,
+   "r": 20.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 673.5,
+   "y": 216.5,
+   "r": 21.4,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 980.0,
+   "y": 114.5,
+   "r": 21.4,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1120.5,
+   "y": 66.5,
+   "r": 21.4,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1660.5,
+   "y": 318.5,
+   "r": 21.4,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1381.0,
+   "y": 881.0,
+   "r": 22.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1039.0,
+   "y": 942.0,
+   "r": 22.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1497.5,
+   "y": 1133.0,
+   "r": 22.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1544.0,
+   "y": 1242.0,
+   "r": 22.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 870.5,
+   "y": 1308.0,
+   "r": 22.0,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1516.0,
+   "y": 1335.0,
+   "r": 23.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 920.5,
+   "y": 1396.0,
+   "r": 23.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 9×3, 8×1"
+   ]
+  },
+  {
+   "x": 1490.0,
+   "y": 1462.0,
+   "r": 26.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 922.5,
+   "y": 1537.0,
+   "r": 26.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 10×3, 00×1, LO×1"
+   ]
+  },
+  {
+   "x": 1514.0,
+   "y": 1647.5,
+   "r": 23.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 11×3, 1×1"
+   ]
+  },
+  {
+   "x": 905.5,
+   "y": 1713.0,
+   "r": 22.6,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 11×3, 01×1, 1×1"
+   ]
+  },
+  {
+   "x": 1490.5,
+   "y": 1752.0,
+   "r": 26.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1509.5,
+   "y": 1982.0,
+   "r": 26.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 936.5,
+   "y": 1944.0,
+   "r": 26.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 901.0,
+   "y": 1117.0,
+   "r": 25.6,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 15×4, 05×1"
+   ]
+  },
+  {
+   "x": 404.0,
+   "y": 2077.0,
+   "r": 28.0,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 403.0,
+   "y": 1902.5,
+   "r": 28.0,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 469.0,
+   "y": 1582.5,
+   "r": 26.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 505.5,
+   "y": 1422.0,
+   "r": 27.4,
+   "text": "19",
+   "n": "19",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 181.5,
+   "y": 1092.0,
+   "r": 19.0,
+   "text": "A",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 363.5,
+   "y": 397.0,
+   "r": 20.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p036-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1855.0,
+  2290.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 99,
+ "svg_snapped": 0
+}

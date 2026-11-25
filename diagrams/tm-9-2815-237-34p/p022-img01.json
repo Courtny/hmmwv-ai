@@ -1,0 +1,62 @@
+{
+ "id": "p022-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 22,
+ "printed_page": "0003 00",
+ "kind": "assembly view",
+ "caption": "Figure 2. Engine Block Assembly and Cylinder Head (Sheet 2 of 2).",
+ "alt": "View of the front of the engine block with a metal tube and its mounting screw drawn above the timing cover area.",
+ "size_px": [
+  1958,
+  1168
+ ],
+ "key": [
+  {
+   "n": "30",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "31",
+   "label": "Tube assembly, metal"
+  }
+ ],
+ "expected": [
+  "30",
+  "31"
+ ],
+ "rings": [
+  {
+   "x": 179.0,
+   "y": 325.5,
+   "r": 26.8,
+   "text": "30",
+   "n": "30",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 532.0,
+   "y": 125.5,
+   "r": 24.4,
+   "text": "31",
+   "n": "31",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p022-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1958.0,
+  1168.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 67,
+ "svg_snapped": 0
+}

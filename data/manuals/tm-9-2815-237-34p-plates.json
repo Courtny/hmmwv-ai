@@ -1,0 +1,5896 @@
+{
+ "manual": "tm-9-2815-237-34p",
+ "plates": [
+  {
+   "figure": "p016-img01",
+   "file": "tm-9-2815-237-34p-p016-img01-figure-1-engine-and-container-assembly.svg",
+   "viewBox": [
+    2026,
+    2477
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1530,
+     "y": 1050
+    },
+    {
+     "n": "3",
+     "x": 1646,
+     "y": 1658
+    },
+    {
+     "n": "3",
+     "x": 1170,
+     "y": 1934
+    },
+    {
+     "n": "4",
+     "x": 1700,
+     "y": 1646
+    },
+    {
+     "n": "4",
+     "x": 1174,
+     "y": 1983
+    },
+    {
+     "n": "5",
+     "x": 1790,
+     "y": 1650
+    },
+    {
+     "n": "6",
+     "x": 1220,
+     "y": 2026
+    },
+    {
+     "n": "*a",
+     "x": 364,
+     "y": 666
+    },
+    {
+     "n": "*a",
+     "x": 527,
+     "y": 2160
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Engine and container"
+    },
+    {
+     "n": "2",
+     "name": "Engine, diesel"
+    },
+    {
+     "n": "3",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "4",
+     "name": "Washer, lock"
+    },
+    {
+     "n": "5",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "6",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 1"
+    }
+   ],
+   "alt": "Exploded view of a diesel engine between its shipping container cover and base frame, with washers, lock washers and bolts that mount it.",
+   "page": "0002 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0002 00",
+   "notes": [
+    "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p021-img01",
+   "file": "tm-9-2815-237-34p-p021-img01-figure-2-engine-block-assembly-and-cylinder-head-sheet-1-of-.svg",
+   "viewBox": [
+    2110,
+    2423
+   ],
+   "ring": 27,
+   "callouts": [
+    {
+     "n": "3",
+     "x": 518,
+     "y": 866
+    },
+    {
+     "n": "4",
+     "x": 902,
+     "y": 788
+    },
+    {
+     "n": "6",
+     "x": 1104,
+     "y": 604
+    },
+    {
+     "n": "7",
+     "x": 1512,
+     "y": 76
+    },
+    {
+     "n": "8",
+     "x": 1958,
+     "y": 586
+    },
+    {
+     "n": "10",
+     "x": 1495,
+     "y": 1110
+    },
+    {
+     "n": "10",
+     "x": 1696,
+     "y": 1428
+    },
+    {
+     "n": "10",
+     "x": 1108,
+     "y": 1794
+    },
+    {
+     "n": "11",
+     "x": 1554,
+     "y": 1158
+    },
+    {
+     "n": "12",
+     "x": 1636,
+     "y": 1176
+    },
+    {
+     "n": "13",
+     "x": 1656,
+     "y": 1337
+    },
+    {
+     "n": "14",
+     "x": 1694,
+     "y": 1510
+    },
+    {
+     "n": "15",
+     "x": 1568,
+     "y": 1659
+    },
+    {
+     "n": "16",
+     "x": 1333,
+     "y": 1804
+    },
+    {
+     "n": "18",
+     "x": 1566,
+     "y": 1854
+    },
+    {
+     "n": "19",
+     "x": 1528,
+     "y": 1940
+    },
+    {
+     "n": "20",
+     "x": 1503,
+     "y": 2014
+    },
+    {
+     "n": "21",
+     "x": 1459,
+     "y": 2103
+    },
+    {
+     "n": "22",
+     "x": 1280,
+     "y": 2228
+    },
+    {
+     "n": "23",
+     "x": 1170,
+     "y": 2194
+    },
+    {
+     "n": "24",
+     "x": 1044,
+     "y": 2196
+    },
+    {
+     "n": "25",
+     "x": 1025,
+     "y": 2349
+    },
+    {
+     "n": "26",
+     "x": 616,
+     "y": 1987
+    },
+    {
+     "n": "27",
+     "x": 443,
+     "y": 1844
+    },
+    {
+     "n": "28",
+     "x": 330,
+     "y": 1754
+    },
+    {
+     "n": "29",
+     "x": 123,
+     "y": 1874
+    },
+    {
+     "n": "*b",
+     "x": 312,
+     "y": 1566
+    },
+    {
+     "n": "2",
+     "x": 398,
+     "y": 1384
+    },
+    {
+     "n": "5",
+     "x": 976,
+     "y": 732
+    },
+    {
+     "n": "17",
+     "x": 1421,
+     "y": 1832
+    },
+    {
+     "n": "*a",
+     "x": 1782,
+     "y": 114
+    },
+    {
+     "n": "*a",
+     "x": 165,
+     "y": 1194
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Cylinder head, diesel"
+    },
+    {
+     "n": "2",
+     "name": "Chamber, precombustion"
+    },
+    {
+     "n": "3",
+     "name": "Plug, expansion"
+    },
+    {
+     "n": "4",
+     "name": "Gasket"
+    },
+    {
+     "n": "5",
+     "name": "Cover, access"
+    },
+    {
+     "n": "6",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "7",
+     "name": "Bolt, externally rel"
+    },
+    {
+     "n": "8",
+     "name": "Gasket"
+    },
+    {
+     "n": "9",
+     "name": "Block assembly"
+    },
+    {
+     "n": "10",
+     "name": "Plug, pipe"
+    },
+    {
+     "n": "11",
+     "name": "Plug, machine thread"
+    },
+    {
+     "n": "12",
+     "name": "Plug, expansion"
+    },
+    {
+     "n": "13",
+     "name": "Spacer, ring"
+    },
+    {
+     "n": "14",
+     "name": "Pin, straight, headless"
+    },
+    {
+     "n": "15",
+     "name": "Plug, pipe"
+    },
+    {
+     "n": "16",
+     "name": "Cap, protective, dust"
+    },
+    {
+     "n": "17",
+     "name": "Valve, safety relief"
+    },
+    {
+     "n": "18",
+     "name": "Valve, safety relief"
+    },
+    {
+     "n": "19",
+     "name": "Plug, piston pin oil"
+    },
+    {
+     "n": "20",
+     "name": "Cap, pillow block crankshaft"
+    },
+    {
+     "n": "21",
+     "name": "Bolt, shoulder outboard"
+    },
+    {
+     "n": "22",
+     "name": "Bolt, externally rel"
+    },
+    {
+     "n": "23",
+     "name": "Cap, pillow block crankshaft"
+    },
+    {
+     "n": "24",
+     "name": "Cap, pillow block crankshaft"
+    },
+    {
+     "n": "25",
+     "name": "Bolt, shoulder outboard"
+    },
+    {
+     "n": "26",
+     "name": "Nozzle, piston oil spray"
+    },
+    {
+     "n": "27",
+     "name": "Pin, straight, headless"
+    },
+    {
+     "n": "28",
+     "name": "Plug, pipe magnetic"
+    },
+    {
+     "n": "29",
+     "name": "Cylinder sleeve"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 1"
+    },
+    {
+     "n": "*b",
+     "name": "Part of item 9"
+    }
+   ],
+   "alt": "Exploded view of the engine block with its main bearing caps, one cylinder head above and one to the left, head gasket, plugs, bolts and a cylinder sleeve.",
+   "page": "0003 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0003 00",
+   "notes": [
+    "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 9 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p022-img01",
+   "file": "tm-9-2815-237-34p-p022-img01-figure-2-engine-block-assembly-and-cylinder-head-sheet-2-of-.svg",
+   "viewBox": [
+    1958,
+    1168
+   ],
+   "ring": 27,
+   "callouts": [
+    {
+     "n": "30",
+     "x": 179,
+     "y": 326
+    },
+    {
+     "n": "31",
+     "x": 532,
+     "y": 126
+    }
+   ],
+   "parts": [
+    {
+     "n": "30",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "31",
+     "name": "Tube assembly, metal"
+    }
+   ],
+   "alt": "View of the front of the engine block with a metal tube and its mounting screw drawn above the timing cover area.",
+   "page": "0003 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0003 00",
+   "notes": []
+  },
+  {
+   "figure": "p028-img01",
+   "file": "tm-9-2815-237-34p-p028-img01-figure-3-crankshaft-damper-bearings-and-pulley.svg",
+   "viewBox": [
+    2106,
+    2050
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 790,
+     "y": 878
+    },
+    {
+     "n": "2",
+     "x": 1209,
+     "y": 375
+    },
+    {
+     "n": "2",
+     "x": 957,
+     "y": 556
+    },
+    {
+     "n": "2",
+     "x": 1528,
+     "y": 1159
+    },
+    {
+     "n": "2",
+     "x": 1332,
+     "y": 1352
+    },
+    {
+     "n": "3",
+     "x": 1109,
+     "y": 448
+    },
+    {
+     "n": "3",
+     "x": 1424,
+     "y": 1236
+    },
+    {
+     "n": "4",
+     "x": 1370,
+     "y": 282
+    },
+    {
+     "n": "4",
+     "x": 1636,
+     "y": 1065
+    },
+    {
+     "n": "5",
+     "x": 1656,
+     "y": 57
+    },
+    {
+     "n": "5",
+     "x": 1514,
+     "y": 161
+    },
+    {
+     "n": "5",
+     "x": 1828,
+     "y": 946
+    },
+    {
+     "n": "6",
+     "x": 1628,
+     "y": 445
+    },
+    {
+     "n": "7",
+     "x": 1976,
+     "y": 176
+    },
+    {
+     "n": "8",
+     "x": 812,
+     "y": 1472
+    },
+    {
+     "n": "9",
+     "x": 624,
+     "y": 1438
+    },
+    {
+     "n": "10",
+     "x": 580,
+     "y": 1497
+    },
+    {
+     "n": "11",
+     "x": 414,
+     "y": 1724
+    },
+    {
+     "n": "12",
+     "x": 164,
+     "y": 1838
+    },
+    {
+     "n": "13",
+     "x": 122,
+     "y": 1277
+    },
+    {
+     "n": "14",
+     "x": 208,
+     "y": 823
+    },
+    {
+     "n": "15",
+     "x": 424,
+     "y": 728
+    },
+    {
+     "n": "*",
+     "x": 1860,
+     "y": 99
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Key, special"
+    },
+    {
+     "n": "2",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "3",
+     "name": "Bearing set, sleeve"
+    },
+    {
+     "n": "4",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "5",
+     "name": "Seal, encased plain"
+    },
+    {
+     "n": "6",
+     "name": "Crankshaft, engine"
+    },
+    {
+     "n": "7",
+     "name": "Pin, straight, headless"
+    },
+    {
+     "n": "8",
+     "name": "Damper assembly, tor"
+    },
+    {
+     "n": "9",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "10",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "11",
+     "name": "Pulley, groove"
+    },
+    {
+     "n": "12",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "13",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "14",
+     "name": "Pulley assembly, iso"
+    },
+    {
+     "n": "15",
+     "name": "Spacer, ring"
+    },
+    {
+     "n": "*",
+     "name": "Used on 6.5 liter only"
+    }
+   ],
+   "alt": "Exploded view of a crankshaft with main bearing halves, rear seal, key, vibration damper, bolt and two drive pulleys.",
+   "page": "0004 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0004 00",
+   "notes": []
+  },
+  {
+   "figure": "p032-img01",
+   "file": "tm-9-2815-237-34p-p032-img01-figure-4-flywheel.svg",
+   "viewBox": [
+    1811,
+    1678
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1760,
+     "y": 1326
+    },
+    {
+     "n": "1",
+     "x": 1358,
+     "y": 538
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Flywheel, engine"
+    },
+    {
+     "n": "2",
+     "name": "Bolt, machine"
+    }
+   ],
+   "alt": "Rear view of the engine block with the flywheel pulled off the crankshaft flange and one mounting bolt shown.",
+   "page": "0005 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0005 00",
+   "notes": []
+  },
+  {
+   "figure": "p034-img01",
+   "file": "tm-9-2815-237-34p-p034-img01-figure-5-piston-assembly-rod-assembly-and-ring-set.svg",
+   "viewBox": [
+    1654,
+    2548
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 1034,
+     "y": 558
+    },
+    {
+     "n": "3",
+     "x": 1530,
+     "y": 1108
+    },
+    {
+     "n": "3",
+     "x": 762,
+     "y": 1570
+    },
+    {
+     "n": "5",
+     "x": 1606,
+     "y": 1556
+    },
+    {
+     "n": "7",
+     "x": 1555,
+     "y": 2124
+    },
+    {
+     "n": "8",
+     "x": 718,
+     "y": 2290
+    },
+    {
+     "n": "*a",
+     "x": 996,
+     "y": 1440
+    },
+    {
+     "n": "*b",
+     "x": 1126,
+     "y": 1690
+    },
+    {
+     "n": "*a",
+     "x": 1002,
+     "y": 1080
+    },
+    {
+     "n": "6",
+     "x": 1558,
+     "y": 2015
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Ring set, piston"
+    },
+    {
+     "n": "2",
+     "name": "Piston, internal com"
+    },
+    {
+     "n": "3",
+     "name": "Ring, retaining"
+    },
+    {
+     "n": "4",
+     "name": "Connecting rod, pist"
+    },
+    {
+     "n": "5",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "6",
+     "name": "Cap, connecting rod"
+    },
+    {
+     "n": "7",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "8",
+     "name": "Bearing half, sleeve"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 2"
+    },
+    {
+     "n": "*b",
+     "name": "Part of item 4"
+    }
+   ],
+   "alt": "Exploded view of a piston with rings, piston pin and retaining rings, connecting rod, rod cap, bolt, nut and bearing halves.",
+   "page": "0006 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0006 00",
+   "notes": [
+    "Item 2 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p036-img01",
+   "file": "tm-9-2815-237-34p-p036-img01-figure-6-valves-guides-and-rocker-arm-assemblies.svg",
+   "viewBox": [
+    1855,
+    2290
+   ],
+   "ring": 23,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 1570,
+     "y": 953
+    },
+    {
+     "n": "2",
+     "x": 674,
+     "y": 216
+    },
+    {
+     "n": "3",
+     "x": 980,
+     "y": 114
+    },
+    {
+     "n": "4",
+     "x": 1120,
+     "y": 66
+    },
+    {
+     "n": "5",
+     "x": 1660,
+     "y": 318
+    },
+    {
+     "n": "6",
+     "x": 1381,
+     "y": 881
+    },
+    {
+     "n": "6",
+     "x": 1039,
+     "y": 942
+    },
+    {
+     "n": "7",
+     "x": 1498,
+     "y": 1133
+    },
+    {
+     "n": "8",
+     "x": 1544,
+     "y": 1242
+    },
+    {
+     "n": "8",
+     "x": 870,
+     "y": 1308
+    },
+    {
+     "n": "9",
+     "x": 1516,
+     "y": 1335
+    },
+    {
+     "n": "9",
+     "x": 920,
+     "y": 1396
+    },
+    {
+     "n": "10",
+     "x": 1490,
+     "y": 1462
+    },
+    {
+     "n": "10",
+     "x": 922,
+     "y": 1537
+    },
+    {
+     "n": "11",
+     "x": 1514,
+     "y": 1648
+    },
+    {
+     "n": "11",
+     "x": 906,
+     "y": 1713
+    },
+    {
+     "n": "12",
+     "x": 1490,
+     "y": 1752
+    },
+    {
+     "n": "13",
+     "x": 1510,
+     "y": 1982
+    },
+    {
+     "n": "14",
+     "x": 936,
+     "y": 1944
+    },
+    {
+     "n": "15",
+     "x": 901,
+     "y": 1117
+    },
+    {
+     "n": "16",
+     "x": 404,
+     "y": 2077
+    },
+    {
+     "n": "17",
+     "x": 403,
+     "y": 1902
+    },
+    {
+     "n": "18",
+     "x": 469,
+     "y": 1582
+    },
+    {
+     "n": "19",
+     "x": 506,
+     "y": 1422
+    },
+    {
+     "n": "*a",
+     "x": 182,
+     "y": 1092
+    },
+    {
+     "n": "1",
+     "x": 364,
+     "y": 397
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Rocker arm, engine p"
+    },
+    {
+     "n": "2",
+     "name": "Shaft, straight"
+    },
+    {
+     "n": "3",
+     "name": "Retainer, rocker shaft"
+    },
+    {
+     "n": "4",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "5",
+     "name": "Retainer, rocker arm"
+    },
+    {
+     "n": "6",
+     "name": "Lock, valve spring r"
+    },
+    {
+     "n": "7",
+     "name": "Rotor, engine poppet intake valve"
+    },
+    {
+     "n": "8",
+     "name": "Spacer, sleeve"
+    },
+    {
+     "n": "9",
+     "name": "Seal"
+    },
+    {
+     "n": "10",
+     "name": "Spring"
+    },
+    {
+     "n": "11",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "12",
+     "name": "Seal, plain"
+    },
+    {
+     "n": "13",
+     "name": "Valve, poppet, engine"
+    },
+    {
+     "n": "14",
+     "name": "Valve, poppet, engine"
+    },
+    {
+     "n": "15",
+     "name": "Cap, engine poppet v"
+    },
+    {
+     "n": "16",
+     "name": "Tappet, engine poppe"
+    },
+    {
+     "n": "17",
+     "name": "Push rod, engine pop"
+    },
+    {
+     "n": "18",
+     "name": "Plate, valve lifter"
+    },
+    {
+     "n": "19",
+     "name": "Clamp, valve lifter"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 19"
+    }
+   ],
+   "alt": "Exploded view of rocker arms, rocker shaft, intake and exhaust valves with springs and seals, a push rod, tappet and valve lifter plate and clamp.",
+   "page": "0007 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0007 00",
+   "notes": []
+  },
+  {
+   "figure": "p040-img01",
+   "file": "tm-9-2815-237-34p-p040-img01-figure-7-camshaft-timing-chain-and-related-parts.svg",
+   "viewBox": [
+    2072,
+    2091
+   ],
+   "ring": 23,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 94,
+     "y": 274
+    },
+    {
+     "n": "2",
+     "x": 240,
+     "y": 190
+    },
+    {
+     "n": "3",
+     "x": 1016,
+     "y": 294
+    },
+    {
+     "n": "4",
+     "x": 1132,
+     "y": 267
+    },
+    {
+     "n": "5",
+     "x": 1278,
+     "y": 147
+    },
+    {
+     "n": "6",
+     "x": 1484,
+     "y": 92
+    },
+    {
+     "n": "7",
+     "x": 1718,
+     "y": 52
+    },
+    {
+     "n": "8",
+     "x": 1783,
+     "y": 808
+    },
+    {
+     "n": "9",
+     "x": 1982,
+     "y": 1590
+    },
+    {
+     "n": "10",
+     "x": 1852,
+     "y": 1628
+    },
+    {
+     "n": "11",
+     "x": 1710,
+     "y": 1666
+    },
+    {
+     "n": "12",
+     "x": 1569,
+     "y": 1700
+    },
+    {
+     "n": "13",
+     "x": 1430,
+     "y": 1734
+    },
+    {
+     "n": "14",
+     "x": 950,
+     "y": 1892
+    },
+    {
+     "n": "15",
+     "x": 492,
+     "y": 1940
+    },
+    {
+     "n": "16",
+     "x": 363,
+     "y": 2000
+    },
+    {
+     "n": "17",
+     "x": 243,
+     "y": 2046
+    },
+    {
+     "n": "18",
+     "x": 408,
+     "y": 1646
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Screw, assembled washer"
+    },
+    {
+     "n": "2",
+     "name": "Gear, helical"
+    },
+    {
+     "n": "3",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "4",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "5",
+     "name": "Gear, helical"
+    },
+    {
+     "n": "6",
+     "name": "Chain, roller"
+    },
+    {
+     "n": "7",
+     "name": "Sprocket wheel"
+    },
+    {
+     "n": "8",
+     "name": "Pulley, timing belt"
+    },
+    {
+     "n": "9",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "10",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "11",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "12",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "13",
+     "name": "Bearing, sleeve"
+    },
+    {
+     "n": "14",
+     "name": "Camshaft, engine"
+    },
+    {
+     "n": "15",
+     "name": "Spacer, ring"
+    },
+    {
+     "n": "16",
+     "name": "Bearing, washer, thrust"
+    },
+    {
+     "n": "17",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "18",
+     "name": "Key, special"
+    }
+   ],
+   "alt": "Exploded view of the camshaft with its five bearings, timing gears, sprockets and timing chain, thrust plate, key and screws, drawn over a dashed timing cover.",
+   "page": "0008 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0008 00",
+   "notes": []
+  },
+  {
+   "figure": "p042-img01",
+   "file": "tm-9-2815-237-34p-p042-img01-figure-8-crankcase-cover-assembly-and-rocker-cover.svg",
+   "viewBox": [
+    2124,
+    2161
+   ],
+   "ring": 24,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 1151,
+     "y": 562
+    },
+    {
+     "n": "2",
+     "x": 1360,
+     "y": 430
+    },
+    {
+     "n": "3",
+     "x": 2024,
+     "y": 766
+    },
+    {
+     "n": "5",
+     "x": 1710,
+     "y": 1000
+    },
+    {
+     "n": "6",
+     "x": 1757,
+     "y": 1389
+    },
+    {
+     "n": "7",
+     "x": 848,
+     "y": 2076
+    },
+    {
+     "n": "8",
+     "x": 1982,
+     "y": 2118
+    },
+    {
+     "n": "9",
+     "x": 1845,
+     "y": 2018
+    },
+    {
+     "n": "10",
+     "x": 1728,
+     "y": 1964
+    },
+    {
+     "n": "11",
+     "x": 249,
+     "y": 1650
+    },
+    {
+     "n": "11",
+     "x": 1350,
+     "y": 2052
+    },
+    {
+     "n": "12",
+     "x": 145,
+     "y": 1654
+    },
+    {
+     "n": "12",
+     "x": 1190,
+     "y": 2092
+    },
+    {
+     "n": "13",
+     "x": 751,
+     "y": 1615
+    },
+    {
+     "n": "13",
+     "x": 1162,
+     "y": 1754
+    },
+    {
+     "n": "14",
+     "x": 938,
+     "y": 1634
+    },
+    {
+     "n": "15",
+     "x": 440,
+     "y": 1922
+    },
+    {
+     "n": "16",
+     "x": 208,
+     "y": 1175
+    },
+    {
+     "n": "17",
+     "x": 671,
+     "y": 1157
+    },
+    {
+     "n": "18",
+     "x": 840,
+     "y": 1168
+    },
+    {
+     "n": "*a",
+     "x": 1776,
+     "y": 1552
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Cover, engine poppet"
+    },
+    {
+     "n": "2",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "3",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "4",
+     "name": "Cover, timing gear, i"
+    },
+    {
+     "n": "5",
+     "name": "Stud, plain"
+    },
+    {
+     "n": "6",
+     "name": "Stud, plain"
+    },
+    {
+     "n": "7",
+     "name": "Seal, plain encased"
+    },
+    {
+     "n": "8",
+     "name": "Indicator, timing, en"
+    },
+    {
+     "n": "9",
+     "name": "Screw, machine"
+    },
+    {
+     "n": "10",
+     "name": "Plug, protective, dust"
+    },
+    {
+     "n": "11",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "12",
+     "name": "Bolt, close tolerance"
+    },
+    {
+     "n": "13",
+     "name": "Bolt, self-locking"
+    },
+    {
+     "n": "14",
+     "name": "Baffle, crankcase, ve"
+    },
+    {
+     "n": "15",
+     "name": "Plate assembly, wate"
+    },
+    {
+     "n": "16",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "17",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "18",
+     "name": "Gasket"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 4"
+    }
+   ],
+   "alt": "Exploded view of a rocker cover with gasket, the timing gear cover with baffle, seal, timing indicator and hardware, and the cover plate.",
+   "page": "0009 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0009 00",
+   "notes": [
+    "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p044-img01",
+   "file": "tm-9-2815-237-34p-p044-img01-figure-9-engine-oil-pan-pump-and-filler-tube.svg",
+   "viewBox": [
+    2128,
+    2493
+   ],
+   "ring": 26,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 752,
+     "y": 404
+    },
+    {
+     "n": "2",
+     "x": 844,
+     "y": 554
+    },
+    {
+     "n": "3",
+     "x": 992,
+     "y": 605
+    },
+    {
+     "n": "4",
+     "x": 1447,
+     "y": 129
+    },
+    {
+     "n": "5",
+     "x": 1810,
+     "y": 180
+    },
+    {
+     "n": "6",
+     "x": 1610,
+     "y": 316
+    },
+    {
+     "n": "7",
+     "x": 1631,
+     "y": 422
+    },
+    {
+     "n": "7",
+     "x": 177,
+     "y": 2423
+    },
+    {
+     "n": "8",
+     "x": 1615,
+     "y": 543
+    },
+    {
+     "n": "10",
+     "x": 1628,
+     "y": 660
+    },
+    {
+     "n": "12",
+     "x": 1334,
+     "y": 1275
+    },
+    {
+     "n": "14",
+     "x": 1246,
+     "y": 1145
+    },
+    {
+     "n": "15",
+     "x": 1169,
+     "y": 1122
+    },
+    {
+     "n": "16",
+     "x": 1079,
+     "y": 1090
+    },
+    {
+     "n": "17",
+     "x": 1912,
+     "y": 1283
+    },
+    {
+     "n": "18",
+     "x": 1941,
+     "y": 1380
+    },
+    {
+     "n": "19",
+     "x": 1910,
+     "y": 1480
+    },
+    {
+     "n": "20",
+     "x": 1869,
+     "y": 1720
+    },
+    {
+     "n": "21",
+     "x": 1904,
+     "y": 2050
+    },
+    {
+     "n": "23",
+     "x": 1544,
+     "y": 2316
+    },
+    {
+     "n": "24",
+     "x": 1452,
+     "y": 2276
+    },
+    {
+     "n": "25",
+     "x": 1074,
+     "y": 2361
+    },
+    {
+     "n": "26",
+     "x": 720,
+     "y": 2282
+    },
+    {
+     "n": "29",
+     "x": 570,
+     "y": 1276
+    },
+    {
+     "n": "30",
+     "x": 544,
+     "y": 1128
+    },
+    {
+     "n": "31",
+     "x": 622,
+     "y": 1096
+    },
+    {
+     "n": "32",
+     "x": 1236,
+     "y": 1402
+    },
+    {
+     "n": "*a",
+     "x": 1262,
+     "y": 906
+    },
+    {
+     "n": "*b",
+     "x": 1700,
+     "y": 2102
+    },
+    {
+     "n": "11",
+     "x": 1334,
+     "y": 1404
+    },
+    {
+     "n": "13",
+     "x": 1285,
+     "y": 1192
+    },
+    {
+     "n": "28",
+     "x": 1279,
+     "y": 1608
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Cap, filler opening"
+    },
+    {
+     "n": "2",
+     "name": "Filler neck"
+    },
+    {
+     "n": "3",
+     "name": "Grommet, nonmetallic"
+    },
+    {
+     "n": "4",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "5",
+     "name": "Clamp"
+    },
+    {
+     "n": "6",
+     "name": "Drive shaft assembly"
+    },
+    {
+     "n": "7",
+     "name": "Gasket"
+    },
+    {
+     "n": "8",
+     "name": "Shaft, straight"
+    },
+    {
+     "n": "9",
+     "name": "Pump and screen, oil"
+    },
+    {
+     "n": "10",
+     "name": "Retainer, packing"
+    },
+    {
+     "n": "11",
+     "name": "Strainer element, se"
+    },
+    {
+     "n": "12",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "13",
+     "name": "Pin, grooved, headless"
+    },
+    {
+     "n": "14",
+     "name": "Disk, solid, plain"
+    },
+    {
+     "n": "15",
+     "name": "Valve, relief, pressure"
+    },
+    {
+     "n": "16",
+     "name": "Spring, helical, compression"
+    },
+    {
+     "n": "17",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "18",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "19",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "20",
+     "name": "Nut"
+    },
+    {
+     "n": "21",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "22",
+     "name": "Oil pan"
+    },
+    {
+     "n": "23",
+     "name": "Plug, machine thread"
+    },
+    {
+     "n": "24",
+     "name": "Gasket"
+    },
+    {
+     "n": "25",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "26",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "27",
+     "name": "Gasket set"
+    },
+    {
+     "n": "28",
+     "name": "Seal, nonmetallic sp"
+    },
+    {
+     "n": "29",
+     "name": "Gasket"
+    },
+    {
+     "n": "30",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "31",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "32",
+     "name": "Retainer, oil seal"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 9"
+    },
+    {
+     "n": "*b",
+     "name": "Part of item 22"
+    }
+   ],
+   "alt": "Exploded view of the engine oil pan with gaskets and drain plug, oil pump with screen and relief valve, drive shaft, and the oil filler neck and cap.",
+   "page": "0010 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0010 00",
+   "notes": [
+    "Item 9 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 22 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 27 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p048-img01",
+   "file": "tm-9-2815-237-34p-p048-img01-figure-10-oil-filter-adapter-and-oil-line-fittings.svg",
+   "viewBox": [
+    1871,
+    2168
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 1546,
+     "y": 56
+    },
+    {
+     "n": "2",
+     "x": 1362,
+     "y": 1710
+    },
+    {
+     "n": "3",
+     "x": 1404,
+     "y": 1822
+    },
+    {
+     "n": "4",
+     "x": 1394,
+     "y": 1956
+    },
+    {
+     "n": "5",
+     "x": 978,
+     "y": 1815
+    },
+    {
+     "n": "6",
+     "x": 740,
+     "y": 1844
+    },
+    {
+     "n": "7",
+     "x": 404,
+     "y": 2074
+    },
+    {
+     "n": "8",
+     "x": 950,
+     "y": 1314
+    },
+    {
+     "n": "9",
+     "x": 850,
+     "y": 1313
+    },
+    {
+     "n": "10",
+     "x": 633,
+     "y": 1264
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Elbow, pipe"
+    },
+    {
+     "n": "2",
+     "name": "O-ring"
+    },
+    {
+     "n": "3",
+     "name": "Gasket"
+    },
+    {
+     "n": "4",
+     "name": "Bolt, fluid passage"
+    },
+    {
+     "n": "5",
+     "name": "Bracket, filter moun"
+    },
+    {
+     "n": "6",
+     "name": "Reducer, boss"
+    },
+    {
+     "n": "7",
+     "name": "Filter element, flui"
+    },
+    {
+     "n": "8",
+     "name": "O-ring"
+    },
+    {
+     "n": "9",
+     "name": "Adapter, straight, pi"
+    },
+    {
+     "n": "10",
+     "name": "Elbow, pipe to tube"
+    }
+   ],
+   "alt": "Exploded view of the oil filter, filter mount bracket, adapters and fittings on the side of the engine.",
+   "page": "0011 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0011 00",
+   "notes": []
+  },
+  {
+   "figure": "p050-img01",
+   "file": "tm-9-2815-237-34p-p050-img01-figure-11-air-intake-manifold-6-2l-and-6-5l-naturally-aspira.svg",
+   "viewBox": [
+    1798,
+    2161
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 692,
+     "y": 204
+    },
+    {
+     "n": "1",
+     "x": 1388,
+     "y": 540
+    },
+    {
+     "n": "2",
+     "x": 731,
+     "y": 68
+    },
+    {
+     "n": "3",
+     "x": 1094,
+     "y": 230
+    },
+    {
+     "n": "3",
+     "x": 1444,
+     "y": 393
+    },
+    {
+     "n": "4",
+     "x": 1291,
+     "y": 276
+    },
+    {
+     "n": "5",
+     "x": 1612,
+     "y": 436
+    },
+    {
+     "n": "6",
+     "x": 984,
+     "y": 1978
+    },
+    {
+     "n": "8",
+     "x": 768,
+     "y": 1366
+    },
+    {
+     "n": "*a",
+     "x": 794,
+     "y": 820
+    },
+    {
+     "n": "1",
+     "x": 1228,
+     "y": 412
+    },
+    {
+     "n": "1",
+     "x": 1570,
+     "y": 566
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "2",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "3",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "4",
+     "name": "Screw, cap, hexagon h"
+    },
+    {
+     "n": "5",
+     "name": "Bolt, self-locking"
+    },
+    {
+     "n": "6",
+     "name": "Gasket"
+    },
+    {
+     "n": "7",
+     "name": "Manifold, intake"
+    },
+    {
+     "n": "8",
+     "name": "Adapter, straight, tu"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 7"
+    }
+   ],
+   "alt": "Exploded view of an air intake manifold with washers, studs, bolts, gasket and a fitting.",
+   "page": "0012 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0012 00",
+   "notes": [
+    "Item 7 (the intake manifold) is printed outside the figure crop; the *a leader points at it."
+   ]
+  },
+  {
+   "figure": "p052-img01",
+   "file": "tm-9-2815-237-34p-p052-img01-figure-12-air-intake-manifolds-6-5l-turbo.svg",
+   "viewBox": [
+    1421,
+    2135
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 206,
+     "y": 670
+    },
+    {
+     "n": "2",
+     "x": 675,
+     "y": 108
+    },
+    {
+     "n": "3",
+     "x": 1240,
+     "y": 232
+    },
+    {
+     "n": "4",
+     "x": 1149,
+     "y": 818
+    },
+    {
+     "n": "5",
+     "x": 1261,
+     "y": 939
+    },
+    {
+     "n": "6",
+     "x": 1212,
+     "y": 1136
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "2",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "3",
+     "name": "Manifold, intake"
+    },
+    {
+     "n": "4",
+     "name": "Gasket"
+    },
+    {
+     "n": "5",
+     "name": "Manifold, intake r.h."
+    },
+    {
+     "n": "6",
+     "name": "Gasket"
+    }
+   ],
+   "alt": "Exploded view of the turbo engine air intake manifold pieces, gaskets, stud and bolt.",
+   "page": "0013 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0013 00",
+   "notes": []
+  },
+  {
+   "figure": "p054-img01",
+   "file": "tm-9-2815-237-34p-p054-img01-figure-13-exhaust-manifolds-6-2l-and-6-5l-naturally-aspirate.svg",
+   "viewBox": [
+    1951,
+    2042
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 1263,
+     "y": 964
+    },
+    {
+     "n": "2",
+     "x": 1112,
+     "y": 316
+    },
+    {
+     "n": "3",
+     "x": 1664,
+     "y": 1892
+    },
+    {
+     "n": "4",
+     "x": 1140,
+     "y": 1992
+    },
+    {
+     "n": "5",
+     "x": 231,
+     "y": 840
+    },
+    {
+     "n": "5",
+     "x": 1068,
+     "y": 1902
+    },
+    {
+     "n": "6",
+     "x": 142,
+     "y": 922
+    },
+    {
+     "n": "1",
+     "x": 434,
+     "y": 100
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Gasket"
+    },
+    {
+     "n": "2",
+     "name": "Manifold, exhaust r.h."
+    },
+    {
+     "n": "3",
+     "name": "Manifold, exhaust l.h."
+    },
+    {
+     "n": "4",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "5",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "6",
+     "name": "Screw, cap, socket he"
+    }
+   ],
+   "alt": "Two exploded views of the right and left exhaust manifolds with gaskets, washers and fasteners.",
+   "page": "0014 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0014 00",
+   "notes": []
+  },
+  {
+   "figure": "p056-img01",
+   "file": "tm-9-2815-237-34p-p056-img01-figure-14-exhaust-manifolds-6-5l-turbo.svg",
+   "viewBox": [
+    1626,
+    2484
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1050,
+     "y": 1055
+    },
+    {
+     "n": "2",
+     "x": 988,
+     "y": 2384
+    },
+    {
+     "n": "3",
+     "x": 484,
+     "y": 2325
+    },
+    {
+     "n": "1",
+     "x": 1416,
+     "y": 900
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Manifold, exhaust l.h."
+    },
+    {
+     "n": "2",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "3",
+     "name": "Manifold, exhaust r.h."
+    }
+   ],
+   "alt": "Two views showing the left and right turbo exhaust manifolds being bolted to the cylinder heads, with FRONT arrows.",
+   "page": "0015 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0015 00",
+   "notes": []
+  },
+  {
+   "figure": "p058-img01",
+   "file": "tm-9-2815-237-34p-p058-img01-figure-15-fuel-injector-nozzle-and-gasket.svg",
+   "viewBox": [
+    534,
+    1143
+   ],
+   "ring": 24,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 122,
+     "y": 52
+    },
+    {
+     "n": "2",
+     "x": 408,
+     "y": 1088
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Nozzle, fuel injection"
+    },
+    {
+     "n": "2",
+     "name": "Gasket"
+    }
+   ],
+   "alt": "Fuel injector nozzle assembly with its sealing gasket below.",
+   "page": "0016 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0016 00",
+   "notes": []
+  },
+  {
+   "figure": "p060-img01",
+   "file": "tm-9-2815-237-34p-p060-img01-figure-16-fuel-pump-and-mounting-hardware.svg",
+   "viewBox": [
+    1982,
+    2263
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 635,
+     "y": 1155
+    },
+    {
+     "n": "3",
+     "x": 860,
+     "y": 974
+    },
+    {
+     "n": "4",
+     "x": 1054,
+     "y": 918
+    },
+    {
+     "n": "6",
+     "x": 952,
+     "y": 1591
+    },
+    {
+     "n": "7",
+     "x": 246,
+     "y": 1784
+    },
+    {
+     "n": "5",
+     "x": 1202,
+     "y": 944
+    },
+    {
+     "n": "*a",
+     "x": 380,
+     "y": 1320
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Pump, fuel, cam actua"
+    },
+    {
+     "n": "2",
+     "name": "Gasket"
+    },
+    {
+     "n": "3",
+     "name": "Plate, fuel pump"
+    },
+    {
+     "n": "4",
+     "name": "Gasket"
+    },
+    {
+     "n": "5",
+     "name": "Pin, straight, headle"
+    },
+    {
+     "n": "6",
+     "name": "Bolt, assembled wash"
+    },
+    {
+     "n": "7",
+     "name": "Bolt, assembled wash"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 1"
+    }
+   ],
+   "alt": "Exploded view of the fuel pump with gaskets, mounting plate, pin and two bolts.",
+   "page": "0017 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0017 00",
+   "notes": [
+    "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p062-img01",
+   "file": "tm-9-2815-237-34p-p062-img01-figure-17-fuel-injection-pump-and-fuel-filter-lines-6-2l-and.svg",
+   "viewBox": [
+    2158,
+    2365
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1188,
+     "y": 332
+    },
+    {
+     "n": "3",
+     "x": 1767,
+     "y": 564
+    },
+    {
+     "n": "5",
+     "x": 1665,
+     "y": 1282
+    },
+    {
+     "n": "6",
+     "x": 1932,
+     "y": 2020
+    },
+    {
+     "n": "7",
+     "x": 1408,
+     "y": 2225
+    },
+    {
+     "n": "8",
+     "x": 1542,
+     "y": 1750
+    },
+    {
+     "n": "8",
+     "x": 1124,
+     "y": 2270
+    },
+    {
+     "n": "9",
+     "x": 884,
+     "y": 2307
+    },
+    {
+     "n": "10",
+     "x": 1328,
+     "y": 1830
+    },
+    {
+     "n": "12",
+     "x": 1280,
+     "y": 1544
+    },
+    {
+     "n": "13",
+     "x": 1000,
+     "y": 1484
+    },
+    {
+     "n": "14",
+     "x": 845,
+     "y": 1378
+    },
+    {
+     "n": "15",
+     "x": 733,
+     "y": 1016
+    },
+    {
+     "n": "1",
+     "x": 638,
+     "y": 254
+    },
+    {
+     "n": "4",
+     "x": 1785,
+     "y": 865
+    },
+    {
+     "n": "11",
+     "x": 1402,
+     "y": 1628
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Gasket"
+    },
+    {
+     "n": "2",
+     "name": "Pump, fuel, metering"
+    },
+    {
+     "n": "3",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "4",
+     "name": "Clip, spring tension"
+    },
+    {
+     "n": "5",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "6",
+     "name": "Nut"
+    },
+    {
+     "n": "7",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "8",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "9",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "10",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "11",
+     "name": "Tube, metallic"
+    },
+    {
+     "n": "12",
+     "name": "Inverted nut, tube c"
+    },
+    {
+     "n": "13",
+     "name": "Boot"
+    },
+    {
+     "n": "14",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "15",
+     "name": "Nut, plain, hexagon"
+    }
+   ],
+   "alt": "Exploded view of the fuel injection pump, gasket, fuel filter lines, hoses, clamps and nuts.",
+   "page": "0018 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0018 00",
+   "notes": []
+  },
+  {
+   "figure": "p066-img01",
+   "file": "tm-9-2815-237-34p-p066-img01-figure-18-fuel-injection-pump-and-fuel-filter-lines-6-5l-tur.svg",
+   "viewBox": [
+    2128,
+    2406
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 702,
+     "y": 331
+    },
+    {
+     "n": "2",
+     "x": 1294,
+     "y": 424
+    },
+    {
+     "n": "3",
+     "x": 1766,
+     "y": 644
+    },
+    {
+     "n": "3",
+     "x": 2028,
+     "y": 1641
+    },
+    {
+     "n": "3",
+     "x": 1248,
+     "y": 1960
+    },
+    {
+     "n": "4",
+     "x": 1822,
+     "y": 942
+    },
+    {
+     "n": "4",
+     "x": 1428,
+     "y": 2258
+    },
+    {
+     "n": "6",
+     "x": 1712,
+     "y": 1858
+    },
+    {
+     "n": "6",
+     "x": 1010,
+     "y": 2006
+    },
+    {
+     "n": "6",
+     "x": 1994,
+     "y": 2040
+    },
+    {
+     "n": "6",
+     "x": 1174,
+     "y": 2320
+    },
+    {
+     "n": "7",
+     "x": 1990,
+     "y": 2127
+    },
+    {
+     "n": "8",
+     "x": 1684,
+     "y": 2362
+    },
+    {
+     "n": "9",
+     "x": 1311,
+     "y": 2241
+    },
+    {
+     "n": "10",
+     "x": 984,
+     "y": 2372
+    },
+    {
+     "n": "11",
+     "x": 750,
+     "y": 2118
+    },
+    {
+     "n": "12",
+     "x": 1429,
+     "y": 1901
+    },
+    {
+     "n": "13",
+     "x": 1574,
+     "y": 1774
+    },
+    {
+     "n": "14",
+     "x": 1444,
+     "y": 1692
+    },
+    {
+     "n": "15",
+     "x": 1206,
+     "y": 1667
+    },
+    {
+     "n": "16",
+     "x": 1067,
+     "y": 1562
+    },
+    {
+     "n": "17",
+     "x": 813,
+     "y": 1082
+    },
+    {
+     "n": "5",
+     "x": 2109,
+     "y": 1984
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Gasket"
+    },
+    {
+     "n": "2",
+     "name": "Pump, fuel, metering"
+    },
+    {
+     "n": "3",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "4",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "5",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "6",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "7",
+     "name": "Screw, cap, hexagon h"
+    },
+    {
+     "n": "8",
+     "name": "Nut, plain, barrel"
+    },
+    {
+     "n": "9",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "10",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "11",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "12",
+     "name": "Clip"
+    },
+    {
+     "n": "13",
+     "name": "Tube, matallic"
+    },
+    {
+     "n": "14",
+     "name": "Inverted nut, tube c"
+    },
+    {
+     "n": "15",
+     "name": "Boot"
+    },
+    {
+     "n": "16",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "17",
+     "name": "Nut, plain, hexagon"
+    }
+   ],
+   "alt": "Exploded view of the turbo engine fuel injection pump, filter lines, hoses, clamps and fasteners.",
+   "page": "0019 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0019 00",
+   "notes": []
+  },
+  {
+   "figure": "p068-img01",
+   "file": "tm-9-2815-237-34p-p068-img01-figure-19-fuel-injection-supply-and-return-lines.svg",
+   "viewBox": [
+    2132,
+    2098
+   ],
+   "ring": 26,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 374,
+     "y": 357
+    },
+    {
+     "n": "2",
+     "x": 495,
+     "y": 246
+    },
+    {
+     "n": "3",
+     "x": 665,
+     "y": 76
+    },
+    {
+     "n": "4",
+     "x": 804,
+     "y": 158
+    },
+    {
+     "n": "5",
+     "x": 986,
+     "y": 144
+    },
+    {
+     "n": "6",
+     "x": 958,
+     "y": 498
+    },
+    {
+     "n": "7",
+     "x": 1104,
+     "y": 246
+    },
+    {
+     "n": "7",
+     "x": 1462,
+     "y": 1494
+    },
+    {
+     "n": "8",
+     "x": 1313,
+     "y": 454
+    },
+    {
+     "n": "8",
+     "x": 380,
+     "y": 836
+    },
+    {
+     "n": "8",
+     "x": 1328,
+     "y": 1822
+    },
+    {
+     "n": "9",
+     "x": 1344,
+     "y": 118
+    },
+    {
+     "n": "9",
+     "x": 1171,
+     "y": 120
+    },
+    {
+     "n": "10",
+     "x": 1607,
+     "y": 353
+    },
+    {
+     "n": "11",
+     "x": 1634,
+     "y": 424
+    },
+    {
+     "n": "12",
+     "x": 1362,
+     "y": 590
+    },
+    {
+     "n": "13",
+     "x": 1024,
+     "y": 727
+    },
+    {
+     "n": "13",
+     "x": 674,
+     "y": 1375
+    },
+    {
+     "n": "13",
+     "x": 1330,
+     "y": 1480
+    },
+    {
+     "n": "14",
+     "x": 1520,
+     "y": 722
+    },
+    {
+     "n": "14",
+     "x": 198,
+     "y": 1210
+    },
+    {
+     "n": "15",
+     "x": 1498,
+     "y": 830
+    },
+    {
+     "n": "16",
+     "x": 1912,
+     "y": 667
+    },
+    {
+     "n": "17",
+     "x": 1989,
+     "y": 761
+    },
+    {
+     "n": "18",
+     "x": 1526,
+     "y": 1176
+    },
+    {
+     "n": "19",
+     "x": 1318,
+     "y": 1214
+    },
+    {
+     "n": "20",
+     "x": 1562,
+     "y": 1308
+    },
+    {
+     "n": "21",
+     "x": 1607,
+     "y": 1396
+    },
+    {
+     "n": "22",
+     "x": 1278,
+     "y": 1870
+    },
+    {
+     "n": "23",
+     "x": 88,
+     "y": 970
+    },
+    {
+     "n": "23",
+     "x": 1072,
+     "y": 1771
+    },
+    {
+     "n": "24",
+     "x": 922,
+     "y": 1854
+    },
+    {
+     "n": "25",
+     "x": 578,
+     "y": 2013
+    },
+    {
+     "n": "26",
+     "x": 166,
+     "y": 726
+    },
+    {
+     "n": "26",
+     "x": 278,
+     "y": 1875
+    },
+    {
+     "n": "27",
+     "x": 130,
+     "y": 1562
+    },
+    {
+     "n": "28",
+     "x": 586,
+     "y": 1578
+    },
+    {
+     "n": "29",
+     "x": 744,
+     "y": 1296
+    },
+    {
+     "n": "30",
+     "x": 490,
+     "y": 937
+    },
+    {
+     "n": "31",
+     "x": 352,
+     "y": 956
+    },
+    {
+     "n": "32",
+     "x": 454,
+     "y": 618
+    },
+    {
+     "n": "12",
+     "x": 537,
+     "y": 1088
+    },
+    {
+     "n": "19",
+     "x": 692,
+     "y": 1052
+    },
+    {
+     "n": "8",
+     "x": 998,
+     "y": 1630
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Tube, bent, metallic"
+    },
+    {
+     "n": "2",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "3",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "4",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "5",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "6",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "7",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "8",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "9",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "10",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "11",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "12",
+     "name": "Grommet, nonmetallic"
+    },
+    {
+     "n": "13",
+     "name": "Grommet, nonmetallic"
+    },
+    {
+     "n": "14",
+     "name": "Screw, tapping"
+    },
+    {
+     "n": "15",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "16",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "17",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "18",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "19",
+     "name": "Grommet, nonmetallic"
+    },
+    {
+     "n": "20",
+     "name": "Strap, retaining"
+    },
+    {
+     "n": "21",
+     "name": "Strap, retaining"
+    },
+    {
+     "n": "22",
+     "name": "Cap"
+    },
+    {
+     "n": "23",
+     "name": "Hose, nonmetallic"
+    },
+    {
+     "n": "24",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "25",
+     "name": "Bracket, double angl"
+    },
+    {
+     "n": "26",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "27",
+     "name": "Clip, spring tension"
+    },
+    {
+     "n": "28",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "29",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "30",
+     "name": "Tube assembly, metal"
+    },
+    {
+     "n": "31",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "32",
+     "name": "Clamp, loop"
+    }
+   ],
+   "alt": "Exploded view of the fuel injection supply and return lines, clamps, grommets, straps and mounting bracket on the engine.",
+   "page": "0020 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0020 00",
+   "notes": []
+  },
+  {
+   "figure": "p074-img01",
+   "file": "tm-9-2815-237-34p-p074-img01-figure-20-fuel-injection-pump-cover-assembly-governor-linkag.svg",
+   "viewBox": [
+    2128,
+    2536
+   ],
+   "ring": 26,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 475,
+     "y": 340
+    },
+    {
+     "n": "11",
+     "x": 973,
+     "y": 564
+    },
+    {
+     "n": "2",
+     "x": 488,
+     "y": 268
+    },
+    {
+     "n": "3",
+     "x": 488,
+     "y": 193
+    },
+    {
+     "n": "13",
+     "x": 1016,
+     "y": 476
+    },
+    {
+     "n": "5",
+     "x": 842,
+     "y": 304
+    },
+    {
+     "n": "5",
+     "x": 1771,
+     "y": 729
+    },
+    {
+     "n": "6",
+     "x": 868,
+     "y": 362
+    },
+    {
+     "n": "*b",
+     "x": 1219,
+     "y": 1084
+    },
+    {
+     "n": "7",
+     "x": 878,
+     "y": 443
+    },
+    {
+     "n": "7",
+     "x": 888,
+     "y": 565
+    },
+    {
+     "n": "7",
+     "x": 1428,
+     "y": 570
+    },
+    {
+     "n": "7",
+     "x": 1222,
+     "y": 614
+    },
+    {
+     "n": "7",
+     "x": 1660,
+     "y": 1023
+    },
+    {
+     "n": "8",
+     "x": 884,
+     "y": 512
+    },
+    {
+     "n": "8",
+     "x": 1472,
+     "y": 544
+    },
+    {
+     "n": "8",
+     "x": 1211,
+     "y": 544
+    },
+    {
+     "n": "8",
+     "x": 1716,
+     "y": 994
+    },
+    {
+     "n": "9",
+     "x": 1380,
+     "y": 590
+    },
+    {
+     "n": "9",
+     "x": 880,
+     "y": 611
+    },
+    {
+     "n": "9",
+     "x": 1222,
+     "y": 666
+    },
+    {
+     "n": "9",
+     "x": 1600,
+     "y": 1047
+    },
+    {
+     "n": "10",
+     "x": 875,
+     "y": 664
+    },
+    {
+     "n": "10",
+     "x": 1538,
+     "y": 1076
+    },
+    {
+     "n": "12",
+     "x": 1025,
+     "y": 634
+    },
+    {
+     "n": "14",
+     "x": 1023,
+     "y": 386
+    },
+    {
+     "n": "14",
+     "x": 1632,
+     "y": 486
+    },
+    {
+     "n": "15",
+     "x": 1026,
+     "y": 304
+    },
+    {
+     "n": "15",
+     "x": 1694,
+     "y": 446
+    },
+    {
+     "n": "16",
+     "x": 1550,
+     "y": 502
+    },
+    {
+     "n": "17",
+     "x": 1417,
+     "y": 1066
+    },
+    {
+     "n": "19",
+     "x": 1400,
+     "y": 1312
+    },
+    {
+     "n": "22",
+     "x": 1775,
+     "y": 1748
+    },
+    {
+     "n": "23",
+     "x": 1670,
+     "y": 1728
+    },
+    {
+     "n": "24",
+     "x": 1509,
+     "y": 1712
+    },
+    {
+     "n": "25",
+     "x": 1423,
+     "y": 1701
+    },
+    {
+     "n": "26",
+     "x": 1393,
+     "y": 1801
+    },
+    {
+     "n": "27",
+     "x": 1408,
+     "y": 1900
+    },
+    {
+     "n": "28",
+     "x": 839,
+     "y": 1824
+    },
+    {
+     "n": "29",
+     "x": 736,
+     "y": 1675
+    },
+    {
+     "n": "30",
+     "x": 922,
+     "y": 1578
+    },
+    {
+     "n": "31",
+     "x": 1192,
+     "y": 1408
+    },
+    {
+     "n": "32",
+     "x": 1074,
+     "y": 1628
+    },
+    {
+     "n": "33",
+     "x": 1208,
+     "y": 1640
+    },
+    {
+     "n": "34",
+     "x": 486,
+     "y": 615
+    },
+    {
+     "n": "10",
+     "x": 1332,
+     "y": 612
+    },
+    {
+     "n": "*a",
+     "x": 1424,
+     "y": 1368
+    },
+    {
+     "n": "21",
+     "x": 1009,
+     "y": 2436
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "2",
+     "name": "Washer, lock"
+    },
+    {
+     "n": "3",
+     "name": "Screw, machine"
+    },
+    {
+     "n": "4",
+     "name": "Cover assembly, fuel"
+    },
+    {
+     "n": "5",
+     "name": "Nut, self-locking, he"
+    },
+    {
+     "n": "6",
+     "name": "Lead, ignition, engin"
+    },
+    {
+     "n": "7",
+     "name": "Washer, lock"
+    },
+    {
+     "n": "8",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "9",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "10",
+     "name": "Washer, shouldered"
+    },
+    {
+     "n": "11",
+     "name": "Valve, check"
+    },
+    {
+     "n": "12",
+     "name": "O-ring"
+    },
+    {
+     "n": "13",
+     "name": "Housing, terminal"
+    },
+    {
+     "n": "14",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "15",
+     "name": "Terminal, stud"
+    },
+    {
+     "n": "16",
+     "name": "Boot, vehicular com"
+    },
+    {
+     "n": "17",
+     "name": "Cover, access"
+    },
+    {
+     "n": "18",
+     "name": "Solenoid, electrical cold avance"
+    },
+    {
+     "n": "19",
+     "name": "Tube, insulating"
+    },
+    {
+     "n": "20",
+     "name": "Solenoid, electrical fuel shutoff"
+    },
+    {
+     "n": "21",
+     "name": "Tube, insulating"
+    },
+    {
+     "n": "22",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "23",
+     "name": "Block, pump, injectio"
+    },
+    {
+     "n": "24",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "25",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "26",
+     "name": "Hook assembly, gover"
+    },
+    {
+     "n": "27",
+     "name": "Gasket"
+    },
+    {
+     "n": "28",
+     "name": "Spring, helical, exte"
+    },
+    {
+     "n": "29",
+     "name": "Shifter fork"
+    },
+    {
+     "n": "30",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "31",
+     "name": "Connecting link, rig"
+    },
+    {
+     "n": "32",
+     "name": "Sleeve, adjusting, go"
+    },
+    {
+     "n": "33",
+     "name": "Retainer, helical co"
+    },
+    {
+     "n": "34",
+     "name": "Washer, lock"
+    },
+    {
+     "n": "*a",
+     "name": "Part of item 18"
+    },
+    {
+     "n": "*b",
+     "name": "Part of item 20"
+    }
+   ],
+   "alt": "Exploded view of the fuel injection pump cover, solenoids, terminals, governor linkage, springs and washers above the pump housing.",
+   "page": "0021 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0021 00",
+   "notes": [
+    "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 18 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 20 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p078-img01",
+   "file": "tm-9-2815-237-34p-p078-img01-figure-21-fuel-injection-pump-throttle-shaft-regulator-trans.svg",
+   "viewBox": [
+    1982,
+    1987
+   ],
+   "ring": 28,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 128,
+     "y": 182
+    },
+    {
+     "n": "2",
+     "x": 274,
+     "y": 70
+    },
+    {
+     "n": "3",
+     "x": 398,
+     "y": 88
+    },
+    {
+     "n": "4",
+     "x": 480,
+     "y": 215
+    },
+    {
+     "n": "5",
+     "x": 519,
+     "y": 399
+    },
+    {
+     "n": "6",
+     "x": 675,
+     "y": 411
+    },
+    {
+     "n": "7",
+     "x": 884,
+     "y": 544
+    },
+    {
+     "n": "8",
+     "x": 982,
+     "y": 444
+    },
+    {
+     "n": "9",
+     "x": 1060,
+     "y": 406
+    },
+    {
+     "n": "10",
+     "x": 1102,
+     "y": 340
+    },
+    {
+     "n": "11",
+     "x": 1207,
+     "y": 343
+    },
+    {
+     "n": "12",
+     "x": 1546,
+     "y": 381
+    },
+    {
+     "n": "13",
+     "x": 1702,
+     "y": 450
+    },
+    {
+     "n": "14",
+     "x": 1843,
+     "y": 556
+    },
+    {
+     "n": "15",
+     "x": 1718,
+     "y": 722
+    },
+    {
+     "n": "16",
+     "x": 1620,
+     "y": 772
+    },
+    {
+     "n": "17",
+     "x": 1491,
+     "y": 802
+    },
+    {
+     "n": "18",
+     "x": 1421,
+     "y": 833
+    },
+    {
+     "n": "19",
+     "x": 1370,
+     "y": 877
+    },
+    {
+     "n": "20",
+     "x": 289,
+     "y": 1489
+    },
+    {
+     "n": "21",
+     "x": 1182,
+     "y": 946
+    },
+    {
+     "n": "22",
+     "x": 1311,
+     "y": 964
+    },
+    {
+     "n": "23",
+     "x": 1411,
+     "y": 970
+    },
+    {
+     "n": "24",
+     "x": 1536,
+     "y": 913
+    },
+    {
+     "n": "24",
+     "x": 1457,
+     "y": 1253
+    },
+    {
+     "n": "26",
+     "x": 1658,
+     "y": 931
+    },
+    {
+     "n": "27",
+     "x": 1846,
+     "y": 1012
+    },
+    {
+     "n": "28",
+     "x": 1634,
+     "y": 1300
+    },
+    {
+     "n": "29",
+     "x": 1714,
+     "y": 1730
+    },
+    {
+     "n": "30",
+     "x": 1540,
+     "y": 1713
+    },
+    {
+     "n": "31",
+     "x": 1382,
+     "y": 1656
+    },
+    {
+     "n": "32",
+     "x": 1224,
+     "y": 1565
+    },
+    {
+     "n": "33",
+     "x": 1156,
+     "y": 1560
+    },
+    {
+     "n": "34",
+     "x": 1088,
+     "y": 1550
+    },
+    {
+     "n": "35",
+     "x": 900,
+     "y": 1578
+    },
+    {
+     "n": "36",
+     "x": 895,
+     "y": 1695
+    },
+    {
+     "n": "37",
+     "x": 875,
+     "y": 1810
+    },
+    {
+     "n": "38",
+     "x": 832,
+     "y": 1916
+    },
+    {
+     "n": "39",
+     "x": 568,
+     "y": 1908
+    },
+    {
+     "n": "40",
+     "x": 578,
+     "y": 1310
+    },
+    {
+     "n": "41",
+     "x": 512,
+     "y": 1360
+    },
+    {
+     "n": "42",
+     "x": 411,
+     "y": 1414
+    },
+    {
+     "n": "43",
+     "x": 122,
+     "y": 1269
+    },
+    {
+     "n": "45",
+     "x": 92,
+     "y": 675
+    },
+    {
+     "n": "25",
+     "x": 1490,
+     "y": 1030
+    },
+    {
+     "n": "44",
+     "x": 224,
+     "y": 634
+    },
+    {
+     "n": "20",
+     "x": 1266,
+     "y": 911
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "2",
+     "name": "Screw"
+    },
+    {
+     "n": "3",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "4",
+     "name": "Spacer, sleeve"
+    },
+    {
+     "n": "5",
+     "name": "O-ring"
+    },
+    {
+     "n": "6",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "7",
+     "name": "Shim"
+    },
+    {
+     "n": "8",
+     "name": "Cam face, pump"
+    },
+    {
+     "n": "9",
+     "name": "Screw, machine"
+    },
+    {
+     "n": "10",
+     "name": "Pin, grooved, headles"
+    },
+    {
+     "n": "11",
+     "name": "Cam, control"
+    },
+    {
+     "n": "12",
+     "name": "Lever, remote contro"
+    },
+    {
+     "n": "13",
+     "name": "Ring, retaining"
+    },
+    {
+     "n": "14",
+     "name": "Ring, retaining"
+    },
+    {
+     "n": "15",
+     "name": "Pin, grooved, headles"
+    },
+    {
+     "n": "16",
+     "name": "Setscrew"
+    },
+    {
+     "n": "17",
+     "name": "Plunger, detent"
+    },
+    {
+     "n": "18",
+     "name": "Seal"
+    },
+    {
+     "n": "19",
+     "name": "Plug, machine thread"
+    },
+    {
+     "n": "20",
+     "name": "Seal, drain plug"
+    },
+    {
+     "n": "21",
+     "name": "Packing, preformed"
+    },
+    {
+     "n": "22",
+     "name": "Retainer, rotor, tran"
+    },
+    {
+     "n": "23",
+     "name": "Liner, transfer pump"
+    },
+    {
+     "n": "24",
+     "name": "Vane, injection pump"
+    },
+    {
+     "n": "25",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "26",
+     "name": "Pin"
+    },
+    {
+     "n": "27",
+     "name": "Regulator assembly"
+    },
+    {
+     "n": "28",
+     "name": "Ring, retaining"
+    },
+    {
+     "n": "29",
+     "name": "Cap, transfer pump"
+    },
+    {
+     "n": "30",
+     "name": "Plate, pump pressure"
+    },
+    {
+     "n": "31",
+     "name": "Strainer element, se"
+    },
+    {
+     "n": "32",
+     "name": "Plug assembly, end p"
+    },
+    {
+     "n": "33",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "34",
+     "name": "Piston, valve"
+    },
+    {
+     "n": "35",
+     "name": "O-ring"
+    },
+    {
+     "n": "36",
+     "name": "Screw"
+    },
+    {
+     "n": "37",
+     "name": "Pin, cam advance"
+    },
+    {
+     "n": "38",
+     "name": "O-ring"
+    },
+    {
+     "n": "39",
+     "name": "Plug, machine thread"
+    },
+    {
+     "n": "40",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "41",
+     "name": "Valve, servo advance"
+    },
+    {
+     "n": "42",
+     "name": "Piston, linear actua"
+    },
+    {
+     "n": "43",
+     "name": "Plug, machine thread"
+    },
+    {
+     "n": "44",
+     "name": "Shaft assembly, thro"
+    },
+    {
+     "n": "45",
+     "name": "Screw, machine"
+    }
+   ],
+   "alt": "Exploded view of the fuel injection pump throttle shaft, regulator, transfer pump parts, springs, pistons and plugs around the pump housing.",
+   "page": "0022 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0022 00",
+   "notes": []
+  },
+  {
+   "figure": "p084-img01",
+   "file": "tm-9-2815-237-34p-p084-img01-figure-22-fuel-injection-pump-housing-head-and-rotor-drive-s.svg",
+   "viewBox": [
+    2106,
+    2480
+   ],
+   "ring": 28,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 157,
+     "y": 286
+    },
+    {
+     "n": "2",
+     "x": 201,
+     "y": 37
+    },
+    {
+     "n": "3",
+     "x": 376,
+     "y": 48
+    },
+    {
+     "n": "4",
+     "x": 844,
+     "y": 123
+    },
+    {
+     "n": "5",
+     "x": 1098,
+     "y": 184
+    },
+    {
+     "n": "5",
+     "x": 1325,
+     "y": 247
+    },
+    {
+     "n": "6",
+     "x": 1230,
+     "y": 208
+    },
+    {
+     "n": "7",
+     "x": 1468,
+     "y": 268
+    },
+    {
+     "n": "8",
+     "x": 900,
+     "y": 613
+    },
+    {
+     "n": "9",
+     "x": 1158,
+     "y": 591
+    },
+    {
+     "n": "10",
+     "x": 1162,
+     "y": 640
+    },
+    {
+     "n": "11",
+     "x": 1094,
+     "y": 712
+    },
+    {
+     "n": "12",
+     "x": 1276,
+     "y": 666
+    },
+    {
+     "n": "12",
+     "x": 290,
+     "y": 733
+    },
+    {
+     "n": "13",
+     "x": 1316,
+     "y": 761
+    },
+    {
+     "n": "14",
+     "x": 1417,
+     "y": 789
+    },
+    {
+     "n": "15",
+     "x": 1740,
+     "y": 795
+    },
+    {
+     "n": "15",
+     "x": 1578,
+     "y": 1128
+    },
+    {
+     "n": "16",
+     "x": 1791,
+     "y": 1185
+    },
+    {
+     "n": "17",
+     "x": 1527,
+     "y": 1408
+    },
+    {
+     "n": "18",
+     "x": 1424,
+     "y": 1392
+    },
+    {
+     "n": "19",
+     "x": 1320,
+     "y": 1378
+    },
+    {
+     "n": "20",
+     "x": 1126,
+     "y": 1321
+    },
+    {
+     "n": "21",
+     "x": 1006,
+     "y": 1393
+    },
+    {
+     "n": "22",
+     "x": 1318,
+     "y": 1743
+    },
+    {
+     "n": "23",
+     "x": 1572,
+     "y": 1834
+    },
+    {
+     "n": "24",
+     "x": 1538,
+     "y": 1901
+    },
+    {
+     "n": "25",
+     "x": 1610,
+     "y": 1894
+    },
+    {
+     "n": "30",
+     "x": 1943,
+     "y": 2314
+    },
+    {
+     "n": "31",
+     "x": 1860,
+     "y": 2293
+    },
+    {
+     "n": "32",
+     "x": 1791,
+     "y": 2276
+    },
+    {
+     "n": "33",
+     "x": 1731,
+     "y": 2262
+    },
+    {
+     "n": "34",
+     "x": 732,
+     "y": 2404
+    },
+    {
+     "n": "35",
+     "x": 826,
+     "y": 2292
+    },
+    {
+     "n": "36",
+     "x": 1107,
+     "y": 2188
+    },
+    {
+     "n": "37",
+     "x": 921,
+     "y": 2186
+    },
+    {
+     "n": "38",
+     "x": 617,
+     "y": 2128
+    },
+    {
+     "n": "39",
+     "x": 144,
+     "y": 1849
+    },
+    {
+     "n": "39",
+     "x": 520,
+     "y": 1980
+    },
+    {
+     "n": "41",
+     "x": 432,
+     "y": 1471
+    },
+    {
+     "n": "42",
+     "x": 514,
+     "y": 1432
+    },
+    {
+     "n": "43",
+     "x": 247,
+     "y": 1138
+    },
+    {
+     "n": "44",
+     "x": 556,
+     "y": 643
+    },
+    {
+     "n": "45",
+     "x": 758,
+     "y": 600
+    },
+    {
+     "n": "26",
+     "x": 1742,
+     "y": 1855
+    },
+    {
+     "n": "27",
+     "x": 1797,
+     "y": 1860
+    },
+    {
+     "n": "28",
+     "x": 1856,
+     "y": 1855
+    },
+    {
+     "n": "29",
+     "x": 1916,
+     "y": 1855
+    },
+    {
+     "n": "40",
+     "x": 273,
+     "y": 1449
+    },
+    {
+     "n": "39",
+     "x": 455,
+     "y": 1604
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Pin, straight, headle"
+    },
+    {
+     "n": "2",
+     "name": "Pin, shoulder, headed"
+    },
+    {
+     "n": "3",
+     "name": "Spring, helical comp"
+    },
+    {
+     "n": "4",
+     "name": "Shaft, shouldered"
+    },
+    {
+     "n": "5",
+     "name": "Packing, preformed"
+    },
+    {
+     "n": "6",
+     "name": "Packing, preformed"
+    },
+    {
+     "n": "7",
+     "name": "Bearing, roller, need"
+    },
+    {
+     "n": "8",
+     "name": "Valve, calibrated fl"
+    },
+    {
+     "n": "9",
+     "name": "Arm, metering valve"
+    },
+    {
+     "n": "10",
+     "name": "Spring"
+    },
+    {
+     "n": "11",
+     "name": "Valve, calibrated fl"
+    },
+    {
+     "n": "12",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "13",
+     "name": "Gasket"
+    },
+    {
+     "n": "14",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "15",
+     "name": "Stud"
+    },
+    {
+     "n": "16",
+     "name": "Cap, protective, dust"
+    },
+    {
+     "n": "17",
+     "name": "Ring, retaining"
+    },
+    {
+     "n": "18",
+     "name": "Bearing, washer, thru"
+    },
+    {
+     "n": "19",
+     "name": "Sleeve, governor thr"
+    },
+    {
+     "n": "20",
+     "name": "Ring, retaining"
+    },
+    {
+     "n": "21",
+     "name": "Housing, injection p"
+    },
+    {
+     "n": "22",
+     "name": "Pin, straight, headle"
+    },
+    {
+     "n": "23",
+     "name": "Shoe, cam roller"
+    },
+    {
+     "n": "24",
+     "name": "Plunger, detent"
+    },
+    {
+     "n": "25",
+     "name": "Head and rotor asse"
+    },
+    {
+     "n": "26",
+     "name": "O-ring"
+    },
+    {
+     "n": "27",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "28",
+     "name": "Plate, mounting"
+    },
+    {
+     "n": "29",
+     "name": "Screw, machine"
+    },
+    {
+     "n": "30",
+     "name": "Screw"
+    },
+    {
+     "n": "31",
+     "name": "Stop, valve"
+    },
+    {
+     "n": "32",
+     "name": "Spring, helical, comp"
+    },
+    {
+     "n": "33",
+     "name": "Disk, valve"
+    },
+    {
+     "n": "34",
+     "name": "Screw, cap, socket he"
+    },
+    {
+     "n": "35",
+     "name": "Spring, flat"
+    },
+    {
+     "n": "36",
+     "name": "O-ring"
+    },
+    {
+     "n": "37",
+     "name": "Cam ring, fuel injec"
+    },
+    {
+     "n": "38",
+     "name": "Retainer assembly"
+    },
+    {
+     "n": "39",
+     "name": "Weight, counterbalan"
+    },
+    {
+     "n": "40",
+     "name": "Screw, machine"
+    },
+    {
+     "n": "41",
+     "name": "Cover, access"
+    },
+    {
+     "n": "42",
+     "name": "Gasket"
+    },
+    {
+     "n": "43",
+     "name": "Pilot tube, pump"
+    },
+    {
+     "n": "44",
+     "name": "Bushing, sleeve"
+    },
+    {
+     "n": "45",
+     "name": "Screw assy., vent governor"
+    }
+   ],
+   "alt": "Exploded view of the fuel injection pump housing, head and rotor, drive shaft, cam ring, weights and related small parts.",
+   "page": "0023 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0023 00",
+   "notes": []
+  },
+  {
+   "figure": "p090-img01",
+   "file": "tm-9-2815-237-34p-p090-img01-figure-23-turbocharger-assembly.svg",
+   "viewBox": [
+    2132,
+    2144
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1203,
+     "y": 321
+    },
+    {
+     "n": "3",
+     "x": 1297,
+     "y": 589
+    },
+    {
+     "n": "4",
+     "x": 1985,
+     "y": 1092
+    },
+    {
+     "n": "5",
+     "x": 1704,
+     "y": 1774
+    },
+    {
+     "n": "6",
+     "x": 688,
+     "y": 1569
+    },
+    {
+     "n": "7",
+     "x": 543,
+     "y": 2044
+    },
+    {
+     "n": "8",
+     "x": 540,
+     "y": 844
+    },
+    {
+     "n": "1",
+     "x": 886,
+     "y": 124
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "2",
+     "name": "O-ring"
+    },
+    {
+     "n": "3",
+     "name": "Turbosupercharger, e"
+    },
+    {
+     "n": "4",
+     "name": "Screw, cap, hexagon h"
+    },
+    {
+     "n": "5",
+     "name": "Pipe, exhaust r.h."
+    },
+    {
+     "n": "6",
+     "name": "Pipe, exhaust l.h."
+    },
+    {
+     "n": "7",
+     "name": "Clamp, loop"
+    },
+    {
+     "n": "8",
+     "name": "Gasket"
+    }
+   ],
+   "alt": "Exploded view of the turbocharger with its mounting bolt, O-ring, exhaust pipes, and clamps.",
+   "page": "0024 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0024 00",
+   "notes": []
+  },
+  {
+   "figure": "p092-img01",
+   "file": "tm-9-2815-237-34p-p092-img01-figure-24-glow-plug.svg",
+   "viewBox": [
+    422,
+    1661
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 112,
+     "y": 142
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Glow plug"
+    }
+   ],
+   "alt": "Single glow plug shown from the side with its terminal at the top.",
+   "page": "0025 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0025 00",
+   "notes": []
+  },
+  {
+   "figure": "p094-img01",
+   "file": "tm-9-2815-237-34p-p094-img01-figure-25-accelerator-cable-bracket-and-idle-spring.svg",
+   "viewBox": [
+    2054,
+    1097
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 134,
+     "y": 539
+    },
+    {
+     "n": "2",
+     "x": 412,
+     "y": 298
+    },
+    {
+     "n": "3",
+     "x": 668,
+     "y": 495
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "2",
+     "name": "Bracket, mounting"
+    },
+    {
+     "n": "3",
+     "name": "Spring, helical, extension"
+    }
+   ],
+   "alt": "Exploded view of the accelerator cable bracket, bolt and idle spring beside the fuel injection pump.",
+   "page": "0026 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0026 00",
+   "notes": []
+  },
+  {
+   "figure": "p096-img01",
+   "file": "tm-9-2815-237-34p-p096-img01-figure-26-thermostat-water-crossover-and-attaching-hardware.svg",
+   "viewBox": [
+    1861,
+    2379
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 602,
+     "y": 247
+    },
+    {
+     "n": "2",
+     "x": 1044,
+     "y": 193
+    },
+    {
+     "n": "3",
+     "x": 1300,
+     "y": 310
+    },
+    {
+     "n": "4",
+     "x": 1440,
+     "y": 385
+    },
+    {
+     "n": "4",
+     "x": 1334,
+     "y": 924
+    },
+    {
+     "n": "5",
+     "x": 1597,
+     "y": 458
+    },
+    {
+     "n": "6",
+     "x": 1496,
+     "y": 979
+    },
+    {
+     "n": "7",
+     "x": 1679,
+     "y": 1130
+    },
+    {
+     "n": "8",
+     "x": 1708,
+     "y": 1204
+    },
+    {
+     "n": "9",
+     "x": 1552,
+     "y": 1617
+    },
+    {
+     "n": "9",
+     "x": 272,
+     "y": 1970
+    },
+    {
+     "n": "10",
+     "x": 792,
+     "y": 1786
+    },
+    {
+     "n": "10",
+     "x": 674,
+     "y": 2260
+    },
+    {
+     "n": "11",
+     "x": 748,
+     "y": 1970
+    },
+    {
+     "n": "12",
+     "x": 816,
+     "y": 1633
+    },
+    {
+     "n": "13",
+     "x": 692,
+     "y": 1597
+    },
+    {
+     "n": "14",
+     "x": 142,
+     "y": 1445
+    },
+    {
+     "n": "15",
+     "x": 526,
+     "y": 1126
+    },
+    {
+     "n": "16",
+     "x": 816,
+     "y": 1091
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Thermostat, flow con"
+    },
+    {
+     "n": "2",
+     "name": "Gasket"
+    },
+    {
+     "n": "3",
+     "name": "Water outlet, engine"
+    },
+    {
+     "n": "4",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "5",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "6",
+     "name": "Bolt, self-locking"
+    },
+    {
+     "n": "7",
+     "name": "Stud, special"
+    },
+    {
+     "n": "8",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "9",
+     "name": "Gasket"
+    },
+    {
+     "n": "10",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "11",
+     "name": "Hose"
+    },
+    {
+     "n": "12",
+     "name": "Adapter, straight, pi"
+    },
+    {
+     "n": "13",
+     "name": "Bolt, self-locking"
+    },
+    {
+     "n": "14",
+     "name": "Adapter, straight, pi"
+    },
+    {
+     "n": "15",
+     "name": "Water outlet, engine"
+    },
+    {
+     "n": "16",
+     "name": "Elbow, pipe to hose"
+    }
+   ],
+   "alt": "Exploded view of the thermostat, water outlet housings, crossover pipe, gaskets, hose and fittings.",
+   "page": "0027 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0027 00",
+   "notes": []
+  },
+  {
+   "figure": "p100-img01",
+   "file": "tm-9-2815-237-34p-p100-img01-figure-27-water-pump-and-attaching-hardware.svg",
+   "viewBox": [
+    1998,
+    1894
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 505,
+     "y": 840
+    },
+    {
+     "n": "2",
+     "x": 564,
+     "y": 644
+    },
+    {
+     "n": "4",
+     "x": 1372,
+     "y": 961
+    },
+    {
+     "n": "5",
+     "x": 1212,
+     "y": 1335
+    },
+    {
+     "n": "6",
+     "x": 1108,
+     "y": 729
+    },
+    {
+     "n": "7",
+     "x": 1348,
+     "y": 558
+    },
+    {
+     "n": "8",
+     "x": 1952,
+     "y": 1142
+    },
+    {
+     "n": "9",
+     "x": 1082,
+     "y": 1737
+    },
+    {
+     "n": "10",
+     "x": 370,
+     "y": 1850
+    },
+    {
+     "n": "11",
+     "x": 380,
+     "y": 1599
+    },
+    {
+     "n": "12",
+     "x": 352,
+     "y": 1510
+    },
+    {
+     "n": "13",
+     "x": 406,
+     "y": 1297
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Elbow, pipe"
+    },
+    {
+     "n": "2",
+     "name": "Adapter, straight, pi"
+    },
+    {
+     "n": "3",
+     "name": "Pump, cooling system"
+    },
+    {
+     "n": "4",
+     "name": "Gasket"
+    },
+    {
+     "n": "5",
+     "name": "Pump, cooling system"
+    },
+    {
+     "n": "6",
+     "name": "Rivet, solid"
+    },
+    {
+     "n": "7",
+     "name": "Adapter, straight, pi"
+    },
+    {
+     "n": "8",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "9",
+     "name": "Stud, special"
+    },
+    {
+     "n": "10",
+     "name": "Stud, shouldered"
+    },
+    {
+     "n": "11",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "12",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "13",
+     "name": "Stud, shouldered"
+    }
+   ],
+   "alt": "Exploded view of the water pump with gasket, fittings, studs and cap screws.",
+   "page": "0028 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0028 00",
+   "notes": [
+    "Item 3 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p102-img01",
+   "file": "tm-9-2815-237-34p-p102-img01-figure-28-fan-drive-and-pulley.svg",
+   "viewBox": [
+    2030,
+    2355
+   ],
+   "ring": 26,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 686,
+     "y": 360
+    },
+    {
+     "n": "3",
+     "x": 174,
+     "y": 624
+    },
+    {
+     "n": "4",
+     "x": 274,
+     "y": 632
+    },
+    {
+     "n": "5",
+     "x": 374,
+     "y": 606
+    },
+    {
+     "n": "6",
+     "x": 494,
+     "y": 596
+    },
+    {
+     "n": "7",
+     "x": 599,
+     "y": 610
+    },
+    {
+     "n": "8",
+     "x": 1040,
+     "y": 622
+    },
+    {
+     "n": "9",
+     "x": 1402,
+     "y": 936
+    },
+    {
+     "n": "10",
+     "x": 1344,
+     "y": 934
+    },
+    {
+     "n": "11",
+     "x": 1222,
+     "y": 940
+    },
+    {
+     "n": "12",
+     "x": 1108,
+     "y": 990
+    },
+    {
+     "n": "13",
+     "x": 990,
+     "y": 928
+    },
+    {
+     "n": "14",
+     "x": 640,
+     "y": 970
+    },
+    {
+     "n": "15",
+     "x": 531,
+     "y": 974
+    },
+    {
+     "n": "16",
+     "x": 1169,
+     "y": 1427
+    },
+    {
+     "n": "16",
+     "x": 964,
+     "y": 1958
+    },
+    {
+     "n": "17",
+     "x": 1314,
+     "y": 1812
+    },
+    {
+     "n": "18",
+     "x": 639,
+     "y": 1900
+    },
+    {
+     "n": "19",
+     "x": 448,
+     "y": 1960
+    },
+    {
+     "n": "21",
+     "x": 1834,
+     "y": 1966
+    },
+    {
+     "n": "22",
+     "x": 1675,
+     "y": 2016
+    },
+    {
+     "n": "20",
+     "x": 1614,
+     "y": 1884
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Screw"
+    },
+    {
+     "n": "2",
+     "name": "Impeller, fan, axial"
+    },
+    {
+     "n": "3",
+     "name": "Nut, self-locking, he"
+    },
+    {
+     "n": "4",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "5",
+     "name": "Cylinder assembly, f"
+    },
+    {
+     "n": "6",
+     "name": "O-ring"
+    },
+    {
+     "n": "7",
+     "name": "Seal, dust"
+    },
+    {
+     "n": "8",
+     "name": "Housing assembly"
+    },
+    {
+     "n": "9",
+     "name": "O-ring"
+    },
+    {
+     "n": "10",
+     "name": "O-ring"
+    },
+    {
+     "n": "11",
+     "name": "Spring, helical, compression"
+    },
+    {
+     "n": "12",
+     "name": "Stud, plain"
+    },
+    {
+     "n": "13",
+     "name": "Seal, plain encased"
+    },
+    {
+     "n": "14",
+     "name": "Washer, lock"
+    },
+    {
+     "n": "15",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "16",
+     "name": "Lining, fan clutch"
+    },
+    {
+     "n": "17",
+     "name": "Screw, cap, socket head"
+    },
+    {
+     "n": "18",
+     "name": "Lining, friction"
+    },
+    {
+     "n": "19",
+     "name": "Shaft assembly"
+    },
+    {
+     "n": "20",
+     "name": "Screw, cap, socket head"
+    },
+    {
+     "n": "21",
+     "name": "Pulley, cone"
+    },
+    {
+     "n": "22",
+     "name": "Pulley, flat"
+    }
+   ],
+   "alt": "Exploded view of the fan clutch, fan drive parts and pulleys.",
+   "page": "0029 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0029 00",
+   "notes": [
+    "Item 2 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p104-img01",
+   "file": "tm-9-2815-237-34p-p104-img01-figure-29-sending-units-6-2l-and-6-5l-naturally-aspirated.svg",
+   "viewBox": [
+    2134,
+    2331
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 614,
+     "y": 454
+    },
+    {
+     "n": "3",
+     "x": 1049,
+     "y": 578
+    },
+    {
+     "n": "4",
+     "x": 1598,
+     "y": 428
+    },
+    {
+     "n": "5",
+     "x": 1814,
+     "y": 1416
+    },
+    {
+     "n": "6",
+     "x": 908,
+     "y": 2220
+    },
+    {
+     "n": "7",
+     "x": 186,
+     "y": 1706
+    },
+    {
+     "n": "1",
+     "x": 323,
+     "y": 113
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Switch, thermostatic fan"
+    },
+    {
+     "n": "2",
+     "name": "Control unit, breake"
+    },
+    {
+     "n": "3",
+     "name": "Switch, sensitive"
+    },
+    {
+     "n": "4",
+     "name": "Tachometer, mechanic"
+    },
+    {
+     "n": "5",
+     "name": "Switch, thermostatic cold advance"
+    },
+    {
+     "n": "6",
+     "name": "Transmitter, pressur"
+    },
+    {
+     "n": "7",
+     "name": "Transmitter, engine coolant"
+    }
+   ],
+   "alt": "Sending units and switches shown beside and installed on the top of a V8 diesel engine.",
+   "page": "0030 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0030 00",
+   "notes": []
+  },
+  {
+   "figure": "p108-img01",
+   "file": "tm-9-2815-237-34p-p108-img01-figure-30-sending-units-6-5l-turbo.svg",
+   "viewBox": [
+    2133,
+    2440
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 260,
+     "y": 454
+    },
+    {
+     "n": "2",
+     "x": 460,
+     "y": 432
+    },
+    {
+     "n": "3",
+     "x": 752,
+     "y": 702
+    },
+    {
+     "n": "4",
+     "x": 828,
+     "y": 598
+    },
+    {
+     "n": "5",
+     "x": 923,
+     "y": 198
+    },
+    {
+     "n": "6",
+     "x": 1778,
+     "y": 79
+    },
+    {
+     "n": "8",
+     "x": 1236,
+     "y": 378
+    },
+    {
+     "n": "9",
+     "x": 1332,
+     "y": 592
+    },
+    {
+     "n": "11",
+     "x": 223,
+     "y": 1870
+    },
+    {
+     "n": "10",
+     "x": 1958,
+     "y": 1661
+    },
+    {
+     "n": "7",
+     "x": 1834,
+     "y": 520
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Switch, thermostatic fan"
+    },
+    {
+     "n": "2",
+     "name": "Control unit, breake"
+    },
+    {
+     "n": "3",
+     "name": "Clamp, hose"
+    },
+    {
+     "n": "4",
+     "name": "Bracket, mounting"
+    },
+    {
+     "n": "5",
+     "name": "Coupling, pipe"
+    },
+    {
+     "n": "6",
+     "name": "Hose assembly"
+    },
+    {
+     "n": "7",
+     "name": "Adapter, straight pi"
+    },
+    {
+     "n": "8",
+     "name": "Transmitter, pressur"
+    },
+    {
+     "n": "9",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "10",
+     "name": "Switch, thermostatic cold advance"
+    },
+    {
+     "n": "11",
+     "name": "Transmitter, engine coolant"
+    }
+   ],
+   "alt": "Sending units, hose and bracket for the turbocharged 6.5 liter engine, shown with a dashed engine outline.",
+   "page": "0031 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0031 00",
+   "notes": []
+  },
+  {
+   "figure": "p110-img01",
+   "file": "tm-9-2815-237-34p-p110-img01-figure-31-fan-cut-off-switch-throttle-position-sensor-and-en.svg",
+   "viewBox": [
+    2118,
+    2496
+   ],
+   "ring": 24,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 874,
+     "y": 274
+    },
+    {
+     "n": "3",
+     "x": 983,
+     "y": 307
+    },
+    {
+     "n": "3",
+     "x": 1402,
+     "y": 511
+    },
+    {
+     "n": "5",
+     "x": 1284,
+     "y": 378
+    },
+    {
+     "n": "6",
+     "x": 618,
+     "y": 939
+    },
+    {
+     "n": "7",
+     "x": 460,
+     "y": 1170
+    },
+    {
+     "n": "8",
+     "x": 1536,
+     "y": 582
+    },
+    {
+     "n": "9",
+     "x": 1360,
+     "y": 870
+    },
+    {
+     "n": "10",
+     "x": 974,
+     "y": 1066
+    },
+    {
+     "n": "12",
+     "x": 2044,
+     "y": 1332
+    },
+    {
+     "n": "13",
+     "x": 2005,
+     "y": 1833
+    },
+    {
+     "n": "14",
+     "x": 1832,
+     "y": 1874
+    },
+    {
+     "n": "15",
+     "x": 1015,
+     "y": 2111
+    },
+    {
+     "n": "16",
+     "x": 488,
+     "y": 2194
+    },
+    {
+     "n": "11",
+     "x": 2010,
+     "y": 1038
+    },
+    {
+     "n": "17",
+     "x": 500,
+     "y": 1484
+    },
+    {
+     "n": "18",
+     "x": 394,
+     "y": 1450
+    },
+    {
+     "n": "1",
+     "x": 498,
+     "y": 446
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Screw, cap, hexagon head"
+    },
+    {
+     "n": "2",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "3",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "4",
+     "name": "Switch, sensitive fan cut-off"
+    },
+    {
+     "n": "5",
+     "name": "Switch, sensitive fan cut-off"
+    },
+    {
+     "n": "6",
+     "name": "Connecting link, rigid"
+    },
+    {
+     "n": "7",
+     "name": "Clip, fan switch"
+    },
+    {
+     "n": "8",
+     "name": "Washer, lock"
+    },
+    {
+     "n": "9",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "10",
+     "name": "Bracket, angle"
+    },
+    {
+     "n": "11",
+     "name": "Throttle solenoid, e position"
+    },
+    {
+     "n": "12",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "13",
+     "name": "Bolt, machine"
+    },
+    {
+     "n": "14",
+     "name": "Speed sensor, diesel"
+    },
+    {
+     "n": "15",
+     "name": "Bracket, mounting"
+    },
+    {
+     "n": "16",
+     "name": "Switch, sensitive fan cut-off"
+    },
+    {
+     "n": "17",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "18",
+     "name": "Nut, lock"
+    }
+   ],
+   "alt": "Exploded views of the fan cut-off switch, throttle position sensor and engine speed sensor with brackets and hardware.",
+   "page": "0032 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0032 00",
+   "notes": [
+    "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p112-img01",
+   "file": "tm-9-2815-237-34p-p112-img01-figure-32-modulator-rod-assembly-and-bracket-6-2l-and-6-5l-d.svg",
+   "viewBox": [
+    2125,
+    2027
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 959,
+     "y": 898
+    },
+    {
+     "n": "2",
+     "x": 1545,
+     "y": 803
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Bracket, electrical"
+    },
+    {
+     "n": "2",
+     "name": "Connecting link, rigid"
+    }
+   ],
+   "alt": "Modulator rod and electrical bracket for Basic and A1 vehicles, with the rod running to the engine.",
+   "page": "0033 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0033 00",
+   "notes": []
+  },
+  {
+   "figure": "p114-img01",
+   "file": "tm-9-2815-237-34p-p114-img01-figure-33-power-steering-pump-support-bracket-6-2l-and-6-5l-.svg",
+   "viewBox": [
+    2004,
+    1889
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 64,
+     "y": 1260
+    },
+    {
+     "n": "2",
+     "x": 224,
+     "y": 1134
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "2",
+     "name": "Bracket, vehicular c"
+    }
+   ],
+   "alt": "Power steering pump support bracket with two nuts, drawn on a dashed engine outline.",
+   "page": "0034 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0034 00",
+   "notes": []
+  },
+  {
+   "figure": "p116-img01",
+   "file": "tm-9-2815-237-34p-p116-img01-figure-34-data-plates.svg",
+   "viewBox": [
+    2132,
+    1895
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 254,
+     "y": 1356
+    },
+    {
+     "n": "2",
+     "x": 416,
+     "y": 1134
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Screw, tapping"
+    },
+    {
+     "n": "2",
+     "name": "Plate, identification"
+    }
+   ],
+   "alt": "Data plate and tapping screw mounted at the injection pump, drawn on a dashed engine outline.",
+   "page": "0035 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0035 00",
+   "notes": []
+  },
+  {
+   "figure": "p122-img01",
+   "file": "tm-9-2815-237-34p-p122-img01-figure-35-special-tools.svg",
+   "viewBox": [
+    2078,
+    2469
+   ],
+   "ring": 20,
+   "callouts": [
+    {
+     "n": "1",
+     "x": 416,
+     "y": 258
+    },
+    {
+     "n": "2",
+     "x": 1500,
+     "y": 70
+    },
+    {
+     "n": "3",
+     "x": 1220,
+     "y": 1023
+    },
+    {
+     "n": "4",
+     "x": 712,
+     "y": 1560
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Installer, seal"
+    },
+    {
+     "n": "2",
+     "name": "Sling, engine and tr"
+    },
+    {
+     "n": "3",
+     "name": "Inserter, seal"
+    },
+    {
+     "n": "4",
+     "name": "Stand, maintenance, a"
+    }
+   ],
+   "alt": "Four special tools: seal installer, engine lifting sling, seal inserter and engine maintenance stand.",
+   "page": "0038 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0038 00",
+   "notes": []
+  },
+  {
+   "figure": "p124-img01",
+   "file": "tm-9-2815-237-34p-p124-img01-figure-36-special-tools.svg",
+   "viewBox": [
+    2022,
+    2437
+   ],
+   "ring": 26,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1519,
+     "y": 223
+    },
+    {
+     "n": "3",
+     "x": 1924,
+     "y": 240
+    },
+    {
+     "n": "5",
+     "x": 1712,
+     "y": 993
+    },
+    {
+     "n": "6",
+     "x": 1941,
+     "y": 1150
+    },
+    {
+     "n": "7",
+     "x": 1956,
+     "y": 2030
+    },
+    {
+     "n": "8",
+     "x": 1932,
+     "y": 2368
+    },
+    {
+     "n": "9",
+     "x": 1662,
+     "y": 1852
+    },
+    {
+     "n": "10",
+     "x": 1698,
+     "y": 1607
+    },
+    {
+     "n": "11",
+     "x": 1681,
+     "y": 1378
+    },
+    {
+     "n": "12",
+     "x": 1190,
+     "y": 1614
+    },
+    {
+     "n": "13",
+     "x": 1349,
+     "y": 2388
+    },
+    {
+     "n": "14",
+     "x": 878,
+     "y": 2360
+    },
+    {
+     "n": "15",
+     "x": 574,
+     "y": 1860
+    },
+    {
+     "n": "16",
+     "x": 292,
+     "y": 1776
+    },
+    {
+     "n": "17",
+     "x": 645,
+     "y": 1488
+    },
+    {
+     "n": "18",
+     "x": 400,
+     "y": 1084
+    },
+    {
+     "n": "19",
+     "x": 488,
+     "y": 948
+    },
+    {
+     "n": "20",
+     "x": 650,
+     "y": 530
+    },
+    {
+     "n": "1",
+     "x": 456,
+     "y": 102
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Lifter, valve spring"
+    },
+    {
+     "n": "2",
+     "name": "Socket, socket wrench"
+    },
+    {
+     "n": "3",
+     "name": "Socket, socket wrench"
+    },
+    {
+     "n": "4",
+     "name": "Puller, mechanical"
+    },
+    {
+     "n": "5",
+     "name": "Adapter, mechanical"
+    },
+    {
+     "n": "6",
+     "name": "Rod, continuous thre"
+    },
+    {
+     "n": "7",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "8",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "9",
+     "name": "Handle, driver"
+    },
+    {
+     "n": "10",
+     "name": "Adapter, mechanical"
+    },
+    {
+     "n": "11",
+     "name": "Adapter, mechanical"
+    },
+    {
+     "n": "12",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "13",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "14",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "15",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "16",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "17",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "18",
+     "name": "Screwdriver attachment"
+    },
+    {
+     "n": "19",
+     "name": "Crowfoot attachment"
+    },
+    {
+     "n": "20",
+     "name": "Crowfoot attachment"
+    }
+   ],
+   "alt": "Special tool set: sockets, camshaft bearing puller parts, screwdriver bits and crowfoot attachments.",
+   "page": "0039 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0039 00",
+   "notes": [
+    "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p126-img01",
+   "file": "tm-9-2815-237-34p-p126-img01-figure-37-special-tools.svg",
+   "viewBox": [
+    2010,
+    2338
+   ],
+   "ring": 26,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 908,
+     "y": 456
+    },
+    {
+     "n": "3",
+     "x": 790,
+     "y": 728
+    },
+    {
+     "n": "4",
+     "x": 686,
+     "y": 918
+    },
+    {
+     "n": "5",
+     "x": 278,
+     "y": 690
+    },
+    {
+     "n": "7",
+     "x": 1482,
+     "y": 322
+    },
+    {
+     "n": "8",
+     "x": 1730,
+     "y": 320
+    },
+    {
+     "n": "9",
+     "x": 1812,
+     "y": 513
+    },
+    {
+     "n": "11",
+     "x": 1406,
+     "y": 568
+    },
+    {
+     "n": "12",
+     "x": 1263,
+     "y": 758
+    },
+    {
+     "n": "13",
+     "x": 1700,
+     "y": 850
+    },
+    {
+     "n": "14",
+     "x": 1730,
+     "y": 1376
+    },
+    {
+     "n": "15",
+     "x": 1532,
+     "y": 1858
+    },
+    {
+     "n": "16",
+     "x": 1178,
+     "y": 2202
+    },
+    {
+     "n": "17",
+     "x": 632,
+     "y": 1940
+    },
+    {
+     "n": "18",
+     "x": 171,
+     "y": 1312
+    },
+    {
+     "n": "10",
+     "x": 1638,
+     "y": 521
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Fixture assembly, ho"
+    },
+    {
+     "n": "2",
+     "name": "Plate assembly"
+    },
+    {
+     "n": "3",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "4",
+     "name": "Screw, cap, socket head"
+    },
+    {
+     "n": "5",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "6",
+     "name": "Tool kit, bushing"
+    },
+    {
+     "n": "7",
+     "name": "Brace, installer"
+    },
+    {
+     "n": "8",
+     "name": "Rod, threaded end"
+    },
+    {
+     "n": "9",
+     "name": "Nut, plain, hexagon"
+    },
+    {
+     "n": "10",
+     "name": "Washer, flat"
+    },
+    {
+     "n": "11",
+     "name": "Bushing, sleeve"
+    },
+    {
+     "n": "12",
+     "name": "Removal tool"
+    },
+    {
+     "n": "13",
+     "name": "Wrench, end cap"
+    },
+    {
+     "n": "14",
+     "name": "Inserter, bearing an"
+    },
+    {
+     "n": "15",
+     "name": "Governor assembly"
+    },
+    {
+     "n": "16",
+     "name": "Installation tool, d"
+    },
+    {
+     "n": "17",
+     "name": "Retractor assembly"
+    },
+    {
+     "n": "18",
+     "name": "Indicator, dial"
+    }
+   ],
+   "alt": "Injection pump special tools: holder fixture and plate, bushing installer kit, dial indicator, wrenches and inserters.",
+   "page": "0040 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0040 00",
+   "notes": [
+    "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+    "Item 6 is the assembly named at the left of a bracket; no leader points at it on the plate."
+   ]
+  },
+  {
+   "figure": "p128-img01",
+   "file": "tm-9-2815-237-34p-p128-img01-figure-38-special-tools.svg",
+   "viewBox": [
+    2078,
+    1385
+   ],
+   "ring": 21,
+   "callouts": [
+    {
+     "n": "2",
+     "x": 1276,
+     "y": 144
+    },
+    {
+     "n": "3",
+     "x": 1789,
+     "y": 532
+    },
+    {
+     "n": "4",
+     "x": 1089,
+     "y": 710
+    },
+    {
+     "n": "5",
+     "x": 150,
+     "y": 770
+    },
+    {
+     "n": "1",
+     "x": 268,
+     "y": 126
+    }
+   ],
+   "parts": [
+    {
+     "n": "1",
+     "name": "Tool, linkage gap"
+    },
+    {
+     "n": "2",
+     "name": "Indicator, automatic"
+    },
+    {
+     "n": "3",
+     "name": "Gage, throttle"
+    },
+    {
+     "n": "4",
+     "name": "Protractor, circular"
+    },
+    {
+     "n": "5",
+     "name": "Gage, comparator, air"
+    }
+   ],
+   "alt": "Five injection pump special gages: linkage gap tool, indicator, throttle gage, circular protractor and air comparator.",
+   "page": "0041 00",
+   "credit": "US Army technical manual TM 9-2815-237-34P, page 0041 00",
+   "notes": []
+  }
+ ]
+}

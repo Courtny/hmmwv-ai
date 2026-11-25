@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Block, Manual, Section } from "./manuals";
 import { credit, pdfUrl, show, partsListSections, sectionPath } from "./manuals";
 import { proceduresForFigure, procedurePath } from "./procedures";
+import { plateFor } from "./plates";
+import { PartsPlate } from "./PartsPlate";
 
 /** One manual section, block by block, as captured from the page text. */
 export function ManualBlocks({ m, s }: { m: Manual; s: Section }) {
@@ -14,7 +16,9 @@ export function ManualBlocks({ m, s }: { m: Manual; s: Section }) {
     else out.push(b);
   }
   let printed: string | null = null;
-  return (
+  // Parts manuals: traced plates get a column of their own, beside the parts list on wide screens.
+  const plated = m.data.layout === "parts" && out.some((b) => b.t === "fig" && plateFor(b.id));
+  const body = (
     <div className="tm-body">
       {out.map((b, i) => {
         switch (b.t) {
@@ -58,12 +62,32 @@ export function ManualBlocks({ m, s }: { m: Manual; s: Section }) {
               </div>
             );
           case "fig":
-            return <FigureBlock key={i} m={m} id={b.id} />;
+            return plated && plateFor(b.id) ? null : <FigureBlock key={i} m={m} id={b.id} />;
           case "tbl":
             return <TableBlock key={i} m={m} k={b.key} id={b.id} printed={printed} />;
         }
       })}
     </div>
+  );
+  if (!plated) return body;
+  return (
+    <div className="tm-plated">
+      <div className="tm-plates">
+        {out.map((b, i) => (b.t === "fig" && plateFor(b.id) ? <PlateBlock key={i} m={m} id={b.id} /> : null))}
+      </div>
+      {body}
+    </div>
+  );
+}
+
+function PlateBlock({ m, id }: { m: Manual; id: string }) {
+  const f = m.data.figures[id], plate = plateFor(id)!;
+  return (
+    <PartsPlate plate={plate} src={`/diagrams/${plate.file}`} title={f?.caption ?? id}
+      subtitle={`${m.number} · page ${f?.printed_page ?? plate.page}`}>
+      <span className="mono">{id} · traced from {credit(m, f?.printed_page ?? null)} · <a href={`/${f?.image}`}>Original scan</a></span>
+      {f?.alt && <span>{show(f.alt)}</span>}
+    </PartsPlate>
   );
 }
 
@@ -104,6 +128,8 @@ function TableBlock({ m, k, id, printed }: { m: Manual; k: string | null; id: st
   // Cross-reference indexes: the figure number links to that figure's parts list.
   const figCol = m.data.layout === "parts" ? t.columns.findIndex((c) => /^figure no$/i.test(c)) : -1;
   const lists = figCol >= 0 ? partsListSections(m) : null;
+  // Parts lists: each row carries its item number, so the plate can find it.
+  const items = m.data.layout === "parts" && /^item no$/i.test(t.columns[0] ?? "");
   const cell = (c: string, l: number) => {
     const s = l === figCol ? lists?.get(c) : undefined;
     return s ? <Link href={sectionPath(m, s)}>{show(c)}</Link> : show(c);
@@ -121,7 +147,7 @@ function TableBlock({ m, k, id, printed }: { m: Manual; k: string | null; id: st
               r.group ? (
                 <tr key={j} className="grp"><td colSpan={width}>{show(r.group)}</td></tr>
               ) : (
-                <tr key={j}>{(r.cells ?? []).map((c, l) => <td key={l}>{cell(c, l)}</td>)}</tr>
+                <tr key={j} data-item={items && r.cells?.[0] ? r.cells[0] : undefined}>{(r.cells ?? []).map((c, l) => <td key={l}>{cell(c, l)}</td>)}</tr>
               ),
             )}
           </tbody>

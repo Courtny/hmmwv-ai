@@ -1,0 +1,62 @@
+{
+ "id": "p112-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 112,
+ "printed_page": "0033 00",
+ "kind": "assembly view",
+ "caption": "Figure 32. Modulator Rod Assembly and Bracket (6.2L and 6.5L Detuned).",
+ "alt": "Modulator rod and electrical bracket for Basic and A1 vehicles, with the rod running to the engine.",
+ "size_px": [
+  2125,
+  2027
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Bracket, electrical"
+  },
+  {
+   "n": "2",
+   "label": "Connecting link, rigid"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 959.0,
+   "y": 898.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1545.0,
+   "y": 803.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p112-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2125.0,
+  2027.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 68,
+ "svg_snapped": 0
+}

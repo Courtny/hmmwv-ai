@@ -1,0 +1,385 @@
+{
+ "id": "p102-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 102,
+ "printed_page": "0029 00",
+ "kind": "exploded view",
+ "caption": "Figure 28. Fan Drive and Pulley",
+ "alt": "Exploded view of the fan clutch, fan drive parts and pulleys.",
+ "size_px": [
+  2030,
+  2355
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Screw"
+  },
+  {
+   "n": "2",
+   "label": "Impeller, fan, axial"
+  },
+  {
+   "n": "3",
+   "label": "Nut, self-locking, he"
+  },
+  {
+   "n": "4",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "5",
+   "label": "Cylinder assembly, f"
+  },
+  {
+   "n": "6",
+   "label": "O-ring"
+  },
+  {
+   "n": "7",
+   "label": "Seal, dust"
+  },
+  {
+   "n": "8",
+   "label": "Housing assembly"
+  },
+  {
+   "n": "9",
+   "label": "O-ring"
+  },
+  {
+   "n": "10",
+   "label": "O-ring"
+  },
+  {
+   "n": "11",
+   "label": "Spring, helical, compression"
+  },
+  {
+   "n": "12",
+   "label": "Stud, plain"
+  },
+  {
+   "n": "13",
+   "label": "Seal, plain encased"
+  },
+  {
+   "n": "14",
+   "label": "Washer, lock"
+  },
+  {
+   "n": "15",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "16",
+   "label": "Lining, fan clutch"
+  },
+  {
+   "n": "17",
+   "label": "Screw, cap, socket head"
+  },
+  {
+   "n": "18",
+   "label": "Lining, friction"
+  },
+  {
+   "n": "19",
+   "label": "Shaft assembly"
+  },
+  {
+   "n": "20",
+   "label": "Screw, cap, socket head"
+  },
+  {
+   "n": "21",
+   "label": "Pulley, cone"
+  },
+  {
+   "n": "22",
+   "label": "Pulley, flat"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22"
+ ],
+ "rings": [
+  {
+   "x": 686.0,
+   "y": 360.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 173.5,
+   "y": 624.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 274.0,
+   "y": 632.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 374.5,
+   "y": 606.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 493.5,
+   "y": 595.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 599.0,
+   "y": 610.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1040.0,
+   "y": 621.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1402.0,
+   "y": 936.5,
+   "r": 20.2,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1344.5,
+   "y": 934.5,
+   "r": 27.4,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1222.5,
+   "y": 939.5,
+   "r": 22.6,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1107.5,
+   "y": 989.5,
+   "r": 26.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 990.5,
+   "y": 928.0,
+   "r": 26.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 639.5,
+   "y": 970.0,
+   "r": 26.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 531.0,
+   "y": 973.5,
+   "r": 26.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1169.0,
+   "y": 1427.0,
+   "r": 26.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 964.5,
+   "y": 1957.5,
+   "r": 26.2,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1314.0,
+   "y": 1811.5,
+   "r": 26.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 639.0,
+   "y": 1900.5,
+   "r": 26.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 448.0,
+   "y": 1959.5,
+   "r": 26.8,
+   "text": "19",
+   "n": "19",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1834.5,
+   "y": 1966.5,
+   "r": 26.2,
+   "text": "21",
+   "n": "21",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1675.0,
+   "y": 2015.5,
+   "r": 29.2,
+   "text": "22",
+   "n": "22",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1613.5,
+   "y": 1884.5,
+   "r": 28.6,
+   "text": "20",
+   "n": "20",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 2 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p102-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2030.0,
+  2355.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 77,
+ "svg_snapped": 0
+}

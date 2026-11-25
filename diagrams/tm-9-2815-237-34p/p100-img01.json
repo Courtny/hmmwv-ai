@@ -1,0 +1,230 @@
+{
+ "id": "p100-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 100,
+ "printed_page": "0028 00",
+ "kind": "exploded view",
+ "caption": "Figure 27. Water Pump and Attaching Hardware.",
+ "alt": "Exploded view of the water pump with gasket, fittings, studs and cap screws.",
+ "size_px": [
+  1998,
+  1894
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Elbow, pipe"
+  },
+  {
+   "n": "2",
+   "label": "Adapter, straight, pi"
+  },
+  {
+   "n": "3",
+   "label": "Pump, cooling system"
+  },
+  {
+   "n": "4",
+   "label": "Gasket"
+  },
+  {
+   "n": "5",
+   "label": "Pump, cooling system"
+  },
+  {
+   "n": "6",
+   "label": "Rivet, solid"
+  },
+  {
+   "n": "7",
+   "label": "Adapter, straight, pi"
+  },
+  {
+   "n": "8",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "9",
+   "label": "Stud, special"
+  },
+  {
+   "n": "10",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "11",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "12",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "13",
+   "label": "Stud, shouldered"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13"
+ ],
+ "rings": [
+  {
+   "x": 505.0,
+   "y": 840.0,
+   "r": 19.6,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 564.5,
+   "y": 644.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1371.5,
+   "y": 961.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1211.5,
+   "y": 1335.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1108.0,
+   "y": 729.0,
+   "r": 19.6,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1347.5,
+   "y": 558.5,
+   "r": 19.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1951.5,
+   "y": 1142.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1082.5,
+   "y": 1737.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 369.5,
+   "y": 1849.5,
+   "r": 27.4,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 380.5,
+   "y": 1599.0,
+   "r": 22.6,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 352.5,
+   "y": 1510.0,
+   "r": 26.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 406.5,
+   "y": 1297.0,
+   "r": 26.2,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 3 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p100-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1998.0,
+  1894.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 82,
+ "svg_snapped": 0
+}

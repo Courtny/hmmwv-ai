@@ -1,0 +1,110 @@
+{
+ "id": "p128-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 128,
+ "printed_page": "0041 00",
+ "kind": "exploded view",
+ "caption": "Figure 38. Special Tools.",
+ "alt": "Five injection pump special gages: linkage gap tool, indicator, throttle gage, circular protractor and air comparator.",
+ "size_px": [
+  2078,
+  1385
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Tool, linkage gap"
+  },
+  {
+   "n": "2",
+   "label": "Indicator, automatic"
+  },
+  {
+   "n": "3",
+   "label": "Gage, throttle"
+  },
+  {
+   "n": "4",
+   "label": "Protractor, circular"
+  },
+  {
+   "n": "5",
+   "label": "Gage, comparator, air"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5"
+ ],
+ "rings": [
+  {
+   "x": 1276.5,
+   "y": 143.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1789.0,
+   "y": 532.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1089.0,
+   "y": 710.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 149.5,
+   "y": 770.0,
+   "r": 20.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 267.5,
+   "y": 126.0,
+   "r": 20.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p128-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2078.0,
+  1385.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 59,
+ "svg_snapped": 0
+}
