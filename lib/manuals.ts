@@ -1,4 +1,5 @@
 import tm9281523734 from "@/data/manuals/tm-9-2815-237-34.json";
+import tm9281523734p from "@/data/manuals/tm-9-2815-237-34p.json";
 
 /**
  * Technical manuals. Content (sections, figures, tables) is generated into
@@ -17,8 +18,11 @@ export type Block =
 
 export type Section = {
   slug: string;
-  kind: "front" | "para" | "appendix" | "back";
+  /** para: numbered paragraph (maintenance manuals); wp: work package (parts lists). */
+  kind: "front" | "para" | "appendix" | "wp" | "back";
   id: string | null;
+  /** Parts lists: the functional group code printed in the contents ("0100"). */
+  code?: string | null;
   chapter: string | null;
   section: string | null;
   title: string;
@@ -39,6 +43,8 @@ export type ManualTable = {
 
 type Data = {
   id: string;
+  /** "parts": a repair parts list, sectioned by work package. */
+  layout?: "paragraphs" | "parts";
   pdf: { file: string; bytes: number; pages: number };
   cover: { image: string; width: number; height: number };
   toc: Record<string, string>;
@@ -53,6 +59,8 @@ export type Manual = {
   otherNumbers: string[];
   title: string;
   subject: string;
+  /** What kind of book this is, for summaries: "maintenance manual" or "repair parts list". */
+  noun: string;
   equipment: string;
   date: string;
   issuedBy: string;
@@ -69,6 +77,7 @@ export const manuals: Manual[] = [
     otherNumbers: ["Air Force TO 38V1-6-2", "Marine Corps TM 2815-34/3 A"],
     title: "Direct Support and General Support Maintenance",
     subject: "6.2L and 6.5L V8 diesel engine",
+    noun: "maintenance manual",
     equipment:
       "Engine, diesel: 8 cylinder, naturally aspirated, fuel-injected, water cooled, DDA model 6.2 liter (pre-1990 and post-1990) and 6.5 liter (1995 to 1998, including detuned); engine, diesel: 8 cylinder, turbocharged (1996 to 1998).",
     date: "January 1996",
@@ -78,6 +87,23 @@ export const manuals: Manual[] = [
     summary:
       "Direct and general support maintenance for the Humvee's 6.2L and 6.5L V8 diesel engine: teardown into subassemblies, repair of each subassembly, fuel injection pump calibration, reassembly, run-in and repair standards.",
     data: tm9281523734 as unknown as Data,
+  },
+  {
+    id: "tm-9-2815-237-34p",
+    number: "TM 9-2815-237-34P",
+    otherNumbers: ["Air Force TO 38V1-6-4", "Marine Corps TM 2815-34P/4D"],
+    title: "Direct Support and General Support Maintenance Repair Parts and Special Tools List",
+    subject: "6.2L and 6.5L V8 diesel engine",
+    noun: "repair parts list",
+    equipment:
+      "Engine, diesel: 8 cylinder, naturally aspirated, fuel-injected, water cooled, DDA model 6.2 liter (1990) and 6.5 liter (1995 to 2001); the same engine naturally aspirated and detuned, 6.5 liter (1996 to 2001); and turbocharged, 6.5 liter (1996 to 2001).",
+    date: "15 July 2004",
+    issuedBy: "Headquarters, Departments of the Army, the Air Force, and Marine Corps",
+    supersedes: "TM 9-2815-237-34P, 30 March 2001",
+    distribution: "Approved for public release; distribution is unlimited.",
+    summary:
+      "Repair parts and special tools for the Humvee's 6.2L and 6.5L V8 diesel engine at direct and general support: an illustration plate for each assembly with its parts list (stock number, CAGE code, part number, quantity and the vehicles each part fits), the special tools, and cross-reference indexes by stock number and part number.",
+    data: tm9281523734p as unknown as Data,
   },
 ];
 
@@ -89,9 +115,12 @@ export const sectionPath = (m: Manual, s: Section) => `${manualPath(m)}${s.slug}
 export const pdfUrl = (m: Manual, pdfPage?: number) => `/${m.data.pdf.file}${pdfPage ? `#page=${pdfPage}` : ""}`;
 export const pdfName = (m: Manual) => m.data.pdf.file.split("/").pop()!;
 
-/** "Para. 2-40", "Appendix B", "Front matter" */
+/** "Para. 2-40", "WP 0002", "Appendix B", "Front matter" */
 export const sectionLabel = (s: Section) =>
-  s.kind === "para" ? `para. ${s.id}` : s.kind === "appendix" ? `Appendix ${s.id}` : s.kind === "back" ? "Back matter" : "Front matter";
+  s.kind === "para" ? `para. ${s.id}` : s.kind === "wp" ? `WP ${s.id}` : s.kind === "appendix" ? `Appendix ${s.id}` : s.kind === "back" ? "Back matter" : "Front matter";
+
+/** Where a section sits: "Chapter 2. Maintenance instructions" or, in a parts list, "Group 01. Engine". */
+export const sectionPlace = (m: Manual, s: Section) => (s.kind === "wp" ? s.chapter : s.chapter ? chapterTitle(m, s.chapter) : null);
 
 export const pageRange = (s: Section) => (!s.printed ? "" : s.printed[0] === s.printed[1] ? `page ${s.printed[0]}` : `pages ${s.printed[0]} to ${s.printed[1]}`);
 
@@ -111,7 +140,8 @@ export function contents(m: Manual) {
   const out: { heading: string; groups: { heading: string | null; sections: Section[] }[] }[] = [];
   for (const s of m.data.sections) {
     const heading =
-      s.kind === "front" ? "Front matter" : s.kind === "appendix" ? "Appendices" : s.kind === "back" ? "Index and back matter" : chapterTitle(m, s.chapter ?? "?");
+      s.kind === "front" ? "Front matter" : s.kind === "appendix" ? "Appendices" : s.kind === "back" ? (m.data.layout === "parts" ? "Forms and back matter" : "Index and back matter")
+        : s.kind === "wp" ? (s.chapter ?? "Work packages") : chapterTitle(m, s.chapter ?? "?");
     let ch = out[out.length - 1];
     if (!ch || ch.heading !== heading) out.push((ch = { heading, groups: [] }));
     let g = ch.groups[ch.groups.length - 1];
@@ -125,6 +155,21 @@ export const neighbours = (m: Manual, s: Section) => {
   const i = m.data.sections.indexOf(s);
   return { prev: m.data.sections[i - 1] ?? null, next: m.data.sections[i + 1] ?? null };
 };
+
+/**
+ * Parts lists: the section holding each figure's parts list, keyed as the cross-reference
+ * indexes print it ("1", "36", "BULK", "KITS").
+ */
+export function partsListSections(m: Manual) {
+  const out = new Map<string, Section>();
+  for (const s of m.data.sections)
+    for (const b of s.blocks) {
+      if (b.t !== "tbl" || !b.key) continue;
+      const k = b.key.match(/^fig-(\d+)-parts$/)?.[1] ?? { "bulk-parts": "BULK", "kits-parts": "KITS" }[b.key];
+      if (k && !out.has(k)) out.set(k, s);
+    }
+  return out;
+}
 
 export const figuresIn = (m: Manual, s: Section) =>
   s.blocks.flatMap((b) => (b.t === "fig" && m.data.figures[b.id] ? [m.data.figures[b.id]] : []));
@@ -161,11 +206,11 @@ export function sectionSummary(m: Manual, s: Section, procedures = 0) {
   const figs = figuresIn(m, s).length;
   const name = s.kind === "appendix" ? s.title.replace(/^Appendix \w\. /, "") : s.title;
   const where =
-    s.kind === "para" ? `paragraph ${s.id} of ${m.number}` : s.kind === "appendix" ? `appendix ${s.id} of ${m.number}` : `the ${sectionLabel(s).toLowerCase()} of ${m.number}`;
+    s.kind === "para" ? `paragraph ${s.id} of ${m.number}` : s.kind === "wp" ? `work package ${s.id} of ${m.number}` : s.kind === "appendix" ? `appendix ${s.id} of ${m.number}` : `the ${sectionLabel(s).toLowerCase()} of ${m.number}`;
   const subs = subsections(s).filter((x) => x.length < 40).slice(0, 6).map((x) => x.replace(/^\w\.\s+/, "").replace(/\.$/, "").toLowerCase());
   const extras = [figs && `${figs} figure${figs === 1 ? "" : "s"}`, procedures && `${procedures} interactive procedure${procedures === 1 ? "" : "s"}`].filter(Boolean) as string[];
   const lead =
-    `${name} is ${where}, the ${m.subject} maintenance manual. ` +
+    `${name} is ${where}, the ${m.subject} ${m.noun}. ` +
     `It ${subs.length ? `covers ${listOf(subs)} on` : "is printed on"} ${pageRange(s)}${extras.length ? `, with ${listOf(extras)}` : ""}.`;
   const prose = firstProse(s);
   return { lead, prose: prose ? show(prose) : "" };

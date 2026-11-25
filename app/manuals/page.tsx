@@ -27,7 +27,8 @@ export default function Manuals() {
         <div className="grid tm-grid">
           {manuals.map((m) => {
             const procs = proceduresFor(m.id);
-            const paras = m.data.sections.filter((s) => s.kind === "para").length;
+            const parts = m.data.layout === "parts";
+            const units = m.data.sections.filter((s) => s.kind === (parts ? "wp" : "para")).length;
             return (
               <article key={m.id} className="card tm-card">
                 <Link href={manualPath(m)} className="tm-cover">
@@ -38,7 +39,7 @@ export default function Manuals() {
                 <Link href={manualPath(m)} className="tm-card-title"><strong>{m.subject}</strong></Link>
                 <span>{m.title}</span>
                 <span className="mono">
-                  {paras} paragraphs · {Object.keys(m.data.figures).length} figures · {m.data.pdf.pages} pages
+                  {units} {parts ? "work packages" : "paragraphs"} · {Object.keys(m.data.figures).length} figures · {m.data.pdf.pages} pages
                   {procs.length > 0 && ` · ${procs.length} interactive procedure${procs.length === 1 ? "" : "s"}`}
                 </span>
                 <a className="mono" href={pdfUrl(m)} download={pdfName(m)}>Download PDF ({fileSize(m.data.pdf.bytes)})</a>

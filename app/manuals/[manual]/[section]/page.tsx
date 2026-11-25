@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   manuals, manualById, sectionBySlug, manualPath, sectionPath, sectionLabel, pageRange, neighbours, figuresIn, firstText,
-  credit, chapterTitle, pdfUrl, sectionSummary,
+  credit, sectionPlace, pdfUrl, sectionSummary,
 } from "@/lib/manuals";
 import { proceduresFor, procedurePath } from "@/lib/procedures";
 import { ManualBlocks } from "@/lib/ManualBlocks";
@@ -23,7 +23,7 @@ const lookup = async (params: Promise<{ manual: string; section: string }>) => {
 export async function generateMetadata({ params }: { params: Promise<{ manual: string; section: string }> }) {
   const r = await lookup(params); if (!r) return {};
   const { m, s } = r;
-  const where = s.kind === "para" ? `${m.number} para. ${s.id}` : m.number;
+  const where = s.kind === "para" ? `${m.number} para. ${s.id}` : s.kind === "wp" ? `${m.number} WP ${s.id}` : m.number;
   const procs = s.kind === "para" ? proceduresFor(m.id).filter((p) => p.para === s.id).length : 0;
   const { lead, prose } = sectionSummary(m, s, procs);
   return pageMeta({
@@ -49,13 +49,13 @@ export default async function SectionPage({ params }: { params: Promise<{ manual
     ...(f.alt && { caption: f.alt }),
     creditText: credit(m, f.printed_page),
   }));
-  const where = [s.chapter && chapterTitle(m, s.chapter), s.section].filter(Boolean).join(" · ");
+  const where = [sectionPlace(m, s), s.section].filter(Boolean).join(" · ");
   const { lead, prose } = sectionSummary(m, s, procs.length);
   const name = s.kind === "appendix" ? s.title.replace(/^Appendix \w\. /, "") : s.title;
   const article = {
     "@type": "TechArticle",
     "@id": abs(`${sectionPath(m, s)}#article`),
-    headline: `${name} (${m.number}${s.kind === "para" ? ` para. ${s.id}` : ""})`,
+    headline: `${name} (${m.number}${s.kind === "para" ? ` para. ${s.id}` : s.kind === "wp" ? ` WP ${s.id}` : ""})`,
     name,
     description: lead,
     url: abs(sectionPath(m, s)),

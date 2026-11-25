@@ -1,0 +1,5 @@
+{"title": "TM 9-2815-237-34", "subtitle": "Engine, diesel 6.2L / 6.5L, DS and GS maintenance",
+ "profile": null, "signature_pages": [5, 7, 9, 11],
+ "table_drop": {"A.json|p008-tbl01": "reason the table is not a table"},
+ "source_problems": ["- **Page 15 is blank in this PDF.** Describe missing content here."],
+ "representation_notes": ["- Any layout decision a reader should know about."]}

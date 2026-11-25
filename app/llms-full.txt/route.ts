@@ -43,7 +43,7 @@ function manualText(m: Manual): string[] {
 
 function sectionText(m: Manual, s: Section): string[] {
   const out = [
-    `### ${s.kind === "para" ? `${s.id}. ` : ""}${s.title} (${m.number}, ${sectionLabel(s)}, ${pageRange(s)})`,
+    `### ${s.kind === "para" ? `${s.id}. ` : s.kind === "wp" ? `WP ${s.id}. ` : ""}${s.title} (${m.number}, ${sectionLabel(s)}, ${pageRange(s)})`,
     "",
     `URL: ${abs(sectionPath(m, s))}`,
     ...(s.section ? [`Section: ${s.section}`] : []),

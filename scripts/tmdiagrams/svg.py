@@ -61,6 +61,13 @@ def snap_two_tone(src: Path, dst: Path, threshold: float = 0.5) -> int:
     correctly. Returns how many distinct colours were snapped.
     """
     s = src.read_text(errors="replace")
+    # Other tracers (the capture kit's vectorize.py, older copies) write short hex like
+    # #fff; the site only recolours six-digit fills, so expand them first.
+    s = re.sub(r'fill="#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])"',
+               lambda m: 'fill="#' + "".join(c * 2 for c in m.groups()) + '"', s)
+    # Metadata (C2PA provenance, editor data) would be inlined on the page as-is.
+    s = re.sub(r"<metadata\b.*?</metadata>|<c2pa:manifest\b.*?</c2pa:manifest>", "", s, flags=re.S)
+    s = re.sub(r'\s+xmlns:c2pa="[^"]*"', "", s)
     seen: set[str] = set()
 
     def snap(m: re.Match) -> str:

@@ -79,6 +79,12 @@ paper outside, and match the figure's common ring size. The numbers are set as o
 words and read with macOS Vision in several layouts; the reading most layouts agree on
 wins, and it is matched against the capture's callout key.
 
+Parts manuals (RPSTL) print callouts as bare numbers at the end of a leader, with no ring.
+When a figure has no rings, digit-sized ink is grouped into words, words sitting in cluttered
+art are dropped, and the rest are read the same way and kept only on an exact key match.
+Numbers in a "thru" bracket (an assembly's item range) are skipped. On two RPSTL test figures
+this found 10 of 10 and 19 of 20 labels with no false hits; a lone "1" can still go unread.
+
 On TM 9-2815-237-34 (228 figures with keys, 1,521 rings): 95% of rings are read and in the
 key, 159 figures come out clean before review. Most of the rest are problems in the capture's key rather than the
 drawing (keys swapped between figures on one page, keys taken from a neighbouring figure,

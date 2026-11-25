@@ -35,7 +35,7 @@ export function GET() {
       "",
       `- [${m.number} contents](${abs(manualPath(m))})`,
       ...proceduresFor(m.id).filter((p) => !p.draft).map((p) => `- [Procedure: ${p.title}, ${p.section} (para. ${p.para})](${abs(procedurePath(p))}): ${p.steps.length} steps with ${p.diagrams.length === 1 ? "an interactive parts diagram" : `${p.diagrams.length} interactive parts diagrams`}`),
-      ...m.data.sections.map((s) => `- [${s.kind === "para" ? `${s.id} ${s.title}` : s.title}](${abs(sectionPath(m, s))})`),
+      ...m.data.sections.map((s) => `- [${s.kind === "para" || s.kind === "wp" ? `${s.id} ${s.title}` : s.title}](${abs(sectionPath(m, s))})`),
       "",
     ]),
     "## Optional",
