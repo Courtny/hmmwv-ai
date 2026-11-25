@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)opengraph-image",
+      "source": "/(.*)opengraph-image/",
       "headers": [
         {
           "key": "Content-Type",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/(icon|apple-icon)",
+      "source": "/(icon|apple-icon)/",
       "headers": [
         {
           "key": "Content-Type",
