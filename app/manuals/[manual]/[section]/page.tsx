@@ -6,6 +6,7 @@ import {
 } from "@/lib/manuals";
 import { proceduresFor, procedurePath } from "@/lib/procedures";
 import { ManualBlocks } from "@/lib/ManualBlocks";
+import { plateFor } from "@/lib/plates";
 import { pageMeta, clip, JsonLd, breadcrumbLd, abs } from "@/lib/seo";
 
 export const dynamicParams = false;
@@ -76,7 +77,7 @@ export default async function SectionPage({ params }: { params: Promise<{ manual
       <nav aria-label="Breadcrumb" className="crumb mono">
         <Link href="/manuals/">Technical manuals</Link> › <Link href={manualPath(m)}>{m.number}</Link> › {sectionLabel(s)}
       </nav>
-      <section className="sec tm-sec">
+      <section className={`sec tm-sec${m.data.layout === "parts" && figuresIn(m, s).some((f) => plateFor(f.id)) ? " plated" : ""}`}>
         <div className="kicker">{m.number} · {sectionLabel(s)} · {pageRange(s)}</div>
         <h1 className="tm-h1">{s.kind === "appendix" ? s.title.replace(/^Appendix \w\. /, "") : s.title}</h1>
         {where && <p className="mono" style={{ margin: 0 }}>{where}</p>}

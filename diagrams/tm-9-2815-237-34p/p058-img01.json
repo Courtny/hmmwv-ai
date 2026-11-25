@@ -1,0 +1,62 @@
+{
+ "id": "p058-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 58,
+ "printed_page": "0016 00",
+ "kind": "exploded view",
+ "caption": "Figure 15. Fuel Injector Nozzle and Gasket.",
+ "alt": "Fuel injector nozzle assembly with its sealing gasket below.",
+ "size_px": [
+  534,
+  1143
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Nozzle, fuel injection"
+  },
+  {
+   "n": "2",
+   "label": "Gasket"
+  }
+ ],
+ "expected": [
+  "1",
+  "2"
+ ],
+ "rings": [
+  {
+   "x": 122,
+   "y": 52,
+   "r": 22,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 408,
+   "y": 1088,
+   "r": 24,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p058-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  534.0,
+  1143.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 16,
+ "svg_snapped": 0
+}

@@ -1,0 +1,78 @@
+{
+ "id": "p094-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 94,
+ "printed_page": "0026 00",
+ "kind": "exploded view",
+ "caption": "Figure 25. Accelerator Cable Bracket and Idle Spring.",
+ "alt": "Exploded view of the accelerator cable bracket, bolt and idle spring beside the fuel injection pump.",
+ "size_px": [
+  2054,
+  1097
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "2",
+   "label": "Bracket, mounting"
+  },
+  {
+   "n": "3",
+   "label": "Spring, helical, extension"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3"
+ ],
+ "rings": [
+  {
+   "x": 134.0,
+   "y": 539.0,
+   "r": 19.6,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 412.0,
+   "y": 298.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 668.5,
+   "y": 495.0,
+   "r": 19.6,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p094-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2054.0,
+  1097.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 99,
+ "svg_snapped": 0
+}

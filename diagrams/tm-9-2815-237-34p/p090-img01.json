@@ -1,0 +1,159 @@
+{
+ "id": "p090-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 90,
+ "printed_page": "0024 00",
+ "kind": "exploded view",
+ "caption": "Figure 23. Turbocharger Assembly",
+ "alt": "Exploded view of the turbocharger with its mounting bolt, O-ring, exhaust pipes, and clamps.",
+ "size_px": [
+  2132,
+  2144
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "2",
+   "label": "O-ring"
+  },
+  {
+   "n": "3",
+   "label": "Turbosupercharger, e"
+  },
+  {
+   "n": "4",
+   "label": "Screw, cap, hexagon h"
+  },
+  {
+   "n": "5",
+   "label": "Pipe, exhaust r.h."
+  },
+  {
+   "n": "6",
+   "label": "Pipe, exhaust l.h."
+  },
+  {
+   "n": "7",
+   "label": "Clamp, loop"
+  },
+  {
+   "n": "8",
+   "label": "Gasket"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "rings": [
+  {
+   "x": 1203.0,
+   "y": 321.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1297.0,
+   "y": 589.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1985.0,
+   "y": 1092.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1704.0,
+   "y": 1774.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 688.5,
+   "y": 1569.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 543.0,
+   "y": 2044.0,
+   "r": 20.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 7×1, L×1"
+   ]
+  },
+  {
+   "x": 539.5,
+   "y": 843.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 886.0,
+   "y": 123.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p090-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2132.0,
+  2144.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 136,
+ "svg_snapped": 0
+}

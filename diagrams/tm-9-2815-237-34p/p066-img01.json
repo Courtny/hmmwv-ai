@@ -1,0 +1,368 @@
+{
+ "id": "p066-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 66,
+ "printed_page": "0019 00",
+ "kind": "exploded view",
+ "caption": "Figure 18. Fuel Injection Pump and Fuel Filter Lines (6.5L Turbo)",
+ "alt": "Exploded view of the turbo engine fuel injection pump, filter lines, hoses, clamps and fasteners.",
+ "size_px": [
+  2128,
+  2406
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Gasket"
+  },
+  {
+   "n": "2",
+   "label": "Pump, fuel, metering"
+  },
+  {
+   "n": "3",
+   "label": "Tube assembly, metal"
+  },
+  {
+   "n": "4",
+   "label": "Clamp, loop"
+  },
+  {
+   "n": "5",
+   "label": "Hose, nonmetallic"
+  },
+  {
+   "n": "6",
+   "label": "Clamp, hose"
+  },
+  {
+   "n": "7",
+   "label": "Screw, cap, hexagon h"
+  },
+  {
+   "n": "8",
+   "label": "Nut, plain, barrel"
+  },
+  {
+   "n": "9",
+   "label": "Tube assembly, metal"
+  },
+  {
+   "n": "10",
+   "label": "Hose, nonmetallic"
+  },
+  {
+   "n": "11",
+   "label": "Hose, nonmetallic"
+  },
+  {
+   "n": "12",
+   "label": "Clip"
+  },
+  {
+   "n": "13",
+   "label": "Tube, matallic"
+  },
+  {
+   "n": "14",
+   "label": "Inverted nut, tube c"
+  },
+  {
+   "n": "15",
+   "label": "Boot"
+  },
+  {
+   "n": "16",
+   "label": "Clamp, hose"
+  },
+  {
+   "n": "17",
+   "label": "Nut, plain, hexagon"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17"
+ ],
+ "rings": [
+  {
+   "x": 702.0,
+   "y": 331.0,
+   "r": 20.8,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1294.0,
+   "y": 424.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1766.5,
+   "y": 644.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 2028.5,
+   "y": 1641.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1248.0,
+   "y": 1959.5,
+   "r": 21.4,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1822.5,
+   "y": 942.0,
+   "r": 20.8,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1428.0,
+   "y": 2258.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1712.5,
+   "y": 1858.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1010.5,
+   "y": 2006.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1993.5,
+   "y": 2040.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1174.5,
+   "y": 2319.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1989.5,
+   "y": 2127.0,
+   "r": 20.8,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1684.5,
+   "y": 2361.5,
+   "r": 21.4,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1311.0,
+   "y": 2241.0,
+   "r": 20.8,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 983.5,
+   "y": 2372.5,
+   "r": 27.4,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 749.5,
+   "y": 2118.0,
+   "r": 23.8,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1429.0,
+   "y": 1901.0,
+   "r": 26.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1574.5,
+   "y": 1773.5,
+   "r": 27.4,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1444.0,
+   "y": 1691.5,
+   "r": 26.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1206.0,
+   "y": 1667.0,
+   "r": 26.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1067.0,
+   "y": 1561.5,
+   "r": 26.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 813.0,
+   "y": 1081.5,
+   "r": 26.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 2109.0,
+   "y": 1983.5,
+   "r": 14.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p066-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2128.0,
+  2406.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 163,
+ "svg_snapped": 0
+}

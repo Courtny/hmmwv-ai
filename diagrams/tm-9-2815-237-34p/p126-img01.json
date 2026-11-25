@@ -1,0 +1,300 @@
+{
+ "id": "p126-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 126,
+ "printed_page": "0040 00",
+ "kind": "exploded view",
+ "caption": "Figure 37. Special Tools",
+ "alt": "Injection pump special tools: holder fixture and plate, bushing installer kit, dial indicator, wrenches and inserters.",
+ "size_px": [
+  2010,
+  2338
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Fixture assembly, ho"
+  },
+  {
+   "n": "2",
+   "label": "Plate assembly"
+  },
+  {
+   "n": "3",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "4",
+   "label": "Screw, cap, socket head"
+  },
+  {
+   "n": "5",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "6",
+   "label": "Tool kit, bushing"
+  },
+  {
+   "n": "7",
+   "label": "Brace, installer"
+  },
+  {
+   "n": "8",
+   "label": "Rod, threaded end"
+  },
+  {
+   "n": "9",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "10",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "11",
+   "label": "Bushing, sleeve"
+  },
+  {
+   "n": "12",
+   "label": "Removal tool"
+  },
+  {
+   "n": "13",
+   "label": "Wrench, end cap"
+  },
+  {
+   "n": "14",
+   "label": "Inserter, bearing an"
+  },
+  {
+   "n": "15",
+   "label": "Governor assembly"
+  },
+  {
+   "n": "16",
+   "label": "Installation tool, d"
+  },
+  {
+   "n": "17",
+   "label": "Retractor assembly"
+  },
+  {
+   "n": "18",
+   "label": "Indicator, dial"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18"
+ ],
+ "rings": [
+  {
+   "x": 908.0,
+   "y": 456.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 790.0,
+   "y": 727.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 686.0,
+   "y": 918.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 278.5,
+   "y": 690.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1482.0,
+   "y": 321.5,
+   "r": 19.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1730.0,
+   "y": 320.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1812.0,
+   "y": 513.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1406.5,
+   "y": 568.5,
+   "r": 22.6,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1263.0,
+   "y": 758.0,
+   "r": 25.6,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1700.0,
+   "y": 849.5,
+   "r": 25.6,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1730.5,
+   "y": 1376.0,
+   "r": 27.4,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1532.5,
+   "y": 1858.5,
+   "r": 26.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1178.0,
+   "y": 2202.5,
+   "r": 26.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 632.0,
+   "y": 1940.5,
+   "r": 26.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 171.0,
+   "y": 1311.5,
+   "r": 26.8,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1638.5,
+   "y": 521.0,
+   "r": 26.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+  "Item 6 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p126-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2010.0,
+  2338.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 67,
+ "svg_snapped": 0
+}

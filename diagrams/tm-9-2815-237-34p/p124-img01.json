@@ -1,0 +1,343 @@
+{
+ "id": "p124-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 124,
+ "printed_page": "0039 00",
+ "kind": "exploded view",
+ "caption": "Figure 36. Special Tools",
+ "alt": "Special tool set: sockets, camshaft bearing puller parts, screwdriver bits and crowfoot attachments.",
+ "size_px": [
+  2022,
+  2437
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Lifter, valve spring"
+  },
+  {
+   "n": "2",
+   "label": "Socket, socket wrench"
+  },
+  {
+   "n": "3",
+   "label": "Socket, socket wrench"
+  },
+  {
+   "n": "4",
+   "label": "Puller, mechanical"
+  },
+  {
+   "n": "5",
+   "label": "Adapter, mechanical"
+  },
+  {
+   "n": "6",
+   "label": "Rod, continuous thre"
+  },
+  {
+   "n": "7",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "8",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "9",
+   "label": "Handle, driver"
+  },
+  {
+   "n": "10",
+   "label": "Adapter, mechanical"
+  },
+  {
+   "n": "11",
+   "label": "Adapter, mechanical"
+  },
+  {
+   "n": "12",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "13",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "14",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "15",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "16",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "17",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "18",
+   "label": "Screwdriver attachment"
+  },
+  {
+   "n": "19",
+   "label": "Crowfoot attachment"
+  },
+  {
+   "n": "20",
+   "label": "Crowfoot attachment"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20"
+ ],
+ "rings": [
+  {
+   "x": 1519.0,
+   "y": 223.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1923.5,
+   "y": 240.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1711.5,
+   "y": 993.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1941.0,
+   "y": 1149.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1955.5,
+   "y": 2029.5,
+   "r": 20.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1932.0,
+   "y": 2368.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1662.5,
+   "y": 1852.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1697.5,
+   "y": 1607.0,
+   "r": 27.4,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1681.0,
+   "y": 1378.5,
+   "r": 23.2,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "read '11' on a second pass"
+   ]
+  },
+  {
+   "x": 1190.0,
+   "y": 1613.5,
+   "r": 25.6,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1349.0,
+   "y": 2387.5,
+   "r": 25.6,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 878.0,
+   "y": 2360.0,
+   "r": 26.8,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 574.5,
+   "y": 1860.0,
+   "r": 26.2,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 291.5,
+   "y": 1776.5,
+   "r": 26.2,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 645.0,
+   "y": 1488.0,
+   "r": 26.8,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 400.5,
+   "y": 1083.5,
+   "r": 26.2,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 488.0,
+   "y": 947.5,
+   "r": 28.0,
+   "text": "19",
+   "n": "19",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 650.5,
+   "y": 529.5,
+   "r": 29.8,
+   "text": "20",
+   "n": "20",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 456.0,
+   "y": 101.5,
+   "r": 19.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p124-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2022.0,
+  2437.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 86,
+ "svg_snapped": 0
+}

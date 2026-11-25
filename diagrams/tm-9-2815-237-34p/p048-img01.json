@@ -1,0 +1,190 @@
+{
+ "id": "p048-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 48,
+ "printed_page": "0011 00",
+ "kind": "exploded view",
+ "caption": "Figure 10. Oil Filter, Adapter, and Oil Line Fittings",
+ "alt": "Exploded view of the oil filter, filter mount bracket, adapters and fittings on the side of the engine.",
+ "size_px": [
+  1871,
+  2168
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Elbow, pipe"
+  },
+  {
+   "n": "2",
+   "label": "O-ring"
+  },
+  {
+   "n": "3",
+   "label": "Gasket"
+  },
+  {
+   "n": "4",
+   "label": "Bolt, fluid passage"
+  },
+  {
+   "n": "5",
+   "label": "Bracket, filter moun"
+  },
+  {
+   "n": "6",
+   "label": "Reducer, boss"
+  },
+  {
+   "n": "7",
+   "label": "Filter element, flui"
+  },
+  {
+   "n": "8",
+   "label": "O-ring"
+  },
+  {
+   "n": "9",
+   "label": "Adapter, straight, pi"
+  },
+  {
+   "n": "10",
+   "label": "Elbow, pipe to tube"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10"
+ ],
+ "rings": [
+  {
+   "x": 1545.5,
+   "y": 55.5,
+   "r": 19.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1361.5,
+   "y": 1710.0,
+   "r": 19.6,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1404.5,
+   "y": 1821.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1393.5,
+   "y": 1956.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 978.5,
+   "y": 1815.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 739.5,
+   "y": 1844.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 403.5,
+   "y": 2074.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 949.5,
+   "y": 1313.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 849.5,
+   "y": 1313.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 633.0,
+   "y": 1263.5,
+   "r": 26.8,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p048-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1871.0,
+  2168.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 89,
+ "svg_snapped": 0
+}

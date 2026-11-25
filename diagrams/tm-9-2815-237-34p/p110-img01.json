@@ -1,0 +1,325 @@
+{
+ "id": "p110-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 110,
+ "printed_page": "0032 00",
+ "kind": "exploded view",
+ "caption": "Figure 31. Fan Cut-Off Switch, Throttle Position Sensor, and Engine Speed Sensor",
+ "alt": "Exploded views of the fan cut-off switch, throttle position sensor and engine speed sensor with brackets and hardware.",
+ "size_px": [
+  2118,
+  2496
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "2",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "3",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "4",
+   "label": "Switch, sensitive fan cut-off"
+  },
+  {
+   "n": "5",
+   "label": "Switch, sensitive fan cut-off"
+  },
+  {
+   "n": "6",
+   "label": "Connecting link, rigid"
+  },
+  {
+   "n": "7",
+   "label": "Clip, fan switch"
+  },
+  {
+   "n": "8",
+   "label": "Washer, lock"
+  },
+  {
+   "n": "9",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "10",
+   "label": "Bracket, angle"
+  },
+  {
+   "n": "11",
+   "label": "Throttle solenoid, e position"
+  },
+  {
+   "n": "12",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "13",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "14",
+   "label": "Speed sensor, diesel"
+  },
+  {
+   "n": "15",
+   "label": "Bracket, mounting"
+  },
+  {
+   "n": "16",
+   "label": "Switch, sensitive fan cut-off"
+  },
+  {
+   "n": "17",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "18",
+   "label": "Nut, lock"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18"
+ ],
+ "rings": [
+  {
+   "x": 874.0,
+   "y": 274.5,
+   "r": 21.4,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 983.0,
+   "y": 307.0,
+   "r": 22.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1402.0,
+   "y": 511.0,
+   "r": 22.0,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1284.0,
+   "y": 378.0,
+   "r": 22.0,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 5×5, 55×1"
+   ]
+  },
+  {
+   "x": 617.5,
+   "y": 939.0,
+   "r": 22.0,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 460.0,
+   "y": 1170.0,
+   "r": 22.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1536.5,
+   "y": 582.5,
+   "r": 22.6,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1360.0,
+   "y": 869.5,
+   "r": 21.4,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 974.0,
+   "y": 1066.0,
+   "r": 28.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 2044.0,
+   "y": 1332.0,
+   "r": 26.8,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 2005.0,
+   "y": 1833.0,
+   "r": 26.8,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1831.5,
+   "y": 1873.5,
+   "r": 27.4,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1015.0,
+   "y": 2111.0,
+   "r": 26.8,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 488.0,
+   "y": 2194.5,
+   "r": 26.8,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 2010.5,
+   "y": 1038.5,
+   "r": 23.8,
+   "text": "17",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 17×2, 11×2",
+    "reads 11 (checked by eye)"
+   ]
+  },
+  {
+   "x": 500.5,
+   "y": 1484.0,
+   "r": 27.4,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 17×5, 7×1"
+   ]
+  },
+  {
+   "x": 393.5,
+   "y": 1450.0,
+   "r": 27.4,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 497.5,
+   "y": 445.5,
+   "r": 21.4,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p110-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2118.0,
+  2496.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 256,
+ "svg_snapped": 0
+}

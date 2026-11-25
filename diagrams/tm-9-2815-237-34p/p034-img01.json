@@ -1,0 +1,196 @@
+{
+ "id": "p034-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 34,
+ "printed_page": "0006 00",
+ "kind": "exploded view",
+ "caption": "Figure 5. Piston Assembly, Rod Assembly, and Ring Set",
+ "alt": "Exploded view of a piston with rings, piston pin and retaining rings, connecting rod, rod cap, bolt, nut and bearing halves.",
+ "size_px": [
+  1654,
+  2548
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Ring set, piston"
+  },
+  {
+   "n": "2",
+   "label": "Piston, internal com"
+  },
+  {
+   "n": "3",
+   "label": "Ring, retaining"
+  },
+  {
+   "n": "4",
+   "label": "Connecting rod, pist"
+  },
+  {
+   "n": "5",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "6",
+   "label": "Cap, connecting rod"
+  },
+  {
+   "n": "7",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "8",
+   "label": "Bearing half, sleeve"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 2"
+  },
+  {
+   "n": "*b",
+   "label": "Part of item 4"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "*a",
+  "*b"
+ ],
+ "rings": [
+  {
+   "x": 1033.5,
+   "y": 558.0,
+   "r": 19.6,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "read '1' on a second pass"
+   ]
+  },
+  {
+   "x": 1530.0,
+   "y": 1107.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 762.5,
+   "y": 1570.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1605.5,
+   "y": 1556.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1555.0,
+   "y": 2124.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 7×1, L×1"
+   ]
+  },
+  {
+   "x": 717.5,
+   "y": 2289.5,
+   "r": 20.2,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 995.5,
+   "y": 1440.0,
+   "r": 16.6,
+   "text": "A",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1126.5,
+   "y": 1690.0,
+   "r": 22.0,
+   "text": "B",
+   "n": "*b",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1002.5,
+   "y": 1080.0,
+   "r": 16.6,
+   "text": "*a",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1558.5,
+   "y": 2015.0,
+   "r": 19.6,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 2 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+  "Item 4 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p034-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1654.0,
+  2548.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 51,
+ "svg_snapped": 0
+}

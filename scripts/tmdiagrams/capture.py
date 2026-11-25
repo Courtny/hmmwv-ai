@@ -32,7 +32,8 @@ class Capture:
                 raise SystemExit(f"No manifest.json in {root}")
             root = subs[0]
         self.root = root
-        self.tm = root.name  # e.g. tm-9-2815-237-34
+        # e.g. tm-9-2815-237-34; a capture-kit work dir keeps its capture in <tm>/out
+        self.tm = root.parent.name if root.name == "out" else root.name
         self.figures = {
             r["id"]: Figure(
                 id=r["id"], file=root / r["file"], pdf_page=r["pdf_page"], printed_page=r.get("printed_page"),

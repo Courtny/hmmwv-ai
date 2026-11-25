@@ -1,0 +1,167 @@
+{
+ "id": "p016-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 16,
+ "printed_page": "0002 00",
+ "kind": "exploded view",
+ "caption": "Figure 1. Engine and Container Assembly",
+ "alt": "Exploded view of a diesel engine between its shipping container cover and base frame, with washers, lock washers and bolts that mount it.",
+ "size_px": [
+  2026,
+  2477
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Engine and container"
+  },
+  {
+   "n": "2",
+   "label": "Engine, diesel"
+  },
+  {
+   "n": "3",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "4",
+   "label": "Washer, lock"
+  },
+  {
+   "n": "5",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "6",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 1"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "*a"
+ ],
+ "rings": [
+  {
+   "x": 1529.5,
+   "y": 1049.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1645.5,
+   "y": 1657.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1169.5,
+   "y": 1934.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1699.5,
+   "y": 1646.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1174.5,
+   "y": 1983.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1790.0,
+   "y": 1650.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1220.0,
+   "y": 2026.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 364.0,
+   "y": 666.0,
+   "r": 28.0,
+   "text": "A",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 527.0,
+   "y": 2160.0,
+   "r": 28.0,
+   "text": "A",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p016-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2026.0,
+  2477.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 181,
+ "svg_snapped": 0
+}

@@ -1,0 +1,559 @@
+{
+ "id": "p044-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 44,
+ "printed_page": "0010 00",
+ "kind": "exploded view",
+ "caption": "Figure 9. Engine Oil Pan, Pump, and Filler Tube",
+ "alt": "Exploded view of the engine oil pan with gaskets and drain plug, oil pump with screen and relief valve, drive shaft, and the oil filler neck and cap.",
+ "size_px": [
+  2128,
+  2493
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Cap, filler opening"
+  },
+  {
+   "n": "2",
+   "label": "Filler neck"
+  },
+  {
+   "n": "3",
+   "label": "Grommet, nonmetallic"
+  },
+  {
+   "n": "4",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "5",
+   "label": "Clamp"
+  },
+  {
+   "n": "6",
+   "label": "Drive shaft assembly"
+  },
+  {
+   "n": "7",
+   "label": "Gasket"
+  },
+  {
+   "n": "8",
+   "label": "Shaft, straight"
+  },
+  {
+   "n": "9",
+   "label": "Pump and screen, oil"
+  },
+  {
+   "n": "10",
+   "label": "Retainer, packing"
+  },
+  {
+   "n": "11",
+   "label": "Strainer element, se"
+  },
+  {
+   "n": "12",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "13",
+   "label": "Pin, grooved, headless"
+  },
+  {
+   "n": "14",
+   "label": "Disk, solid, plain"
+  },
+  {
+   "n": "15",
+   "label": "Valve, relief, pressure"
+  },
+  {
+   "n": "16",
+   "label": "Spring, helical, compression"
+  },
+  {
+   "n": "17",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "18",
+   "label": "Clamp, loop"
+  },
+  {
+   "n": "19",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "20",
+   "label": "Nut"
+  },
+  {
+   "n": "21",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "22",
+   "label": "Oil pan"
+  },
+  {
+   "n": "23",
+   "label": "Plug, machine thread"
+  },
+  {
+   "n": "24",
+   "label": "Gasket"
+  },
+  {
+   "n": "25",
+   "label": "Screw, cap, hexagon head"
+  },
+  {
+   "n": "26",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "27",
+   "label": "Gasket set"
+  },
+  {
+   "n": "28",
+   "label": "Seal, nonmetallic sp"
+  },
+  {
+   "n": "29",
+   "label": "Gasket"
+  },
+  {
+   "n": "30",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "31",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "32",
+   "label": "Retainer, oil seal"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 9"
+  },
+  {
+   "n": "*b",
+   "label": "Part of item 22"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "17",
+  "18",
+  "19",
+  "20",
+  "21",
+  "22",
+  "23",
+  "24",
+  "25",
+  "26",
+  "27",
+  "28",
+  "29",
+  "30",
+  "31",
+  "32",
+  "*a",
+  "*b"
+ ],
+ "rings": [
+  {
+   "x": 752.5,
+   "y": 403.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 844.0,
+   "y": 553.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 992.0,
+   "y": 605.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1447.0,
+   "y": 129.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1810.0,
+   "y": 180.0,
+   "r": 19.6,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1610.0,
+   "y": 315.5,
+   "r": 20.2,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1631.0,
+   "y": 422.0,
+   "r": 19.6,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 177.0,
+   "y": 2423.0,
+   "r": 16.0,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1615.0,
+   "y": 543.0,
+   "r": 20.8,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1627.5,
+   "y": 660.0,
+   "r": 26.2,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1333.5,
+   "y": 1275.0,
+   "r": 26.2,
+   "text": "12",
+   "n": "12",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1245.5,
+   "y": 1145.0,
+   "r": 26.2,
+   "text": "14",
+   "n": "14",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1169.0,
+   "y": 1122.5,
+   "r": 25.6,
+   "text": "15",
+   "n": "15",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1079.0,
+   "y": 1089.5,
+   "r": 25.6,
+   "text": "16",
+   "n": "16",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 16×5, 6×1"
+   ]
+  },
+  {
+   "x": 1912.0,
+   "y": 1283.0,
+   "r": 25.6,
+   "text": "17",
+   "n": "17",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1941.0,
+   "y": 1379.5,
+   "r": 25.6,
+   "text": "18",
+   "n": "18",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1910.0,
+   "y": 1479.5,
+   "r": 25.6,
+   "text": "19",
+   "n": "19",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1869.0,
+   "y": 1720.5,
+   "r": 28.0,
+   "text": "20",
+   "n": "20",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1903.5,
+   "y": 2050.5,
+   "r": 26.2,
+   "text": "21",
+   "n": "21",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1544.5,
+   "y": 2316.5,
+   "r": 27.4,
+   "text": "23",
+   "n": "23",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1452.0,
+   "y": 2275.5,
+   "r": 28.0,
+   "text": "24",
+   "n": "24",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1074.5,
+   "y": 2361.0,
+   "r": 27.4,
+   "text": "25",
+   "n": "25",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 720.5,
+   "y": 2281.5,
+   "r": 27.4,
+   "text": "26",
+   "n": "26",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 569.5,
+   "y": 1276.5,
+   "r": 27.4,
+   "text": "29",
+   "n": "29",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 543.5,
+   "y": 1127.5,
+   "r": 27.4,
+   "text": "30",
+   "n": "30",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 622.5,
+   "y": 1095.5,
+   "r": 23.8,
+   "text": "31",
+   "n": "31",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1236.0,
+   "y": 1402.5,
+   "r": 28.0,
+   "text": "32",
+   "n": "32",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1262.5,
+   "y": 905.5,
+   "r": 16.6,
+   "text": "A",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings A×2, 8×1"
+   ]
+  },
+  {
+   "x": 1699.5,
+   "y": 2102.0,
+   "r": 20.8,
+   "text": "B",
+   "n": "*b",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1333.5,
+   "y": 1403.5,
+   "r": 22.6,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1285.0,
+   "y": 1192.5,
+   "r": 25.6,
+   "text": "13",
+   "n": "13",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1279.0,
+   "y": 1608.0,
+   "r": 26.8,
+   "text": "28",
+   "n": "28",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 9 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+  "Item 22 is the assembly named at the left of a bracket; no leader points at it on the plate.",
+  "Item 27 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p044-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2128.0,
+  2493.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 130,
+ "svg_snapped": 0
+}

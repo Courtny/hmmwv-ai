@@ -1,0 +1,207 @@
+{
+ "id": "p108-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 108,
+ "printed_page": "0031 00",
+ "kind": "assembly view",
+ "caption": "Figure 30. Sending Units (6.5L Turbo)",
+ "alt": "Sending units, hose and bracket for the turbocharged 6.5 liter engine, shown with a dashed engine outline.",
+ "size_px": [
+  2133,
+  2440
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Switch, thermostatic fan"
+  },
+  {
+   "n": "2",
+   "label": "Control unit, breake"
+  },
+  {
+   "n": "3",
+   "label": "Clamp, hose"
+  },
+  {
+   "n": "4",
+   "label": "Bracket, mounting"
+  },
+  {
+   "n": "5",
+   "label": "Coupling, pipe"
+  },
+  {
+   "n": "6",
+   "label": "Hose assembly"
+  },
+  {
+   "n": "7",
+   "label": "Adapter, straight pi"
+  },
+  {
+   "n": "8",
+   "label": "Transmitter, pressur"
+  },
+  {
+   "n": "9",
+   "label": "Nut, plain, hexagon"
+  },
+  {
+   "n": "10",
+   "label": "Switch, thermostatic cold advance"
+  },
+  {
+   "n": "11",
+   "label": "Transmitter, engine coolant"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11"
+ ],
+ "rings": [
+  {
+   "x": 259.5,
+   "y": 453.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 460.5,
+   "y": 431.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 751.5,
+   "y": 702.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 828.5,
+   "y": 598.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 923.0,
+   "y": 198.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1777.5,
+   "y": 79.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1235.5,
+   "y": 377.5,
+   "r": 21.4,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1332.5,
+   "y": 592.0,
+   "r": 19.6,
+   "text": "9",
+   "n": "9",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 223.0,
+   "y": 1869.5,
+   "r": 25.6,
+   "text": "11",
+   "n": "11",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "readings 11×1, I×1"
+   ]
+  },
+  {
+   "x": 1958.0,
+   "y": 1661.0,
+   "r": 28.0,
+   "text": "10",
+   "n": "10",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1834.5,
+   "y": 519.5,
+   "r": 21.4,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p108-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  2133.0,
+  2440.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 517,
+ "svg_snapped": 0
+}

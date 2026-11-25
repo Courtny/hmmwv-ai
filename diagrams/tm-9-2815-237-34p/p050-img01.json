@@ -1,0 +1,212 @@
+{
+ "id": "p050-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 50,
+ "printed_page": "0012 00",
+ "kind": "exploded view",
+ "caption": "Figure 11. Air Intake Manifold (6.2L and 6.5L Naturally Aspirated and 6.5L Detuned)",
+ "alt": "Exploded view of an air intake manifold with washers, studs, bolts, gasket and a fitting.",
+ "size_px": [
+  1798,
+  2161
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Washer, flat"
+  },
+  {
+   "n": "2",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "3",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "4",
+   "label": "Screw, cap, hexagon h"
+  },
+  {
+   "n": "5",
+   "label": "Bolt, self-locking"
+  },
+  {
+   "n": "6",
+   "label": "Gasket"
+  },
+  {
+   "n": "7",
+   "label": "Manifold, intake"
+  },
+  {
+   "n": "8",
+   "label": "Adapter, straight, tu"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 7"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "*a"
+ ],
+ "rings": [
+  {
+   "x": 691.5,
+   "y": 203.5,
+   "r": 19.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "read '1' on a second pass"
+   ]
+  },
+  {
+   "x": 1388.5,
+   "y": 540.5,
+   "r": 19.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring",
+    "read '1' on a second pass"
+   ]
+  },
+  {
+   "x": 731.0,
+   "y": 68.5,
+   "r": 19.0,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1094.5,
+   "y": 230.5,
+   "r": 20.2,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1444.5,
+   "y": 393.0,
+   "r": 19.6,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1291.0,
+   "y": 275.5,
+   "r": 20.2,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1612.5,
+   "y": 436.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 984.5,
+   "y": 1978.0,
+   "r": 19.6,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 768.5,
+   "y": 1366.0,
+   "r": 19.6,
+   "text": "8",
+   "n": "8",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 794.0,
+   "y": 820.5,
+   "r": 17.2,
+   "text": "*a",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1228.5,
+   "y": 412.0,
+   "r": 19.6,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 1570.5,
+   "y": 565.5,
+   "r": 19.0,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 7 (the intake manifold) is printed outside the figure crop; the *a leader points at it."
+ ],
+ "svg": "traced/p050-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1798.0,
+  2161.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 65,
+ "svg_snapped": 0
+}

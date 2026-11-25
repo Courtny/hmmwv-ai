@@ -1,0 +1,150 @@
+{
+ "id": "p060-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 60,
+ "printed_page": "0017 00",
+ "kind": "exploded view",
+ "caption": "Figure 16. Fuel Pump and Mounting Hardware",
+ "alt": "Exploded view of the fuel pump with gaskets, mounting plate, pin and two bolts.",
+ "size_px": [
+  1982,
+  2263
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Pump, fuel, cam actua"
+  },
+  {
+   "n": "2",
+   "label": "Gasket"
+  },
+  {
+   "n": "3",
+   "label": "Plate, fuel pump"
+  },
+  {
+   "n": "4",
+   "label": "Gasket"
+  },
+  {
+   "n": "5",
+   "label": "Pin, straight, headle"
+  },
+  {
+   "n": "6",
+   "label": "Bolt, assembled wash"
+  },
+  {
+   "n": "7",
+   "label": "Bolt, assembled wash"
+  },
+  {
+   "n": "*a",
+   "label": "Part of item 1"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "*a"
+ ],
+ "rings": [
+  {
+   "x": 635.0,
+   "y": 1155.0,
+   "r": 20.8,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 860.5,
+   "y": 974.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1054.0,
+   "y": 918.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 951.5,
+   "y": 1591.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 245.5,
+   "y": 1784.5,
+   "r": 20.2,
+   "text": "7",
+   "n": "7",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1202.5,
+   "y": 944.5,
+   "r": 20.2,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  },
+  {
+   "x": 380.5,
+   "y": 1320.0,
+   "r": 16.0,
+   "text": "*a",
+   "n": "*a",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, placed by hand in review"
+   ]
+  }
+ ],
+ "missing": [],
+ "review_notes": [
+  "Item 1 is the assembly named at the left of a bracket; no leader points at it on the plate."
+ ],
+ "svg": "traced/p060-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1982.0,
+  2263.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 89,
+ "svg_snapped": 0
+}

@@ -1,0 +1,126 @@
+{
+ "id": "p052-img01",
+ "tm": "tm-9-2815-237-34p",
+ "pdf_page": 52,
+ "printed_page": "0013 00",
+ "kind": "exploded view",
+ "caption": "Figure 12. Air Intake Manifolds (6.5L Turbo)",
+ "alt": "Exploded view of the turbo engine air intake manifold pieces, gaskets, stud and bolt.",
+ "size_px": [
+  1421,
+  2135
+ ],
+ "key": [
+  {
+   "n": "1",
+   "label": "Stud, shouldered"
+  },
+  {
+   "n": "2",
+   "label": "Bolt, machine"
+  },
+  {
+   "n": "3",
+   "label": "Manifold, intake"
+  },
+  {
+   "n": "4",
+   "label": "Gasket"
+  },
+  {
+   "n": "5",
+   "label": "Manifold, intake r.h."
+  },
+  {
+   "n": "6",
+   "label": "Gasket"
+  }
+ ],
+ "expected": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "rings": [
+  {
+   "x": 206.5,
+   "y": 669.5,
+   "r": 20.2,
+   "text": "1",
+   "n": "1",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 675.0,
+   "y": 107.5,
+   "r": 20.2,
+   "text": "2",
+   "n": "2",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1240.5,
+   "y": 232.0,
+   "r": 20.8,
+   "text": "3",
+   "n": "3",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1149.0,
+   "y": 818.0,
+   "r": 19.6,
+   "text": "4",
+   "n": "4",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1261.0,
+   "y": 939.0,
+   "r": 20.8,
+   "text": "5",
+   "n": "5",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  },
+  {
+   "x": 1212.5,
+   "y": 1136.0,
+   "r": 20.8,
+   "text": "6",
+   "n": "6",
+   "confidence": 1.0,
+   "notes": [
+    "bare number, no ring"
+   ]
+  }
+ ],
+ "missing": [],
+ "svg": "traced/p052-img01.svg",
+ "svg_source": "potrace",
+ "viewbox": [
+  1421.0,
+  2135.0
+ ],
+ "scale": 1.0,
+ "svg_problems": [],
+ "svg_kb": 131,
+ "svg_snapped": 0
+}
